@@ -1,65 +1,44 @@
 {
   "version": 2,
-  "cleanUrls": true,
-  "trailingSlash": true,
+  "buildCommand": "python fetch_and_generate.py --count 3 --skip-val",
   "outputDirectory": "dist",
-  "buildCommand": null,
-  "headers": [
+  "routes": [
     {
-      "source": "/static/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
+      "src": "/static/(.*)",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      },
+      "dest": "/static/$1"
     },
     {
-      "source": "/stories/(.*)",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/html; charset=utf-8"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400"
-        },
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
-        }
-      ]
+      "src": "^/+sitemap\\.xml$",
+      "headers": {
+        "content-type": "application/xml; charset=utf-8"
+      },
+      "dest": "/sitemap.xml"
     },
     {
-      "source": "/sitemap.xml",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/xml; charset=utf-8"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=1800, s-maxage=3600"
-        }
-      ]
+      "src": "/robots.txt",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8"
+      },
+      "dest": "/robots.txt"
     },
     {
-      "source": "/stories.json",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/json; charset=utf-8"
-        },
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=1800, stale-while-revalidate=3600"
-        }
-      ]
+      "src": "/stories.json",
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*"
+      },
+      "dest": "/stories.json"
+    },
+    {
+      "src": "/stories/(.*)",
+      "dest": "/stories/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
     }
   ]
 }

@@ -39,7 +39,7 @@ def copy_static_assets(src_dir: Path, dist_dir: Path):
     print(f"[+] Static assets deployed to: {target_static}")
 
 
-def run_pipeline() -> int:
+def run_pipeline(target_count: int = 12, skip_validation: bool = False) -> int:
     """Executes the end-to-end generation pipeline."""
     start_time = time.time()
     print("=" * 70)
@@ -50,7 +50,7 @@ def run_pipeline() -> int:
     DIST_DIR.mkdir(parents=True, exist_ok=True)
 
     # 1. Fetch & ingest tech news
-    raw_articles = fetch_all_tech_stories(target_count=12)
+    raw_articles = fetch_all_tech_stories(target_count=target_count)
     if not raw_articles:
         print("[!] No stories retrieved. Aborting pipeline.")
         return 1
@@ -76,8 +76,12 @@ def run_pipeline() -> int:
     copy_static_assets(STATIC_DIR, DIST_DIR)
 
     # 6. Run AMP validation test suite
-    print(f"\n[*] Running AMP validation test suite...")
-    validation_code = validate_all_stories(DIST_DIR)
+    validation_code = 0
+    if not skip_validation:
+        print(f"\n[*] Running AMP validation test suite...")
+        validation_code = validate_all_stories(DIST_DIR)
+    else:
+        print(f"\n[*] Skipping AMP validation as requested.")
 
     elapsed = round(time.time() - start_time, 2)
     print("\n" + "=" * 70)
@@ -92,5 +96,11 @@ def run_pipeline() -> int:
 
 
 if __name__ == "__main__":
-    code = run_pipeline()
+    import argparse
+    parser = argparse.ArgumentParser(description="TechPulse Static Story Generator")
+    parser.add_argument("--count", type=int, default=12, help="Target number of stories")
+    parser.add_argument("--skip-val", "--skip-validation", dest="skip_val", action="store_true", help="Skip AMP HTML validation")
+    args, unknown = parser.parse_known_args()
+
+    code = run_pipeline(target_count=args.count, skip_validation=args.skip_val)
     sys.exit(code)
