@@ -1,6 +1,6 @@
 """
 TechPulse Configuration Module
-Supports environment customization for site branding, feeds, categories, and API keys.
+Supports environment customization for site branding, feeds, categories, and styling.
 """
 
 import os
@@ -17,7 +17,6 @@ STATIC_DIR = BASE_DIR / "static"
 TEMPLATES_DIR = BASE_DIR / "templates"
 
 # Site Identity & Customization
-# Easily change to "TechByte" or another brand via environment variable
 SITE_NAME = os.environ.get("TECHPULSE_NAME", "TechPulse")
 SITE_TAGLINE = os.environ.get(
     "TECHPULSE_TAGLINE", "Autonomous AMP Web Stories & Cutting-Edge Tech Portal"
@@ -25,10 +24,10 @@ SITE_TAGLINE = os.environ.get(
 SITE_DESCRIPTION = (
     f"{SITE_NAME} is an autonomous, lightning-fast Google AMP Web Stories platform "
     "delivering cutting-edge visual tech news, breakthrough AI tools, smartphone reveals, "
-    "and futuristic computing in 45-second interactive slides."
+    "next-gen laptops, and futuristic computing in 45-second interactive slides."
 )
 
-# Canonical domain (used for sitemap, canonical links, schema.org)
+# Canonical domain (user's active production domain)
 SITE_URL = os.environ.get("SITE_URL", "https://techpulse-gadget.vercel.app").rstrip("/")
 
 # Official contact & editorial email
@@ -76,6 +75,18 @@ CATEGORIES = [
         "default_image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80",
     },
     {
+        "id": "laptops-pc",
+        "name": "Laptops & PC",
+        "badge": "💻 LAPTOPS & PC",
+        "icon": "💻",
+        "keywords": [
+            "laptop", "macbook", "m4", "snapdragon x", "thinkpad", "dell xps",
+            "ultrabook", "pc", "desktop", "notebook", "framework", "oled laptop",
+            "asus", "surface", "razer", "zenbook", "strix"
+        ],
+        "default_image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=720&q=80",
+    },
+    {
         "id": "gadgets",
         "name": "Gadgets & Audio",
         "badge": "🎧 GADGETS",
@@ -83,7 +94,7 @@ CATEGORIES = [
         "keywords": [
             "gadget", "smartwatch", "earbuds", "headphones", "audio", "anc",
             "vr", "virtual reality", "vision pro", "meta quest", "smart ring",
-            "wearable", "apple watch", "tws", "spatial audio", "drone"
+            "wearable", "apple watch", "tws", "spatial audio", "drone", "glasses"
         ],
         "default_image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80",
     },
@@ -145,15 +156,18 @@ RSS_FEEDS = [
 # High-resolution vertical imagery pool (2:3 / 9:16 aspect ratio, verified Unsplash CDN)
 VERIFIED_TECH_IMAGES = [
     "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80", # Cyber neon abstract
+    "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=720&q=80", # Sleek MacBook laptop
     "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80", # Microchip circuit
     "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80", # Smartphone close-up
+    "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=720&q=80", # Modern glowing laptop
     "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80", # Premium headphones
     "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80", # Cyberpunk gaming rig
-    "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=720&q=80", # AI Neural network
-    "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=720&q=80", # Futuristic device render
-    "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=720&q=80", # Modern tech laptop
-    "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=720&q=80", # Robotics AI arm
-    "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80", # Matrix cyber code
+    "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80", # Ultrabook laptop
     "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80", # Sleek mobile display
+    "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=720&q=80", # Robotics AI arm
+    "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=720&q=80", # AR/VR futuristic glasses
+    "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80", # Matrix cyber code
     "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=720&q=80", # Quantum computing lights
+    "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&q=80", # Gaming console controller
+    "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=720&q=80", # Flagship camera smartphone
 ]

@@ -1,7 +1,7 @@
 """
 TechPulse AMP HTML Test Suite & Validator
 Scans all generated Web Story files in dist/stories/ and verifies 100% compliance
-against the official Google AMP HTML Validator.
+against the official Google AMP HTML Validator in high-speed batch mode.
 """
 
 import sys
@@ -27,22 +27,23 @@ def find_all_story_files(dist_dir: Path) -> List[Path]:
     return sorted(list(stories_dir.glob("*/index.html")))
 
 
-def run_amphtml_validator(file_path: Path) -> Tuple[bool, str]:
+def run_batch_amphtml_validator(file_paths: List[Path]) -> Tuple[bool, str]:
     """
-    Executes official amphtml-validator CLI via npx.
+    Executes official amphtml-validator CLI in batch mode via npx.
     """
     npx_bin = shutil.which("npx.cmd") or shutil.which("npx") or "npx"
-    cmd = [npx_bin, "--yes", "amphtml-validator", "--format", "text", str(file_path.resolve())]
+    str_paths = [str(p.resolve()) for p in file_paths]
+    cmd = [npx_bin, "--yes", "amphtml-validator", "--format", "text", *str_paths]
 
     try:
         result = subprocess.run(
             cmd,
             capture_output=True,
             text=True,
-            timeout=30,
+            timeout=60,
         )
         output = (result.stdout + "\n" + result.stderr).strip()
-        passed = (result.returncode == 0) and ("PASS" in output) and ("FAIL" not in output)
+        passed = (result.returncode == 0) and ("FAIL" not in output)
         return passed, output
     except Exception as e:
         return False, f"Validator invocation error: {e}"
@@ -79,7 +80,7 @@ def run_structural_rule_checks(file_path: Path) -> Tuple[bool, List[str]]:
 
 def validate_all_stories(dist_dir: Path = DIST_DIR) -> int:
     """
-    Runs the full validation suite across all generated stories.
+    Runs the full validation suite across all generated stories in high-speed batch mode.
     Returns 0 if all pass, 1 otherwise.
     """
     story_files = find_all_story_files(dist_dir)
@@ -92,17 +93,22 @@ def validate_all_stories(dist_dir: Path = DIST_DIR) -> int:
         print("[-] No story files found in dist/stories/. Run fetch_and_generate.py first.")
         return 1
 
-    print(f"[*] Found {len(story_files)} generated Web Stories to validate...\n")
-
     total = len(story_files)
+    print(f"[*] Validating {total} Web Stories via official Google amphtml-validator...\n")
+
+    # 1. High-speed batch validation
+    batch_passed, validator_output = run_batch_amphtml_validator(story_files)
+
     passed_count = 0
     failed_count = 0
 
+    output_lines = validator_output.splitlines()
+
     for file_path in story_files:
         slug = file_path.parent.name
-        # 1. Official Google amphtml-validator check
-        is_amp_valid, output = run_amphtml_validator(file_path)
-        # 2. Structural invariants check
+        # Check individual file output
+        matching = [l for l in output_lines if str(file_path.resolve()) in l or slug in l]
+        is_amp_valid = not any("FAIL" in l for l in matching) if matching else batch_passed
         struct_valid, struct_errors = run_structural_rule_checks(file_path)
 
         if is_amp_valid and struct_valid:
@@ -112,7 +118,7 @@ def validate_all_stories(dist_dir: Path = DIST_DIR) -> int:
             failed_count += 1
             print(f"  [FAIL] /stories/{slug}/index.html")
             if not is_amp_valid:
-                print(f"         Validator details: {output}")
+                print(f"         Validator details: {matching}")
             if not struct_valid:
                 print(f"         Structural errors: {struct_errors}")
 

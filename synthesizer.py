@@ -148,6 +148,17 @@ def generate_rule_based_slides(
             "badge4": "🚀 2nm CHIPSET",
             "verdict": f"⚡ {SITE_NAME} VERDICT",
         },
+        "laptops-pc": {
+            "hook1": "NEXT-GEN SILICON LAPTOPS",
+            "badge1": "💻 3nm SILICON",
+            "hook2": "BATTERY & COMPUTE",
+            "badge2": "⚡ 28H BATTERY LIFE",
+            "hook3": "HARDWARE BENCHMARKS",
+            "badge3": "🚀 128GB UNIFIED RAM",
+            "hook4": "MODULAR REVOLUTION",
+            "badge4": "🔥 SWAPPABLE GPU",
+            "verdict": f"⚡ {SITE_NAME} VERDICT",
+        },
         "gadgets": {
             "hook1": "WEARABLE REVOLUTION",
             "badge1": "🎧 AUDIO HORIZON",
