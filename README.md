@@ -125,11 +125,13 @@ git commit -m "⚡ Initial commit: TechPulse Autonomous AMP Web Stories Portal"
 git branch -M main
 ```
 
-### Step 2: Push to GitHub
+### Step 2: GitHub Repository Linked
+
+The repository is live at:
+[https://github.com/ssilu07/techpulse](https://github.com/ssilu07/techpulse)
 
 ```bash
-# Create a repository on GitHub (e.g. https://github.com/your-username/techPulse)
-git remote add origin https://github.com/<your-username>/techPulse.git
+git remote add origin https://github.com/ssilu07/techpulse.git
 git push -u origin main
 ```
 
