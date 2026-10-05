@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TechPulse — Autonomous AMP Web Stories & Cutting-Edge Tech Portal</title>
+  <meta name="description" content="TechPulse is an autonomous, lightning-fast Google AMP Web Stories platform delivering cutting-edge visual tech news, breakthrough AI tools, smartphone reveals, and futuristic computing in 45-second interactive slides.">
+  <link rel="canonical" href="https://techpulse-stories.vercel.app/">
+
+  <!-- OpenGraph & Twitter Cards -->
+  <meta property="og:title" content="TechPulse — Autonomous AMP Web Stories & Cutting-Edge Tech Portal">
+  <meta property="og:description" content="TechPulse is an autonomous, lightning-fast Google AMP Web Stories platform delivering cutting-edge visual tech news, breakthrough AI tools, smartphone reveals, and futuristic computing in 45-second interactive slides.">
+  <meta property="og:url" content="https://techpulse-stories.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="TechPulse">
+  <meta property="og:image" content="https://techpulse-stories.vercel.app/static/images/og-banner.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TechPulse — Autonomous AMP Web Stories & Cutting-Edge Tech Portal">
+  <meta name="twitter:description" content="TechPulse is an autonomous, lightning-fast Google AMP Web Stories platform delivering cutting-edge visual tech news, breakthrough AI tools, smartphone reveals, and futuristic computing in 45-second interactive slides.">
+  <meta name="twitter:image" content="https://techpulse-stories.vercel.app/static/images/og-banner.png">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/static/images/logo.svg">
+  <link rel="apple-touch-icon" href="/static/images/publisher-logo.png">
+
+  <!-- Google Fonts: Outfit & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Portal Stylesheet -->
+  <link rel="stylesheet" href="/static/css/portal.css">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "WebSite", "name": "TechPulse", "url": "https://techpulse-stories.vercel.app", "description": "TechPulse is an autonomous, lightning-fast Google AMP Web Stories platform delivering cutting-edge visual tech news, breakthrough AI tools, smartphone reveals, and futuristic computing in 45-second interactive slides.", "publisher": {"@type": "Organization", "name": "TechPulse", "logo": {"@type": "ImageObject", "url": "https://techpulse-stories.vercel.app/static/images/publisher-logo.png"}}, "potentialAction": {"@type": "SearchAction", "target": "https://techpulse-stories.vercel.app/?q={search_term_string}", "query-input": "required name=search_term_string"}}
+  </script>
+</head>
+<body>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="/" class="brand-link" aria-label="TechPulse Home">
+        <img class="brand-logo-img" src="/static/images/logo.svg" alt="TechPulse Logo" width="160" height="40">
+      </a>
+      
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="/" class="nav-link active">Stories</a></li>
+          <li><a href="/about/" class="nav-link">About</a></li>
+          <li><a href="/privacy/" class="nav-link">Privacy</a></li>
+          <li><a href="/terms/" class="nav-link">Terms</a></li>
+          <li><a href="/contact/" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="live-badge">
+        <span class="pulse-dot"></span>
+        <span>AUTONOMOUS FEED</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero-section">
+      <div class="hero-glow-aura"></div>
+      <div class="hero-eyebrow">
+        <span>⚡</span> 100% GOOGLE AMP WEB STORIES
+      </div>
+      <h1 class="hero-title">
+        The Future Of Tech in <span class="gradient-text">45-Second Visual Stories</span>
+      </h1>
+      <p class="hero-subtitle">
+        Instant, mobile-first Google Web Stories breaking down frontier AI, flagship smartphone leaks, quantum breakthroughs, and futuristic computing.
+      </p>
+    </section>
+
+    <!-- Controls: Search & Category Filter Pills -->
+    <section class="controls-wrapper" aria-label="Story filters and search">
+      <div class="search-box-container">
+        <span class="search-icon">🔍</span>
+        <input 
+          type="search" 
+          id="story-search-input" 
+          class="search-input" 
+          placeholder="Search AI tools, 2nm chips, flagships, GPUs..." 
+          aria-label="Search stories">
+        <span class="search-shortcut-badge">/</span>
+      </div>
+
+      <div class="category-filter-pills" role="toolbar" aria-label="Filter stories by category">
+        <button class="category-pill active" data-category="all"><span>⚡</span> All Stories</button>
+      <button class="category-pill" data-category="ai-tools"><span>🤖</span> AI Tools & Hacks</button>
+      <button class="category-pill" data-category="smartphones"><span>📱</span> Smartphones & Leaks</button>
+      <button class="category-pill" data-category="gadgets"><span>🎧</span> Gadgets & Audio</button>
+      <button class="category-pill" data-category="future-tech"><span>🚀</span> Future Tech</button>
+      <button class="category-pill" data-category="gaming-gear"><span>🎮</span> Gaming Gear</button>
+      </div>
+
+      <div class="results-status-bar">
+        <span>Displaying <strong id="visible-count">12</strong> stories</span>
+        <span>Tap any card for fullscreen story viewer</span>
+      </div>
+    </section>
+
+    <!-- Stories Grid -->
+    <section class="stories-container" aria-label="Latest Tech Stories">
+      <div class="stories-grid">
+        
+        <article class="story-card" 
+          tabindex="0" 
+          role="button"
+          aria-label="Open story: Steam Deck 2 & Handheld PC Gaming Wars: 1080p 120Hz In Your Pocket"
+          data-slug="steam-deck-2-handheld-pc-gaming-wars-1080p-120hz" 
+          data-category="gaming-gear"
+          data-title="Steam Deck 2 & Handheld PC Gaming Wars: 1080p 120Hz In Your Pocket"
+          data-summary="AMD Zen 5 APU, vibrant 7.9-inch OLED 120Hz HDR panel, and 12-hour battery life rewrite the portable gaming rulebook.">
+          <img class="story-card-bg" src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80" alt="Steam Deck 2 & Handheld PC Gaming Wars: 1080p 120Hz In Your Pocket" loading="lazy" width="720" height="1080">
+          <div class="story-card-scrim"></div>
+          
+          <div class="story-card-top">
+            <span class="story-cat-badge">🎮 GAMING GEAR</span>
+            <span class="story-duration-badge">⚡ 40s</span>
+          </div>
+
+          <div class="story-card-body">
+            <h2 class="story-card-title">Steam Deck 2 & Handheld PC Gaming Wars: 1080p 120Hz In Your Pocket</h2>
+            <p class="story-card-snippet">AMD Zen 5 APU, vibrant 7.9-inch OLED 120Hz HDR panel, and 12-hour battery life rewrite the portable gaming rulebook.</p>
+            <div class="story-card-footer">
+              <span class="story-source">via Gamer Grid Dispatch</span>
+              <span class="tap-to-view-cta">Read Story ⚡</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-card" 
+          tabindex="0" 
+          role="button"
+          aria-label="Open story: Humanoid Robots Enter Mass Production: Inside The Fully Automated Gigafactory"
+          data-slug="humanoid-robots-enter-mass-production-gigafactory" 
+          data-category="future-tech"
+          data-title="Humanoid Robots Enter Mass Production: Inside The Fully Automated Gigafactory"
+          data-summary="10,000 bipedal androids roll off the assembly line equipped with tactile tactile dexterity and vision-language-action brains.">
+          <img class="story-card-bg" src="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=720&q=80" alt="Humanoid Robots Enter Mass Production: Inside The Fully Automated Gigafactory" loading="lazy" width="720" height="1080">
+          <div class="story-card-scrim"></div>
+          
+          <div class="story-card-top">
+            <span class="story-cat-badge">🚀 FUTURE TECH</span>
+            <span class="story-duration-badge">⚡ 45s</span>
+          </div>
+
+          <div class="story-card-body">
+            <h2 class="story-card-title">Humanoid Robots Enter Mass Production: Inside The Fully Automated Gigafactory</h2>
+            <p class="story-card-snippet">10,000 bipedal androids roll off the assembly line equipped with tactile tactile dexterity and vision-language-action brains.</p>
+            <div class="story-card-footer">
+              <span class="story-source">via Robotics World Review</span>
+              <span class="tap-to-view-cta">Read Story ⚡</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-card" 
+          tabindex="0" 
+          role="button"
+          aria-label="Open story: Neural Audio ANC 3.0: Why Audiophiles Are Ditching Wired Headphones"
+          data-slug="neural-audio-anc-3-audiophiles-ditching-wired" 
+          data-category="gadgets"
+          data-title="Neural Audio ANC 3.0: Why Audiophiles Are Ditching Wired Headphones"
+          data-summary="Lossless 96kHz/24-bit ultra-wideband audio and real-time ear canal calibration shatter the wired audio monopoly.">
+          <img class="story-card-bg" src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80" alt="Neural Audio ANC 3.0: Why Audiophiles Are Ditching Wired Headphones" loading="lazy" width="720" height="1080">
+          <div class="story-card-scrim"></div>
+          
+          <div class="story-card-top">
+            <span class="story-cat-badge">🎧 GADGETS</span>
+            <span class="story-duration-badge">⚡ 40s</span>
+          </div>
+
+          <div class="story-card-body">
+            <h2 class="story-card-title">Neural Audio ANC 3.0: Why Audiophiles Are Ditching Wired Headphones</h2>
+            <p class="story-card-snippet">Lossless 96kHz/24-bit ultra-wideband audio and real-time ear canal calibration shatter the wired audio monopoly.</p>
+            <div class="story-card-footer">
+              <span class="story-source">via Acoustic Horizon</span>
+              <span class="tap-to-view-cta">Read Story ⚡</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-card" 
+          tabindex="0" 
+          role="button"
+          aria-label="Open story: Galaxy S26 Ultra vs iPhone 18 Pro Max: The 200MP Periscope Camera War"
+          data-slug="galaxy-s26-ultra-vs-iphone-18-pro-max-camera-war" 
+          data-category="smartphones"
+          data-title="Galaxy S26 Ultra vs iPhone 18 Pro Max: The 200MP Periscope Camera War"
+          data-summary="Variable mechanical apertures, liquid lenses, and 2-nanometer neural processors battle for smartphone photography supremacy.">
+          <img class="story-card-bg" src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80" alt="Galaxy S26 Ultra vs iPhone 18 Pro Max: The 200MP Periscope Camera War" loading="lazy" width="720" height="1080">
+          <div class="story-card-scrim"></div>
+          
+          <div class="story-card-top">
+            <span class="story-cat-badge">📱 SMARTPHONES</span>
+            <span class="story-duration-badge">⚡ 45s</span>
+          </div>
+
+          <div class="story-card-body">
+            <h2 class="story-card-title">Galaxy S26 Ultra vs iPhone 18 Pro Max: The 200MP Periscope Camera War</h2>
+            <p class="story-card-snippet">Variable mechanical apertures, liquid lenses, and 2-nanometer neural processors battle for smartphone photography supremacy.</p>
+            <div class="story-card-footer">
+              <span class="story-source">via Mobile Hardware Wire</span>
+              <span class="tap-to-view-cta">Read Story ⚡</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-card" 
+          tabindex="0" 
+          role="button"
+          aria-label="Open story: Top 7 Secret AI Productivity Tools That Outperform ChatGPT in 2026"
+          data-slug="top-secret-ai-productivity-tools-outperform-chatgpt" 
+          data-category="ai-tools"
+          data-title="Top 7 Secret AI Productivity Tools That Outperform ChatGPT in 2026"
+          data-summary="Unlocking next-generation autonomous agents and local neural sandboxes that automate 80% of daily engineering and research workflows.">
+          <img class="story-card-bg" src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80" alt="Top 7 Secret AI Productivity Tools That Outperform ChatGPT in 2026" loading="lazy" width="720" height="1080">
+          <div class="story-card-scrim"></div>
+          
+          <div class="story-card-top">
+            <span class="story-cat-badge">🤖 AI TOOLS</span>
+            <span class="story-duration-badge">⚡ 50s</span>
+          </div>
+
+          <div class="story-card-body">
+            <h2 class="story-card-title">Top 7 Secret AI Productivity Tools That Outperform ChatGPT in 2026</h2>
+            <p class="story-card-snippet">Unlocking next-generation autonomous agents and local neural sandboxes that automate 80% of daily engineering and research workflows.</p>
+            <div class="story-card-footer">
+              <span class="story-source">via AI Insider Dispatch</span>
+              <span class="tap-to-view-cta">Read Story ⚡</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-card" 
+          tabindex="0" 
+          role="button"
+          aria-label="Open story: Quantum Supremacy Breakthrough: 1 Million Qubit Chip Unveiled"
+          data-slug="quantum-supremacy-breakthrough-1-million-qubit-chip" 
+          data-category="future-tech"
+          data-title="Quantum Supremacy Breakthrough: 1 Million Qubit Chip Unveiled"
+          data-summary="Engineers achieve error-free quantum computing using photonic optical grids, cracking 2048-bit encryption simulation in 4.2 seconds.">
+          <img class="story-card-bg" src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80" alt="Quantum Supremacy Breakthrough: 1 Million Qubit Chip Unveiled" loading="lazy" width="720" height="1080">
+          <div class="story-card-scrim"></div>
+          
+          <div class="story-card-top">
+            <span class="story-cat-badge">🚀 FUTURE TECH</span>
+            <span class="story-duration-badge">⚡ 45s</span>
+          </div>
+
+          <div class="story-card-body">
+            <h2 class="story-card-title">Quantum Supremacy Breakthrough: 1 Million Qubit Chip Unveiled</h2>
+            <p class="story-card-snippet">Engineers achieve error-free quantum computing using photonic optical grids, cracking 2048-bit encryption simulation in 4.2 seconds.</p>
+            <div class="story-card-footer">
+              <span class="story-source">via TechPulse Research Lab</span>
+              <span class="tap-to-view-cta">Read Story ⚡</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-card" 
+          tabindex="0" 
+          role="button"
+          aria-label="Open story: The new Fitbit Edge leaks"
+          data-slug="the-new-fitbit-edge-leaks" 
+          data-category="future-tech"
+          data-title="The new Fitbit Edge leaks"
+          data-summary="We don't know a ton about the Fitbit Edge, but it appears to be a successor to the midrange Charge line. It had leaked previously, but we can clearly see in these images posted by Android Headlines, you can see that Google's rumored fitness tracker sort of splits the differenc...">
+          <img class="story-card-bg" src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80" alt="The new Fitbit Edge leaks" loading="lazy" width="720" height="1080">
+          <div class="story-card-scrim"></div>
+          
+          <div class="story-card-top">
+            <span class="story-cat-badge">🚀 FUTURE TECH</span>
+            <span class="story-duration-badge">⚡ 45s</span>
+          </div>
+
+          <div class="story-card-body">
+            <h2 class="story-card-title">The new Fitbit Edge leaks</h2>
+            <p class="story-card-snippet">We don't know a ton about the Fitbit Edge, but it appears to be a successor to the midrange Charge line. It had leaked previously, but we can clearly see in these images posted by Android Headlines, you can see that Google's rumored fitness tracker sort of splits the differenc...</p>
+            <div class="story-card-footer">
+              <span class="story-source">via The Verge</span>
+              <span class="tap-to-view-cta">Read Story ⚡</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-card" 
+          tabindex="0" 
+          role="button"
+          aria-label="Open story: Prick’s theatrical industrial punk is perfect for spooky season"
+          data-slug="pricks-theatrical-industrial-punk-is-perfect-for-spooky-season" 
+          data-category="future-tech"
+          data-title="Prick’s theatrical industrial punk is perfect for spooky season"
+          data-summary="While deep in the recording process for The Downward Spiral, Trent Reznor lent some of his production talents to old friend Kevin McMahon, from the new wave band Lucky Pierre (which Reznor was briefly a member of). While Reznor is only credited as the producer on four tracks o...">
+          <img class="story-card-bg" src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80" alt="Prick’s theatrical industrial punk is perfect for spooky season" loading="lazy" width="720" height="1080">
+          <div class="story-card-scrim"></div>
+          
+          <div class="story-card-top">
+            <span class="story-cat-badge">🚀 FUTURE TECH</span>
+            <span class="story-duration-badge">⚡ 45s</span>
+          </div>
+
+          <div class="story-card-body">
+            <h2 class="story-card-title">Prick’s theatrical industrial punk is perfect for spooky season</h2>
+            <p class="story-card-snippet">While deep in the recording process for The Downward Spiral, Trent Reznor lent some of his production talents to old friend Kevin McMahon, from the new wave band Lucky Pierre (which Reznor was briefly a member of). While Reznor is only credited as the producer on four tracks o...</p>
+            <div class="story-card-footer">
+              <span class="story-source">via The Verge</span>
+              <span class="tap-to-view-cta">Read Story ⚡</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-card" 
+          tabindex="0" 
+          role="button"
+          aria-label="Open story: The best early October Prime Day deals happening now"
+          data-slug="the-best-early-october-prime-day-deals-happening-now" 
+          data-category="future-tech"
+          data-title="The best early October Prime Day deals happening now"
+          data-summary="It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It’s all to hype up October Prime Day, which starts October 6th at 3AM ET and lasts through 3AM ET on the 8th if you’re ...">
+          <img class="story-card-bg" src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80" alt="The best early October Prime Day deals happening now" loading="lazy" width="720" height="1080">
+          <div class="story-card-scrim"></div>
+          
+          <div class="story-card-top">
+            <span class="story-cat-badge">🚀 FUTURE TECH</span>
+            <span class="story-duration-badge">⚡ 45s</span>
+          </div>
+
+          <div class="story-card-body">
+            <h2 class="story-card-title">The best early October Prime Day deals happening now</h2>
+            <p class="story-card-snippet">It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It’s all to hype up October Prime Day, which starts October 6th at 3AM ET and lasts through 3AM ET on the 8th if you’re ...</p>
+            <div class="story-card-footer">
+              <span class="story-source">via The Verge</span>
+              <span class="tap-to-view-cta">Read Story ⚡</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-card" 
+          tabindex="0" 
+          role="button"
+          aria-label="Open story: NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment"
+          data-slug="njs-former-lt-gov-is-using-ai-to-say-hes-innocent-of-sexual-harassment" 
+          data-category="ai-tools"
+          data-title="NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment"
+          data-summary="New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to clear his name. Bu...">
+          <img class="story-card-bg" src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80" alt="NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment" loading="lazy" width="720" height="1080">
+          <div class="story-card-scrim"></div>
+          
+          <div class="story-card-top">
+            <span class="story-cat-badge">🤖 AI TOOLS</span>
+            <span class="story-duration-badge">⚡ 45s</span>
+          </div>
+
+          <div class="story-card-body">
+            <h2 class="story-card-title">NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment</h2>
+            <p class="story-card-snippet">New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to clear his name. Bu...</p>
+            <div class="story-card-footer">
+              <span class="story-source">via The Verge</span>
+              <span class="tap-to-view-cta">Read Story ⚡</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-card" 
+          tabindex="0" 
+          role="button"
+          aria-label="Open story: Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions"
+          data-slug="google-froze-its-open-source-bug-bounty-program-due-to-a-significant-r" 
+          data-category="ai-tools"
+          data-title="Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions"
+          data-summary="AI slop seems to be overwhelming bug bounty programs.">
+          <img class="story-card-bg" src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80" alt="Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions" loading="lazy" width="720" height="1080">
+          <div class="story-card-scrim"></div>
+          
+          <div class="story-card-top">
+            <span class="story-cat-badge">🤖 AI TOOLS</span>
+            <span class="story-duration-badge">⚡ 45s</span>
+          </div>
+
+          <div class="story-card-body">
+            <h2 class="story-card-title">Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions</h2>
+            <p class="story-card-snippet">AI slop seems to be overwhelming bug bounty programs.</p>
+            <div class="story-card-footer">
+              <span class="story-source">via TechCrunch</span>
+              <span class="tap-to-view-cta">Read Story ⚡</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-card" 
+          tabindex="0" 
+          role="button"
+          aria-label="Open story: Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?"
+          data-slug="can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-p" 
+          data-category="ai-tools"
+          data-title="Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?"
+          data-summary="On Equity, we discussed the Trump administration's attempts to rebrand AI.">
+          <img class="story-card-bg" src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80" alt="Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?" loading="lazy" width="720" height="1080">
+          <div class="story-card-scrim"></div>
+          
+          <div class="story-card-top">
+            <span class="story-cat-badge">🤖 AI TOOLS</span>
+            <span class="story-duration-badge">⚡ 45s</span>
+          </div>
+
+          <div class="story-card-body">
+            <h2 class="story-card-title">Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?</h2>
+            <p class="story-card-snippet">On Equity, we discussed the Trump administration's attempts to rebrand AI.</p>
+            <div class="story-card-footer">
+              <span class="story-source">via TechCrunch</span>
+              <span class="tap-to-view-cta">Read Story ⚡</span>
+            </div>
+          </div>
+        </article>
+        <div id="no-stories-found" class="no-stories-found" style="display: none;">
+          <h3>No matching stories found</h3>
+          <p style="color: var(--text-muted); margin-top: 0.5rem;">Try another keyword or select a different category pill above.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Lightbox Modal Dialog -->
+  <dialog id="story-dialog" aria-label="Story viewer">
+    <div class="modal-phone-frame">
+      <div class="modal-frame-notch"></div>
+      
+      <div class="modal-top-bar">
+        <button id="modal-close-btn" class="modal-btn" aria-label="Close story">
+          <span class="modal-close-cross">✕</span>
+        </button>
+        <a id="modal-external-btn" href="#" target="_blank" rel="noopener" class="modal-btn" aria-label="Open story in new tab" title="Open full story in new tab">
+          <span>↗</span>
+        </a>
+      </div>
+
+      <iframe id="modal-story-iframe" class="modal-story-iframe" title="Web Story Frame" loading="lazy"></iframe>
+    </div>
+  </dialog>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="/static/images/logo.svg" alt="TechPulse" height="32">
+        <p>
+          TechPulse is an autonomous Google AMP Web Stories portal dedicated to high-speed visual journalism across artificial intelligence, computing hardware, consumer tech, and future frontiers.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="/">Latest Stories</a></li>
+          <li><a href="/about/">About & Mission</a></li>
+          <li><a href="/contact/">Editorial Desk</a></li>
+          <li><a href="/sitemap.xml">XML Sitemap</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Policies</h4>
+        <ul class="footer-links">
+          <li><a href="/privacy/">Privacy Policy (AdSense & GDPR)</a></li>
+          <li><a href="/terms/">Terms of Service & Fair Use</a></li>
+          <li><a href="/about/#ai-disclosure">AI Editorial Disclosure</a></li>
+          <li><a href="/contact/">Corrections & DMCA</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>© 2026 TechPulse. All rights reserved. 100% Google AMP Story Compliant.</div>
+      <div>Autonomous Pipeline Built with Python & Hosted on Vercel.</div>
+    </div>
+  </footer>
+
+  <!-- Client Script -->
+  <script src="/static/js/portal.js"></script>
+</body>
+</html>

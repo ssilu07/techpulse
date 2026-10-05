@@ -1,0 +1,60 @@
+name: "TechPulse Autonomous 4-Hour Dispatch"
+
+on:
+  schedule:
+    # Runs automatically every 4 hours
+    - cron: '0 */4 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions UI
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Standalone Static Orchestrator & AMP Validator
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TECHPULSE_NAME: ${{ vars.TECHPULSE_NAME || 'TechPulse' }}
+          SITE_URL: ${{ vars.SITE_URL || 'https://techpulse-stories.vercel.app' }}
+        run: |
+          python fetch_and_generate.py
+
+      - name: Commit & Push Autopilot Updates to Main
+        run: |
+          # Use repository owner as git author to prevent Vercel Hobby multi-user deployment blocking
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+          
+          git add dist/
+          
+          # Check if there are changes before committing
+          if git diff --staged --quiet; then
+            echo "No new updates to commit. Feed is up to date."
+          else
+            git commit -m "⚡ Autonomous Feed Update: $(date -u +'%Y-%m-%dT%H:%M:%SZ') [skip ci]"
+            git push origin main
+            echo "Changes pushed to main. Vercel deployment triggered automatically."
+          fi
