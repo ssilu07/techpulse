@@ -1447,7 +1447,7 @@ def fetch_rss_feed(feed_info: Dict[str, str], max_items: int = 4) -> List[Dict[s
     return articles
 
 
-def fetch_all_tech_stories(target_count: int = 24) -> List[Dict[str, Any]]:
+def fetch_all_tech_stories(target_count: int = 30) -> List[Dict[str, Any]]:
     """
     Ingests tech news across all configured feeds and merges with the 24 viral curated stories.
     Guarantees rich content across AI, Smartphones, Laptops, Gadgets, Future Tech, and Gaming.
@@ -1455,13 +1455,7 @@ def fetch_all_tech_stories(target_count: int = 24) -> List[Dict[str, Any]]:
     all_articles = []
     seen_slugs = set()
 
-    # 1. Insert ALL 24 curated viral stories first so every filter category is packed with top-tier content
-    for curated in CURATED_VIRAL_STORIES:
-        if curated["slug"] not in seen_slugs:
-            seen_slugs.add(curated["slug"])
-            all_articles.append(curated)
-
-    # 2. Fetch live RSS feeds to supplement
+    # 1. Fetch live RSS feeds FIRST so new breaking articles appear at the top of the feed
     print(f"[*] Ingesting tech feeds from {len(RSS_FEEDS)} sources...")
     for feed_info in RSS_FEEDS:
         items = fetch_rss_feed(feed_info, max_items=2)
@@ -1470,5 +1464,11 @@ def fetch_all_tech_stories(target_count: int = 24) -> List[Dict[str, Any]]:
                 seen_slugs.add(item["slug"])
                 all_articles.append(item)
 
+    # 2. Insert all 24 curated viral stories so every category filter is always packed
+    for curated in CURATED_VIRAL_STORIES:
+        if curated["slug"] not in seen_slugs:
+            seen_slugs.add(curated["slug"])
+            all_articles.append(curated)
+
     print(f"[+] Total active stories assembled: {len(all_articles)}")
-    return all_articles[:max(target_count, len(CURATED_VIRAL_STORIES))]
+    return all_articles[:max(target_count, len(all_articles))]

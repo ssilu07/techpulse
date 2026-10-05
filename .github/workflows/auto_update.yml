@@ -40,13 +40,13 @@ jobs:
           TECHPULSE_NAME: ${{ vars.TECHPULSE_NAME || 'TechPulse' }}
           SITE_URL: ${{ vars.SITE_URL || 'https://techpulse-gadget.vercel.app' }}
         run: |
-          python fetch_and_generate.py
+          python fetch_and_generate.py --count 30
 
       - name: Commit & Push Autopilot Updates to Main
         run: |
-          # Use repository owner as git author to prevent Vercel Hobby multi-user deployment blocking
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+          # Use verified repository owner as git author to prevent Vercel Hobby deployment blocking
+          git config --global user.name "ssilu07"
+          git config --global user.email "64121882+ssilu07@users.noreply.github.com"
           
           git add dist/
           
@@ -54,7 +54,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No new updates to commit. Feed is up to date."
           else
-            git commit -m "⚡ Autonomous Feed Update: $(date -u +'%Y-%m-%dT%H:%M:%SZ') [skip ci]"
+            git commit -m "⚡ Autonomous Feed Update: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
             git push origin main
             echo "Changes pushed to main. Vercel deployment triggered automatically."
           fi
