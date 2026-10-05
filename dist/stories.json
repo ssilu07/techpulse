@@ -3,6 +3,7 @@
     "title": "Apple M4 Max MacBook Pro: 128GB Unified Memory & 3nm Monster Benchmarks",
     "slug": "apple-m4-max-macbook-pro-128gb-unified-memory-benchmarks",
     "category_id": "laptops-pc",
+    "card_hook": "🔥 BENCHMARK SHOCK",
     "source": "Cupertino Silicon Lab",
     "link": "https://techpulse-gadget.vercel.app/stories/apple-m4-max-macbook-pro-128gb-unified-memory-benchmarks",
     "published": "2026-10-05T09:30:00Z",
@@ -56,6 +57,7 @@
     "title": "Snapdragon X Elite 2 Laptops: 28-Hour Battery Life & Desktop ARM Computing",
     "slug": "snapdragon-x-elite-2-laptops-28-hour-battery-desktop-arm",
     "category_id": "laptops-pc",
+    "card_hook": "⚡ 28H BATTERY LEAP",
     "source": "PC Architecture Review",
     "link": "https://techpulse-gadget.vercel.app/stories/snapdragon-x-elite-2-laptops-28-hour-battery-desktop-arm",
     "published": "2026-10-05T09:00:00Z",
@@ -109,6 +111,7 @@
     "title": "Framework Laptop 16: The Modular Swappable GPU Revolution That Defeats E-Waste",
     "slug": "framework-laptop-16-modular-swappable-gpu-revolution",
     "category_id": "laptops-pc",
+    "card_hook": "🔧 NEVER BUY A PC AGAIN",
     "source": "Open Hardware Wire",
     "link": "https://techpulse-gadget.vercel.app/stories/framework-laptop-16-modular-swappable-gpu-revolution",
     "published": "2026-10-05T08:30:00Z",
@@ -159,15 +162,70 @@
     ]
   },
   {
+    "title": "Razer Blade 18 (2026): RTX 5090 Mobile & 300Hz Dual-Mode OLED Gaming Titan",
+    "slug": "razer-blade-18-rtx-5090-blackwell-4k-oled",
+    "category_id": "laptops-pc",
+    "card_hook": "💥 175W RTX 5090 BEAST",
+    "source": "PC Hardware Syndicate",
+    "link": "https://techpulse-gadget.vercel.app/stories/razer-blade-18-rtx-5090-blackwell-4k-oled",
+    "published": "2026-10-05T08:15:00Z",
+    "read_time": "45s",
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80",
+    "summary": "Nvidia's Blackwell mobile architecture packs 24GB GDDR7 VRAM and DLSS 4 frame generation into an ultra-slim CNC aluminum unibody.",
+    "slides": [
+      {
+        "hook": "BLACKWELL SILICON",
+        "title": "175W TGP: Desktop Power In A Laptop",
+        "badge": "🚀 RTX 5090 MOBILE",
+        "bullet1": "Nvidia's GB203 mobile die packs 24GB of ultra-fast GDDR7 memory running on a 256-bit bus.",
+        "bullet2": "Full desktop RTX 4090 performance delivered inside an anodized aluminum chassis under 21mm thin.",
+        "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80"
+      },
+      {
+        "hook": "DUAL-MODE OLED",
+        "title": "4K 165Hz Or FHD 330Hz Instant Switch",
+        "badge": "✨ DUAL-MODE OLED",
+        "bullet1": "Switch instantly between 4K 165Hz for creative color grading and 1080p 330Hz for competitive esports.",
+        "bullet2": "Pixel response time under 0.2ms with VESA ClearMR 9000 certification guarantees zero motion blur.",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80"
+      },
+      {
+        "hook": "VAPOR CHAMBER COOLING",
+        "title": "Full-Coverage Vacuum Sealed Chamber",
+        "badge": "❄️ CRYOGENIC VAPOR",
+        "bullet1": "Custom laser-welded copper vapor chamber covers 82% of the motherboard surface area.",
+        "bullet2": "Maintains sustained 175W graphics boost without thermal throttling or surface keyboard heating.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80"
+      },
+      {
+        "hook": "AI RENDERING LEAP",
+        "title": "DLSS 4 Neural Frame Synthesis",
+        "badge": "⚡ 180+ FPS 4K RAY TRACING",
+        "bullet1": "Multi-frame neural reconstruction doubles FPS in Cyberpunk 2077 and Alan Wake 2 path tracing.",
+        "bullet2": "Onboard 800 TOPS Blackwell tensor cores render generative 3D NeRFs in real-time Blender viewports.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80"
+      },
+      {
+        "hook": "TITAN VERDICT",
+        "title": "TechPulse Verdict: The Ultimate Desktop Replacement",
+        "badge": "⚡ TECHPULSE VERDICT",
+        "bullet1": "For creators and hardcore gamers refusing to compromise on power, the Blade 18 is unrivaled.",
+        "bullet2": "It officially blurs the boundary between desktop battlestations and transportable machines.",
+        "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80"
+      }
+    ]
+  },
+  {
     "title": "Galaxy S26 Ultra vs iPhone 18 Pro Max: The 200MP Periscope Camera War",
     "slug": "galaxy-s26-ultra-vs-iphone-18-pro-max-camera-war",
     "category_id": "smartphones",
+    "card_hook": "🚨 200MP CAMERA WAR",
     "source": "Mobile Hardware Wire",
     "link": "https://techpulse-gadget.vercel.app/stories/galaxy-s26-ultra-vs-iphone-18-pro-max-camera-war",
     "published": "2026-10-05T08:00:00Z",
     "read_time": "45s",
     "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80",
-    "summary": "Variable mechanical apertures, liquid lenses, and 2-nanometer neural processors battle for smartphone photography supremacy.",
+    "summary": "Variable mechanical f/1.4 apertures, liquid glass lenses, and 2nm neural silicon battle for mobile photography supremacy.",
     "slides": [
       {
         "hook": "THE FLAGSHIP SHOWDOWN",
@@ -215,6 +273,7 @@
     "title": "Nothing Phone (3) Revealed: Transparent Glyph Matrix & Custom Snapdragon Silicon",
     "slug": "nothing-phone-3-revealed-glyph-matrix-snapdragon",
     "category_id": "smartphones",
+    "card_hook": "🤫 MICRO-LED LEAK",
     "source": "London Tech Dispatch",
     "link": "https://techpulse-gadget.vercel.app/stories/nothing-phone-3-revealed-glyph-matrix-snapdragon",
     "published": "2026-10-05T07:45:00Z",
@@ -268,6 +327,7 @@
     "title": "Google Pixel 10 Pro: 3nm Tensor G5 & The Pro Magic Video Studio",
     "slug": "google-pixel-10-pro-3nm-tensor-g5-magic-video",
     "category_id": "smartphones",
+    "card_hook": "🔬 TSMC 3nm TENSOR",
     "source": "Android Frontier",
     "link": "https://techpulse-gadget.vercel.app/stories/google-pixel-10-pro-3nm-tensor-g5-magic-video",
     "published": "2026-10-05T07:15:00Z",
@@ -318,9 +378,64 @@
     ]
   },
   {
-    "title": "Quantum Supremacy Breakthrough: 1 Million Qubit Chip Unveiled",
+    "title": "Huawei Mate XT vs Galaxy Z Fold 7: The Ultra-Thin Tri-Fold Tablet Revolution",
+    "slug": "huawei-mate-xt-galaxy-z-fold-7-tri-fold-revolution",
+    "category_id": "smartphones",
+    "card_hook": "📱 DUAL-HINGE TRI-FOLD",
+    "source": "Global Mobile Forum",
+    "link": "https://techpulse-gadget.vercel.app/stories/huawei-mate-xt-galaxy-z-fold-7-tri-fold-revolution",
+    "published": "2026-10-05T07:05:00Z",
+    "read_time": "45s",
+    "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80",
+    "summary": "Dual-hinge titanium mechanisms fold a pocketable smartphone into a full 10.2-inch 3K OLED workspace in 1 second.",
+    "slides": [
+      {
+        "hook": "TRI-FOLD FORM FACTOR",
+        "title": "From 6.4-Inch Phone To 10.2-Inch Tablet",
+        "badge": "📱 TRI-FOLD MATRIX",
+        "bullet1": "Dual inverse-hinge titanium mechanisms enable single, dual, and triple screen folding states seamlessly.",
+        "bullet2": "Measures just 3.6mm thin when fully unfolded — lighter than an iPad Pro while fitting in your jeans pocket.",
+        "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80"
+      },
+      {
+        "hook": "CREASE-FREE DISPLAY",
+        "title": "Non-Newtonian Fluid Polyimide Screen",
+        "badge": "✨ ZERO VISIBLE CREASE",
+        "bullet1": "Liquid crystal polyimide elastomer hardens on impact, delivering 100% scratch protection with zero crease.",
+        "bullet2": "120Hz LTPO 3K resolution supports 3 concurrent full-sized app windows side by side.",
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80"
+      },
+      {
+        "hook": "DESKTOP PRODUCTIVITY",
+        "title": "Desktop Multi-Window Computing",
+        "badge": "💻 POCKET WORKSTATION",
+        "bullet1": "Connect a magnetic wireless keyboard and mouse for an instant dual-screen travel workstation anywhere.",
+        "bullet2": "Multi-window split allows terminal coding, video conferencing, and documentation browsing simultaneously.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80"
+      },
+      {
+        "hook": "BATTERY ARCHITECTURE",
+        "title": "Triple-Cell Silicon-Carbon Battery",
+        "badge": "⚡ 5600mAh BATTERY",
+        "bullet1": "Three ultra-thin 1.9mm silicon-carbon cells combine to provide 5600mAh capacity without added thickness.",
+        "bullet2": "66W fast wired charging and 50W wireless charging refuel the triple panel in under 35 minutes.",
+        "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=720&q=80"
+      },
+      {
+        "hook": "FOLDABLE VERDICT",
+        "title": "TechPulse Verdict: The Future Of All Mobile Devices",
+        "badge": "⚡ TECHPULSE VERDICT",
+        "bullet1": "Tri-folds solve the eternal dilemma of carrying both a phone and a tablet — this is the ultimate single device.",
+        "bullet2": "As manufacturing yields mature, tri-fold architecture will become the dominant mobile standard.",
+        "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80"
+      }
+    ]
+  },
+  {
+    "title": "Quantum Supremacy Breakthrough: 1 Million Qubit Chip Shatters Encryption In 4s",
     "slug": "quantum-supremacy-breakthrough-1-million-qubit-chip",
     "category_id": "future-tech",
+    "card_hook": "💥 1M QUBIT CRISIS",
     "source": "TechPulse Research Lab",
     "link": "https://techpulse-gadget.vercel.app/stories/quantum-supremacy-breakthrough-1-million-qubit-chip",
     "published": "2026-10-05T07:00:00Z",
@@ -371,9 +486,10 @@
     ]
   },
   {
-    "title": "Humanoid Robots Enter Mass Production: Inside The Fully Automated Gigafactory",
+    "title": "Inside The First Humanoid Robot Gigafactory: 10,000 Androids Enter Mass Production",
     "slug": "humanoid-robots-enter-mass-production-gigafactory",
     "category_id": "future-tech",
+    "card_hook": "🤖 10,000 HUMANOIDS LIVE",
     "source": "Robotics World Review",
     "link": "https://techpulse-gadget.vercel.app/stories/humanoid-robots-enter-mass-production-gigafactory",
     "published": "2026-10-05T06:30:00Z",
@@ -427,6 +543,7 @@
     "title": "Solid-State Silicon Batteries: 1,000km Electric Range In A 5-Minute Fast Charge",
     "slug": "solid-state-silicon-batteries-1000km-range-5-min-charge",
     "category_id": "future-tech",
+    "card_hook": "⚡ 1000KM IN 5 MINS",
     "source": "Clean Energy Frontiers",
     "link": "https://techpulse-gadget.vercel.app/stories/solid-state-silicon-batteries-1000km-range-5-min-charge",
     "published": "2026-10-05T06:00:00Z",
@@ -477,9 +594,64 @@
     ]
   },
   {
+    "title": "Neuralink Telepathy 2 & Blindsight: Paralyzed Patients Control Limbs at 120 WPM",
+    "slug": "neuralink-blindsight-telepathy-2-bionic-trials",
+    "category_id": "future-tech",
+    "card_hook": "🧠 BRAIN-CHIP TRIALS",
+    "source": "Neural Interface Wire",
+    "link": "https://techpulse-gadget.vercel.app/stories/neuralink-blindsight-telepathy-2-bionic-trials",
+    "published": "2026-10-05T05:45:00Z",
+    "read_time": "45s",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80",
+    "summary": "High-density 1,024-channel cortical arrays enable direct thought-to-cursor control and bionic vision restoration in clinical trials.",
+    "slides": [
+      {
+        "hook": "NEURAL INTERFACE BREAKTHROUGH",
+        "title": "Typing 120 Words Per Minute Using Pure Thought",
+        "badge": "🧠 1,024 ELECTRODES",
+        "bullet1": "Clinical trial participants achieve typing speeds exceeding able-bodied phone touchscreens using mental intent alone.",
+        "bullet2": "Sub-millisecond latency spike sorting translates motor cortex signals into flawless digital actions.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80"
+      },
+      {
+        "hook": "BLINDSIGHT RESTORATION",
+        "title": "Direct Visual Cortex Optical Stimulation",
+        "badge": "👁️ BIONIC VISION",
+        "bullet1": "The Blindsight implant stimulates the primary visual cortex directly, bypassing non-functional optic nerves.",
+        "bullet2": "Allows individuals blind from birth to perceive spatial geometry, movement vectors, and high-contrast shapes.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80"
+      },
+      {
+        "hook": "SURGICAL ROBOTICS",
+        "title": "Automated Micron-Level Thread Insertion",
+        "badge": "⚡ ROBOTIC SURGERY",
+        "bullet1": "Autonomous surgical robot weaves 64 micro-threads thinner than human hair while actively avoiding blood vessels.",
+        "bullet2": "Outpatient procedure completed in 22 minutes with zero visible exterior scalp scarring.",
+        "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=720&q=80"
+      },
+      {
+        "hook": "TELEKINESIS TO GAMING",
+        "title": "Controlling Robotic Exoskeletons & Drones",
+        "badge": "🕹️ MENTAL TELEMETRY",
+        "bullet1": "Patients control bionic prosthetic hands with individual finger articulation and tactile sensory feedback.",
+        "bullet2": "First competitive esport matches played exclusively with brain-computer interfaces with zero hand controls.",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80"
+      },
+      {
+        "hook": "THE TRANSHUMAN LEAP",
+        "title": "TechPulse Verdict: The Human-AI Symbiosis",
+        "badge": "⚡ TECHPULSE VERDICT",
+        "bullet1": "Brain-computer interfaces are evolving from restorative medicine into the next computing frontier.",
+        "bullet2": "Within a decade, direct neural interfaces will fundamentally challenge traditional screens and keyboards.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80"
+      }
+    ]
+  },
+  {
     "title": "Top 7 Secret AI Productivity Tools That Outperform ChatGPT in 2026",
     "slug": "top-secret-ai-productivity-tools-outperform-chatgpt",
     "category_id": "ai-tools",
+    "card_hook": "🤫 7 SECRET AI WEAPONS",
     "source": "AI Insider Dispatch",
     "link": "https://techpulse-gadget.vercel.app/stories/top-secret-ai-productivity-tools-outperform-chatgpt",
     "published": "2026-10-05T05:30:00Z",
@@ -533,6 +705,7 @@
     "title": "Claude 3.7 & Gemini 3.8 Coding Agents: Building Full-Stack Apps in One Prompt",
     "slug": "claude-37-gemini-38-coding-agents-full-stack",
     "category_id": "ai-tools",
+    "card_hook": "🚀 1 PROMPT FULL-STACK",
     "source": "Neural Developer Daily",
     "link": "https://techpulse-gadget.vercel.app/stories/claude-37-gemini-38-coding-agents-full-stack",
     "published": "2026-10-05T05:00:00Z",
@@ -586,6 +759,7 @@
     "title": "Run Open-Source DeepSeek & Llama 4 Locally on Your Laptop With Zero Latency",
     "slug": "run-open-source-deepseek-llama-4-locally-laptop",
     "category_id": "ai-tools",
+    "card_hook": "💻 RUN LLMS FOR $0",
     "source": "Open-Source AI Frontier",
     "link": "https://techpulse-gadget.vercel.app/stories/run-open-source-deepseek-llama-4-locally-laptop",
     "published": "2026-10-05T04:30:00Z",
@@ -636,9 +810,64 @@
     ]
   },
   {
+    "title": "Sora 2 & Gen-3 Alpha: Generating 4K Cinema Scenes With Physics & Sound In 60s",
+    "slug": "sora-2-gen-3-alpha-4k-cinema-sound-models",
+    "category_id": "ai-tools",
+    "card_hook": "🎬 HOLLYWOOD IN 60s",
+    "source": "Generative Media Report",
+    "link": "https://techpulse-gadget.vercel.app/stories/sora-2-gen-3-alpha-4k-cinema-sound-models",
+    "published": "2026-10-05T04:15:00Z",
+    "read_time": "45s",
+    "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=720&q=80",
+    "summary": "Next-gen video diffusion models generate multi-angle cinematic scenes with realistic physics, lighting reflections, and Foley audio.",
+    "slides": [
+      {
+        "hook": "DIFFUSION CINEMATICS",
+        "title": "Hollywood Quality In 60 Seconds",
+        "badge": "🎬 4K VIDEO GEN",
+        "bullet1": "New video world simulators understand physical momentum, complex fluid dynamics, and optical lens flares.",
+        "bullet2": "Generates continuous 120-second 4K 60fps video clips from a single detailed prompt or camera storyboard.",
+        "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=720&q=80"
+      },
+      {
+        "hook": "MULTI-VIEW CONSISTENCY",
+        "title": "Zero Character Morphs Across Angles",
+        "badge": "🎥 3D CONSISTENCY",
+        "bullet1": "Locks character facial geometry, clothing folds, and environmental architecture across multiple virtual camera shots.",
+        "bullet2": "Directors can rotate camera perspectives 360 degrees around actors without breaking temporal consistency.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80"
+      },
+      {
+        "hook": "SYNTHETIC AUDIO GENERATION",
+        "title": "Synchronized Foley Sound & Dialogue",
+        "badge": "🔊 SYNCED FOLEY",
+        "bullet1": "Neural audio models automatically synthesize footsteps, rain splashes, and ambient reverb matched to on-screen physics.",
+        "bullet2": "Generates emotional multilingual voice acting with sub-millisecond lip synchronization.",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80"
+      },
+      {
+        "hook": "PRODUCTION DISRUPTION",
+        "title": "Indie Creators Compete With $100M Studios",
+        "badge": "🚀 100X COST DROP",
+        "bullet1": "Solo filmmakers produce complete feature-length sci-fi trailers and commercials for under $200 in GPU compute.",
+        "bullet2": "Standard video editing suites (Premiere, DaVinci) now integrate direct generative canvas plugin panels.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80"
+      },
+      {
+        "hook": "CINEMA VERDICT",
+        "title": "TechPulse Verdict: The Democratization Of Film",
+        "badge": "⚡ TECHPULSE VERDICT",
+        "bullet1": "The barrier between human imagination and blockbuster cinema visuals has evaporated completely.",
+        "bullet2": "The golden age of independent cinema storytelling is officially here.",
+        "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=720&q=80"
+      }
+    ]
+  },
+  {
     "title": "Neural Audio ANC 3.0: Why Audiophiles Are Ditching Wired Headphones",
     "slug": "neural-audio-anc-3-audiophiles-ditching-wired",
     "category_id": "gadgets",
+    "card_hook": "🎧 THE WIRE IS DEAD",
     "source": "Acoustic Horizon",
     "link": "https://techpulse-gadget.vercel.app/stories/neural-audio-anc-3-audiophiles-ditching-wired",
     "published": "2026-10-05T04:00:00Z",
@@ -692,6 +921,7 @@
     "title": "Meta Orion & Apple Vision Pro 2: True Holographic AR Glasses Reality",
     "slug": "meta-orion-apple-vision-pro-2-holographic-ar-glasses",
     "category_id": "gadgets",
+    "card_hook": "👓 SMARTPHONES ARE DYING",
     "source": "Spatial Reality Wire",
     "link": "https://techpulse-gadget.vercel.app/stories/meta-orion-apple-vision-pro-2-holographic-ar-glasses",
     "published": "2026-10-05T03:30:00Z",
@@ -745,6 +975,7 @@
     "title": "Samsung Galaxy Ring 2: Continuous Blood Pressure & Neural Sleep Tracking",
     "slug": "samsung-galaxy-ring-2-blood-pressure-sleep-tracking",
     "category_id": "gadgets",
+    "card_hook": "💍 WATCH REPLACEMENT",
     "source": "BioTech Wearable Review",
     "link": "https://techpulse-gadget.vercel.app/stories/samsung-galaxy-ring-2-blood-pressure-sleep-tracking",
     "published": "2026-10-05T03:00:00Z",
@@ -795,9 +1026,64 @@
     ]
   },
   {
+    "title": "Apple Watch Ultra 3: 2-Way Satellite Messaging & 3,000-Nit Micro-LED Screen",
+    "slug": "apple-watch-ultra-3-satellite-microled-display",
+    "category_id": "gadgets",
+    "card_hook": "⌚ 100-HOUR TITANIUM",
+    "source": "Cupertino Wearable Wire",
+    "link": "https://techpulse-gadget.vercel.app/stories/apple-watch-ultra-3-satellite-microled-display",
+    "published": "2026-10-05T02:45:00Z",
+    "read_time": "45s",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80",
+    "summary": "Dual-frequency GPS, non-invasive glucose trend monitoring, and 100-hour expedition battery life engineered for extreme conditions.",
+    "slides": [
+      {
+        "hook": "EXPEDITION GRADE",
+        "title": "Forged Titanium & 3,000 Nits Micro-LED",
+        "badge": "⌚ 3,000-NIT MICRO-LED",
+        "bullet1": "Upgraded Micro-LED screen eliminates off-angle degradation with vibrant readability in blazing snow and desert sun.",
+        "bullet2": "Aerospace-grade Grade 5 titanium chassis survives 100-meter deep ocean dives and high-altitude climbs.",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80"
+      },
+      {
+        "hook": "OFF-GRID SAFETY",
+        "title": "Two-Way Direct Satellite SOS & SMS",
+        "badge": "🛰️ SATELLITE COMMS",
+        "bullet1": "Send and receive emergency SMS text messages directly from your wrist anywhere on Earth without cellular towers.",
+        "bullet2": "Precision dual-frequency L1/L5 GPS accurately traces trails through dense skyscraper canyons and pine forests.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80"
+      },
+      {
+        "hook": "METABOLIC SENSING",
+        "title": "Non-Invasive Glucose & Hydration Tracking",
+        "badge": "🩸 OPTICAL SPECTROSCOPY",
+        "bullet1": "Short-wave infrared absorption spectroscopy provides continuous blood glucose and hydration trend indicators.",
+        "bullet2": "Alerts endurance runners and diabetic users before dangerous glycemic drops occur during workouts.",
+        "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80"
+      },
+      {
+        "hook": "BATTERY ENDURANCE",
+        "title": "100 Hours In Low Power Expedition Mode",
+        "badge": "⚡ 100-HOUR RUNTIME",
+        "bullet1": "Low-power multi-day battery optimization delivers 4 full days of continuous GPS route tracking without recharging.",
+        "bullet2": "Fast inductive magnetic puck charges from 0 to 80% battery capacity in just 45 minutes.",
+        "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=720&q=80"
+      },
+      {
+        "hook": "ULTRA VERDICT",
+        "title": "TechPulse Verdict: The Apex Outdoor Smartwatch",
+        "badge": "⚡ TECHPULSE VERDICT",
+        "bullet1": "Combining rugged survival satellite capabilities with daily Apple smartwatch elegance makes it unbeatable.",
+        "bullet2": "It remains the benchmark against which every other outdoor multisport watch is measured.",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80"
+      }
+    ]
+  },
+  {
     "title": "Steam Deck 2 & Handheld PC Gaming Wars: 1080p 120Hz In Your Pocket",
     "slug": "steam-deck-2-handheld-pc-gaming-wars-1080p-120hz",
     "category_id": "gaming-gear",
+    "card_hook": "🎮 120Hz STEAM DECK 2",
     "source": "Gamer Grid Dispatch",
     "link": "https://techpulse-gadget.vercel.app/stories/steam-deck-2-handheld-pc-gaming-wars-1080p-120hz",
     "published": "2026-10-05T02:30:00Z",
@@ -851,6 +1137,7 @@
     "title": "Nintendo Switch 2 Revealed: 4K DLSS Hybrid Portable Powerhouse",
     "slug": "nintendo-switch-2-revealed-4k-dlss-hybrid-powerhouse",
     "category_id": "gaming-gear",
+    "card_hook": "🔥 4K SWITCH 2 UNVEILED",
     "source": "Kyoto Gaming Wire",
     "link": "https://techpulse-gadget.vercel.app/stories/nintendo-switch-2-revealed-4k-dlss-hybrid-powerhouse",
     "published": "2026-10-05T02:00:00Z",
@@ -904,6 +1191,7 @@
     "title": "480Hz QD-OLED Esports Displays: Zero Ghosting & 0.03ms Flawless Motion Clarity",
     "slug": "480hz-qd-oled-esports-displays-zero-ghosting",
     "category_id": "gaming-gear",
+    "card_hook": "⚡ 480Hz 0.03ms CLARITY",
     "source": "Esports Hardware Desk",
     "link": "https://techpulse-gadget.vercel.app/stories/480hz-qd-oled-esports-displays-zero-ghosting",
     "published": "2026-10-05T01:30:00Z",
@@ -950,6 +1238,60 @@
         "bullet1": "Once you experience 480Hz QD-OLED motion clarity, standard 144Hz and 240Hz screens feel visibly sluggish.",
         "bullet2": "It is the single biggest hardware upgrade any competitive FPS esports competitor can invest in this year.",
         "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80"
+      }
+    ]
+  },
+  {
+    "title": "PlayStation Portal Pro: Wi-Fi 7 Direct, 120Hz OLED & Zero-Lag Remote Play",
+    "slug": "playstation-portal-pro-dualsense-edge-2-hall-effect",
+    "category_id": "gaming-gear",
+    "card_hook": "🕹️ ZERO-LAG HANDHELD",
+    "source": "PlayStation Insider",
+    "link": "https://techpulse-gadget.vercel.app/stories/playstation-portal-pro-dualsense-edge-2-hall-effect",
+    "published": "2026-10-05T01:00:00Z",
+    "read_time": "40s",
+    "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&q=80",
+    "summary": "Direct wireless console streaming, OLED HDR panel, and contactless Hall-effect thumbsticks eliminate lag and analog stick drift.",
+    "slides": [
+      {
+        "hook": "REMOTE PLAY EVOLUTION",
+        "title": "Direct Console Link With Sub-15ms Latency",
+        "badge": "🎮 WI-FI 7 DIRECT",
+        "bullet1": "Direct peer-to-peer Wi-Fi 7 wireless link bypasses household routers, delivering local console responsiveness.",
+        "bullet2": "Lossless 1080p 120Hz HDR video stream with adaptive bitrates eliminates compression artifacts.",
+        "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&q=80"
+      },
+      {
+        "hook": "HALL-EFFECT CONTROLS",
+        "title": "Interchangeable Magnetic Drift-Free Sticks",
+        "badge": "🕹️ MAGNETIC HALL-EFFECT",
+        "bullet1": "Integrated DualSense Edge 2 controller chassis features magnetic Hall Effect thumbsticks with zero stick drift.",
+        "bullet2": "Adjustable trigger stops and haptic rumble motors translate every gunshot and engine rev directly to hands.",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80"
+      },
+      {
+        "hook": "OLED HDR DISPLAY",
+        "title": "8-Inch 120Hz Pure Black Visuals",
+        "badge": "✨ PURE BLACK OLED",
+        "bullet1": "Individual OLED pixel illumination makes dark atmospheric games like Elden Ring and Silent Hill look incredible.",
+        "bullet2": "1,000 nits peak HDR luminance brings vibrant sparks and daylight highlights to life in handheld play.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80"
+      },
+      {
+        "hook": "CLOUD STREAMING",
+        "title": "Direct Cloud Gaming Without Turning On PS5",
+        "badge": "☁️ PLAYSTATION CLOUD",
+        "bullet1": "Stream hundreds of PS5 and PS4 games directly from Sony cloud servers anywhere with high-speed internet.",
+        "bullet2": "Extended 7-hour battery life allows comfortable handheld sessions on long flights or daily commutes.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80"
+      },
+      {
+        "hook": "PORTAL VERDICT",
+        "title": "TechPulse Verdict: The Perfect Companion Device",
+        "badge": "⚡ TECHPULSE VERDICT",
+        "bullet1": "With OLED 120Hz and Hall Effect joysticks, Sony has created the ultimate companion hardware for PS5 owners.",
+        "bullet2": "It frees the console from the living room television without compromising on premium DualSense immersion.",
+        "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&q=80"
       }
     ]
   }

@@ -476,6 +476,25 @@ a:hover {
   border-radius: var(--radius-full);
 }
 
+/* High-CTR Urgency Badge */
+.story-urgency-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #fbbf24;
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-full);
+  margin-bottom: 0.5rem;
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.25);
+}
+
 /* Card Content Area */
 .story-card-body {
   position: relative;
@@ -488,12 +507,17 @@ a:hover {
   font-weight: 800;
   line-height: 1.35;
   color: #ffffff;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.5rem;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+  transition: color 0.2s ease;
+}
+
+.story-card:hover .story-card-title {
+  color: var(--neon-cyan-bright);
 }
 
 .story-card-snippet {
@@ -519,15 +543,30 @@ a:hover {
 
 .story-source {
   font-weight: 600;
-  color: var(--neon-cyan);
+  color: var(--text-dim);
 }
 
 .tap-to-view-cta {
   display: inline-flex;
   align-items: center;
-  gap: 0.3rem;
-  font-weight: 600;
-  color: var(--tech-emerald);
+  gap: 0.35rem;
+  font-weight: 700;
+  font-size: 0.78rem;
+  color: #08090d;
+  background: linear-gradient(135deg, var(--neon-cyan), var(--tech-emerald));
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-full);
+  box-shadow: 0 0 12px var(--neon-cyan-glow);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
+}
+
+.story-card:hover .tap-to-view-cta {
+  transform: scale(1.06);
+  box-shadow: 0 0 18px rgba(6, 182, 212, 0.6);
+}
+
+.play-arrow {
+  font-size: 0.65rem;
 }
 
 /* Empty State */

@@ -60,6 +60,17 @@ def build_portal_html(stories: List[Dict[str, Any]]) -> str:
         source = s.get("source", SITE_NAME)
         read_time = s.get("read_time", "45s")
 
+        # Category-tailored curiosity badges if card_hook is not explicitly defined
+        cat_hook_fallbacks = {
+            "ai-tools": "🤖 SECRET AI TOOL",
+            "smartphones": "📱 FLAGSHIP LEAK",
+            "laptops-pc": "💻 SILICON MONSTER",
+            "gadgets": "🎧 HARDWARE SHOCK",
+            "future-tech": "🚀 TECH BREAKTHROUGH",
+            "gaming-gear": "🎮 120Hz BEAST",
+        }
+        card_hook = s.get("card_hook") or cat_hook_fallbacks.get(cat_id, "⚡ TRENDING")
+
         card_markup = f"""
         <article class="story-card" 
           tabindex="0" 
@@ -78,11 +89,12 @@ def build_portal_html(stories: List[Dict[str, Any]]) -> str:
           </div>
 
           <div class="story-card-body">
+            <div class="story-urgency-badge">{card_hook}</div>
             <h2 class="story-card-title">{title}</h2>
             <p class="story-card-snippet">{summary}</p>
             <div class="story-card-footer">
               <span class="story-source">via {source}</span>
-              <span class="tap-to-view-cta">Read Story ⚡</span>
+              <span class="tap-to-view-cta"><span class="play-arrow">▶</span> Tap to Unlock ⚡</span>
             </div>
           </div>
         </article>"""
