@@ -38,7 +38,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TECHPULSE_NAME: ${{ vars.TECHPULSE_NAME || 'TechPulse' }}
-          SITE_URL: ${{ vars.SITE_URL || 'https://techpulse-stories.vercel.app' }}
+          SITE_URL: ${{ vars.SITE_URL || 'https://techpulse-gadget.vercel.app' }}
         run: |
           python fetch_and_generate.py
 

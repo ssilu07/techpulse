@@ -29,7 +29,7 @@ SITE_DESCRIPTION = (
 )
 
 # Canonical domain (used for sitemap, canonical links, schema.org)
-SITE_URL = os.environ.get("SITE_URL", "https://techpulse-wheat.vercel.app").rstrip("/")
+SITE_URL = os.environ.get("SITE_URL", "https://techpulse-gadget.vercel.app").rstrip("/")
 
 # Official contact & editorial email
 CONTACT_EMAIL = os.environ.get("CONTACT_EMAIL", "sumits7196@gmail.com")

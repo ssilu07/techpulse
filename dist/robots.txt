@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://techpulse-wheat.vercel.app/sitemap.xml
+Sitemap: https://techpulse-gadget.vercel.app/sitemap.xml
