@@ -19,6 +19,7 @@ from config import (
     PUBLISHER_NAME,
     PUBLISHER_LOGO_URL,
     CATEGORIES,
+    GOOGLE_SITE_VERIFICATION,
 )
 
 
@@ -133,6 +134,9 @@ def build_portal_html(stories: List[Dict[str, Any]]) -> str:
   <title>{SITE_NAME} — {SITE_TAGLINE}</title>
   <meta name="description" content="{SITE_DESCRIPTION}">
   <link rel="canonical" href="{SITE_URL}/">
+
+  <!-- Google Search Console Verification -->
+  <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
 
   <!-- OpenGraph & Twitter Cards -->
   <meta property="og:title" content="{SITE_NAME} — {SITE_TAGLINE}">
@@ -337,6 +341,9 @@ def build_legal_page_html(
   <title>{title} | {SITE_NAME}</title>
   <meta name="description" content="{description}">
   <link rel="canonical" href="{canonical_url}">
+
+  <!-- Google Search Console Verification -->
+  <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
 
   <!-- OpenGraph & Twitter Cards -->
   <meta property="og:title" content="{title} | {SITE_NAME}">

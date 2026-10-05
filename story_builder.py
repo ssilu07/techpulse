@@ -13,6 +13,7 @@ from config import (
     SITE_URL,
     PUBLISHER_NAME,
     PUBLISHER_LOGO_URL,
+    GOOGLE_SITE_VERIFICATION,
 )
 
 
@@ -118,6 +119,7 @@ def build_story_html(story: Dict[str, Any]) -> str:
     <title>{title} | {SITE_NAME}</title>
     <link rel="canonical" href="{canonical_url}">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
     
     <!-- OpenGraph & Twitter Meta -->
     <meta property="og:title" content="{title}">

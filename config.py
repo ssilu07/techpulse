@@ -33,6 +33,11 @@ SITE_URL = os.environ.get("SITE_URL", "https://techpulse-gadget.vercel.app").rst
 # Official contact & editorial email
 CONTACT_EMAIL = os.environ.get("CONTACT_EMAIL", "sumits7196@gmail.com")
 
+# Google Search Console Verification Tag
+GOOGLE_SITE_VERIFICATION = os.environ.get(
+    "GOOGLE_SITE_VERIFICATION", "XMDt3lDT2kpdjLlHlxQCSn5EcJcH2yw8f6nLjhLgN7g"
+)
+
 # Publisher Information for AMP & Schema
 PUBLISHER_NAME = SITE_NAME
 PUBLISHER_LOGO_URL = f"{SITE_URL}/static/images/publisher-logo.png"

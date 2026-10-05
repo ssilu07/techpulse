@@ -220,6 +220,61 @@
     "synthesizer": "deterministic-rule-engine"
   },
   {
+    "title": "Google Chrome is testing a major change to how extensions access websites",
+    "slug": "google-chrome-is-testing-a-major-change-to-how-extensions-access-websi",
+    "category_id": "smartphones",
+    "card_hook": "📱 FLAGSHIP LEAK",
+    "source": "Android Police",
+    "link": "https://www.androidpolice.com/google-chrome-testing-major-change-to-how-extensions-access-websites/",
+    "published": "Mon, 05 Oct 2026 06:32:20 GMT",
+    "read_time": "45s",
+    "summary": "Chrome may soon stop giving extensions access to all websites by default",
+    "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80",
+    "slides": [
+      {
+        "hook": "FLAGSHIP HARDWARE LEAK",
+        "title": "Google Chrome is testing a major change to how extensions access ...",
+        "badge": "📱 SILICON REVEAL",
+        "bullet1": "Chrome may soon stop giving extensions access to all websites by default",
+        "bullet2": "A massive visual paradigm shift for early adopters and tech professionals.",
+        "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80"
+      },
+      {
+        "hook": "NEXT-GEN OPTICS",
+        "title": "Architectural Shift & The Core Discovery",
+        "badge": "🔍 200MP MATRIX",
+        "bullet1": "Hardware optimizations dramatically reduce power draw and latency.",
+        "bullet2": "Engineered from the ground up to solve critical bottlenecks in legacy consumer devices.",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80"
+      },
+      {
+        "hook": "BATTERY & CHARGING",
+        "title": "Hardware Specs & Real-World Metrics",
+        "badge": "⚡ 100W POWER",
+        "bullet1": "Independent lab benchmarks verify substantial efficiency and throughput gains.",
+        "bullet2": "Next-generation thermal dissipation keeps peak performance sustained under heavy loads.",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80"
+      },
+      {
+        "hook": "PERFORMANCE BENCHMARK",
+        "title": "Why This Shakes The Entire Industry",
+        "badge": "🚀 2nm CHIPSET",
+        "bullet1": "Direct competition is forced to rethink roadmaps as technological barriers crumble.",
+        "bullet2": "Early commercial availability brings enterprise-grade performance into consumer hands.",
+        "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechPulse Verdict: A Must-Watch Leap",
+        "badge": "⚡ TechPulse VERDICT",
+        "bullet1": "This leap marks an undeniable milestone in modern tech evolution.",
+        "bullet2": "Tap the link below to dive deeper into full technical documentation and analysis.",
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80"
+      }
+    ],
+    "synthesizer": "deterministic-rule-engine"
+  },
+  {
     "title": "Google’s next Fitbit could give you a screen without smartwatch baggage",
     "slug": "googles-next-fitbit-could-give-you-a-screen-without-smartwatch-baggage",
     "category_id": "gadgets",
@@ -245,7 +300,7 @@
         "badge": "🔇 52dB REDUCTION",
         "bullet1": "Hardware optimizations dramatically reduce power draw and latency.",
         "bullet2": "Engineered from the ground up to solve critical bottlenecks in legacy consumer devices.",
-        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80"
       },
       {
         "hook": "BATTERY INNOVATION",
@@ -253,67 +308,12 @@
         "badge": "🔋 48H ENDURANCE",
         "bullet1": "Independent lab benchmarks verify substantial efficiency and throughput gains.",
         "bullet2": "Next-generation thermal dissipation keeps peak performance sustained under heavy loads.",
-        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80"
       },
       {
         "hook": "ERGONOMIC DESIGN",
         "title": "Why This Shakes The Entire Industry",
         "badge": "💎 TITANIUM BUILD",
-        "bullet1": "Direct competition is forced to rethink roadmaps as technological barriers crumble.",
-        "bullet2": "Early commercial availability brings enterprise-grade performance into consumer hands.",
-        "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80"
-      },
-      {
-        "hook": "THE BOTTOM LINE",
-        "title": "TechPulse Verdict: A Must-Watch Leap",
-        "badge": "⚡ TechPulse VERDICT",
-        "bullet1": "This leap marks an undeniable milestone in modern tech evolution.",
-        "bullet2": "Tap the link below to dive deeper into full technical documentation and analysis.",
-        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80"
-      }
-    ],
-    "synthesizer": "deterministic-rule-engine"
-  },
-  {
-    "title": "Google is shrinking your Gemini choices unless you pay more",
-    "slug": "google-is-shrinking-your-gemini-choices-unless-you-pay-more",
-    "category_id": "ai-tools",
-    "card_hook": "🤖 BREAKTHROUGH AI",
-    "source": "Android Police",
-    "link": "https://www.androidpolice.com/google-shrinking-gemini-choices-unless-you-pay-more/",
-    "published": "Mon, 05 Oct 2026 04:23:06 GMT",
-    "read_time": "45s",
-    "summary": "Free and AI Plus subscribers are losing access to Flash and Pro models",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80",
-    "slides": [
-      {
-        "hook": "AI BREAKTHROUGH UNVEILED",
-        "title": "Google is shrinking your Gemini choices unless you pay more",
-        "badge": "🤖 NEURAL ENGINE",
-        "bullet1": "Free and AI Plus subscribers are losing access to Flash and Pro models",
-        "bullet2": "A massive visual paradigm shift for early adopters and tech professionals.",
-        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80"
-      },
-      {
-        "hook": "AUTONOMOUS SPEED",
-        "title": "Architectural Shift & The Core Discovery",
-        "badge": "⚡ 10X ACCELERATION",
-        "bullet1": "Hardware optimizations dramatically reduce power draw and latency.",
-        "bullet2": "Engineered from the ground up to solve critical bottlenecks in legacy consumer devices.",
-        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80"
-      },
-      {
-        "hook": "KEY CAPABILITIES",
-        "title": "Hardware Specs & Real-World Metrics",
-        "badge": "🧠 DEEP REASONING",
-        "bullet1": "Independent lab benchmarks verify substantial efficiency and throughput gains.",
-        "bullet2": "Next-generation thermal dissipation keeps peak performance sustained under heavy loads.",
-        "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80"
-      },
-      {
-        "hook": "REAL-WORLD VALUE",
-        "title": "Why This Shakes The Entire Industry",
-        "badge": "🔥 0ms LATENCY",
         "bullet1": "Direct competition is forced to rethink roadmaps as technological barriers crumble.",
         "bullet2": "Early commercial availability brings enterprise-grade performance into consumer hands.",
         "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80"
