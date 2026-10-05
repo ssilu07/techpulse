@@ -1,8 +1,9 @@
 {
   "version": 2,
-  "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": true,
+  "outputDirectory": "dist",
+  "buildCommand": null,
   "headers": [
     {
       "source": "/static/(.*)",
@@ -14,28 +15,15 @@
       ]
     },
     {
-      "source": "/(.*).html",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
-        },
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
-        },
-        {
-          "key": "X-Frame-Options",
-          "value": "SAMEORIGIN"
-        }
-      ]
-    },
-    {
       "source": "/stories/(.*)",
       "headers": [
         {
+          "key": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
           "key": "Cache-Control",
-          "value": "public, max-age=3600, stale-while-revalidate=86400"
+          "value": "public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400"
         },
         {
           "key": "X-Content-Type-Options",
@@ -52,7 +40,7 @@
         },
         {
           "key": "Cache-Control",
-          "value": "public, max-age=3600, stale-while-revalidate=86400"
+          "value": "public, max-age=1800, s-maxage=3600"
         }
       ]
     },

@@ -1,0 +1,25 @@
+{
+  "name": "techpulse",
+  "version": "1.0.0",
+  "description": "Autonomous Google AMP Web Stories & Tech Portal (Python & Vercel)",
+  "main": "dist/index.html",
+  "scripts": {
+    "build": "echo 'TechPulse static dist is ready'",
+    "generate": "python fetch_and_generate.py",
+    "validate": "python validator.py"
+  },
+  "keywords": [
+    "amp",
+    "web-stories",
+    "techpulse",
+    "cyberpunk",
+    "tech-news",
+    "seo",
+    "google-discover"
+  ],
+  "author": "ssilu07",
+  "license": "MIT",
+  "devDependencies": {
+    "amphtml-validator": "^1.0.38"
+  }
+}
