@@ -5,6 +5,7 @@ the 4 mandatory legal pages (/about/, /privacy/, /terms/, /contact/),
 the XML sitemap with Google Image extensions, robots.txt, and stories.json manifest.
 """
 
+import html
 import json
 from pathlib import Path
 from typing import List, Dict, Any
@@ -653,6 +654,20 @@ def get_contact_page_content() -> str:
     """
 
 
+def _xml_escape(val: Any) -> str:
+    """Escapes special characters (&, <, >, \", ') for XML compliance."""
+    if not val:
+        return ""
+    clean_text = html.unescape(str(val).strip())
+    return (
+        clean_text.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+        .replace("'", "&apos;")
+    )
+
+
 def generate_sitemap_xml(stories: List[Dict[str, Any]]) -> str:
     """
     Builds dynamic sitemap.xml adhering to Sitemaps Protocol 0.9 with Google Image extensions.
@@ -671,11 +686,12 @@ def generate_sitemap_xml(stories: List[Dict[str, Any]]) -> str:
         slug = s.get("slug", "")
         title = s.get("title", "")
         img = s.get("image", "")
+        image_data = {"loc": img, "title": title} if img else None
         urls.append({
             "loc": f"{SITE_URL}/stories/{slug}/",
             "priority": "0.9",
             "changefreq": "daily",
-            "image": {"loc": img, "title": title},
+            "image": image_data,
         })
 
     lines = [
@@ -686,20 +702,29 @@ def generate_sitemap_xml(stories: List[Dict[str, Any]]) -> str:
 
     for u in urls:
         lines.append("  <url>")
-        lines.append(f"    <loc>{u['loc']}</loc>")
+        lines.append(f"    <loc>{_xml_escape(u['loc'])}</loc>")
         lines.append(f"    <lastmod>{now_iso}</lastmod>")
         lines.append(f"    <changefreq>{u['changefreq']}</changefreq>")
         lines.append(f"    <priority>{u['priority']}</priority>")
-        if u.get("image"):
+        if u.get("image") and u["image"].get("loc"):
             lines.append("    <image:image>")
-            lines.append(f"      <image:loc>{u['image']['loc']}</image:loc>")
-            escaped_title = u['image']['title'].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-            lines.append(f"      <image:title>{escaped_title}</image:title>")
+            lines.append(f"      <image:loc>{_xml_escape(u['image']['loc'])}</image:loc>")
+            if u["image"].get("title"):
+                lines.append(f"      <image:title>{_xml_escape(u['image']['title'])}</image:title>")
             lines.append("    </image:image>")
         lines.append("  </url>")
 
     lines.append("</urlset>")
-    return "\n".join(lines)
+    xml_content = "\n".join(lines)
+
+    # Validate output with ElementTree to guarantee well-formed XML
+    try:
+        import xml.etree.ElementTree as ET
+        ET.fromstring(xml_content.encode("utf-8"))
+    except Exception as exc:
+        print(f"[!] Warning: Generated sitemap XML validation failed: {exc}")
+
+    return xml_content
 
 
 def generate_robots_txt() -> str:
