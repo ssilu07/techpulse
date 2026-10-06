@@ -1,44 +1,44 @@
 [
   {
-    "title": "Nvidia’s Shield TV Pro just got a $100 price hike",
-    "slug": "nvidias-shield-tv-pro-just-got-a-100-price-hike",
-    "category_id": "future-tech",
-    "card_hook": "🚀 TECH BREAKTHROUGH",
+    "title": "Gemini Call for Me might tell your mom you’re running late",
+    "slug": "gemini-call-for-me-might-tell-your-mom-youre-running-late",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
     "source": "The Verge",
-    "link": "https://www.theverge.com/tech/1004791/nvidia-shield-tv-pro-streaming-box-price-increase",
-    "published": "2026-10-05T11:43:13-04:00",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+    "published": "2026-10-05T19:09:55-04:00",
     "read_time": "45s",
-    "summary": "Nvidia's Shield TV streaming boxes are the latest victims of the memory shortage that has seen prices increase dramatically for everything from digital cameras to game consoles. When the Shield TV Pro launched nearly seven years ago with an upgraded Tegra X1+ processor, 3GB of...",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80",
+    "summary": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I ...",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80",
     "slides": [
       {
-        "hook": "FRONTIER COMPUTING",
-        "title": "Nvidia’s Shield TV Pro just got a $100 price hike",
-        "badge": "⚡ QUANTUM SHIFT",
-        "bullet1": "Nvidia's Shield TV streaming boxes are the latest victims of the memory shortage that has seen prices increase dramatically for everything from digital cameras to game consoles",
+        "hook": "AI BREAKTHROUGH UNVEILED",
+        "title": "Gemini Call for Me might tell your mom you’re running late",
+        "badge": "🤖 NEURAL ENGINE",
+        "bullet1": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family",
         "bullet2": "A massive visual paradigm shift for early adopters and tech professionals.",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80"
       },
       {
-        "hook": "BREAKTHROUGH SILICON",
+        "hook": "AUTONOMOUS SPEED",
         "title": "Architectural Shift & The Core Discovery",
-        "badge": "🔬 NANOMETER SCALE",
-        "bullet1": "When the Shield TV Pro launched nearly seven years ago with an upgraded Tegra X1+ processor, 3GB of",
+        "badge": "⚡ 10X ACCELERATION",
+        "bullet1": "Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I",
         "bullet2": "Engineered from the ground up to solve critical bottlenecks in legacy consumer devices.",
         "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=720&q=80"
       },
       {
-        "hook": "LAB BENCHMARKS",
+        "hook": "KEY CAPABILITIES",
         "title": "Hardware Specs & Real-World Metrics",
-        "badge": "📊 3,400X SPEEDUP",
+        "badge": "🧠 DEEP REASONING",
         "bullet1": "Independent lab benchmarks verify substantial efficiency and throughput gains.",
         "bullet2": "Next-generation thermal dissipation keeps peak performance sustained under heavy loads.",
         "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80"
       },
       {
-        "hook": "GLOBAL IMPACT",
+        "hook": "REAL-WORLD VALUE",
         "title": "Why This Shakes The Entire Industry",
-        "badge": "🌐 INDUSTRY STANDARD",
+        "badge": "🔥 0ms LATENCY",
         "bullet1": "Direct competition is forced to rethink roadmaps as technological barriers crumble.",
         "bullet2": "Early commercial availability brings enterprise-grade performance into consumer hands.",
         "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80"
@@ -55,45 +55,45 @@
     "synthesizer": "deterministic-rule-engine"
   },
   {
-    "title": "Apple’s new M6 Mac Mini is over $100 off",
-    "slug": "apples-new-m6-mac-mini-is-over-100-off",
-    "category_id": "smartphones",
-    "card_hook": "📱 FLAGSHIP LEAK",
+    "title": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
+    "slug": "reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr",
+    "category_id": "gaming-gear",
+    "card_hook": "🎮 120Hz BEAST",
     "source": "The Verge",
-    "link": "https://www.theverge.com/gadgets/1004772/apple-mac-mini-m6-deal-october-prime-day-deal-sale",
-    "published": "2026-10-05T11:08:31-04:00",
+    "link": "https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports",
+    "published": "2026-10-05T17:17:45-04:00",
     "read_time": "45s",
-    "summary": "Really the only negative associated with the new M6-powered Mac Mini is its high price. While the last-gen model debuted at just $599, the faster, but mostly unchanged 2026 edition starts at $899 — except for right now. You can grab the base model that has 256GB of storage, 16...",
-    "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80",
+    "summary": "It’s a wild time for retro gaming. Thanks to decompilations and recompilations of classic titles, those games are becoming unshackled from their proprietary code and original hardware to be ported to new devices or updated in ways to completely change the original game. Ever i...",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80",
     "slides": [
       {
-        "hook": "FLAGSHIP HARDWARE LEAK",
-        "title": "Apple’s new M6 Mac Mini is over $100 off",
-        "badge": "📱 SILICON REVEAL",
-        "bullet1": "Really the only negative associated with the new M6-powered Mac Mini is its high price",
+        "hook": "NEXT-GEN HANDHELD RIG",
+        "title": "Reverse-engineered games: All the news on video game decomps, rec...",
+        "badge": "🎮 120Hz OLED",
+        "bullet1": "It’s a wild time for retro gaming",
         "bullet2": "A massive visual paradigm shift for early adopters and tech professionals.",
-        "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80"
       },
       {
-        "hook": "NEXT-GEN OPTICS",
+        "hook": "GRAPHICS SILICON",
         "title": "Architectural Shift & The Core Discovery",
-        "badge": "🔍 200MP MATRIX",
-        "bullet1": "While the last-gen model debuted at just $599, the faster, but mostly unchanged 2026 edition starts at $899 — except for right now",
+        "badge": "⚡ 90+ FPS AAA",
+        "bullet1": "Thanks to decompilations and recompilations of classic titles, those games are becoming unshackled from their proprietary code and original hardware to be ported to new devices or updated in ways to completely change the original game",
         "bullet2": "Engineered from the ground up to solve critical bottlenecks in legacy consumer devices.",
         "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80"
       },
       {
-        "hook": "BATTERY & CHARGING",
+        "hook": "TACTILE CONTROLS",
         "title": "Hardware Specs & Real-World Metrics",
-        "badge": "⚡ 100W POWER",
-        "bullet1": "You can grab the base model that has 256GB of storage, 16",
+        "badge": "🕹️ ZERO DRIFT",
+        "bullet1": "Independent lab benchmarks verify substantial efficiency and throughput gains.",
         "bullet2": "Next-generation thermal dissipation keeps peak performance sustained under heavy loads.",
         "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80"
       },
       {
-        "hook": "PERFORMANCE BENCHMARK",
+        "hook": "BATTERY & COOLING",
         "title": "Why This Shakes The Entire Industry",
-        "badge": "🚀 2nm CHIPSET",
+        "badge": "❄️ CRYO-COOLING",
         "bullet1": "Direct competition is forced to rethink roadmaps as technological barriers crumble.",
         "bullet2": "Early commercial availability brings enterprise-grade performance into consumer hands.",
         "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=720&q=80"
@@ -110,22 +110,22 @@
     "synthesizer": "deterministic-rule-engine"
   },
   {
-    "title": "OpenAI launches visual ads that appear alongside image generation results",
-    "slug": "openai-launches-visual-ads-that-appear-alongside-image-generation-resu",
+    "title": "Lucid Motors’ EV output falls to lowest level in almost 2 years",
+    "slug": "lucid-motors-ev-output-falls-to-lowest-level-in-almost-2-years",
     "category_id": "ai-tools",
     "card_hook": "🤖 BREAKTHROUGH AI",
     "source": "TechCrunch",
-    "link": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
-    "published": "Mon, 05 Oct 2026 15:14:24 +0000",
+    "link": "https://techcrunch.com/2026/10/05/lucid-motors-ev-output-falls-to-lowest-level-in-almost-two-years/",
+    "published": "Mon, 05 Oct 2026 21:54:01 +0000",
     "read_time": "45s",
-    "summary": "OpenAI said the new visual ads will show up after your image generation results appear in the U.S. only for now.",
+    "summary": "The company is deliberately limiting production after years of struggling to find mass-market demand for its EVs.",
     "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80",
     "slides": [
       {
         "hook": "AI BREAKTHROUGH UNVEILED",
-        "title": "OpenAI launches visual ads that appear alongside image generation...",
+        "title": "Lucid Motors’ EV output falls to lowest level in almost 2 years",
         "badge": "🤖 NEURAL ENGINE",
-        "bullet1": "OpenAI said the new visual ads will show up after your image generation results appear in the U",
+        "bullet1": "The company is deliberately limiting production after years of struggling to find mass-market demand for its EVs",
         "bullet2": "A massive visual paradigm shift for early adopters and tech professionals.",
         "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80"
       },
@@ -165,22 +165,22 @@
     "synthesizer": "deterministic-rule-engine"
   },
   {
-    "title": "Lola Vision Systems is trying to make it easier to run AI models on chips",
-    "slug": "lola-vision-systems-is-trying-to-make-it-easier-to-run-ai-models-on-ch",
+    "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+    "slug": "openai-will-start-watermarking-chatgpts-text-in-the-eu",
     "category_id": "ai-tools",
     "card_hook": "🤖 BREAKTHROUGH AI",
     "source": "TechCrunch",
-    "link": "https://techcrunch.com/2026/10/05/lola-vision-systems-is-trying-to-make-it-easier-to-run-ai-models-on-chips/",
-    "published": "Mon, 05 Oct 2026 15:00:00 +0000",
+    "link": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+    "published": "Mon, 05 Oct 2026 20:36:48 +0000",
     "read_time": "45s",
-    "summary": "Lola Vision Systems is one of TechCrunch's Battlefield 200 Companies",
+    "summary": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
     "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80",
     "slides": [
       {
         "hook": "AI BREAKTHROUGH UNVEILED",
-        "title": "Lola Vision Systems is trying to make it easier to run AI models ...",
+        "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
         "badge": "🤖 NEURAL ENGINE",
-        "bullet1": "Lola Vision Systems is one of TechCrunch's Battlefield 200 Companies",
+        "bullet1": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act",
         "bullet2": "A massive visual paradigm shift for early adopters and tech professionals.",
         "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80"
       },
@@ -188,7 +188,7 @@
         "hook": "AUTONOMOUS SPEED",
         "title": "Architectural Shift & The Core Discovery",
         "badge": "⚡ 10X ACCELERATION",
-        "bullet1": "Hardware optimizations dramatically reduce power draw and latency.",
+        "bullet1": "Editing can make the invisible marks harder to detect, it says",
         "bullet2": "Engineered from the ground up to solve critical bottlenecks in legacy consumer devices.",
         "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=720&q=80"
       },
@@ -220,22 +220,22 @@
     "synthesizer": "deterministic-rule-engine"
   },
   {
-    "title": "Android Auto is dropping support for millions of older phones soon",
-    "slug": "android-auto-is-dropping-support-for-millions-of-older-phones-soon",
+    "title": "6 Google Drive tools that reduce frustrating file clutter and make managing files easier",
+    "slug": "6-google-drive-tools-that-reduce-frustrating-file-clutter-and-make-man",
     "category_id": "smartphones",
     "card_hook": "📱 FLAGSHIP LEAK",
     "source": "Android Police",
-    "link": "https://www.androidpolice.com/millions-of-android-users-could-lose-access-to-android-auto-soon/",
-    "published": "Mon, 05 Oct 2026 16:23:53 GMT",
+    "link": "https://www.androidpolice.com/google-drive-tools-that-saved-me-hours-of-frustrating-file-clutter/",
+    "published": "Mon, 05 Oct 2026 23:00:10 GMT",
     "read_time": "45s",
-    "summary": "The end of an era for Android 9 & 10",
+    "summary": "I wish I had starting using these Google Drive features earlier",
     "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80",
     "slides": [
       {
         "hook": "FLAGSHIP HARDWARE LEAK",
-        "title": "Android Auto is dropping support for millions of older phones soo...",
+        "title": "6 Google Drive tools that reduce frustrating file clutter and mak...",
         "badge": "📱 SILICON REVEAL",
-        "bullet1": "The end of an era for Android 9 & 10",
+        "bullet1": "I wish I had starting using these Google Drive features earlier",
         "bullet2": "A massive visual paradigm shift for early adopters and tech professionals.",
         "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80"
       },
@@ -275,22 +275,22 @@
     "synthesizer": "deterministic-rule-engine"
   },
   {
-    "title": "I ditched Google Authenticator for an open source alternative; I've never looked back",
-    "slug": "i-ditched-google-authenticator-for-an-open-source-alternative-ive-neve",
+    "title": "Samsung's best phones are back down to prices that'll make you buy",
+    "slug": "samsungs-best-phones-are-back-down-to-prices-thatll-make-you-buy",
     "category_id": "smartphones",
     "card_hook": "📱 FLAGSHIP LEAK",
     "source": "Android Police",
-    "link": "https://www.androidpolice.com/aegis-google-authenticator-open-source/",
-    "published": "Mon, 05 Oct 2026 15:00:10 GMT",
+    "link": "https://www.androidpolice.com/samsungs-best-phones-are-back-down-to-prices-we-want-to-pay/",
+    "published": "Mon, 05 Oct 2026 22:21:47 GMT",
     "read_time": "45s",
-    "summary": "Going offline and off of Google's servers",
+    "summary": "That terrible price hike just got deleted",
     "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80",
     "slides": [
       {
         "hook": "FLAGSHIP HARDWARE LEAK",
-        "title": "I ditched Google Authenticator for an open source alternative; I'...",
+        "title": "Samsung's best phones are back down to prices that'll make you bu...",
         "badge": "📱 SILICON REVEAL",
-        "bullet1": "Going offline and off of Google's servers",
+        "bullet1": "That terrible price hike just got deleted",
         "bullet2": "A massive visual paradigm shift for early adopters and tech professionals.",
         "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80"
       },
@@ -330,45 +330,45 @@
     "synthesizer": "deterministic-rule-engine"
   },
   {
-    "title": "Are there any disadvantages to using IMAX theaters?",
-    "slug": "are-there-any-disadvantages-to-using-imax-theaters",
-    "category_id": "gadgets",
-    "card_hook": "🎧 HARDWARE SHOCK",
+    "title": "Common mistakes you should avoid when using foldable phones",
+    "slug": "common-mistakes-you-should-avoid-when-using-foldable-phones",
+    "category_id": "smartphones",
+    "card_hook": "📱 FLAGSHIP LEAK",
     "source": "Engadget",
-    "link": "https://www.engadget.com/2275492/disadvantages-imax-theaters-explained/",
-    "published": "Mon, 05 Oct 2026 16:15:00 +0000",
+    "link": "https://www.engadget.com/2276483/common-mistakes-avoid-using-foldable-phones/",
+    "published": "Tue, 06 Oct 2026 00:30:00 +0000",
     "read_time": "45s",
-    "summary": "IMAX screenings are quite simply the best way to watch a blockbuster movie. However, there are a number of important factors that can limit that enjoyment.",
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80",
+    "summary": "Foldable phones have unique durability concerns thanks to their moving parts and internal screens.",
+    "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80",
     "slides": [
       {
-        "hook": "WEARABLE REVOLUTION",
-        "title": "Are there any disadvantages to using IMAX theaters?",
-        "badge": "🎧 AUDIO HORIZON",
-        "bullet1": "IMAX screenings are quite simply the best way to watch a blockbuster movie",
+        "hook": "FLAGSHIP HARDWARE LEAK",
+        "title": "Common mistakes you should avoid when using foldable phones",
+        "badge": "📱 SILICON REVEAL",
+        "bullet1": "Foldable phones have unique durability concerns thanks to their moving parts and internal screens",
         "bullet2": "A massive visual paradigm shift for early adopters and tech professionals.",
-        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80"
       },
       {
-        "hook": "NEURAL NOISE CANCELLATION",
+        "hook": "NEXT-GEN OPTICS",
         "title": "Architectural Shift & The Core Discovery",
-        "badge": "🔇 52dB REDUCTION",
-        "bullet1": "However, there are a number of important factors that can limit that enjoyment",
+        "badge": "🔍 200MP MATRIX",
+        "bullet1": "Hardware optimizations dramatically reduce power draw and latency.",
         "bullet2": "Engineered from the ground up to solve critical bottlenecks in legacy consumer devices.",
         "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80"
       },
       {
-        "hook": "BATTERY INNOVATION",
+        "hook": "BATTERY & CHARGING",
         "title": "Hardware Specs & Real-World Metrics",
-        "badge": "🔋 48H ENDURANCE",
+        "badge": "⚡ 100W POWER",
         "bullet1": "Independent lab benchmarks verify substantial efficiency and throughput gains.",
         "bullet2": "Next-generation thermal dissipation keeps peak performance sustained under heavy loads.",
         "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80"
       },
       {
-        "hook": "ERGONOMIC DESIGN",
+        "hook": "PERFORMANCE BENCHMARK",
         "title": "Why This Shakes The Entire Industry",
-        "badge": "💎 TITANIUM BUILD",
+        "badge": "🚀 2nm CHIPSET",
         "bullet1": "Direct competition is forced to rethink roadmaps as technological barriers crumble.",
         "bullet2": "Early commercial availability brings enterprise-grade performance into consumer hands.",
         "image": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=720&q=80"
@@ -385,45 +385,45 @@
     "synthesizer": "deterministic-rule-engine"
   },
   {
-    "title": "Poland's antitrust regulator accuses Google of unfair market practices",
-    "slug": "polands-antitrust-regulator-accuses-google-of-unfair-market-practices",
-    "category_id": "ai-tools",
-    "card_hook": "🤖 BREAKTHROUGH AI",
+    "title": "Can a MacBook handle heavy games? Here's what you should know",
+    "slug": "can-a-macbook-handle-heavy-games-heres-what-you-should-know",
+    "category_id": "gaming-gear",
+    "card_hook": "🎮 120Hz BEAST",
     "source": "Engadget",
-    "link": "https://www.engadget.com/2277403/polands-antitrust-regulator-accuses-google-of-unfair-market-practices/",
-    "published": "Mon, 05 Oct 2026 15:26:55 +0000",
+    "link": "https://www.engadget.com/2276473/apple-macbook-handle-graphically-demanding-heavy-games/",
+    "published": "Mon, 05 Oct 2026 23:30:00 +0000",
     "read_time": "45s",
-    "summary": "The penalty could be up to 10 percent of Google's annual revenue.",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80",
+    "summary": "macOS is now a far healthier platform for gaming than it was just a few years ago, but it can't compete with Windows in many ways.",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80",
     "slides": [
       {
-        "hook": "AI BREAKTHROUGH UNVEILED",
-        "title": "Poland's antitrust regulator accuses Google of unfair market prac...",
-        "badge": "🤖 NEURAL ENGINE",
-        "bullet1": "The penalty could be up to 10 percent of Google's annual revenue",
+        "hook": "NEXT-GEN HANDHELD RIG",
+        "title": "Can a MacBook handle heavy games? Here's what you should know",
+        "badge": "🎮 120Hz OLED",
+        "bullet1": "macOS is now a far healthier platform for gaming than it was just a few years ago, but it can't compete with Windows in many ways",
         "bullet2": "A massive visual paradigm shift for early adopters and tech professionals.",
-        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80"
       },
       {
-        "hook": "AUTONOMOUS SPEED",
+        "hook": "GRAPHICS SILICON",
         "title": "Architectural Shift & The Core Discovery",
-        "badge": "⚡ 10X ACCELERATION",
+        "badge": "⚡ 90+ FPS AAA",
         "bullet1": "Hardware optimizations dramatically reduce power draw and latency.",
         "bullet2": "Engineered from the ground up to solve critical bottlenecks in legacy consumer devices.",
         "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80"
       },
       {
-        "hook": "KEY CAPABILITIES",
+        "hook": "TACTILE CONTROLS",
         "title": "Hardware Specs & Real-World Metrics",
-        "badge": "🧠 DEEP REASONING",
+        "badge": "🕹️ ZERO DRIFT",
         "bullet1": "Independent lab benchmarks verify substantial efficiency and throughput gains.",
         "bullet2": "Next-generation thermal dissipation keeps peak performance sustained under heavy loads.",
         "image": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=720&q=80"
       },
       {
-        "hook": "REAL-WORLD VALUE",
+        "hook": "BATTERY & COOLING",
         "title": "Why This Shakes The Entire Industry",
-        "badge": "🔥 0ms LATENCY",
+        "badge": "❄️ CRYO-COOLING",
         "bullet1": "Direct competition is forced to rethink roadmaps as technological barriers crumble.",
         "bullet2": "Early commercial availability brings enterprise-grade performance into consumer hands.",
         "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=720&q=80"

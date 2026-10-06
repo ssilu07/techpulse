@@ -3,117 +3,117 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://techpulse-gadget.vercel.app/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/about/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/privacy/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/terms/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/contact/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://techpulse-gadget.vercel.app/stories/nvidias-shield-tv-pro-just-got-a-100-price-hike/</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80</image:loc>
-      <image:title>Nvidia’s Shield TV Pro just got a $100 price hike</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://techpulse-gadget.vercel.app/stories/apples-new-m6-mac-mini-is-over-100-off/</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80</image:loc>
-      <image:title>Apple’s new M6 Mac Mini is over $100 off</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://techpulse-gadget.vercel.app/stories/openai-launches-visual-ads-that-appear-alongside-image-generation-resu/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <loc>https://techpulse-gadget.vercel.app/stories/gemini-call-for-me-might-tell-your-mom-youre-running-late/</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80</image:loc>
-      <image:title>OpenAI launches visual ads that appear alongside image generation results</image:title>
+      <image:title>Gemini Call for Me might tell your mom you’re running late</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://techpulse-gadget.vercel.app/stories/lola-vision-systems-is-trying-to-make-it-easier-to-run-ai-models-on-ch/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <loc>https://techpulse-gadget.vercel.app/stories/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80</image:loc>
+      <image:title>Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/lucid-motors-ev-output-falls-to-lowest-level-in-almost-2-years/</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80</image:loc>
-      <image:title>Lola Vision Systems is trying to make it easier to run AI models on chips</image:title>
+      <image:title>Lucid Motors’ EV output falls to lowest level in almost 2 years</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://techpulse-gadget.vercel.app/stories/android-auto-is-dropping-support-for-millions-of-older-phones-soon/</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80</image:loc>
-      <image:title>Android Auto is dropping support for millions of older phones soon</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://techpulse-gadget.vercel.app/stories/i-ditched-google-authenticator-for-an-open-source-alternative-ive-neve/</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80</image:loc>
-      <image:title>I ditched Google Authenticator for an open source alternative; I've never looked back</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://techpulse-gadget.vercel.app/stories/are-there-any-disadvantages-to-using-imax-theaters/</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80</image:loc>
-      <image:title>Are there any disadvantages to using IMAX theaters?</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://techpulse-gadget.vercel.app/stories/polands-antitrust-regulator-accuses-google-of-unfair-market-practices/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <loc>https://techpulse-gadget.vercel.app/stories/openai-will-start-watermarking-chatgpts-text-in-the-eu/</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80</image:loc>
-      <image:title>Poland's antitrust regulator accuses Google of unfair market practices</image:title>
+      <image:title>OpenAI will start watermarking ChatGPT’s text in the EU</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/6-google-drive-tools-that-reduce-frustrating-file-clutter-and-make-man/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80</image:loc>
+      <image:title>6 Google Drive tools that reduce frustrating file clutter and make managing files easier</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/samsungs-best-phones-are-back-down-to-prices-thatll-make-you-buy/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80</image:loc>
+      <image:title>Samsung's best phones are back down to prices that'll make you buy</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/common-mistakes-you-should-avoid-when-using-foldable-phones/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80</image:loc>
+      <image:title>Common mistakes you should avoid when using foldable phones</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/can-a-macbook-handle-heavy-games-heres-what-you-should-know/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80</image:loc>
+      <image:title>Can a MacBook handle heavy games? Here's what you should know</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/apple-m4-max-macbook-pro-128gb-unified-memory-benchmarks/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -123,7 +123,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/snapdragon-x-elite-2-laptops-28-hour-battery-desktop-arm/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -133,7 +133,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/framework-laptop-16-modular-swappable-gpu-revolution/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -143,7 +143,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/razer-blade-18-rtx-5090-blackwell-4k-oled/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -153,7 +153,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/galaxy-s26-ultra-vs-iphone-18-pro-max-camera-war/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -163,7 +163,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/nothing-phone-3-revealed-glyph-matrix-snapdragon/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -173,7 +173,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/google-pixel-10-pro-3nm-tensor-g5-magic-video/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -183,7 +183,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/huawei-mate-xt-galaxy-z-fold-7-tri-fold-revolution/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -193,7 +193,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/quantum-supremacy-breakthrough-1-million-qubit-chip/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -203,7 +203,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/humanoid-robots-enter-mass-production-gigafactory/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -213,7 +213,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/solid-state-silicon-batteries-1000km-range-5-min-charge/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -223,7 +223,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/neuralink-blindsight-telepathy-2-bionic-trials/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -233,7 +233,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/top-secret-ai-productivity-tools-outperform-chatgpt/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -243,7 +243,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/claude-37-gemini-38-coding-agents-full-stack/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -253,7 +253,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/run-open-source-deepseek-llama-4-locally-laptop/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -263,7 +263,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/sora-2-gen-3-alpha-4k-cinema-sound-models/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -273,7 +273,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/neural-audio-anc-3-audiophiles-ditching-wired/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -283,7 +283,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/meta-orion-apple-vision-pro-2-holographic-ar-glasses/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -293,7 +293,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/samsung-galaxy-ring-2-blood-pressure-sleep-tracking/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -303,7 +303,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/apple-watch-ultra-3-satellite-microled-display/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -313,7 +313,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/steam-deck-2-handheld-pc-gaming-wars-1080p-120hz/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -323,7 +323,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/nintendo-switch-2-revealed-4k-dlss-hybrid-powerhouse/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -333,7 +333,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/480hz-qd-oled-esports-displays-zero-ghosting/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -343,7 +343,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/playstation-portal-pro-dualsense-edge-2-hall-effect/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
