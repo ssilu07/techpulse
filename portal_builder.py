@@ -7,6 +7,7 @@ the XML sitemap with Google Image extensions, robots.txt, and stories.json manif
 
 import html as html_lib
 import json
+import re
 from pathlib import Path
 from typing import List, Dict, Any
 from datetime import datetime, timezone
@@ -47,7 +48,7 @@ def build_portal_html(stories: List[Dict[str, Any]]) -> str:
 
     # Build story cards HTML
     cards_html = []
-    for s in stories:
+    for idx, s in enumerate(stories):
         cat_id = s.get("category_id", "future-tech")
         # Find category badge
         cat_badge = "⚡ TECH"
@@ -60,11 +61,27 @@ def build_portal_html(stories: List[Dict[str, Any]]) -> str:
         slug = s.get("slug", "")
         summary = s.get("summary", "")
         fallback_img = get_category_fallback_image(cat_id)
-        image = s.get("image") or fallback_img
+        raw_image = s.get("image") or fallback_img
+
+        # Optimize image for card thumbnail dimension (cut memory & decode latency)
+        card_image = raw_image
+        if "images.unsplash.com" in card_image:
+            card_image = re.sub(r"w=\d+", "w=540", card_image)
+            if "q=" in card_image:
+                card_image = re.sub(r"q=\d+", "q=75", card_image)
+            else:
+                card_image = f"{card_image}&q=75"
+
         source = s.get("source", SITE_NAME)
         read_time = s.get("read_time", "45s")
         escaped_title = html_lib.escape(title, quote=True)
         escaped_summary = html_lib.escape(summary, quote=True)
+
+        # Above-fold priority eager loading vs below-fold lazy async
+        if idx < 4:
+            loading_attrs = 'loading="eager" fetchpriority="high" decoding="async"'
+        else:
+            loading_attrs = 'loading="lazy" fetchpriority="low" decoding="async"'
 
         # Category-tailored curiosity badges if card_hook is not explicitly defined
         cat_hook_fallbacks = {
@@ -87,9 +104,9 @@ def build_portal_html(stories: List[Dict[str, Any]]) -> str:
           data-title="{escaped_title}"
           data-summary="{escaped_summary}">
           <img class="story-card-bg" 
-            src="{image}" 
+            src="{card_image}" 
             alt="{escaped_title}" 
-            loading="lazy" 
+            {loading_attrs} 
             width="720" height="1080"
             referrerpolicy="no-referrer"
             onerror="this.onerror=null;this.src='{fallback_img}';">
@@ -106,7 +123,7 @@ def build_portal_html(stories: List[Dict[str, Any]]) -> str:
             <p class="story-card-snippet">{summary}</p>
             <div class="story-card-footer">
               <span class="story-source">via {source}</span>
-              <span class="tap-to-view-cta"><span class="play-arrow">▶</span> Tap to Unlock ⚡</span>
+              <a href="/stories/{slug}/" class="tap-to-view-cta" aria-label="Read story: {escaped_title}"><span class="play-arrow">▶</span> Tap to Unlock ⚡</a>
             </div>
           </div>
         </article>"""

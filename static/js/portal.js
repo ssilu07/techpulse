@@ -123,14 +123,48 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Attach card click handlers
+  // Attach card click handlers with touch-drag detection
+  let touchStartX = 0;
+  let touchStartY = 0;
+  let isTouchDragging = false;
+
   storyCards.forEach(card => {
+    // Detect finger drag to distinguish deliberate tap from vertical page scrolling
+    card.addEventListener('touchstart', (e) => {
+      if (e.touches && e.touches.length > 0) {
+        touchStartX = e.touches[0].clientX;
+        touchStartY = e.touches[0].clientY;
+        isTouchDragging = false;
+      }
+    }, { passive: true });
+
+    card.addEventListener('touchmove', (e) => {
+      if (e.touches && e.touches.length > 0) {
+        const diffX = Math.abs(e.touches[0].clientX - touchStartX);
+        const diffY = Math.abs(e.touches[0].clientY - touchStartY);
+        if (diffX > 8 || diffY > 8) {
+          isTouchDragging = true;
+        }
+      }
+    }, { passive: true });
+
     card.addEventListener('click', (e) => {
-      // Don't intercept if user specifically clicked a link inside
+      // If user was scrolling or dragging on mobile, ignore click to prevent scroll freeze
+      if (isTouchDragging) {
+        isTouchDragging = false;
+        return;
+      }
+
+      // Don't intercept if user specifically clicked an inner anchor
       if (e.target.closest('a')) return;
 
       const slug = card.getAttribute('data-slug');
       if (slug) {
+        // On mobile viewports (<= 768px), direct navigate to AMP story for 100% native 120Hz gestures
+        if (window.innerWidth <= 768) {
+          window.location.href = `/stories/${slug}/`;
+          return;
+        }
         openStoryModal(slug, true);
       }
     });
@@ -141,6 +175,10 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         const slug = card.getAttribute('data-slug');
         if (slug) {
+          if (window.innerWidth <= 768) {
+            window.location.href = `/stories/${slug}/`;
+            return;
+          }
           openStoryModal(slug, true);
         }
       }
