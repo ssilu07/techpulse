@@ -1,5 +1,60 @@
 [
   {
+    "title": "Xbox Elite Controller 3 specs leak via Xbox's own Design Lab",
+    "slug": "xbox-elite-controller-3-specs-leak-via-xboxs-own-design-lab",
+    "category_id": "gaming-gear",
+    "card_hook": "🎮 120Hz BEAST",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2278466/xbox-elite-controller-3-spec-leak/",
+    "published": "Tue, 06 Oct 2026 09:38:03 +0000",
+    "read_time": "45s",
+    "summary": "Xbox's long awaited Elite Controller 3 may finally offer drift-free joysticks.",
+    "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=720&q=80",
+    "slides": [
+      {
+        "hook": "GAMING HARDWARE REVEAL",
+        "title": "Xbox Elite Controller 3 specs leak via Xbox's own Design Lab",
+        "badge": "🎮 HIGH-REFRESH GEAR",
+        "bullet1": "Xbox's long awaited Elite Controller 3 may finally offer drift-free joysticks",
+        "bullet2": "A major development for early adopters and tech professionals.",
+        "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=720&q=80"
+      },
+      {
+        "hook": "GRAPHICS ENGINE",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ HIGH-FRAMERATE AAA",
+        "bullet1": "Technical deep-dive reveals how Xbox Elite Controller 3 specs leak via X operates.",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80"
+      },
+      {
+        "hook": "PRECISION CONTROLS",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🕹️ LOW-LATENCY INPUT",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&q=80"
+      },
+      {
+        "hook": "DISPLAY & ERGONOMICS",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "✨ PURE COLOR CLARITY",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=720&q=80"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechPulse Verdict: Key Takeaway",
+        "badge": "⚡ TechPulse VERDICT",
+        "bullet1": "An essential advancement in Gaming Hardware & Peripherals worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=720&q=80"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine"
+  },
+  {
     "title": "Mini PC vs. laptop: Which is better for your home office?",
     "slug": "mini-pc-vs-laptop-which-is-better-for-your-home-office",
     "category_id": "laptops-pc",
