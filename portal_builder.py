@@ -5,7 +5,7 @@ the 4 mandatory legal pages (/about/, /privacy/, /terms/, /contact/),
 the XML sitemap with Google Image extensions, robots.txt, and stories.json manifest.
 """
 
-import html
+import html as html_lib
 import json
 from pathlib import Path
 from typing import List, Dict, Any
@@ -21,6 +21,7 @@ from config import (
     PUBLISHER_LOGO_URL,
     CATEGORIES,
     GOOGLE_SITE_VERIFICATION,
+    get_category_fallback_image,
 )
 
 
@@ -58,9 +59,12 @@ def build_portal_html(stories: List[Dict[str, Any]]) -> str:
         title = s.get("title", "")
         slug = s.get("slug", "")
         summary = s.get("summary", "")
-        image = s.get("image", "")
+        fallback_img = get_category_fallback_image(cat_id)
+        image = s.get("image") or fallback_img
         source = s.get("source", SITE_NAME)
         read_time = s.get("read_time", "45s")
+        escaped_title = html_lib.escape(title, quote=True)
+        escaped_summary = html_lib.escape(summary, quote=True)
 
         # Category-tailored curiosity badges if card_hook is not explicitly defined
         cat_hook_fallbacks = {
@@ -77,12 +81,18 @@ def build_portal_html(stories: List[Dict[str, Any]]) -> str:
         <article class="story-card" 
           tabindex="0" 
           role="button"
-          aria-label="Open story: {title}"
+          aria-label="Open story: {escaped_title}"
           data-slug="{slug}" 
           data-category="{cat_id}"
-          data-title="{title}"
-          data-summary="{summary}">
-          <img class="story-card-bg" src="{image}" alt="{title}" loading="lazy" width="720" height="1080">
+          data-title="{escaped_title}"
+          data-summary="{escaped_summary}">
+          <img class="story-card-bg" 
+            src="{image}" 
+            alt="{escaped_title}" 
+            loading="lazy" 
+            width="720" height="1080"
+            referrerpolicy="no-referrer"
+            onerror="this.onerror=null;this.src='{fallback_img}';">
           <div class="story-card-scrim"></div>
           
           <div class="story-card-top">
@@ -658,7 +668,7 @@ def _xml_escape(val: Any) -> str:
     """Escapes special characters (&, <, >, \", ') for XML compliance."""
     if not val:
         return ""
-    clean_text = html.unescape(str(val).strip())
+    clean_text = html_lib.unescape(str(val).strip())
     return (
         clean_text.replace("&", "&amp;")
         .replace("<", "&lt;")

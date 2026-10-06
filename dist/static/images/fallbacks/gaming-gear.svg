@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1280" width="720" height="1280">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08090d"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="1280" fill="url(#bgGrad)"/>
+  <rect width="720" height="1280" fill="url(#glow)"/>
+  <rect width="720" height="1280" fill="url(#gridPattern)"/>
+
+  <!-- Futuristic Geometric Circuit Accents -->
+  <g opacity="0.3" stroke="#fb7185" stroke-width="1.5" fill="none">
+    <circle cx="360" cy="480" r="180" stroke-dasharray="8 6"/>
+    <circle cx="360" cy="480" r="140" stroke-dasharray="4 8"/>
+    <circle cx="360" cy="480" r="220" stroke-opacity="0.2"/>
+    <line x1="360" y1="200" x2="360" y2="280"/>
+    <line x1="360" y1="680" x2="360" y2="760"/>
+    <line x1="120" y1="480" x2="200" y2="480"/>
+    <line x1="520" y1="480" x2="600" y2="480"/>
+    <polygon points="360,330 490,480 360,630 230,480" stroke-dasharray="6 4" stroke-opacity="0.4"/>
+  </g>
+
+  <!-- Central Badge Glow -->
+  <circle cx="360" cy="480" r="90" fill="rgba(255,255,255,0.03)" stroke="url(#accentGrad)" stroke-width="2"/>
+  <text x="360" y="515" font-family="system-ui, -apple-system, sans-serif" font-size="76" text-anchor="middle" fill="#ffffff">🎮</text>
+
+  <!-- Branding and Category Title -->
+  <g text-anchor="middle" font-family="'Space Grotesk', system-ui, -apple-system, sans-serif">
+    <rect x="230" y="650" width="260" height="38" rx="19" fill="rgba(6,182,212,0.12)" stroke="#fb7185" stroke-width="1"/>
+    <text x="360" y="675" font-size="14" font-weight="700" letter-spacing="3" fill="#fb7185">TECHPULSE VERIFIED</text>
+    
+    <text x="360" y="750" font-family="'Outfit', system-ui, sans-serif" font-size="28" font-weight="800" letter-spacing="1" fill="#f8fafc">GAMING GEAR</text>
+    <text x="360" y="790" font-size="15" fill="#94a3b8" letter-spacing="1">High-CTR Google AMP Visual Story</text>
+  </g>
+
+  <!-- Bottom Cyber Decals -->
+  <line x1="100" y1="1140" x2="620" y2="1140" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="360" y="1180" font-family="'JetBrains Mono', monospace" font-size="13" text-anchor="middle" fill="#64748b" letter-spacing="2">45s INTERACTIVE READ // ZERO LAG</text>
+</svg>

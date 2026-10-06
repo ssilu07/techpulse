@@ -24,3 +24,6 @@ Thumbs.db
 
 # Vercel CLI cache (dist is deployed)
 .vercel/
+
+# Temporary scratch scripts
+scratch/

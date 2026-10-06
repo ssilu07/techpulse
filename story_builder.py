@@ -4,6 +4,7 @@ Generates 100% Google AMP Story 1.0 compliant stories with zero validator errors
 Features Outfit & Space Grotesk typography, cyber-dark glassmorphism, responsive posters, and SEO schema.
 """
 
+import html
 import json
 from pathlib import Path
 from typing import Dict, Any
@@ -14,6 +15,7 @@ from config import (
     PUBLISHER_NAME,
     PUBLISHER_LOGO_URL,
     GOOGLE_SITE_VERIFICATION,
+    get_category_fallback_image,
 )
 
 
@@ -24,10 +26,12 @@ def build_story_html(story: Dict[str, Any]) -> str:
     title = story.get("title", "TechPulse Story")
     slug = story.get("slug", "story")
     summary = story.get("summary", "")
+    category_id = story.get("category_id", "future-tech")
     source_link = story.get("link", f"{SITE_URL}/")
     source_name = story.get("source", SITE_NAME)
     published = story.get("published", "2026-10-05T00:00:00Z")
-    poster_image = story.get("image", "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80")
+    fallback_img = f"{SITE_URL}{get_category_fallback_image(category_id)}"
+    poster_image = story.get("image", fallback_img)
     slides = story.get("slides", [])
 
     canonical_url = f"{SITE_URL}/stories/{slug}/"
@@ -65,6 +69,7 @@ def build_story_html(story: Dict[str, Any]) -> str:
     for idx, slide in enumerate(slides):
         page_id = f"page-{idx + 1}"
         slide_title = slide.get("title", "")
+        escaped_title = html.escape(slide_title, quote=True)
         slide_hook = slide.get("hook", "")
         slide_badge = slide.get("badge", "⚡ TECHPULSE")
         bullet1 = slide.get("bullet1", "")
@@ -85,7 +90,12 @@ def build_story_html(story: Dict[str, Any]) -> str:
           <amp-img src="{slide_img}"
             width="720" height="1280"
             layout="responsive"
-            alt="{slide_title}">
+            alt="{escaped_title}">
+            <amp-img fallback src="{fallback_img}"
+              width="720" height="1280"
+              layout="responsive"
+              alt="{escaped_title}">
+            </amp-img>
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="fill">
@@ -111,26 +121,29 @@ def build_story_html(story: Dict[str, Any]) -> str:
 
     all_slides_markup = "\n".join(slides_html)
 
+    escaped_story_title = html.escape(title, quote=True)
+    escaped_summary = html.escape(summary, quote=True)
+
     # 100% Compliant AMP Document
     html_output = f"""<!doctype html>
 <html ⚡ lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{title} | {SITE_NAME}</title>
+    <title>{escaped_story_title} | {SITE_NAME}</title>
     <link rel="canonical" href="{canonical_url}">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
     
     <!-- OpenGraph & Twitter Meta -->
-    <meta property="og:title" content="{title}">
-    <meta property="og:description" content="{summary}">
+    <meta property="og:title" content="{escaped_story_title}">
+    <meta property="og:description" content="{escaped_summary}">
     <meta property="og:image" content="{poster_image}">
     <meta property="og:url" content="{canonical_url}">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="{SITE_NAME}">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{title}">
-    <meta name="twitter:description" content="{summary}">
+    <meta name="twitter:title" content="{escaped_story_title}">
+    <meta name="twitter:description" content="{escaped_summary}">
     <meta name="twitter:image" content="{poster_image}">
 
     <!-- Fonts (Google Fonts whitelist in AMP) -->
@@ -266,7 +279,7 @@ def build_story_html(story: Dict[str, Any]) -> str:
   </head>
   <body>
     <amp-story standalone
-      title="{title}"
+      title="{escaped_story_title}"
       publisher="{PUBLISHER_NAME}"
       publisher-logo-src="{PUBLISHER_LOGO_URL}"
       poster-portrait-src="{poster_image}">

@@ -184,4 +184,17 @@ document.addEventListener('DOMContentLoaded', () => {
       openStoryModal(targetSlug, false);
     }
   }
+
+  // 3. Robust Image Fallback & Crash Prevention Handler
+  document.querySelectorAll('img.story-card-bg').forEach(img => {
+    img.addEventListener('error', function() {
+      const card = this.closest('.story-card');
+      const cat = card ? (card.getAttribute('data-category') || 'default') : 'default';
+      const fallbackUrl = `/static/images/fallbacks/${cat}.svg`;
+      if (!this.src.endsWith(fallbackUrl)) {
+        this.src = fallbackUrl;
+      }
+    });
+  });
 });
+

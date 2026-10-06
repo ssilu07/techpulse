@@ -46,8 +46,12 @@ def run_pipeline(target_count: int = 12, skip_validation: bool = False) -> int:
     print(f" ⚡ {SITE_NAME} Autonomous Static Generation Pipeline")
     print("=" * 70)
 
-    # Prepare dist directory
+    # Prepare dist directory and clean obsolete stories
     DIST_DIR.mkdir(parents=True, exist_ok=True)
+    stories_dir = DIST_DIR / "stories"
+    if stories_dir.exists():
+        shutil.rmtree(stories_dir)
+    stories_dir.mkdir(parents=True, exist_ok=True)
 
     # 1. Fetch & ingest tech news
     raw_articles = fetch_all_tech_stories(target_count=target_count)
