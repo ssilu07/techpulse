@@ -26,11 +26,13 @@ from config import (
 )
 
 
-def build_portal_html(stories: List[Dict[str, Any]]) -> str:
+def build_portal_html(stories: List[Dict[str, Any]], max_cards: int = 48) -> str:
     """
     Renders the futuristic Cyber-Dark portal homepage.
+    Caps displayed cards to max_cards to preserve mobile DOM performance.
     """
-    story_count = len(stories)
+    display_stories = stories[:max_cards] if max_cards and len(stories) > max_cards else stories
+    story_count = len(display_stories)
     current_year = datetime.now(timezone.utc).year
 
     # Build category filter pills HTML
@@ -48,7 +50,7 @@ def build_portal_html(stories: List[Dict[str, Any]]) -> str:
 
     # Build story cards HTML
     cards_html = []
-    for idx, s in enumerate(stories):
+    for idx, s in enumerate(display_stories):
         cat_id = s.get("category_id", "future-tech")
         # Find category badge
         cat_badge = "⚡ TECH"
@@ -713,11 +715,21 @@ def generate_sitemap_xml(stories: List[Dict[str, Any]]) -> str:
         slug = s.get("slug", "")
         title = s.get("title", "")
         img = s.get("image", "")
+        published = s.get("published", "")
+        
+        # Extract YYYY-MM-DD from published if available, else default to now
+        story_mod = now_iso
+        if published and len(published) >= 10:
+            candidate = published[:10]
+            if re.match(r"^\d{4}-\d{2}-\d{2}$", candidate):
+                story_mod = candidate
+
         image_data = {"loc": img, "title": title} if img else None
         urls.append({
             "loc": f"{SITE_URL}/stories/{slug}/",
             "priority": "0.9",
             "changefreq": "daily",
+            "lastmod": story_mod,
             "image": image_data,
         })
 
@@ -728,9 +740,10 @@ def generate_sitemap_xml(stories: List[Dict[str, Any]]) -> str:
     ]
 
     for u in urls:
+        lastmod_val = u.get("lastmod", now_iso)
         lines.append("  <url>")
         lines.append(f"    <loc>{_xml_escape(u['loc'])}</loc>")
-        lines.append(f"    <lastmod>{now_iso}</lastmod>")
+        lines.append(f"    <lastmod>{lastmod_val}</lastmod>")
         lines.append(f"    <changefreq>{u['changefreq']}</changefreq>")
         lines.append(f"    <priority>{u['priority']}</priority>")
         if u.get("image") and u["image"].get("loc"):

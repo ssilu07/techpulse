@@ -34,13 +34,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Standalone Static Orchestrator & AMP Validator
+      - name: Run Quality-First Static Orchestrator & AMP Validator
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TECHPULSE_NAME: ${{ vars.TECHPULSE_NAME || 'TechPulse' }}
           SITE_URL: ${{ vars.SITE_URL || 'https://techpulse-gadget.vercel.app' }}
         run: |
-          python fetch_and_generate.py --count 30
+          python fetch_and_generate.py --max-new 4
 
       - name: Commit & Push Autopilot Updates to Main
         run: |
@@ -52,9 +52,10 @@ jobs:
           
           # Check if there are changes before committing
           if git diff --staged --quiet; then
-            echo "No new updates to commit. Feed is up to date."
+            echo "✅ No new stories or updates to commit. Catalog is fully up to date."
           else
             git commit -m "⚡ Autonomous Feed Update: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
             git push origin main
-            echo "Changes pushed to main. Vercel deployment triggered automatically."
+            echo "🚀 Changes pushed to main. Vercel deployment triggered automatically."
           fi
+

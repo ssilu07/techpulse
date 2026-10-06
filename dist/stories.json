@@ -1,29 +1,139 @@
 [
   {
-    "title": "Gemini Call for Me might tell your mom you're running late",
-    "slug": "gemini-call-for-me-might-tell-your-mom-youre-running-late",
+    "title": "Mini PC vs. laptop: Which is better for your home office?",
+    "slug": "mini-pc-vs-laptop-which-is-better-for-your-home-office",
+    "category_id": "laptops-pc",
+    "card_hook": "💻 SILICON MONSTER",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2276431/mini-pc-vs-laptop-better-for-home-office/",
+    "published": "Mon, 05 Oct 2026 23:00:00 +0000",
+    "read_time": "45s",
+    "summary": "Mini PCs offer a convenient form factor, but a laptop is ready to go with you anywhere. There's no perfect answer.",
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=720&q=80",
+    "slides": [
+      {
+        "hook": "COMPUTING BREAKTHROUGH",
+        "title": "Mini PC vs. laptop: Which is better for your home office?",
+        "badge": "💻 SYSTEM ARCHITECTURE",
+        "bullet1": "Mini PCs offer a convenient form factor, but a laptop is ready to go with you anywhere",
+        "bullet2": "There's no perfect answer",
+        "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=720&q=80"
+      },
+      {
+        "hook": "PROCESSING EFFICIENCY",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ EXTENDED BATTERY",
+        "bullet1": "There's no perfect answer",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=720&q=80"
+      },
+      {
+        "hook": "HARDWARE BENCHMARKS",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🚀 NEXT-GEN MEMORY",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=720&q=80"
+      },
+      {
+        "hook": "WORKSTATION METRICS",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 SUSTAINED SPEED",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechPulse Verdict: Key Takeaway",
+        "badge": "⚡ TechPulse VERDICT",
+        "bullet1": "An essential advancement in Laptops & Personal Computing worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=720&q=80"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine"
+  },
+  {
+    "title": "The Matic is the first robovac to get an FCC ban waiver, not that it needs it",
+    "slug": "the-matic-is-the-first-robovac-to-get-an-fcc-ban-waiver-not-that-it-ne",
     "category_id": "ai-tools",
     "card_hook": "🤖 BREAKTHROUGH AI",
     "source": "The Verge",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
-    "published": "2026-10-05T19:09:55-04:00",
+    "link": "https://www.theverge.com/policy/1004926/matic-fcc-ban-waiver-conditional-approval",
+    "published": "2026-10-05T17:15:05-04:00",
     "read_time": "45s",
-    "summary": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I ...",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Google-Pixel-11-Pro-Photos-of-Phone-7.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "summary": "The Matic is our favorite robot vacuum and robo-mop, and it's also now the first to escape the FCC's Roomba ban. Well, sort of - because the Matic wasn't banned to begin with. Here's what's actually happening: On October 2nd, the FCC added the original Matic, model 4MA0001, an...",
+    "image": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=720&q=80",
     "slides": [
       {
         "hook": "AI CAPABILITY REVEAL",
-        "title": "Gemini Call for Me might tell your mom you're running late",
+        "title": "The Matic is the first robovac to get an FCC ban waiver, not that...",
         "badge": "🤖 NEURAL MODEL",
-        "bullet1": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family",
-        "bullet2": "Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Google-Pixel-11-Pro-Photos-of-Phone-7.jpg?quality=90&strip=all&crop=0,0,100,100"
+        "bullet1": "The Matic is our favorite robot vacuum and robo-mop, and it's also now the first to escape the FCC's Roomba ban",
+        "bullet2": "Well, sort of - because the Matic wasn't banned to begin with",
+        "image": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=720&q=80"
       },
       {
         "hook": "ARCHITECTURAL LEAP",
         "title": "Core Technical Breakthrough",
         "badge": "⚡ REAL-TIME LATENCY",
-        "bullet1": "Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I",
+        "bullet1": "Well, sort of - because the Matic wasn't banned to begin with",
+        "bullet2": "Here's what's actually happening: On October 2nd, the FCC added the original Matic, model 4MA0001, an",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "Here's what's actually happening: On October 2nd, the FCC added the original Matic, model 4MA0001, an",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=720&q=80"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechPulse Verdict: Key Takeaway",
+        "badge": "⚡ TechPulse VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=720&q=80"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine"
+  },
+  {
+    "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+    "slug": "reflection-debuts-beam-an-open-weight-ai-model-to-rival-chinese-models",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+    "published": "Mon, 05 Oct 2026 19:33:53 +0000",
+    "read_time": "45s",
+    "summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build \"AI factories,\" a product that would let institutions build their own customized, local AI system by training Reflection's AI models on their own proprietary data.",
+    "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=720&q=80",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese ...",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "Reflection is aiming Beam and future models at enterprises and sovereign nations",
+        "bullet2": "The pitch is to build \"AI factories,\" a product that would let institutions build their own customized, local AI system by training Reflection's AI models on their own proprietary data",
+        "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=720&q=80"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "The pitch is to build \"AI factories,\" a product that would let institutions build their own customized, local AI system by training Reflection's AI models on their own proprietary data",
         "bullet2": "Optimizations focus directly on latency reduction and user experience.",
         "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80"
       },
@@ -55,6 +165,61 @@
     "synthesizer": "context-aware-nlp-engine"
   },
   {
+    "title": "Gemini Call for Me might tell your mom you're running late",
+    "slug": "gemini-call-for-me-might-tell-your-mom-youre-running-late",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+    "published": "2026-10-05T19:09:55-04:00",
+    "read_time": "45s",
+    "summary": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I ...",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "Gemini Call for Me might tell your mom you're running late",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family",
+        "bullet2": "Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=720&q=80"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=720&q=80"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechPulse Verdict: Key Takeaway",
+        "badge": "⚡ TechPulse VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=720&q=80"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine"
+  },
+  {
     "title": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
     "slug": "reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr",
     "category_id": "gaming-gear",
@@ -64,7 +229,7 @@
     "published": "2026-10-05T17:17:45-04:00",
     "read_time": "45s",
     "summary": "It's a wild time for retro gaming. Thanks to decompilations and recompilations of classic titles, those games are becoming unshackled from their proprietary code and original hardware to be ported to new devices or updated in ways to completely change the original game. Ever i...",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25403266/STK465_VIDEO_GAMES_EMULATOR__CVirginia_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80",
     "slides": [
       {
         "hook": "GAMING HARDWARE REVEAL",
@@ -72,7 +237,7 @@
         "badge": "🎮 HIGH-REFRESH GEAR",
         "bullet1": "It's a wild time for retro gaming",
         "bullet2": "Thanks to decompilations and recompilations of classic titles, those games are becoming unshackled from their proprietary code and original hardware to be ported to new devices or updated in ways to completely change the original game",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25403266/STK465_VIDEO_GAMES_EMULATOR__CVirginia_B.jpg?quality=90&strip=all&crop=0,0,100,100"
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80"
       },
       {
         "hook": "GRAPHICS ENGINE",
@@ -80,7 +245,7 @@
         "badge": "⚡ HIGH-FRAMERATE AAA",
         "bullet1": "Thanks to decompilations and recompilations of classic titles, those games are becoming unshackled from their proprietary code and original hardware to be ported to new devices or updated in ways to completely change the original game",
         "bullet2": "Optimizations focus directly on latency reduction and user experience.",
-        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&q=80"
       },
       {
         "hook": "PRECISION CONTROLS",
@@ -88,7 +253,7 @@
         "badge": "🕹️ LOW-LATENCY INPUT",
         "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
         "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
-        "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=720&q=80"
       },
       {
         "hook": "DISPLAY & ERGONOMICS",
@@ -96,7 +261,7 @@
         "badge": "✨ PURE COLOR CLARITY",
         "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
         "bullet2": "Commercial availability and software updates are expanding globally.",
-        "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=720&q=80"
       },
       {
         "hook": "THE BOTTOM LINE",
@@ -104,7 +269,7 @@
         "badge": "⚡ TechPulse VERDICT",
         "bullet1": "An essential advancement in Gaming Hardware & Peripherals worth watching closely.",
         "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
-        "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=720&q=80"
       }
     ],
     "synthesizer": "context-aware-nlp-engine"
@@ -119,7 +284,7 @@
     "published": "Mon, 05 Oct 2026 20:36:48 +0000",
     "read_time": "45s",
     "summary": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80",
     "slides": [
       {
         "hook": "AI CAPABILITY REVEAL",
@@ -127,7 +292,7 @@
         "badge": "🤖 NEURAL MODEL",
         "bullet1": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act",
         "bullet2": "Editing can make the invisible marks harder to detect, it says",
-        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80"
       },
       {
         "hook": "ARCHITECTURAL LEAP",
@@ -135,7 +300,7 @@
         "badge": "⚡ REAL-TIME LATENCY",
         "bullet1": "Editing can make the invisible marks harder to detect, it says",
         "bullet2": "Optimizations focus directly on latency reduction and user experience.",
-        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80"
       },
       {
         "hook": "KEY CAPABILITIES",
@@ -174,7 +339,7 @@
     "published": "Mon, 05 Oct 2026 20:24:09 +0000",
     "read_time": "45s",
     "summary": "Just a couple of months after its last big raise, the AI chip startup is already being plied with investment offers at double or more its current value, sources tell TechCrunch.",
-    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=720&q=80",
     "slides": [
       {
         "hook": "AI CAPABILITY REVEAL",
@@ -182,7 +347,7 @@
         "badge": "🤖 NEURAL MODEL",
         "bullet1": "Just a couple of months after its last big raise, the AI chip startup is already being plied with investment offers at double or more its current value, sources tell TechCrunch",
         "bullet2": "A major development for early adopters and tech professionals.",
-        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=720&q=80"
       },
       {
         "hook": "ARCHITECTURAL LEAP",
@@ -198,7 +363,7 @@
         "badge": "🧠 CONTEXT ENGINE",
         "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
         "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
-        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80"
       },
       {
         "hook": "WORKFLOW IMPACT",
@@ -229,7 +394,7 @@
     "published": "Tue, 06 Oct 2026 00:30:00 +0000",
     "read_time": "45s",
     "summary": "Foldable phones have unique durability concerns thanks to their moving parts and internal screens.",
-    "image": "https://www.engadget.com/img/gallery/common-mistakes-you-should-avoid-when-using-foldable-phones/l-intro-1790991661.jpg",
+    "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80",
     "slides": [
       {
         "hook": "HARDWARE ANNOUNCEMENT",
@@ -237,7 +402,7 @@
         "badge": "📱 MOBILE SILICON",
         "bullet1": "Foldable phones have unique durability concerns thanks to their moving parts and internal screens",
         "bullet2": "A major development for early adopters and tech professionals.",
-        "image": "https://www.engadget.com/img/gallery/common-mistakes-you-should-avoid-when-using-foldable-phones/l-intro-1790991661.jpg"
+        "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80"
       },
       {
         "hook": "CAMERA & SENSORS",
@@ -245,7 +410,7 @@
         "badge": "🔍 ADVANCED OPTICS",
         "bullet1": "Technical deep-dive reveals how Common mistakes you should avoid when us operates.",
         "bullet2": "Optimizations focus directly on latency reduction and user experience.",
-        "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80"
       },
       {
         "hook": "BATTERY & CHARGING",
@@ -253,7 +418,7 @@
         "badge": "⚡ ALL-DAY ENDURANCE",
         "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
         "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
-        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=720&q=80"
       },
       {
         "hook": "FLAGSHIP BENCHMARKS",
@@ -261,7 +426,7 @@
         "badge": "🚀 FLUID PERFORMANCE",
         "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
         "bullet2": "Commercial availability and software updates are expanding globally.",
-        "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=720&q=80"
       },
       {
         "hook": "THE BOTTOM LINE",
@@ -269,7 +434,7 @@
         "badge": "⚡ TechPulse VERDICT",
         "bullet1": "An essential advancement in Smartphones & Mobile Tech worth watching closely.",
         "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
-        "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=720&q=80"
       }
     ],
     "synthesizer": "context-aware-nlp-engine"
@@ -284,7 +449,7 @@
     "published": "Mon, 05 Oct 2026 23:30:00 +0000",
     "read_time": "45s",
     "summary": "macOS is now a far healthier platform for gaming than it was just a few years ago, but it can't compete with Windows in many ways.",
-    "image": "https://www.engadget.com/img/gallery/can-a-macbook-handle-heavy-games-heres-what-you-should-know/l-intro-1790989283.jpg",
+    "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&q=80",
     "slides": [
       {
         "hook": "GAMING HARDWARE REVEAL",
@@ -292,7 +457,7 @@
         "badge": "🎮 HIGH-REFRESH GEAR",
         "bullet1": "macOS is now a far healthier platform for gaming than it was just a few years ago, but it can't compete with Windows in many ways",
         "bullet2": "A major development for early adopters and tech professionals.",
-        "image": "https://www.engadget.com/img/gallery/can-a-macbook-handle-heavy-games-heres-what-you-should-know/l-intro-1790989283.jpg"
+        "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&q=80"
       },
       {
         "hook": "GRAPHICS ENGINE",
@@ -308,7 +473,7 @@
         "badge": "🕹️ LOW-LATENCY INPUT",
         "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
         "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
-        "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=720&q=80"
       },
       {
         "hook": "DISPLAY & ERGONOMICS",
@@ -316,7 +481,7 @@
         "badge": "✨ PURE COLOR CLARITY",
         "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
         "bullet2": "Commercial availability and software updates are expanding globally.",
-        "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=720&q=80"
       },
       {
         "hook": "THE BOTTOM LINE",
@@ -324,7 +489,7 @@
         "badge": "⚡ TechPulse VERDICT",
         "bullet1": "An essential advancement in Gaming Hardware & Peripherals worth watching closely.",
         "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
-        "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=720&q=80"
+        "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=720&q=80"
       }
     ],
     "synthesizer": "context-aware-nlp-engine"
@@ -608,7 +773,7 @@
     "link": "https://techpulse-gadget.vercel.app/stories/galaxy-s26-ultra-vs-iphone-18-pro-max-camera-war",
     "published": "2026-10-05T08:00:00Z",
     "read_time": "45s",
-    "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80",
     "summary": "Variable mechanical f/1.4 apertures, liquid glass lenses, and 2nm neural silicon battle for mobile photography supremacy.",
     "slides": [
       {
@@ -662,7 +827,7 @@
     "link": "https://techpulse-gadget.vercel.app/stories/nothing-phone-3-revealed-glyph-matrix-snapdragon",
     "published": "2026-10-05T07:30:00Z",
     "read_time": "40s",
-    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80",
+    "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=720&q=80",
     "summary": "Carl Pei's team unveils micro-LED interactive dot matrix glyphs that transform the back of the phone into a secondary display.",
     "slides": [
       {
@@ -716,7 +881,7 @@
     "link": "https://techpulse-gadget.vercel.app/stories/google-pixel-10-pro-3nm-tensor-g5-magic-video",
     "published": "2026-10-05T07:15:00Z",
     "read_time": "45s",
-    "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=720&q=80",
+    "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=720&q=80",
     "summary": "Google's first fully custom TSMC-manufactured Tensor G5 chip eliminates thermal throttling while debuting instant on-device Video Boost.",
     "slides": [
       {
@@ -770,7 +935,7 @@
     "link": "https://techpulse-gadget.vercel.app/stories/huawei-mate-xt-galaxy-z-fold-7-tri-fold-revolution",
     "published": "2026-10-05T07:00:00Z",
     "read_time": "45s",
-    "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=720&q=80",
+    "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=720&q=80",
     "summary": "Dual hinges and triple folding panels transform a 3.6mm ultra-thin phone into a full 10.2-inch workstation tablet.",
     "slides": [
       {
@@ -824,7 +989,7 @@
     "link": "https://techpulse-gadget.vercel.app/stories/xiaomi-15-ultra-sony-lyt-900-leica-telephoto",
     "published": "2026-10-05T06:45:00Z",
     "read_time": "45s",
-    "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=720&q=80",
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=720&q=80",
     "summary": "Full 1-inch Sony sensor paired with Leica floating telephoto glass creates the ultimate computational camera flagship.",
     "slides": [
       {
@@ -1148,7 +1313,7 @@
     "link": "https://techpulse-gadget.vercel.app/stories/top-secret-ai-productivity-tools-outperform-chatgpt",
     "published": "2026-10-05T05:15:00Z",
     "read_time": "45s",
-    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=720&q=80",
+    "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=720&q=80",
     "summary": "Specialized agentic tools, local context engines, and zero-prompt visual IDEs leaving legacy chatbots in the dust.",
     "slides": [
       {
@@ -1202,7 +1367,7 @@
     "link": "https://techpulse-gadget.vercel.app/stories/claude-37-gemini-38-coding-agents-full-stack",
     "published": "2026-10-05T05:00:00Z",
     "read_time": "45s",
-    "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=720&q=80",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=720&q=80",
     "summary": "Hybrid reasoning architectures pair fast system-1 code drafting with extended system-2 algorithmic thinking.",
     "slides": [
       {
@@ -1256,7 +1421,7 @@
     "link": "https://techpulse-gadget.vercel.app/stories/run-open-source-deepseek-llama-4-locally-laptop",
     "published": "2026-10-05T04:45:00Z",
     "read_time": "40s",
-    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=720&q=80",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=720&q=80",
     "summary": "Mixture-of-Experts quantization and Ollama let you execute frontier intelligence completely offline without subscriptions.",
     "slides": [
       {
@@ -1364,7 +1529,7 @@
     "link": "https://techpulse-gadget.vercel.app/stories/notebooklm-audio-overviews-deep-dive-ai-research",
     "published": "2026-10-05T04:15:00Z",
     "read_time": "40s",
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=720&q=80",
+    "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=720&q=80",
     "summary": "Google's Gemini-driven NotebookLM converts hundreds of research papers into engaging, hyper-accurate two-host audio discussions.",
     "slides": [
       {
@@ -1688,7 +1853,7 @@
     "link": "https://techpulse-gadget.vercel.app/stories/steam-deck-2-handheld-pc-gaming-wars-1080p-120hz",
     "published": "2026-10-05T02:45:00Z",
     "read_time": "45s",
-    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=720&q=80",
     "summary": "Valve's next-gen custom AMD RDNA 4 APU brings 1080p 120Hz OLED VRR, SteamOS 4, and 7-hour battery endurance.",
     "slides": [
       {
@@ -1742,7 +1907,7 @@
     "link": "https://techpulse-gadget.vercel.app/stories/nintendo-switch-2-revealed-4k-dlss-hybrid-powerhouse",
     "published": "2026-10-05T02:30:00Z",
     "read_time": "45s",
-    "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&q=80",
+    "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=720&q=80",
     "summary": "Custom Nvidia Tegra T239 silicon with hardware DLSS 3.5 frame reconstruction powers docked 4K Zelda and Mario worlds.",
     "slides": [
       {
@@ -1796,7 +1961,7 @@
     "link": "https://techpulse-gadget.vercel.app/stories/480hz-qd-oled-esports-displays-zero-ghosting",
     "published": "2026-10-05T02:15:00Z",
     "read_time": "40s",
-    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=720&q=80",
+    "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=720&q=80",
     "summary": "Quantum Dot OLED pixels achieve sub-0.03 millisecond response times, creating the ultimate competitive gaming display.",
     "slides": [
       {
@@ -1850,7 +2015,7 @@
     "link": "https://techpulse-gadget.vercel.app/stories/playstation-portal-pro-dualsense-edge-2-hall-effect",
     "published": "2026-10-05T02:00:00Z",
     "read_time": "45s",
-    "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=720&q=80",
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=720&q=80",
     "summary": "Direct console-to-handheld Wi-Fi 7 streaming eliminates router bottlenecks, bringing 120Hz HDR and DualSense Edge triggers.",
     "slides": [
       {

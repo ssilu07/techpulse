@@ -47,7 +47,6 @@ html {
   font-family: var(--font-body);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
   touch-action: pan-y;
 }
 
@@ -73,7 +72,6 @@ body::before {
     var(--bg-primary);
   pointer-events: none;
   transform: translate3d(0, 0, 0);
-  will-change: transform;
 }
 
 /* Typography Defaults */
@@ -391,17 +389,11 @@ a:hover {
   overflow: hidden;
   background: #0d1117;
   border: 1px solid var(--border-glass);
-  box-shadow: var(--shadow-card);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
   cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  /* Rendering Performance: Skips off-screen layout & paint computations */
-  content-visibility: auto;
-  contain-intrinsic-size: auto 420px;
-  contain: layout style paint;
-  transform: translateZ(0);
-  backface-visibility: hidden;
   transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), 
               border-color 0.25s ease, 
               box-shadow 0.25s ease;
@@ -429,8 +421,6 @@ a:hover {
   object-fit: cover;
   transition: transform 0.4s ease;
   z-index: 1;
-  transform: translateZ(0);
-  will-change: transform;
 }
 
 @media (hover: hover) and (pointer: fine) {

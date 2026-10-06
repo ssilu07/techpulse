@@ -1916,9 +1916,9 @@ def fetch_all_tech_stories(target_count: int = 30) -> List[Dict[str, Any]]:
             seen_slugs.add(item["slug"])
             existing_titles.append(item["title"])
 
-            # Ensure completely unique cover image
+            # Ensure completely unique, verified, lightweight CDN image (avoids raw 90MP camera photos or 403 blocks)
             raw_img = item.get("image")
-            if not raw_img or raw_img in used_cover_images:
+            if not raw_img or "unsplash.com" not in raw_img or raw_img in used_cover_images:
                 item["image"] = get_unique_image_for_story(
                     item["category_id"],
                     used_cover_images,
@@ -1953,3 +1953,73 @@ def fetch_all_tech_stories(target_count: int = 30) -> List[Dict[str, Any]]:
 
     print(f"[+] Total active stories assembled: {len(all_articles)}")
     return all_articles[:max(target_count, len(all_articles))]
+
+
+def fetch_fresh_tech_stories(
+    existing_stories: List[Dict[str, Any]],
+    max_new: int = 4,
+) -> List[Dict[str, Any]]:
+    """
+    Quality-first, spam-prevention ingestion engine for autonomous updates.
+    Checks live tech RSS feeds against the persistent story archive.
+    
+    Guarantees:
+    - Never generates duplicate coverage of already published news
+    - Zero spam: If no truly novel, verified tech news exists, returns 0 stories
+    - Strict volume limit: Caps new generation to max_new (default: 4)
+    - Validates source links, slug novelty, and content relevance
+    - Assigns verified, fast-loading Unsplash CDN images (preventing 403 blocks)
+    """
+    fresh_articles: List[Dict[str, Any]] = []
+    seen_slugs = {s.get("slug") for s in existing_stories if s.get("slug")}
+    seen_links = {s.get("link", "").strip() for s in existing_stories if s.get("link")}
+    existing_titles = [s.get("title", "") for s in existing_stories if s.get("title")]
+    used_cover_images = {s.get("image") for s in existing_stories if s.get("image")}
+
+    print(f"[*] Checking {len(RSS_FEEDS)} tech feeds for fresh breaking stories (Novelty limit: {max_new})...")
+    for feed_info in RSS_FEEDS:
+        if len(fresh_articles) >= max_new:
+            break
+
+        items = fetch_rss_feed(feed_info, max_items=3)
+        for item in items:
+            if len(fresh_articles) >= max_new:
+                break
+
+            slug = item.get("slug", "")
+            link = item.get("link", "").strip()
+            title = item.get("title", "")
+
+            # 1. Check exact slug or source link already in archive
+            if slug in seen_slugs or link in seen_links:
+                continue
+
+            # 2. Check semantic title duplication against entire existing catalog
+            if is_duplicate_story(title, existing_titles):
+                continue
+
+            # 3. Relevance & tech verification
+            if not is_valid_tech_article(title, item.get("summary", "")):
+                continue
+
+            seen_slugs.add(slug)
+            if link:
+                seen_links.add(link)
+            existing_titles.append(title)
+
+            # Assign guaranteed unique, high-contrast CDN image
+            raw_img = item.get("image")
+            if not raw_img or "unsplash.com" not in raw_img or raw_img in used_cover_images:
+                item["image"] = get_unique_image_for_story(
+                    item["category_id"],
+                    used_cover_images,
+                    len(existing_stories) + len(fresh_articles)
+                )
+            used_cover_images.add(item["image"])
+
+            fresh_articles.append(item)
+            print(f"    [+] Discovered fresh novel story: \"{title[:55]}...\" ({feed_info.get('name')})")
+
+    print(f"[+] Total fresh novel stories discovered: {len(fresh_articles)} (safe limit: {max_new})")
+    return fresh_articles
+

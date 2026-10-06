@@ -7,6 +7,7 @@ Powered by Google Gemini 3.8 Flash (with robust deterministic rule-based fallbac
 import os
 import json
 import re
+import time
 from typing import Dict, Any, List, Optional
 
 from config import (
@@ -129,6 +130,8 @@ Each object must contain these string keys:
             slide_imgs = get_distinct_slide_images(category_id, primary_image, index)
             for i, s in enumerate(slides_data):
                 s["image"] = slide_imgs[i]
+            # Graceful pacing to avoid 429 rate limit errors
+            time.sleep(1.0)
             return slides_data
     except Exception as e:
         print(f"[!] Error parsing Gemini response: {e}")

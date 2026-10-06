@@ -32,22 +32,52 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://techpulse-gadget.vercel.app/stories/gemini-call-for-me-might-tell-your-mom-youre-running-late/</loc>
+    <loc>https://techpulse-gadget.vercel.app/stories/mini-pc-vs-laptop-which-is-better-for-your-home-office/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Google-Pixel-11-Pro-Photos-of-Phone-7.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=720&amp;q=80</image:loc>
+      <image:title>Mini PC vs. laptop: Which is better for your home office?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/the-matic-is-the-first-robovac-to-get-an-fcc-ban-waiver-not-that-it-ne/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=720&amp;q=80</image:loc>
+      <image:title>The Matic is the first robovac to get an FCC ban waiver, not that it needs it</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/reflection-debuts-beam-an-open-weight-ai-model-to-rival-chinese-models/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=720&amp;q=80</image:loc>
+      <image:title>Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/gemini-call-for-me-might-tell-your-mom-youre-running-late/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&amp;q=80</image:loc>
       <image:title>Gemini Call for Me might tell your mom you&apos;re running late</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25403266/STK465_VIDEO_GAMES_EMULATOR__CVirginia_B.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&amp;q=80</image:loc>
       <image:title>Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports</image:title>
     </image:image>
   </url>
@@ -57,7 +87,7 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&amp;q=80</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&amp;q=80</image:loc>
       <image:title>OpenAI will start watermarking ChatGPT&apos;s text in the EU</image:title>
     </image:image>
   </url>
@@ -67,7 +97,7 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&amp;q=80</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=720&amp;q=80</image:loc>
       <image:title>Etched fields funding offers at $40B+ valuation, sources say</image:title>
     </image:image>
   </url>
@@ -77,7 +107,7 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://www.engadget.com/img/gallery/common-mistakes-you-should-avoid-when-using-foldable-phones/l-intro-1790991661.jpg</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&amp;q=80</image:loc>
       <image:title>Common mistakes you should avoid when using foldable phones</image:title>
     </image:image>
   </url>
@@ -87,13 +117,13 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://www.engadget.com/img/gallery/can-a-macbook-handle-heavy-games-heres-what-you-should-know/l-intro-1790989283.jpg</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&amp;q=80</image:loc>
       <image:title>Can a MacBook handle heavy games? Here&apos;s what you should know</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/apple-m4-max-macbook-pro-128gb-unified-memory-benchmarks/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -103,7 +133,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/snapdragon-x-elite-2-laptops-28-hour-battery-desktop-arm/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -113,7 +143,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/framework-laptop-16-modular-swappable-gpu-revolution/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -123,7 +153,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/razer-blade-18-rtx-5090-blackwell-4k-oled/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -133,7 +163,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/asus-zenbook-s-16-cera-aluminum-amd-zen-5-ultrabook/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -143,57 +173,57 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/galaxy-s26-ultra-vs-iphone-18-pro-max-camera-war/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&amp;q=80</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&amp;q=80</image:loc>
       <image:title>Galaxy S26 Ultra vs iPhone 18 Pro Max: The 200MP Periscope Camera War</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/nothing-phone-3-revealed-glyph-matrix-snapdragon/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&amp;q=80</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1580910051074-3eb694886505?w=720&amp;q=80</image:loc>
       <image:title>Nothing Phone (3) Revealed: Transparent Glyph Matrix &amp; Custom Snapdragon Silicon</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/google-pixel-10-pro-3nm-tensor-g5-magic-video/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1580910051074-3eb694886505?w=720&amp;q=80</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=720&amp;q=80</image:loc>
       <image:title>Google Pixel 10 Pro: 3nm Tensor G5 &amp; The Pro Magic Video Studio</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/huawei-mate-xt-galaxy-z-fold-7-tri-fold-revolution/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=720&amp;q=80</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=720&amp;q=80</image:loc>
       <image:title>Huawei Mate XT vs Galaxy Z Fold 7: The Ultra-Thin Tri-Fold Tablet Revolution</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/xiaomi-15-ultra-sony-lyt-900-leica-telephoto/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=720&amp;q=80</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=720&amp;q=80</image:loc>
       <image:title>Xiaomi 15 Ultra: 1-Inch Sony LYT-900 Sensor &amp; Leica APO 200mm Telephoto</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/quantum-supremacy-breakthrough-1-million-qubit-chip/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -203,7 +233,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/humanoid-robots-enter-mass-production-gigafactory/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -213,7 +243,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/solid-state-silicon-batteries-1000km-range-5-min-charge/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -223,7 +253,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/neuralink-blindsight-telepathy-2-bionic-trials/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -233,7 +263,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/tsmc-2nm-n2-gaa-silicon-wafers-backside-power-delivery/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -243,37 +273,37 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/top-secret-ai-productivity-tools-outperform-chatgpt/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=720&amp;q=80</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=720&amp;q=80</image:loc>
       <image:title>Top 7 Secret AI Productivity Tools That Outperform ChatGPT in 2026</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/claude-37-gemini-38-coding-agents-full-stack/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=720&amp;q=80</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=720&amp;q=80</image:loc>
       <image:title>Claude 3.7 &amp; Gemini 3.8 Coding Agents: Building Full-Stack Apps in One Prompt</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/run-open-source-deepseek-llama-4-locally-laptop/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=720&amp;q=80</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=720&amp;q=80</image:loc>
       <image:title>Run Open-Source DeepSeek &amp; Llama 4 Locally on Your Laptop With Zero Latency</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/sora-2-gen-3-alpha-4k-cinema-sound-models/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -283,17 +313,17 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/notebooklm-audio-overviews-deep-dive-ai-research/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=720&amp;q=80</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=720&amp;q=80</image:loc>
       <image:title>NotebookLM Audio Overviews 2.0: Deep-Dive Multi-Source AI Research Podcasts</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/neural-audio-anc-3-audiophiles-ditching-wired/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -303,7 +333,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/meta-orion-apple-vision-pro-2-holographic-ar-glasses/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -313,7 +343,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/samsung-galaxy-ring-2-blood-pressure-sleep-tracking/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -323,7 +353,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/apple-watch-ultra-3-satellite-microled-display/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -333,7 +363,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/dji-pocket-3-pro-neo-ai-tracking-cameras/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -343,47 +373,47 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/steam-deck-2-handheld-pc-gaming-wars-1080p-120hz/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&amp;q=80</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1542751371-adc38448a05e?w=720&amp;q=80</image:loc>
       <image:title>Steam Deck 2 &amp; Handheld PC Gaming Wars: 1080p 120Hz In Your Pocket</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/nintendo-switch-2-revealed-4k-dlss-hybrid-powerhouse/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&amp;q=80</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=720&amp;q=80</image:loc>
       <image:title>Nintendo Switch 2 Revealed: 4K DLSS Hybrid Portable Powerhouse</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/480hz-qd-oled-esports-displays-zero-ghosting/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1542751371-adc38448a05e?w=720&amp;q=80</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=720&amp;q=80</image:loc>
       <image:title>480Hz QD-OLED Esports Displays: Zero Ghosting &amp; 0.03ms Flawless Motion Clarity</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/playstation-portal-pro-dualsense-edge-2-hall-effect/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=720&amp;q=80</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1511512578047-dfb367046420?w=720&amp;q=80</image:loc>
       <image:title>PlayStation Portal Pro: Wi-Fi 7 Direct, 120Hz OLED &amp; Zero-Lag Remote Play</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/xbox-next-gen-hybrid-console-windows-pc-bridge/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>

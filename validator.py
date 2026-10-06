@@ -8,7 +8,7 @@ import sys
 import shutil
 import subprocess
 from pathlib import Path
-from typing import List, Tuple
+from typing import List, Tuple, Optional
 
 # Ensure UTF-8 output on all platforms (Windows cp1252 fix)
 if hasattr(sys.stdout, "reconfigure"):
@@ -78,20 +78,21 @@ def run_structural_rule_checks(file_path: Path) -> Tuple[bool, List[str]]:
     return len(errors) == 0, errors
 
 
-def validate_all_stories(dist_dir: Path = DIST_DIR) -> int:
+def validate_all_stories(dist_dir: Path = DIST_DIR, specific_files: Optional[List[Path]] = None) -> int:
     """
-    Runs the full validation suite across all generated stories in high-speed batch mode.
+    Runs the full validation suite across generated stories in high-speed batch mode.
+    If specific_files is passed, validates only those specific files.
     Returns 0 if all pass, 1 otherwise.
     """
-    story_files = find_all_story_files(dist_dir)
+    story_files = specific_files if specific_files is not None else find_all_story_files(dist_dir)
 
     print("=" * 70)
     print(" ⚡ TechPulse Google AMP Web Story 1.0 Compliance Test Suite")
     print("=" * 70)
 
     if not story_files:
-        print("[-] No story files found in dist/stories/. Run fetch_and_generate.py first.")
-        return 1
+        print("[+] No story files to validate.")
+        return 0
 
     total = len(story_files)
     print(f"[*] Validating {total} Web Stories via official Google amphtml-validator...\n")
