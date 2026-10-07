@@ -1,5 +1,225 @@
 [
   {
+    "title": "OpenAI drops another batch of mathematical breakthroughs",
+    "slug": "openai-drops-another-batch-of-mathematical-breakthroughs",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+    "published": "2026-10-06T19:26:38-04:00",
+    "read_time": "45s",
+    "summary": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsett...",
+    "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=720&q=80",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "OpenAI drops another batch of mathematical breakthroughs",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers",
+        "bullet2": "It extends a run of breakthroughs that have both impressed and unsett",
+        "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=720&q=80"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "It extends a run of breakthroughs that have both impressed and unsett",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=720&q=80"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechPulse Verdict: Key Takeaway",
+        "badge": "⚡ TechPulse VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=720&q=80"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine"
+  },
+  {
+    "title": "Silicon Valley's AI wunderkind launches Underdog, the most private Instinct/Muse competitor yet",
+    "slug": "silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-insti",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/10/06/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-instinct-muse-competitor-yet/",
+    "published": "Tue, 06 Oct 2026 20:47:01 +0000",
+    "read_time": "45s",
+    "summary": "Sigil Wen, backed by a Silicon Valley who's who, has built an on-device AI assistant that promises to be free, fully private, and capable for everyday tasks.",
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=720&q=80",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "Silicon Valley's AI wunderkind launches Underdog, the most privat...",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "Sigil Wen, backed by a Silicon Valley who's who, has built an on-device AI assistant that promises to be free, fully private, and capable for everyday tasks",
+        "bullet2": "A major development for early adopters and tech professionals.",
+        "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=720&q=80"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "Technical deep-dive reveals how Silicon Valley's AI wunderkind launches  operates.",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=720&q=80"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechPulse Verdict: Key Takeaway",
+        "badge": "⚡ TechPulse VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=720&q=80"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine"
+  },
+  {
+    "title": "How to help stop spam calls on iPhone and Android",
+    "slug": "how-to-help-stop-spam-calls-on-iphone-and-android",
+    "category_id": "smartphones",
+    "card_hook": "📱 FLAGSHIP LEAK",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2277629/how-to-stop-spam-calls-iphone-android/",
+    "published": "Tue, 06 Oct 2026 23:30:00 +0000",
+    "read_time": "45s",
+    "summary": "Spam calls don't have to grab your attention and waste your time. Use these built-in options to silence and block them without having to pay.",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=720&q=80",
+    "slides": [
+      {
+        "hook": "HARDWARE ANNOUNCEMENT",
+        "title": "How to help stop spam calls on iPhone and Android",
+        "badge": "📱 MOBILE SILICON",
+        "bullet1": "Spam calls don't have to grab your attention and waste your time",
+        "bullet2": "Use these built-in options to silence and block them without having to pay",
+        "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=720&q=80"
+      },
+      {
+        "hook": "CAMERA & SENSORS",
+        "title": "Core Technical Breakthrough",
+        "badge": "🔍 ADVANCED OPTICS",
+        "bullet1": "Use these built-in options to silence and block them without having to pay",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80"
+      },
+      {
+        "hook": "BATTERY & CHARGING",
+        "title": "Key Specifications & Capabilities",
+        "badge": "⚡ ALL-DAY ENDURANCE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80"
+      },
+      {
+        "hook": "FLAGSHIP BENCHMARKS",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🚀 FLUID PERFORMANCE",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=720&q=80"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechPulse Verdict: Key Takeaway",
+        "badge": "⚡ TechPulse VERDICT",
+        "bullet1": "An essential advancement in Smartphones & Mobile Tech worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=720&q=80"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine"
+  },
+  {
+    "title": "Why do some PCs have two Ethernet ports?",
+    "slug": "why-do-some-pcs-have-two-ethernet-ports",
+    "category_id": "laptops-pc",
+    "card_hook": "💻 SILICON MONSTER",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2277504/why-come-pc-come-with-second-ethernet-port/",
+    "published": "Tue, 06 Oct 2026 23:00:00 +0000",
+    "read_time": "45s",
+    "summary": "Dual Ethernet ports don't automatically provide faster speed, but they increase your networking options.",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=720&q=80",
+    "slides": [
+      {
+        "hook": "COMPUTING BREAKTHROUGH",
+        "title": "Why do some PCs have two Ethernet ports?",
+        "badge": "💻 SYSTEM ARCHITECTURE",
+        "bullet1": "Dual Ethernet ports don't automatically provide faster speed, but they increase your networking options",
+        "bullet2": "A major development for early adopters and tech professionals.",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=720&q=80"
+      },
+      {
+        "hook": "PROCESSING EFFICIENCY",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ EXTENDED BATTERY",
+        "bullet1": "Technical deep-dive reveals how Why do some PCs have two Ethernet ports? operates.",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=720&q=80"
+      },
+      {
+        "hook": "HARDWARE BENCHMARKS",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🚀 NEXT-GEN MEMORY",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=720&q=80"
+      },
+      {
+        "hook": "WORKSTATION METRICS",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 SUSTAINED SPEED",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechPulse Verdict: Key Takeaway",
+        "badge": "⚡ TechPulse VERDICT",
+        "bullet1": "An essential advancement in Laptops & Personal Computing worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=720&q=80"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine"
+  },
+  {
     "title": "Xbox has secured exclusive GTA 6 streaming rights",
     "slug": "xbox-has-secured-exclusive-gta-6-streaming-rights",
     "category_id": "gaming-gear",
