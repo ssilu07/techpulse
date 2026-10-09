@@ -9,7 +9,7 @@ import html as html_lib
 import json
 import re
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from datetime import datetime, timezone
 
 from config import (
@@ -26,10 +26,10 @@ from config import (
 )
 
 
-def build_portal_html(stories: List[Dict[str, Any]], max_cards: int = 48) -> str:
+def build_portal_html(stories: List[Dict[str, Any]], max_cards: Optional[int] = None) -> str:
     """
     Renders the futuristic Cyber-Dark portal homepage.
-    Caps displayed cards to max_cards to preserve mobile DOM performance.
+    Displays all available catalog stories with content-visibility optimizations.
     """
     display_stories = stories[:max_cards] if max_cards and len(stories) > max_cards else stories
     story_count = len(display_stories)
