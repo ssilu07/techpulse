@@ -65,7 +65,7 @@ CATEGORIES = [
             "openai", "deepseek", "anthropic", "copilot", "prompt", "model",
             "machine learning", "agent", "neural", "bot", "algorithm"
         ],
-        "default_image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80",
+        "default_image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&q=85",
     },
     {
         "id": "smartphones",
@@ -77,7 +77,7 @@ CATEGORIES = [
             "nothing phone", "oneplus", "xiaomi", "smartphone", "snapdragon",
             "camera leak", "flagship", "ios", "foldable", "flip", "telephoto"
         ],
-        "default_image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80",
+        "default_image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&q=85",
     },
     {
         "id": "laptops-pc",
@@ -89,7 +89,7 @@ CATEGORIES = [
             "ultrabook", "pc", "desktop", "notebook", "framework", "oled laptop",
             "asus", "surface", "razer", "zenbook", "strix"
         ],
-        "default_image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=720&q=80",
+        "default_image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1280&q=85",
     },
     {
         "id": "gadgets",
@@ -101,7 +101,7 @@ CATEGORIES = [
             "vr", "virtual reality", "vision pro", "meta quest", "smart ring",
             "wearable", "apple watch", "tws", "spatial audio", "drone", "glasses"
         ],
-        "default_image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80",
+        "default_image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&q=85",
     },
     {
         "id": "future-tech",
@@ -113,7 +113,7 @@ CATEGORIES = [
             "figure", "chip", "semiconductor", "tsmc", "intel", "nvidia", "gpu",
             "rtx", "supercomputer", "space", "fusion", "biotech", "cyber", "brain"
         ],
-        "default_image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80",
+        "default_image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1280&q=85",
     },
     {
         "id": "gaming-gear",
@@ -125,7 +125,7 @@ CATEGORIES = [
             "steam deck", "rog ally", "nintendo", "switch", "controller",
             "handheld", "oled monitor", "keyboard", "fps", "rtx 5090"
         ],
-        "default_image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80",
+        "default_image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&q=85",
     },
 ]
 
@@ -172,70 +172,70 @@ CATEGORY_FALLBACK_IMAGES = {
 # 100% Tested & Verified Vertical High-Resolution Tech Imagery Catalog (Unsplash CDN, 200 OK)
 VERIFIED_CATEGORY_IMAGES = {
     "ai-tools": [
-        "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80", # Cyber neon abstract
-        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80", # Matrix code
-        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=720&q=80", # Cyber server glow
-        "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=720&q=80", # Code on monitor
-        "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=720&q=80", # Python code screen
-        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=720&q=80", # Coding syntax
-        "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=720&q=80", # Developer coding
-        "https://images.unsplash.com/photo-1618042164219-62c820f10723?w=720&q=80", # 3D neural shapes
-        "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=720&q=80", # Glowing geometry
+        "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&q=85", # Cyber neon abstract
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85", # Matrix code
+        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85", # Cyber server glow
+        "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85", # Code on monitor
+        "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85", # Python code screen
+        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&q=85", # Coding syntax
+        "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&q=85", # Developer coding
+        "https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&q=85", # 3D neural shapes
+        "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&q=85", # Glowing geometry
     ],
     "smartphones": [
-        "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80", # iPhone flagship back
-        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80", # Sleek smartphone screen
-        "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=720&q=80", # Flagship camera bump
-        "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=720&q=80", # Mobile phone in hand
-        "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=720&q=80", # Smartphone camera lens
-        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=720&q=80", # Android flagship
-        "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=720&q=80", # Curved OLED display
-        "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=720&q=80", # Phone on desk
-        "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=720&q=80", # Mobile phone in dark
+        "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&q=85", # iPhone flagship back
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&q=85", # Sleek smartphone screen
+        "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&q=85", # Flagship camera bump
+        "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85", # Mobile phone in hand
+        "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&q=85", # Smartphone camera lens
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&q=85", # Android flagship
+        "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1280&q=85", # Curved OLED display
+        "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1280&q=85", # Phone on desk
+        "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&q=85", # Mobile phone in dark
     ],
     "laptops-pc": [
-        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=720&q=80", # MacBook Pro keyboard
-        "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=720&q=80", # Glowing tech laptop
-        "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80", # Dell XPS ultrabook
-        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=720&q=80", # Apple MacBook
-        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=720&q=80", # Dell laptop workspace
-        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=720&q=80", # Aluminum laptop
-        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=720&q=80", # Macbook keyboard work
-        "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=720&q=80", # Gaming laptop RGB
-        "https://images.unsplash.com/photo-1542393545-10f5cde2c810?w=720&q=80", # Ultrawide monitor desk
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1280&q=85", # MacBook Pro keyboard
+        "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1280&q=85", # Glowing tech laptop
+        "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=1280&q=85", # Dell XPS ultrabook
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&q=85", # Apple MacBook
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=1280&q=85", # Dell laptop workspace
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=1280&q=85", # Aluminum laptop
+        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1280&q=85", # Macbook keyboard work
+        "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=1280&q=85", # Gaming laptop RGB
+        "https://images.unsplash.com/photo-1542393545-10f5cde2c810?w=1280&q=85", # Ultrawide monitor desk
     ],
     "gadgets": [
-        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80", # Premium headphones
-        "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=720&q=80", # VR futuristic glasses
-        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=720&q=80", # Smartwatch face
-        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=720&q=80", # Watch tech
-        "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=720&q=80", # Black headphones
-        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=720&q=80", # Wireless earbuds
-        "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=720&q=80", # Wearable fitness
-        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=720&q=80", # Smart wearable
-        "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=720&q=80", # Smart mobile gadget
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&q=85", # Premium headphones
+        "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=1280&q=85", # VR futuristic glasses
+        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=1280&q=85", # Smartwatch face
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&q=85", # Watch tech
+        "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=1280&q=85", # Black headphones
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=1280&q=85", # Wireless earbuds
+        "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=1280&q=85", # Wearable fitness
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1280&q=85", # Smart wearable
+        "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1280&q=85", # Smart mobile gadget
     ],
     "future-tech": [
-        "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80", # Microchip circuit
-        "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=720&q=80", # Robotics AI arm
-        "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=720&q=80", # Quantum computing lights
-        "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=720&q=80", # Science lab
-        "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=720&q=80", # Tech research
-        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=720&q=80", # Robotics engineer
-        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=720&q=80", # Tech team
-        "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=720&q=80", # Wireframe design
-        "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=720&q=80", # Cyber patterns
+        "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1280&q=85", # Microchip circuit
+        "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1280&q=85", # Robotics AI arm
+        "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1280&q=85", # Quantum computing lights
+        "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1280&q=85", # Science lab
+        "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1280&q=85", # Tech research
+        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1280&q=85", # Robotics engineer
+        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1280&q=85", # Tech team
+        "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1280&q=85", # Wireframe design
+        "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1280&q=85", # Cyber patterns
     ],
     "gaming-gear": [
-        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80", # Cyberpunk gaming rig
-        "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&q=80", # PS5 controller
-        "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=720&q=80", # Esports arena
-        "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=720&q=80", # RGB mechanical keyboard
-        "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=720&q=80", # Retro arcade controller
-        "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=720&q=80", # Neon game setup
-        "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=720&q=80", # RGB battle station
-        "https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=720&q=80", # Xbox controller
-        "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=720&q=80", # Gaming desk tech
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&q=85", # Cyberpunk gaming rig
+        "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&q=85", # PS5 controller
+        "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1280&q=85", # Esports arena
+        "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&q=85", # RGB mechanical keyboard
+        "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=1280&q=85", # Retro arcade controller
+        "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&q=85", # Neon game setup
+        "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1280&q=85", # RGB battle station
+        "https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&q=85", # Xbox controller
+        "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=1280&q=85", # Gaming desk tech
     ],
 }
 

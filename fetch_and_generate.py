@@ -67,10 +67,10 @@ def load_persistent_catalog(dist_dir: Path) -> List[Dict[str, Any]]:
     return [dict(s) for s in CURATED_VIRAL_STORIES]
 
 
-def ensure_story_files_exist(stories: List[Dict[str, Any]], dist_dir: Path):
+def ensure_story_files_exist(stories: List[Dict[str, Any]], dist_dir: Path, force_rerender: bool = True):
     """
     Verifies that all cataloged stories have corresponding HTML files on disk.
-    Renders any missing files to prevent broken internal links or 404s.
+    Renders all files to guarantee schemas, meta tags, and image resolutions stay 100% synchronized.
     """
     stories_dir = dist_dir / "stories"
     stories_dir.mkdir(parents=True, exist_ok=True)
@@ -81,12 +81,12 @@ def ensure_story_files_exist(stories: List[Dict[str, Any]], dist_dir: Path):
         if not slug:
             continue
         story_html = stories_dir / slug / "index.html"
-        if not story_html.exists():
+        if force_rerender or not story_html.exists():
             write_story_file(story, dist_dir)
             rendered_count += 1
 
     if rendered_count > 0:
-        print(f"[+] Restored {rendered_count} missing story HTML files to prevent 404s.")
+        print(f"[+] Rendered and synchronized {rendered_count} story HTML files with latest schema & assets.")
 
 
 def run_pipeline(

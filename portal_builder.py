@@ -143,9 +143,12 @@ def build_portal_html(stories: List[Dict[str, Any]], max_cards: int = 48) -> str
         "publisher": {
             "@type": "Organization",
             "name": PUBLISHER_NAME,
+            "url": SITE_URL,
             "logo": {
                 "@type": "ImageObject",
                 "url": PUBLISHER_LOGO_URL,
+                "width": 512,
+                "height": 512,
             },
         },
         "potentialAction": {

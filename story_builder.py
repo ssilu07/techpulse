@@ -6,8 +6,11 @@ Features Outfit & Space Grotesk typography, cyber-dark glassmorphism, responsive
 
 import html
 import json
+import re
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
-from typing import Dict, Any
+from typing import Dict, Any, List
 
 from config import (
     SITE_NAME,
@@ -17,6 +20,71 @@ from config import (
     GOOGLE_SITE_VERIFICATION,
     get_category_fallback_image,
 )
+
+
+def to_iso8601(date_str: str) -> str:
+    """Safely converts any date string to standard ISO 8601 for Schema.org JSON-LD."""
+    if not date_str:
+        return datetime.now(timezone.utc).isoformat()
+    try:
+        dt = parsedate_to_datetime(date_str)
+        return dt.isoformat()
+    except Exception:
+        try:
+            dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+            return dt.isoformat()
+        except Exception:
+            return date_str
+
+
+def get_image_variants(url: str, fallback_url: str) -> Dict[str, Any]:
+    """
+    Returns image variants fulfilling Google's strict AMP, Article, and Web Story specifications:
+    - Minimum 1200px width for Article structured data & Discover eligibility (Google Search guideline)
+    - Aspect ratio triad (16x9, 4x3, 1x1) for Schema.org image array
+    - 3:4 portrait (1200x1600) for amp-story poster-portrait-src (Google minimum: 640x853)
+    - 1:1 square (1200x1200) for amp-story poster-square-src (Google minimum: 960x960)
+    - 4:3 landscape (1200x900) for amp-story poster-landscape-src (Google minimum: 960x720)
+    - 9:16 vertical (1080x1920) for slide background amp-img
+    - 16:9 landscape (1280x720) for OpenGraph and Twitter cards
+    """
+    if not url or url.startswith("/"):
+        img = url or fallback_url
+        return {
+            "schema_images": [img],
+            "poster_portrait": img,
+            "poster_square": img,
+            "poster_landscape": img,
+            "og_image": img,
+            "slide_image": img,
+        }
+
+    if "images.unsplash.com" in url:
+        base = url.split("?")[0]
+        return {
+            # Google Search Article structured data: 16x9, 4x3, 1x1 all >= 1200px wide and >= 800,000px
+            "schema_images": [
+                f"{base}?w=1280&h=720&fit=crop&q=85",
+                f"{base}?w=1200&h=900&fit=crop&q=85",
+                f"{base}?w=1200&h=1200&fit=crop&q=85",
+            ],
+            "poster_portrait": f"{base}?w=1200&h=1600&fit=crop&q=85",
+            "poster_square": f"{base}?w=1200&h=1200&fit=crop&q=85",
+            "poster_landscape": f"{base}?w=1200&h=900&fit=crop&q=85",
+            "og_image": f"{base}?w=1280&h=720&fit=crop&q=85",
+            "slide_image": f"{base}?w=1080&h=1920&fit=crop&q=85",
+        }
+
+    # For other remote URLs, replace low width queries (e.g. w=720) with high-res (w=1280)
+    high_res = re.sub(r"w=\d+", "w=1280", url)
+    return {
+        "schema_images": [high_res],
+        "poster_portrait": high_res,
+        "poster_square": high_res,
+        "poster_landscape": high_res,
+        "og_image": high_res,
+        "slide_image": high_res,
+    }
 
 
 def build_story_html(story: Dict[str, Any]) -> str:
@@ -35,8 +103,10 @@ def build_story_html(story: Dict[str, Any]) -> str:
     slides = story.get("slides", [])
 
     canonical_url = f"{SITE_URL}/stories/{slug}/"
+    iso_published = to_iso8601(published)
+    poster_variants = get_image_variants(poster_image, fallback_img)
 
-    # Schema.org JSON-LD
+    # Schema.org JSON-LD (Fully satisfies Google Search Article structured data guidelines)
     schema_data = {
         "@context": "https://schema.org",
         "@type": "TechArticle",
@@ -45,19 +115,23 @@ def build_story_html(story: Dict[str, Any]) -> str:
             "@id": canonical_url,
         },
         "headline": title,
-        "image": [poster_image],
-        "datePublished": published,
-        "dateModified": published,
+        "image": poster_variants["schema_images"],
+        "datePublished": iso_published,
+        "dateModified": iso_published,
         "author": {
             "@type": "Organization",
             "name": PUBLISHER_NAME,
+            "url": SITE_URL,
         },
         "publisher": {
             "@type": "Organization",
             "name": PUBLISHER_NAME,
+            "url": SITE_URL,
             "logo": {
                 "@type": "ImageObject",
                 "url": PUBLISHER_LOGO_URL,
+                "width": 512,
+                "height": 512,
             },
         },
         "description": summary,
@@ -75,6 +149,8 @@ def build_story_html(story: Dict[str, Any]) -> str:
         bullet1 = slide.get("bullet1", "")
         bullet2 = slide.get("bullet2", "")
         slide_img = slide.get("image", poster_image)
+        slide_variants = get_image_variants(slide_img, fallback_img)
+        slide_img_url = slide_variants["slide_image"]
 
         outlink_html = ""
         # On final slide, add call-to-action outlink to source coverage
@@ -87,7 +163,7 @@ def build_story_html(story: Dict[str, Any]) -> str:
         slide_markup = f"""
       <amp-story-page id="{page_id}">
         <amp-story-grid-layer template="fill">
-          <amp-img src="{slide_img}"
+          <amp-img src="{slide_img_url}"
             width="720" height="1280"
             layout="responsive"
             alt="{escaped_title}">
@@ -138,14 +214,16 @@ def build_story_html(story: Dict[str, Any]) -> str:
     <!-- OpenGraph & Twitter Meta -->
     <meta property="og:title" content="{escaped_story_title}">
     <meta property="og:description" content="{escaped_summary}">
-    <meta property="og:image" content="{poster_image}">
+    <meta property="og:image" content="{poster_variants['og_image']}">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
     <meta property="og:url" content="{canonical_url}">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="{SITE_NAME}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{escaped_story_title}">
     <meta name="twitter:description" content="{escaped_summary}">
-    <meta name="twitter:image" content="{poster_image}">
+    <meta name="twitter:image" content="{poster_variants['og_image']}">
 
     <!-- Fonts (Google Fonts whitelist in AMP) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -283,7 +361,9 @@ def build_story_html(story: Dict[str, Any]) -> str:
       title="{escaped_story_title}"
       publisher="{PUBLISHER_NAME}"
       publisher-logo-src="{PUBLISHER_LOGO_URL}"
-      poster-portrait-src="{poster_image}">
+      poster-portrait-src="{poster_variants['poster_portrait']}"
+      poster-square-src="{poster_variants['poster_square']}"
+      poster-landscape-src="{poster_variants['poster_landscape']}">
 {all_slides_markup}
     </amp-story>
   </body>

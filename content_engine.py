@@ -35,7 +35,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/apple-m4-max-macbook-pro-128gb-unified-memory-benchmarks",
         "published": "2026-10-05T09:30:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1280&q=85",
         "summary": "Apple's 3-nanometer M4 Max silicon unleashes 16 CPU cores, 40 GPU cores, and 546 GB/s memory bandwidth for local 70B parameter LLM execution.",
         "slides": [
             {
@@ -44,7 +44,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "💻 3nm SILICON",
                 "bullet1": "TSMC second-generation 3nm process packs 16 CPU cores and 40 GPU cores with hardware ray tracing.",
                 "bullet2": "Blistering 546 GB/s unified memory bandwidth lets developers run 70B parameter AI models locally on battery.",
-                "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1280&q=85",
             },
             {
                 "hook": "THERMAL EFFICIENCY",
@@ -52,7 +52,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ ZERO THROTTLING",
                 "bullet1": "Dual high-efficiency blowers stay completely silent during 8K ProRes RAW video rendering timelines.",
                 "bullet2": "Delivers 95% of peak plugged-in computational power while running purely on battery power.",
-                "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1280&q=85",
             },
             {
                 "hook": "HARDWARE BENCHMARKS",
@@ -60,7 +60,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🚀 3.8X GRAPHICS SPEED",
                 "bullet1": "Blender Cycles rendering matches dedicated 140W desktop GPUs while sipping under 45 watts total system power.",
                 "bullet2": "Neural Engine hits 38 TOPS, enabling real-time local voice cloning and diffusion video synthesis.",
-                "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&q=85",
             },
             {
                 "hook": "DISPLAY & PORTS",
@@ -68,7 +68,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "✨ NANO-TEXTURE OLED",
                 "bullet1": "New nano-texture anti-reflective glass option completely eliminates glaring office reflections.",
                 "bullet2": "Thunderbolt 5 ports transmit data at a monstrous 120Gbps, driving three 8K displays simultaneously.",
-                "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=1280&q=85",
             },
             {
                 "hook": "PRO VERDICT",
@@ -76,7 +76,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "The M4 Max solidifies Apple's lead in performance-per-watt — no Windows laptop matches this battery endurance.",
                 "bullet2": "For AI researchers, 3D animators, and software architects, it is the undisputed workstation king.",
-                "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1280&q=85",
             },
         ],
     },
@@ -89,7 +89,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/snapdragon-x-elite-2-laptops-28-hour-battery-desktop-arm",
         "published": "2026-10-05T09:00:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=1280&q=85",
         "summary": "Qualcomm's second-gen Oryon V2 architecture shatters x86 efficiency standards, delivering 28 hours of real-world battery life on Windows 12.",
         "slides": [
             {
@@ -98,7 +98,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ 28H BATTERY",
                 "bullet1": "Second-generation custom Oryon V2 CPU cores deliver 4.5GHz all-core turbo with zero thermal degradation.",
                 "bullet2": "Real-world web browsing and coding battery tests clock in at an unprecedented 28 continuous hours.",
-                "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=1280&q=85",
             },
             {
                 "hook": "AI CO-PROCESSOR",
@@ -106,7 +106,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🧠 60 TOPS NPU",
                 "bullet1": "Onboard Hexagon neural processor runs background speech transcription, gaze correction, and code generation.",
                 "bullet2": "Zero cloud dependency keeps your confidential work documents completely offline and private.",
-                "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=1280&q=85",
             },
             {
                 "hook": "EMULATION CRUSHED",
@@ -114,7 +114,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🚀 100% COMPATIBLE",
                 "bullet1": "Legacy 64-bit Windows software and games execute with 98% native speed through Prism hardware translation.",
                 "bullet2": "All enterprise VPNs, developer tools, and Adobe Creative Cloud apps now run with seamless native stability.",
-                "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85",
             },
             {
                 "hook": "CHASSIS INNOVATION",
@@ -122,7 +122,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "💎 FANLESS CHASSIS",
                 "bullet1": "Ultrabooks from Dell, Lenovo, and ASUS measure just 9.8mm thin with completely fanless designs.",
                 "bullet2": "Integrated 5G Sub-6 and Wi-Fi 7 ensure instant gigabit connectivity wherever you open the lid.",
-                "image": "https://images.unsplash.com/photo-1542393545-10f5cde2c810?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1542393545-10f5cde2c810?w=1280&q=85",
             },
             {
                 "hook": "THE ULTRABOOK FUTURE",
@@ -130,7 +130,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "The era of noisy, battery-hogging x86 ultrabooks is officially over — ARM is the new Windows standard.",
                 "bullet2": "If you travel or commute, a Snapdragon X Elite 2 laptop is the smartest tech purchase of the year.",
-                "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1280&q=85",
             },
         ],
     },
@@ -143,7 +143,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/framework-laptop-16-modular-swappable-gpu-revolution",
         "published": "2026-10-05T08:30:00Z",
         "read_time": "40s",
-        "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1280&q=85",
         "summary": "Swap your graphics card, ports, and keyboard modules in 30 seconds: the repairable laptop that upgrades year after year.",
         "slides": [
             {
@@ -152,7 +152,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔧 100% REPAIRABLE",
                 "bullet1": "The Expansion Bay module system lets users slide out and upgrade dedicated GPUs in 30 seconds without soldering.",
                 "bullet2": "Every single screw is standardized, with open-source schematics and replacement parts shipped globally.",
-                "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1280&q=85",
             },
             {
                 "hook": "SWAPPABLE SILICON",
@@ -160,7 +160,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🎮 MODULAR GPU",
                 "bullet1": "Swap between an energy-efficient battery spacer and an RTX mobile graphics module depending on your workflow.",
                 "bullet2": "Six reconfigurable hot-swap ports let you choose USB-C, HDMI, DisplayPort, or MicroSD whenever you want.",
-                "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=1280&q=85",
             },
             {
                 "hook": "KEYBOARD & INPUT",
@@ -168,7 +168,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⌨️ MODULAR INPUT",
                 "bullet1": "Shift your keyboard left, right, or center, and snap in an RGB numpad, macro keypad, or LED matrix display.",
                 "bullet2": "Open-source QMK firmware allows per-key macro remaps stored directly in the hardware controller.",
-                "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1280&q=85",
             },
             {
                 "hook": "PERFORMANCE METRICS",
@@ -176,7 +176,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ 240Hz MATTE OLED",
                 "bullet1": "Equipped with 16-core AMD Zen 5 processors and up to 96GB of DDR5-6400 user-swappable RAM.",
                 "bullet2": "2560x1600 240Hz display features 100% DCI-P3 color accuracy and FreeSync Premium VRR support.",
-                "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&q=85",
             },
             {
                 "hook": "THE RIGHT TO REPAIR",
@@ -184,7 +184,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Framework proves that premium performance and complete repairability can co-exist without compromises.",
                 "bullet2": "A resounding 10/10 repairability score makes this the most consumer-friendly laptop in the world.",
-                "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=1280&q=85",
             },
         ],
     },
@@ -197,7 +197,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/razer-blade-18-rtx-5090-blackwell-4k-oled",
         "published": "2026-10-05T08:15:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=1280&q=85",
         "summary": "Nvidia's Blackwell mobile architecture packs 24GB GDDR7 VRAM and DLSS 4 frame generation into an ultra-slim CNC aluminum unibody.",
         "slides": [
             {
@@ -206,7 +206,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🚀 RTX 5090 MOBILE",
                 "bullet1": "Nvidia's GB203 mobile die packs 24GB of ultra-fast GDDR7 memory running on a 256-bit bus.",
                 "bullet2": "Full desktop RTX 4090 performance delivered inside an anodized aluminum chassis under 21mm thin.",
-                "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=1280&q=85",
             },
             {
                 "hook": "DUAL-MODE OLED",
@@ -214,7 +214,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "✨ DUAL-MODE OLED",
                 "bullet1": "Switch instantly between 4K 165Hz for creative color grading and 1080p 330Hz for competitive esports.",
                 "bullet2": "Pixel response time under 0.2ms with VESA ClearMR 9000 certification guarantees zero motion blur.",
-                "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&q=85",
             },
             {
                 "hook": "VAPOR CHAMBER COOLING",
@@ -222,7 +222,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "❄️ CRYOGENIC VAPOR",
                 "bullet1": "Custom laser-welded copper vapor chamber covers 82% of the motherboard surface area.",
                 "bullet2": "Maintains sustained 175W graphics boost without thermal throttling or surface keyboard heating.",
-                "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1280&q=85",
             },
             {
                 "hook": "AI RENDERING LEAP",
@@ -230,7 +230,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ 180+ FPS 4K RAY TRACING",
                 "bullet1": "Multi-frame neural reconstruction doubles FPS in Cyberpunk 2077 and Alan Wake 2 path tracing.",
                 "bullet2": "Onboard 800 TOPS Blackwell tensor cores render generative 3D NeRFs in real-time Blender viewports.",
-                "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1280&q=85",
             },
             {
                 "hook": "TITAN VERDICT",
@@ -238,7 +238,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "For creators and hardcore gamers refusing to compromise on power, the Blade 18 is unrivaled.",
                 "bullet2": "It officially blurs the boundary between desktop battlestations and transportable machines.",
-                "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=1280&q=85",
             },
         ],
     },
@@ -251,7 +251,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/asus-zenbook-s-16-cera-aluminum-amd-zen-5-ultrabook",
         "published": "2026-10-05T07:45:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&q=85",
         "summary": "ASUS bonds ceramic directly to aluminum alloy to create a scratchproof, fingerprint-free chassis packing AMD Ryzen AI 9 365 silicon.",
         "slides": [
             {
@@ -260,7 +260,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "💎 CERALUMINUM ALLOY",
                 "bullet1": "Plasma electrolytic oxidation bonds a hard ceramic layer directly to aerospace aluminum for zero fingerprints.",
                 "bullet2": "Weighs only 1.5kg while packing a massive 78Wh battery delivering 18 hours of productivity.",
-                "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&q=85",
             },
             {
                 "hook": "AMD ZEN 5 SILICON",
@@ -268,7 +268,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🧠 50 TOPS XDNA 2",
                 "bullet1": "New Zen 5 cores deliver 16% IPC uplift over Zen 4 while running whisper quiet on dual slim vapor pipes.",
                 "bullet2": "Dedicated XDNA 2 neural processor enables local AI copilot agents with zero cloud battery drain.",
-                "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=1280&q=85",
             },
             {
                 "hook": "3K OLED VISUALS",
@@ -276,7 +276,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "✨ 3K LUMINA OLED",
                 "bullet1": "2880x1800 120Hz display covers 100% DCI-P3 color space with Pantone validated color accuracy.",
                 "bullet2": "TUV Rheinland certified low blue-light emission protects eyes during late-night developer coding.",
-                "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=1280&q=85",
             },
             {
                 "hook": "HAPTIC TOUCHPAD",
@@ -284,7 +284,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ HAPTIC FEEDBACK",
                 "bullet1": "Solid-state haptic touchpad allows edge-swipe controls for volume, screen brightness, and video scrubbing.",
                 "bullet2": "Six-speaker Dolby Atmos audio system delivers remarkably deep bass notes for an ultrabook.",
-                "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1280&q=85",
             },
             {
                 "hook": "EDITORIAL VERDICT",
@@ -292,7 +292,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "ASUS demonstrates that Windows laptops can match MacBook build quality and battery without bloatware.",
                 "bullet2": "An absolute triumph in industrial engineering, ceramic materials, and AMD Zen 5 efficiency.",
-                "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1280&q=85",
             },
         ],
     },
@@ -307,7 +307,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/galaxy-s26-ultra-vs-iphone-18-pro-max-camera-war",
         "published": "2026-10-05T08:00:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&q=85",
         "summary": "Variable mechanical f/1.4 apertures, liquid glass lenses, and 2nm neural silicon battle for mobile photography supremacy.",
         "slides": [
             {
@@ -316,7 +316,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔍 f/1.4 MECHANICAL",
                 "bullet1": "Samsung integrates a physical 10-blade mechanical aperture on the 200MP primary sensor for true optical bokeh.",
                 "bullet2": "Apple counters with liquid glass prism lenses on the telephoto, achieving continuous 3x-10x optical zoom.",
-                "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&q=85",
             },
             {
                 "hook": "2nm SILICON BATTLE",
@@ -324,7 +324,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ 2nm CHIPSET",
                 "bullet1": "TSMC N2 process node brings backside power delivery (BSPDN), reducing chip thermals by 28%.",
                 "bullet2": "Both flagship chips now execute real-time 8K 60fps computational cinematic video with zero dropped frames.",
-                "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&q=85",
             },
             {
                 "hook": "DISPLAY EVOLUTION",
@@ -332,7 +332,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "✨ 3,500 NITS PEAK",
                 "bullet1": "Tandem OLED panel stacks two light-emitting layers, doubling panel longevity and hitting 3,500 nits peak outdoor brightness.",
                 "bullet2": "New Corning Armor 2 glass cuts ambient reflections by 80%, making outdoor photography effortless in direct sunlight.",
-                "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1280&q=85",
             },
             {
                 "hook": "AI COMPUTATION",
@@ -340,7 +340,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🧠 ZERO NOISE NIGHT",
                 "bullet1": "Diffusive de-noising models run in 40ms on-device, reconstructing pitch-black night skies with telescope clarity.",
                 "bullet2": "Multi-mic spatial audio arrays beamform human voices while canceling 100% of background traffic rumble.",
-                "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&q=85",
             },
             {
                 "hook": "FLAGSHIP VERDICT",
@@ -348,7 +348,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "For 99% of creators, dedicated mirrorless cameras no longer justify their weight against these 2nm optics marvels.",
                 "bullet2": "Samsung leads in raw telephoto reach, while Apple dominates color science and cinematic stabilization.",
-                "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&q=85",
             },
         ],
     },
@@ -361,7 +361,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/nothing-phone-3-revealed-glyph-matrix-snapdragon",
         "published": "2026-10-05T07:30:00Z",
         "read_time": "40s",
-        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&q=85",
         "summary": "Carl Pei's team unveils micro-LED interactive dot matrix glyphs that transform the back of the phone into a secondary display.",
         "slides": [
             {
@@ -370,7 +370,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "💡 1,200 MINI-LEDS",
                 "bullet1": "The iconic transparent back now integrates 1,200 individual addressable micro-LEDs creating a dot-matrix screen.",
                 "bullet2": "Displays Uber ETA, live sports scores, flight gates, and AI voice waveforms without waking the main AMOLED screen.",
-                "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&q=85",
             },
             {
                 "hook": "NOTHING OS 3.5",
@@ -378,7 +378,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ 144Hz FLUID OS",
                 "bullet1": "Nothing OS 3.5 introduces lock screen widget stacks and custom AI natural language search indexing your entire phone.",
                 "bullet2": "Zero duplicate apps, zero sponsored notifications, and guaranteed 5 years of major Android version upgrades.",
-                "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85",
             },
             {
                 "hook": "PERISCOPE OPTICS",
@@ -386,7 +386,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔍 50MP 5X PERISCOPE",
                 "bullet1": "Custom Sony LYTIA dual-layer stacked sensor delivers 5x optical periscope zoom with sensor-shift OIS.",
                 "bullet2": "TrueLens Engine tuned with street photographers preserves natural grain and shadows without artificial HDR overprocessing.",
-                "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&q=85",
             },
             {
                 "hook": "CHIPSET & POWER",
@@ -394,7 +394,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔋 2-DAY ENDURANCE",
                 "bullet1": "High-density silicon-carbon battery packs 5,500mAh into a svelte 8.2mm unibody with 80W wired and 50W wireless charging.",
                 "bullet2": "Bypass charging mode powers the motherboard directly during gaming to prevent battery degradation and overheating.",
-                "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&q=85",
             },
             {
                 "hook": "LONDON VERDICT",
@@ -402,7 +402,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "In a sea of boring smartphone rectangles, Nothing Phone (3) is an electric jolt of industrial design and joy.",
                 "bullet2": "It proves that flagship craftsmanship does not need to cost $1,400 to feel genuinely special in hand.",
-                "image": "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1280&q=85",
             },
         ],
     },
@@ -415,7 +415,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/google-pixel-10-pro-3nm-tensor-g5-magic-video",
         "published": "2026-10-05T07:15:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&q=85",
         "summary": "Google's first fully custom TSMC-manufactured Tensor G5 chip eliminates thermal throttling while debuting instant on-device Video Boost.",
         "slides": [
             {
@@ -424,7 +424,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TSMC 3nm FAB",
                 "bullet1": "Fabricated on TSMC's cutting-edge N3E node, Tensor G5 eliminates overheating issues that plagued older Pixel silicon.",
                 "bullet2": "Delivers 40% higher sustained multi-core CPU throughput and doubles energy efficiency under prolonged GPS navigation.",
-                "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&q=85",
             },
             {
                 "hook": "MAGIC VIDEO REVOLUTION",
@@ -432,7 +432,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🎥 REAL-TIME VIDEO BOOST",
                 "bullet1": "Upgraded TPU processes HDR and night sight frames directly in hardware, rendering Video Boost files in seconds, not hours.",
                 "bullet2": "Audio Magic Eraser now separates multi-speaker conversations into individual adjustable studio audio tracks.",
-                "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&q=85",
             },
             {
                 "hook": "GEMINI PRO ON-DEVICE",
@@ -440,7 +440,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🧠 LOCAL MULTIMODAL",
                 "bullet1": "Runs real-time camera visual reasoning locally, translating foreign documents and summarizing complex tech manuals instantly.",
                 "bullet2": "Direct integration with Android 16 allows proactive assistant actions across WhatsApp, Gmail, and calendar schedules.",
-                "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85",
             },
             {
                 "hook": "HARDWARE CRAFT",
@@ -448,7 +448,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "💎 SATIN TITANIUM",
                 "bullet1": "Recycled grade 5 titanium frame with rounded edges fits ergonomically in one-handed use.",
                 "bullet2": "Super Actua OLED reaches 3,200 nits peak luminance with LTPO 1Hz-120Hz variable refresh rate.",
-                "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1280&q=85",
             },
             {
                 "hook": "MOUNTAIN VIEW VERDICT",
@@ -456,7 +456,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "By shifting to TSMC fabrication, Google has solved the final missing piece of the Pixel flagship puzzle.",
                 "bullet2": "The Pixel 10 Pro is the undisputed champion of computational photography and pure Android excellence.",
-                "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&q=85",
             },
         ],
     },
@@ -469,7 +469,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/huawei-mate-xt-galaxy-z-fold-7-tri-fold-revolution",
         "published": "2026-10-05T07:00:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85",
         "summary": "Dual hinges and triple folding panels transform a 3.6mm ultra-thin phone into a full 10.2-inch workstation tablet.",
         "slides": [
             {
@@ -478,7 +478,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "📐 10.2-INCH DISPLAY",
                 "bullet1": "Unfolds from a standard 6.4-inch smartphone into a 7.9-inch square, then unfolds again into a 10.2-inch 3K OLED workspace.",
                 "bullet2": "Proprietary titanium dual-track hinges fold both inward and outward with zero visible creases under finger touch.",
-                "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85",
             },
             {
                 "hook": "THINNESS RECORD",
@@ -486,7 +486,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ 3.6mm ULTRA-THIN",
                 "bullet1": "When fully expanded, the chassis measures an astonishing 3.6mm thin — the thinnest foldable screen ever manufactured.",
                 "bullet2": "Three ultra-thin 1.9mm silicon-carbon battery cells distribute 5,600mAh capacity evenly across all three chassis wings.",
-                "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1280&q=85",
             },
             {
                 "hook": "DESKTOP MULTITASKING",
@@ -494,7 +494,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🖥️ 3-APP SPLIT",
                 "bullet1": "Run your code terminal, browser, and Telegram simultaneously in full vertical columns without cramped touch targets.",
                 "bullet2": "Connects to an external Bluetooth folding keyboard and mouse for instant zero-latency workstation productivity.",
-                "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&q=85",
             },
             {
                 "hook": "DURABILITY & GLASS",
@@ -502,7 +502,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🛡️ SHOCKPROOF UTG",
                 "bullet1": "Liquid crystal shock-absorbing layer hardens instantly upon impact, preventing puncture damage from dropped keys or pens.",
                 "bullet2": "High-strength aerospace grade carbon fiber support sheets provide torsional rigidity across the 10.2-inch plane.",
-                "image": "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1280&q=85",
             },
             {
                 "hook": "THE FOLDABLE HORIZON",
@@ -510,7 +510,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Tri-folds are not a gimmick — they represent the genuine unification of smartphone portability and tablet computing.",
                 "bullet2": "While high manufacturing costs keep initial pricing premium, this form factor is the undeniable future of mobile tech.",
-                "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&q=85",
             },
         ],
     },
@@ -523,7 +523,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/xiaomi-15-ultra-sony-lyt-900-leica-telephoto",
         "published": "2026-10-05T06:45:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&q=85",
         "summary": "Full 1-inch Sony sensor paired with Leica floating telephoto glass creates the ultimate computational camera flagship.",
         "slides": [
             {
@@ -532,7 +532,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "📸 1-INCH CMOS",
                 "bullet1": "22nm process fabrication lowers sensor power draw by 43% while capturing 14 stops of optical dynamic range.",
                 "bullet2": "True optical depth of field blurs background portraits organically without artificial software masking errors.",
-                "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&q=85",
             },
             {
                 "hook": "LEICA APO TELEPHOTO",
@@ -540,7 +540,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔍 200MP LEICA APO",
                 "bullet1": "Apochromatic lens coatings eliminate color fringing and chromatic aberration even in extreme backlit concert shots.",
                 "bullet2": "Floating focus mechanism locks onto subjects as close as 12cm for breathtaking macro photography.",
-                "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&q=85",
             },
             {
                 "hook": "SNAPDRAGON 8 ELITE",
@@ -548,7 +548,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🚀 4.32GHz TURBO",
                 "bullet1": "Qualcomm's fastest mobile silicon drives 4K 120fps Dolby Vision video recording across all four rear cameras.",
                 "bullet2": "Ring-style dual loop heat pipe separates CPU and camera sensor cooling channels for prolonged shooting.",
-                "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&q=85",
             },
             {
                 "hook": "PHOTOGRAPHY KIT",
@@ -556,7 +556,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🎛️ CAMERA GRIP ACCESSORY",
                 "bullet1": "Modular ergonomic grip snaps onto USB-C, adding a two-stage shutter button, zoom lever, and 1,500mAh extra power.",
                 "bullet2": "Threaded lens bezel supports real 67mm ND and polarizing optical filters for professional videographers.",
-                "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&q=85",
             },
             {
                 "hook": "SHANGHAI VERDICT",
@@ -564,7 +564,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Xiaomi and Leica have created the purest, most uncompromising photographic tool in modern smartphone history.",
                 "bullet2": "If image quality is your number one priority, nothing else currently on the market compares.",
-                "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&q=85",
             },
         ],
     },
@@ -579,7 +579,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/quantum-supremacy-breakthrough-1-million-qubit-chip",
         "published": "2026-10-05T06:30:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1280&q=85",
         "summary": "Engineers achieve fault-tolerant logical quantum computing with 99.98% 2-qubit gate fidelity at room-temperature cryogenic boundaries.",
         "slides": [
             {
@@ -588,7 +588,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ 1M QUBIT WAFER",
                 "bullet1": "Silicon-spin qubits manufactured using standard CMOS lithography achieve unprecedented scaling density.",
                 "bullet2": "Surface code quantum error correction groups 1,000 physical qubits into one pristine, immortal logical qubit.",
-                "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1280&q=85",
             },
             {
                 "hook": "POST-RSA ERA",
@@ -596,7 +596,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔐 CRYPTO PARADIGM",
                 "bullet1": "Shor's algorithm execution benchmarks demonstrate trivial factorization of classical prime-number cryptography.",
                 "bullet2": "Global cybersecurity standards immediately mandate complete transition to NIST post-quantum lattice cryptography.",
-                "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1280&q=85",
             },
             {
                 "hook": "MOLECULAR DESIGN",
@@ -604,7 +604,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🧪 ROOM-TEMP DISCOVERY",
                 "bullet1": "Simulates complex molecular orbitals and high-temperature cuprate lattices with atomic precision in milliseconds.",
                 "bullet2": "Accelerates the discovery of clean-energy battery chemistries and carbon-capturing catalytic materials.",
-                "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1280&q=85",
             },
             {
                 "hook": "CRYO-SILICON",
@@ -612,7 +612,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "❄️ CRYO-CMOS CONTROL",
                 "bullet1": "Integrated cryo-CMOS controllers eliminate thousands of coaxial wires, operating directly inside the dilution refrigerator.",
                 "bullet2": "System consumes only 12 watts inside the cryostat chamber, enabling modular rack-mounted quantum data centers.",
-                "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1280&q=85",
             },
             {
                 "hook": "RESEARCH VERDICT",
@@ -620,7 +620,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "We have officially crossed from noisy intermediate-scale quantum toys to practical, transformative supercomputing.",
                 "bullet2": "The geopolitical and industrial implications will define technological leadership for the next 50 years.",
-                "image": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1280&q=85",
             },
         ],
     },
@@ -633,7 +633,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/humanoid-robots-enter-mass-production-gigafactory",
         "published": "2026-10-05T06:15:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1280&q=85",
         "summary": "Full-scale assembly lines begin shipping autonomous bipedal robots with tactile sensor skins and vision-language-action brains.",
         "slides": [
             {
@@ -642,7 +642,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🏭 10,000 UNITS / YEAR",
                 "bullet1": "High-volume automotive tooling produces cast titanium skeletons and high-torque cycloidal joint actuators.",
                 "bullet2": "Total unit production cost drops below $22,000, making enterprise factory deployment commercially viable.",
-                "image": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1280&q=85",
             },
             {
                 "hook": "TACTILE DEXTERITY",
@@ -650,7 +650,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🖐️ 22 DOF DEXTERITY",
                 "bullet1": "Fingertip optical tactile sensors detect pressure variations down to 0.05 grams, handling eggs or heavy power drills.",
                 "bullet2": "Custom brushless servo motors embedded directly in the forearm mimic natural biological human tendon routing.",
-                "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1280&q=85",
             },
             {
                 "hook": "VLA BRAIN",
@@ -658,7 +658,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🧠 VLA EMBODIED AI",
                 "bullet1": "End-to-end neural networks translate visual camera streams directly into motor joint torques without hardcoded scripts.",
                 "bullet2": "Androids learn new assembly tasks in 15 minutes simply by watching human demonstration video feeds.",
-                "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1280&q=85",
             },
             {
                 "hook": "SAFETY STANDARDS",
@@ -666,7 +666,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🛡️ HUMAN-SAFE COBOT",
                 "bullet1": "Force-sensing torque limits in every limb stop robot momentum instantly if unexpected human contact is detected.",
                 "bullet2": "Hot-swappable 2.4kWh solid-state battery packs enable 16 hours of continuous warehouse operation.",
-                "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1280&q=85",
             },
             {
                 "hook": "ROBOTICS VERDICT",
@@ -674,7 +674,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Humanoid robotics has graduated from venture capital tech demos to industrial manufacturing reality.",
                 "bullet2": "Within 36 months, automated bipedal labor will reshape global logistics, warehousing, and manufacturing economics.",
-                "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1280&q=85",
             },
         ],
     },
@@ -687,7 +687,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/solid-state-silicon-batteries-1000km-range-5-min-charge",
         "published": "2026-10-05T06:00:00Z",
         "read_time": "40s",
-        "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1280&q=85",
         "summary": "Sulfide-based solid electrolytes eliminate dendrite formation, enabling 500 Wh/kg energy density and zero fire risk.",
         "slides": [
             {
@@ -696,7 +696,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔋 500 Wh/kg DENSITY",
                 "bullet1": "Pure silicon micro-particle anodes paired with solid ceramic electrolytes store twice the energy per kilogram.",
                 "bullet2": "Provides standard electric vehicles with 1,000km (620 miles) of highway range on a single charge.",
-                "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1280&q=85",
             },
             {
                 "hook": "FLASH CHARGING",
@@ -704,7 +704,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ 5-MINUTE RECHARGE",
                 "bullet1": "Uniform ionic conductivity through the solid separator prevents local hot-spot degradation at 600kW charge rates.",
                 "bullet2": "Matches the refueling duration of standard petrol stations, eliminating EV range anxiety permanently.",
-                "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1280&q=85",
             },
             {
                 "hook": "ZERO THERMAL RUNAWAY",
@@ -712,7 +712,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🛡️ 100% FIREPROOF",
                 "bullet1": "Nail-penetration, overcharging, and crushing tests produce zero smoke, fire, or explosive gas release.",
                 "bullet2": "Eliminates heavy liquid coolant loops from vehicle chassis, cutting curb weight by over 180kg.",
-                "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1280&q=85",
             },
             {
                 "hook": "LIFECYCLE BENCHMARK",
@@ -720,7 +720,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔄 1.5 MILLION KM LIFE",
                 "bullet1": "Elastic polymer buffer interfaces accommodate 300% silicon volume expansion without structural cracking.",
                 "bullet2": "Outlasts the vehicle chassis itself, paving the way for 20-year multi-generational electric cars.",
-                "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1280&q=85",
             },
             {
                 "hook": "ENERGY VERDICT",
@@ -728,7 +728,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Solid-state silicon chemistry solves the final three barriers: charging speed, vehicle range, and thermal safety.",
                 "bullet2": "Commercial deployment across luxury flagships signals the definitive end of internal combustion development.",
-                "image": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1280&q=85",
             },
         ],
     },
@@ -741,7 +741,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/neuralink-blindsight-telepathy-2-bionic-trials",
         "published": "2026-10-05T05:45:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1280&q=85",
         "summary": "Next-gen 4,096-channel brain-computer interfaces enable high-speed thought typing and direct visual cortex stimulation.",
         "slides": [
             {
@@ -750,7 +750,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ 4,096 NEURAL THREADS",
                 "bullet1": "Surgical robot inserts 128 ultra-fine polymer threads with micron precision, avoiding blood vessels entirely.",
                 "bullet2": "Quadruples neural signal recording density, capturing intention spikes across motor and premotor cortex regions.",
-                "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1280&q=85",
             },
             {
                 "hook": "MIND TYPING",
@@ -758,7 +758,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⌨️ 120 WPM TYPING",
                 "bullet1": "Paralyzed human trial participants control mouse cursors and dictate complete essays at native speaking speed.",
                 "bullet2": "Low-latency wireless telemetry streams spike rates over Bluetooth LE directly to smartphones and laptops.",
-                "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1280&q=85",
             },
             {
                 "hook": "BLINDSIGHT BIONICS",
@@ -766,7 +766,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "👁️ BIONIC VISION",
                 "bullet1": "Direct electrical micro-stimulation of V1 neurons bypasses damaged optic nerves, generating direct visual phosphenes.",
                 "bullet2": "Early clinical trials allow visually impaired subjects to perceive doorways, faces, and high-contrast text.",
-                "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1280&q=85",
             },
             {
                 "hook": "BIO-COMPATIBILITY",
@@ -774,7 +774,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🧬 BIO-INERT COATING",
                 "bullet1": "Conductive polymer coatings match brain tissue mechanical impedance, preventing immune rejection and degradation.",
                 "bullet2": "Inductive wireless charging puck recharges the coin-sized implant through the skin in under 45 minutes.",
-                "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1280&q=85",
             },
             {
                 "hook": "NEURAL VERDICT",
@@ -782,7 +782,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Neural interfaces have progressed from science fiction wonder to life-changing therapeutic medical hardware.",
                 "bullet2": "The road ahead will bridge disability recovery and, eventually, seamless human-AI cognitive collaboration.",
-                "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1280&q=85",
             },
         ],
     },
@@ -795,7 +795,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/tsmc-2nm-n2-gaa-silicon-wafers-backside-power-delivery",
         "published": "2026-10-05T05:30:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1280&q=85",
         "summary": "Gate-All-Around nanosheets and Super Power Rail backside power routing usher in a 25% efficiency leap across computing.",
         "slides": [
             {
@@ -804,7 +804,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔬 2nm GAA NANOSHEET",
                 "bullet1": "Gate-All-Around architecture surrounds the conductive silicon channel on all four sides for absolute leakage control.",
                 "bullet2": "Delivers a 15% speed increase at identical power or up to 30% power reduction at matched frequencies.",
-                "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1280&q=85",
             },
             {
                 "hook": "BACKSIDE POWER",
@@ -812,7 +812,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ BACKSIDE POWER",
                 "bullet1": "Routing power supply interconnects underneath the silicon wafer eliminates IR voltage drop across logic layers.",
                 "bullet2": "Frees up frontside interconnect density, boosting logic cell layout density by an unprecedented 1.15x.",
-                "image": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1280&q=85",
             },
             {
                 "hook": "AI ACCELERATION",
@@ -820,7 +820,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🚀 100B TRANSISTOR DIES",
                 "bullet1": "Next-generation datacenter GPUs pack over 120 billion monolithic transistors into a single reticle-limited die.",
                 "bullet2": "Enables local trillion-parameter AI models to run with 3.5x lower data center thermal cooling costs.",
-                "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1280&q=85",
             },
             {
                 "hook": "YIELD & PACKAGING",
@@ -828,7 +828,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "📦 3D CHIP PACKAGING",
                 "bullet1": "High Numerical Aperture 0.55 NA EUV scanners etch sub-8nm features without complex double-patterning delays.",
                 "bullet2": "CoWoS-L packaging seamlessly bridges multiple 2nm compute dies and 12-high HBM4 memory stacks at 10 TB/s.",
-                "image": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1280&q=85",
             },
             {
                 "hook": "TAIWAN SILICON VERDICT",
@@ -836,7 +836,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Despite physical limits, TSMC has once again proven that Moore's Law continues via materials engineering.",
                 "bullet2": "The 2nm node will be the silicon foundation for the entire next decade of AI, robotics, and smartphones.",
-                "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1280&q=85",
             },
         ],
     },
@@ -851,7 +851,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/top-secret-ai-productivity-tools-outperform-chatgpt",
         "published": "2026-10-05T05:15:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&q=85",
         "summary": "Specialized agentic tools, local context engines, and zero-prompt visual IDEs leaving legacy chatbots in the dust.",
         "slides": [
             {
@@ -860,7 +860,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🤖 AUTONOMOUS WORKFLOWS",
                 "bullet1": "Legacy chatbots wait for questions; autonomous agents take goals, write code, run terminal tests, and deploy.",
                 "bullet2": "Modern developer workflows save 15+ hours weekly by automating pull requests and documentation audits.",
-                "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&q=85",
             },
             {
                 "hook": "CODE GENERATION",
@@ -868,7 +868,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "💻 10X CODING SPEED",
                 "bullet1": "Multi-file semantic indexing understands whole codebases, making cross-repository refactors effortless.",
                 "bullet2": "Predictive multi-line completions predict your next cursor movement before you even press tab.",
-                "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85",
             },
             {
                 "hook": "RESEARCH ENGINES",
@@ -876,7 +876,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🧠 ZERO-HALLUCINATION",
                 "bullet1": "Strict source-grounded citation ensures zero hallucinations across 500-page enterprise PDF documents.",
                 "bullet2": "Generates lifelike two-host conversational podcast overviews that explain complex whitepapers in 8 minutes.",
-                "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85",
             },
             {
                 "hook": "INTERFACE CREATION",
@@ -884,7 +884,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ PROMPT-TO-SAAS",
                 "bullet1": "Transforms text prompts into production Next.js and Tailwind web applications with working backends.",
                 "bullet2": "Instant sandbox execution allows live preview, debugging, and 1-click deployment straight to Vercel.",
-                "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85",
             },
             {
                 "hook": "PRODUCTIVITY VERDICT",
@@ -892,7 +892,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Those who master specialized AI tooling build entire startups with the velocity of 50-person engineering teams.",
                 "bullet2": "Explore our curated breakdowns and unlock the highest leverage workflows available right now.",
-                "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85",
             },
         ],
     },
@@ -905,7 +905,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/claude-37-gemini-38-coding-agents-full-stack",
         "published": "2026-10-05T05:00:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85",
         "summary": "Hybrid reasoning architectures pair fast system-1 code drafting with extended system-2 algorithmic thinking.",
         "slides": [
             {
@@ -914,7 +914,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🧠 EXTENDED REASONING",
                 "bullet1": "Allocate custom thinking budgets up to 64,000 reasoning tokens to solve complex algorithmic race conditions.",
                 "bullet2": "Self-correcting verification loops execute sandbox unit tests and fix broken edge cases before returning code.",
-                "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85",
             },
             {
                 "hook": "2M CONTEXT WINDOW",
@@ -922,7 +922,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "📚 2 MILLION TOKENS",
                 "bullet1": "Drop 100,000 lines of code, database schemas, and API documentation into one single context window.",
                 "bullet2": "Needle-in-a-haystack recall scores hit 99.8% across millions of characters of source code.",
-                "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&q=85",
             },
             {
                 "hook": "AGENTIC TOOL USE",
@@ -930,7 +930,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚙️ BASH & MCP TOOLS",
                 "bullet1": "Agents run shell commands, install npm packages, resolve merge conflicts, and verify accessibility scores.",
                 "bullet2": "Model Context Protocol (MCP) connects LLMs securely to local SQLite databases, GitHub, and Jira.",
-                "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&q=85",
             },
             {
                 "hook": "BENCHMARK DOMINANCE",
@@ -938,7 +938,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "📊 78% SWE-BENCH",
                 "bullet1": "Solves real, hard GitHub issues in open-source projects that previously took senior engineers hours to debug.",
                 "bullet2": "Reduces API latency by 45% via speculative decoding and optimized key-value caching.",
-                "image": "https://images.unsplash.com/photo-1618042164219-62c820f10723?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&q=85",
             },
             {
                 "hook": "DEVELOPER VERDICT",
@@ -946,7 +946,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Software engineering is shifting from manual syntax typing to high-level architecture direction and auditing.",
                 "bullet2": "Engineers leveraging these tools build at unprecedented scale with near-zero boilerplate friction.",
-                "image": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&q=85",
             },
         ],
     },
@@ -959,7 +959,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/run-open-source-deepseek-llama-4-locally-laptop",
         "published": "2026-10-05T04:45:00Z",
         "read_time": "40s",
-        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85",
         "summary": "Mixture-of-Experts quantization and Ollama let you execute frontier intelligence completely offline without subscriptions.",
         "slides": [
             {
@@ -968,7 +968,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔒 ZERO CLOUD LEAKS",
                 "bullet1": "Your confidential legal documents, source code, and private journals never touch external cloud servers.",
                 "bullet2": "Works completely offline on airplanes, remote camping spots, and secure air-gapped corporate labs.",
-                "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85",
             },
             {
                 "hook": "MOE EFFICIENCY",
@@ -976,7 +976,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ 12B ACTIVE / 671B TOTAL",
                 "bullet1": "Activates only the specialized neural experts required for each token, cutting memory bandwidth by 80%.",
                 "bullet2": "Runs at a lightning-fast 45 tokens per second on Apple Silicon and modern RTX gaming laptops.",
-                "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85",
             },
             {
                 "hook": "1-CLICK SETUP",
@@ -984,7 +984,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🚀 1-COMMAND RUN",
                 "bullet1": "Type 'ollama run deepseek-r1:14b' in your terminal and begin chatting in under 60 seconds.",
                 "bullet2": "Native OpenAI-compatible local HTTP endpoints integrate seamlessly into VS Code, Obsidian, and Raycast.",
-                "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85",
             },
             {
                 "hook": "QUANTIZATION TECH",
@@ -992,7 +992,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "💾 4-BIT QUANTIZATION",
                 "bullet1": "Advanced weight compression squeezes 70-billion parameter intelligence into under 24GB of unified system RAM.",
                 "bullet2": "Perplexity benchmarks confirm less than 0.8% accuracy deviation compared to uncompressed 16-bit FP weights.",
-                "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&q=85",
             },
             {
                 "hook": "OPEN-SOURCE VERDICT",
@@ -1000,7 +1000,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Proprietary AI moats are evaporating as open-source communities match closed frontier models on home hardware.",
                 "bullet2": "Taking control of your own local AI stack is the most empowering tech upgrade you can make this year.",
-                "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&q=85",
             },
         ],
     },
@@ -1013,7 +1013,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/sora-2-gen-3-alpha-4k-cinema-sound-models",
         "published": "2026-10-05T04:30:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1618042164219-62c820f10723?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&q=85",
         "summary": "Spatiotemporal video diffusion models simulate real-world light bounces, object permanence, and synchronized spatial Foley audio.",
         "slides": [
             {
@@ -1022,7 +1022,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🌊 4K 60FPS DIFFUSION",
                 "bullet1": "Accurately simulates fluid splashing, wind through fabric, and realistic light ray bounces through frosted glass.",
                 "bullet2": "Maintains persistent object identity across camera panning, dolly movements, and 360-degree rotations.",
-                "image": "https://images.unsplash.com/photo-1618042164219-62c820f10723?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&q=85",
             },
             {
                 "hook": "SPATIAL AUDIO",
@@ -1030,7 +1030,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔊 SYNCED SOUND",
                 "bullet1": "Generates multi-track binaural sound effects, footsteps, car engines, and ambient wind matching visual timing.",
                 "bullet2": "Synchronized character lip movement eliminates uncanny valley dubbing in narrative cinematic shots.",
-                "image": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&q=85",
             },
             {
                 "hook": "DIRECTOR CONTROLS",
@@ -1038,7 +1038,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🎥 CINEMATOGRAPHY TOOLS",
                 "bullet1": "Define custom crane shots, 50mm lens focal lengths, depth of field blur, and shutter angles via text tags.",
                 "bullet2": "Transition seamlessly between existing real-world footage and generative visual extensions.",
-                "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&q=85",
             },
             {
                 "hook": "HOLLYWOOD IMPACT",
@@ -1046,7 +1046,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "💡 INDIE FILM REVOLUTION",
                 "bullet1": "Solo creators produce full visual effects sequences that previously required 40 3D animators and months of rendering.",
                 "bullet2": "Drastically reduces pre-visualization timelines and storyboarding costs for independent film festivals.",
-                "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85",
             },
             {
                 "hook": "CINEMA VERDICT",
@@ -1054,7 +1054,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Generative video is no longer a glitchy party trick — it is a legitimate cinematic production medium.",
                 "bullet2": "The only remaining bottleneck in modern film production is human imagination and narrative craft.",
-                "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85",
             },
         ],
     },
@@ -1067,7 +1067,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/notebooklm-audio-overviews-deep-dive-ai-research",
         "published": "2026-10-05T04:15:00Z",
         "read_time": "40s",
-        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85",
         "summary": "Google's Gemini-driven NotebookLM converts hundreds of research papers into engaging, hyper-accurate two-host audio discussions.",
         "slides": [
             {
@@ -1076,7 +1076,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🎙️ DUAL-VOICE PODCAST",
                 "bullet1": "AI hosts interrupt, banter, use analogies, and express humor while maintaining 100% adherence to your uploaded documents.",
                 "bullet2": "Condenses 300 pages of dense financial or medical PDFs into a lively 12-minute commute audio briefing.",
-                "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85",
             },
             {
                 "hook": "ZERO HALLUCINATION",
@@ -1084,7 +1084,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "📚 SOURCE GROUNDED",
                 "bullet1": "Every spoken claim links directly back to the exact page and paragraph in your source materials.",
                 "bullet2": "If the answer is not contained in your uploaded documents, the AI explicitly states it cannot answer.",
-                "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85",
             },
             {
                 "hook": "INTERACTIVE CONTROL",
@@ -1092,7 +1092,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🎛️ CUSTOM AUDIENCE",
                 "bullet1": "Instruct hosts to 'focus on software architecture' or 'explain for high-school students' to adjust tone instantly.",
                 "bullet2": "Ask live follow-up questions during playback to have the hosts dive deeper into specific confusing concepts.",
-                "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&q=85",
             },
             {
                 "hook": "ENTERPRISE PRIVACY",
@@ -1100,7 +1100,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔒 ENTERPRISE PRIVACY",
                 "bullet1": "Uploaded documents remain private to your workspace and are never used to train Google's foundation models.",
                 "bullet2": "Complies with enterprise SOC2 and HIPAA requirements for handling sensitive legal and clinical briefs.",
-                "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&q=85",
             },
             {
                 "hook": "LEARNING VERDICT",
@@ -1108,7 +1108,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "NotebookLM proves that synthetic media can enhance human comprehension rather than just generate generic noise.",
                 "bullet2": "It is an indispensable weapon for researchers, students, and busy knowledge workers everywhere.",
-                "image": "https://images.unsplash.com/photo-1618042164219-62c820f10723?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&q=85",
             },
         ],
     },
@@ -1123,7 +1123,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/neural-audio-anc-3-audiophiles-ditching-wired",
         "published": "2026-10-05T04:00:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&q=85",
         "summary": "Machine-learning noise models paired with beryllium drivers eliminate 52dB of background rumble while delivering bit-perfect lossless sound.",
         "slides": [
             {
@@ -1132,7 +1132,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔇 52dB HYBRID ANC",
                 "bullet1": "Microphone arrays sample outside sound waves at 750,000 times per second, generating exact inverted waveforms.",
                 "bullet2": "Neural networks distinguish between sudden speech, subway screech, and wind buffeting without popping artifacts.",
-                "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&q=85",
             },
             {
                 "hook": "LOSSLESS WIRELESS",
@@ -1140,7 +1140,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🎶 BIT-PERFECT AUDIO",
                 "bullet1": "Hybrid Bluetooth 6 and Wi-Fi Direct protocols transmit uncompressed ALAC streams with zero compression blur.",
                 "bullet2": "Total transmission latency stays under 12 milliseconds, eliminating audio sync drift in competitive gaming.",
-                "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=1280&q=85",
             },
             {
                 "hook": "DRIVER CRAFT",
@@ -1148,7 +1148,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "💎 BERYLLIUM DRIVERS",
                 "bullet1": "Ultra-rigid beryllium diaphragms eliminate harmonic cone distortion across sub-bass 5Hz to airy 45kHz highs.",
                 "bullet2": "Individual ear canal acoustic resonance sweeps calibrate sound signatures uniquely to your ear anatomy.",
-                "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=1280&q=85",
             },
             {
                 "hook": "BATTERY INNOVATION",
@@ -1156,7 +1156,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔋 60-HOUR BATTERY",
                 "bullet1": "Ultra-efficient dual-core DSPs sip energy, delivering 60 continuous hours with noise cancellation turned on.",
                 "bullet2": "Quick-charge circuitry restores 8 hours of listening time from a 5-minute USB-C top-up.",
-                "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=1280&q=85",
             },
             {
                 "hook": "AUDIOPHILE VERDICT",
@@ -1164,7 +1164,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Modern DSP equalization and lossless wireless bandwidth have surpassed the physical limits of copper headphone cables.",
                 "bullet2": "Welcome to the golden age of high-fidelity, cord-free personal listening.",
-                "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1280&q=85",
             },
         ],
     },
@@ -1177,7 +1177,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/meta-orion-apple-vision-pro-2-holographic-ar-glasses",
         "published": "2026-10-05T03:45:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=1280&q=85",
         "summary": "Silicon carbide waveguides and neural EMG wristbands deliver 70-degree holographic field of view in regular prescription frames.",
         "slides": [
             {
@@ -1186,7 +1186,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🕶️ 98g CHASSIS",
                 "bullet1": "Custom silicon carbide waveguides project sharp RGB laser holograms directly onto the lenses without heavy front visors.",
                 "bullet2": "Passersby see your natural eyes clearly — completely eliminating the awkward ski-goggle appearance.",
-                "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=1280&q=85",
             },
             {
                 "hook": "70-DEGREE FOV",
@@ -1194,7 +1194,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "📐 70° FIELD OF VIEW",
                 "bullet1": "Pin three floating 4K computer monitors in mid-air in front of you on airplanes, cafe tables, or hotel desks.",
                 "bullet2": "Spatial anchors lock digital windows solidly in physical space with zero jitter or positional drift.",
-                "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=1280&q=85",
             },
             {
                 "hook": "EMG WRIST CONTROL",
@@ -1202,7 +1202,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ NEURAL EMG INPUT",
                 "bullet1": "Surface electromyography reads motor neuron signals in your wrist, letting you pinch, click, and swipe with your hands in your pockets.",
                 "bullet2": "Combines eye gaze tracking and subtle finger twitches for 100% invisible, private interaction in public meetings.",
-                "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&q=85",
             },
             {
                 "hook": "WIRELESS COMPUTE PUCK",
@@ -1210,7 +1210,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "📶 ULTRA-WIDEBAND PUCK",
                 "bullet1": "Heavy graphics rendering executes on a pocket-sized wireless puck running custom low-power silicon.",
                 "bullet2": "Keeps the glasses completely cool on your temples with zero heat dissipation directed at your head.",
-                "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1280&q=85",
             },
             {
                 "hook": "SPATIAL VERDICT",
@@ -1218,7 +1218,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Holographic AR glasses are the true destination of personal computing that smartphones were merely a stepping stone toward.",
                 "bullet2": "Within five years, carrying physical glass laptop screens will feel as archaic as carrying a fax machine.",
-                "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&q=85",
             },
         ],
     },
@@ -1231,7 +1231,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/samsung-galaxy-ring-2-blood-pressure-sleep-tracking",
         "published": "2026-10-05T03:30:00Z",
         "read_time": "40s",
-        "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=1280&q=85",
         "summary": "Titanium smart ring integrates bioelectrical impedance sensors, sleep apnea alarms, and gesture controls into a 2.5-gram featherweight frame.",
         "slides": [
             {
@@ -1240,7 +1240,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "💍 2.5g TITANIUM",
                 "bullet1": "Concave titanium outer band resists scratching against gym barbells and daily metal surfaces.",
                 "bullet2": "Waterproof down to 100 meters (10 ATM) for continuous swimming and deep ocean freediving.",
-                "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=1280&q=85",
             },
             {
                 "hook": "CLINICAL METRICS",
@@ -1248,7 +1248,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🩺 CLINICAL SENSORS",
                 "bullet1": "Photoplethysmography sensors calculate pulse transit time, providing calibrated blood pressure trends 24/7.",
                 "bullet2": "Detects micro-arousals and oxygen drops during REM sleep, alerting users to early sleep apnea indicators.",
-                "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&q=85",
             },
             {
                 "hook": "GESTURE ENGINE",
@@ -1256,7 +1256,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "👋 DOUBLE-PINCH CONTROL",
                 "bullet1": "Built-in 3-axis accelerometer registers finger tap gestures to dismiss phone alarms or toggle smart lights.",
                 "bullet2": "Double-pinch gesture triggers smartphone camera shutter from up to 10 meters away.",
-                "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=1280&q=85",
             },
             {
                 "hook": "BATTERY ENDURANCE",
@@ -1264,7 +1264,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔋 9-DAY BATTERY",
                 "bullet1": "Custom ultra-compact curved battery cells last over a week without needing to sit on a charger.",
                 "bullet2": "Jewelry-style charging case holds four full recharges with LED perimeter glow indicators.",
-                "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1280&q=85",
             },
             {
                 "hook": "WEARABLE VERDICT",
@@ -1272,7 +1272,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "For those exhausted by glowing smartwatch screen notifications, the Galaxy Ring 2 delivers pure health insight without distraction.",
                 "bullet2": "It is the sleekest, most comfortable sleep and wellness tracker ever engineered.",
-                "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&q=85",
             },
         ],
     },
@@ -1285,7 +1285,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/apple-watch-ultra-3-satellite-microled-display",
         "published": "2026-10-05T03:15:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&q=85",
         "summary": "Built for extreme mountaineering with standalone emergency satellite SMS, 72-hour dive battery, and micro-LED display clarity.",
         "slides": [
             {
@@ -1294,7 +1294,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🛰️ DIRECT SATELLITE",
                 "bullet1": "Custom phased array antenna inside the titanium bezel transmits emergency coordinates and 2-way text to orbiting satellites.",
                 "bullet2": "Functions seamlessly in remote canyons, high-altitude summits, and open oceans outside cellular coverage.",
-                "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&q=85",
             },
             {
                 "hook": "MICRO-LED DISPLAY",
@@ -1302,7 +1302,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "✨ 3,000 NITS MICRO-LED",
                 "bullet1": "Individual micro-LED subpixels eliminate organic burn-in while doubling contrast readability in snow blizzards.",
                 "bullet2": "Drops to 1 nit in night mode with pure red luminance to preserve night-adjusted vision.",
-                "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=1280&q=85",
             },
             {
                 "hook": "DIVE COMPUTER",
@@ -1310,7 +1310,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🤿 SCUBA CERTIFIED",
                 "bullet1": "Depth gauge sensors measure water descent in real time, calculating decompression stops and ascent speed warnings.",
                 "bullet2": "Water temperature sensors track cold-water hypothermia risks during alpine endurance swimming.",
-                "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=1280&q=85",
             },
             {
                 "hook": "POWER ARCHITECTURE",
@@ -1318,7 +1318,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔋 72-HOUR ADVENTURE",
                 "bullet1": "Dual-frequency L1/L5 GPS chips optimized with machine learning path algorithms sip minimal battery on trails.",
                 "bullet2": "Ruggedized aerospace grade titanium case survives drops against jagged granite boulders without structural damage.",
-                "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1280&q=85",
             },
             {
                 "hook": "ADVENTURE VERDICT",
@@ -1326,7 +1326,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Apple Watch Ultra 3 cements its reputation as the gold standard for backcountry safety and extreme athletic endurance.",
                 "bullet2": "For outdoor adventurers, the standalone satellite capabilities alone make this an essential piece of survival gear.",
-                "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&q=85",
             },
         ],
     },
@@ -1339,7 +1339,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/dji-pocket-3-pro-neo-ai-tracking-cameras",
         "published": "2026-10-05T03:00:00Z",
         "read_time": "40s",
-        "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1280&q=85",
         "summary": "Mechanical 3-axis gimbal stabilization meets AI ActiveTrack 6.0 in an ultra-pocketable format that fits in your jeans.",
         "slides": [
             {
@@ -1348,7 +1348,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ 3-AXIS MECHANICAL",
                 "bullet1": "High-torque brushless motors counter aggressive running and skateboard vibrations without losing image resolution.",
                 "bullet2": "Rotatable 2-inch OLED touchscreen switches instantly between 16:9 cinematic horizontal and 9:16 vertical video.",
-                "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1280&q=85",
             },
             {
                 "hook": "1-INCH CMOS",
@@ -1356,7 +1356,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "📸 1-INCH SENSOR",
                 "bullet1": "Captures 4K video at a blistering 120fps with 10-bit D-Log M color profile for professional grading workflows.",
                 "bullet2": "Large 3.2-micron equivalent pixels preserve shadow details in dim neon city night walks without muddy noise.",
-                "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=1280&q=85",
             },
             {
                 "hook": "ACTIVETRACK 6.0",
@@ -1364,7 +1364,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🎯 ACTIVETRACK 6.0",
                 "bullet1": "Neural tracking identifies human silhouettes and automatically pans the camera to keep you centered as you walk.",
                 "bullet2": "Re-acquires subjects instantly even after they briefly step behind pillars, trees, or other people.",
-                "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&q=85",
             },
             {
                 "hook": "WIRELESS MIC DIRECT",
@@ -1372,7 +1372,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🎙️ 32-BIT FLOAT AUDIO",
                 "bullet1": "Pairs directly with two DJI Mic transmitters over internal Wi-Fi without needing external dongles in the USB-C port.",
                 "bullet2": "32-bit float audio recording guarantees that loud screaming or car horns never clip or distort the audio track.",
-                "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=1280&q=85",
             },
             {
                 "hook": "CREATOR VERDICT",
@@ -1380,7 +1380,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "DJI has packed a motorized tripod, a camera operator, and a studio audio engineer into a palm-sized wand.",
                 "bullet2": "For YouTubers, vloggers, and mobile journalists, it is the highest-value production tool money can buy.",
-                "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=1280&q=85",
             },
         ],
     },
@@ -1395,7 +1395,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/steam-deck-2-handheld-pc-gaming-wars-1080p-120hz",
         "published": "2026-10-05T02:45:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&q=85",
         "summary": "Valve's next-gen custom AMD RDNA 4 APU brings 1080p 120Hz OLED VRR, SteamOS 4, and 7-hour battery endurance.",
         "slides": [
             {
@@ -1404,7 +1404,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🚀 2.5X GPU SPEED",
                 "bullet1": "Semi-custom 4nm AMD APU integrates 16 compute units with hardware ray tracing and FSR 4 machine-learning upscaling.",
                 "bullet2": "Runs Cyberpunk 2077 and Elden Ring locked at 60fps while consuming just 14 watts of total system power.",
-                "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&q=85",
             },
             {
                 "hook": "120Hz OLED VRR",
@@ -1412,7 +1412,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "✨ 120Hz OLED VRR",
                 "bullet1": "Native variable refresh rate from 30Hz to 120Hz completely eliminates screen tearing and frame pacing stutter.",
                 "bullet2": "1,000 nits HDR peak luminance makes vibrant gaming worlds explode with color and infinite contrast.",
-                "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1280&q=85",
             },
             {
                 "hook": "HALL EFFECT CONTROLS",
@@ -1420,7 +1420,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🕹️ ZERO STICK DRIFT",
                 "bullet1": "Hall Effect electromagnetic sensors measure position via magnetic fields, guaranteeing zero stick drift forever.",
                 "bullet2": "Dual haptic trackpads feature upgraded force sensors for flawless desktop mouse navigation and RTS gaming.",
-                "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&q=85",
             },
             {
                 "hook": "STEAMOS 4.0",
@@ -1428,7 +1428,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ INSTANT SUSPEND",
                 "bullet1": "Press the power button mid-game to instantly suspend play, drawing under 0.2W in standby over days.",
                 "bullet2": "Proton compatibility layer executes over 18,000 Windows titles with zero configuration required.",
-                "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=1280&q=85",
             },
             {
                 "hook": "HANDHELD VERDICT",
@@ -1436,7 +1436,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Valve continues to dominate the handheld PC revolution by pairing incredible hardware with flawless software design.",
                 "bullet2": "The Steam Deck 2 is the most liberating way to experience modern PC gaming anywhere in the world.",
-                "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&q=85",
             },
         ],
     },
@@ -1449,7 +1449,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/nintendo-switch-2-revealed-4k-dlss-hybrid-powerhouse",
         "published": "2026-10-05T02:30:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&q=85",
         "summary": "Custom Nvidia Tegra T239 silicon with hardware DLSS 3.5 frame reconstruction powers docked 4K Zelda and Mario worlds.",
         "slides": [
             {
@@ -1458,7 +1458,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🚀 NVIDIA T239 CHIP",
                 "bullet1": "Octa-core ARM Cortex-A78C CPU paired with Ampere architecture GPU featuring 1,536 CUDA cores.",
                 "bullet2": "Onboard Tensor cores execute hardware Deep Learning Super Sampling (DLSS), reconstructing crisp 4K from 1080p.",
-                "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&q=85",
             },
             {
                 "hook": "MAGNETIC JOY-CONS",
@@ -1466,7 +1466,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🧲 MAGNETIC JOY-CONS",
                 "bullet1": "High-strength electromagnets replace plastic slide rails, creating rock-solid unibody stability in handheld mode.",
                 "bullet2": "Secondary shoulder buttons feature optical scroll wheels for smooth weapon and item cycling.",
-                "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&q=85",
             },
             {
                 "hook": "BACKWARD COMPATIBLE",
@@ -1474,7 +1474,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔄 FULL COMPATIBILITY",
                 "bullet1": "Existing Switch game cartridges slot in directly, with enhanced patch updates unlocking 60fps and 1080p handheld play.",
                 "bullet2": "Nintendo Switch Online cloud saves sync automatically between old and new console hardware.",
-                "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1280&q=85",
             },
             {
                 "hook": "AUDIO & PORTS",
@@ -1482,7 +1482,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ DUAL USB-C PORTS",
                 "bullet1": "Top and bottom USB-C ports allow convenient charging while playing on tabletop kickstands or airplane trays.",
                 "bullet2": "256GB internal UFS 3.1 storage cuts game loading times by 75% compared to legacy MicroSD speeds.",
-                "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&q=85",
             },
             {
                 "hook": "NINTENDO VERDICT",
@@ -1490,7 +1490,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Nintendo has perfected the hybrid console concept without compromising on physical durability or family accessibility.",
                 "bullet2": "With 4K DLSS docked visuals and unmatched first-party gaming franchises, it will dominate global sales for years.",
-                "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1280&q=85",
             },
         ],
     },
@@ -1503,7 +1503,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/480hz-qd-oled-esports-displays-zero-ghosting",
         "published": "2026-10-05T02:15:00Z",
         "read_time": "40s",
-        "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1280&q=85",
         "summary": "Quantum Dot OLED pixels achieve sub-0.03 millisecond response times, creating the ultimate competitive gaming display.",
         "slides": [
             {
@@ -1512,7 +1512,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ 480Hz REFRESH",
                 "bullet1": "Renders a new frame every 2.08 milliseconds, giving competitive FPS players undeniable hit-registration reaction speed.",
                 "bullet2": "VESA ClearMR 13000 rating represents the highest tier of motion clarity ever tested by independent monitor labs.",
-                "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1280&q=85",
             },
             {
                 "hook": "0.03ms RESPONSE TIME",
@@ -1520,7 +1520,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🎯 0.03ms GtG",
                 "bullet1": "Self-emissive quantum dot pixels switch instantly with zero inverse ghosting, overshoot halos, or smearing.",
                 "bullet2": "Targets in Valorant, CS2, and Apex Legends remain razor-sharp even during high-velocity 180-degree mouse flicks.",
-                "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&q=85",
             },
             {
                 "hook": "QUANTUM DOT COLOR",
@@ -1528,7 +1528,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🎨 99.3% DCI-P3",
                 "bullet1": "Pure blue OLED layer excites red and green quantum dots, producing richer, more saturated primaries than white OLED.",
                 "bullet2": "Infinite contrast ratio makes flashbangs, muzzle flashes, and dark corridor shadows look strikingly realistic.",
-                "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1280&q=85",
             },
             {
                 "hook": "OLED CARE 3.0",
@@ -1536,7 +1536,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🛡️ ZERO BURN-IN FEAR",
                 "bullet1": "Multi-layer graphene thermal pad conducts heat silently without noisy internal fans, protecting organic pixels.",
                 "bullet2": "Pixel-shift algorithms and static logo luminance dimmers prevent HUD burn-in during 10-hour gaming marathons.",
-                "image": "https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&q=85",
             },
             {
                 "hook": "ESPORTS VERDICT",
@@ -1544,7 +1544,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "Once you experience 480Hz QD-OLED motion clarity, traditional 144Hz and 240Hz monitors feel hopelessly sluggish.",
                 "bullet2": "It is the single biggest hardware upgrade a competitive tournament player can make to their setup.",
-                "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&q=85",
             },
         ],
     },
@@ -1557,7 +1557,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/playstation-portal-pro-dualsense-edge-2-hall-effect",
         "published": "2026-10-05T02:00:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=1280&q=85",
         "summary": "Direct console-to-handheld Wi-Fi 7 streaming eliminates router bottlenecks, bringing 120Hz HDR and DualSense Edge triggers.",
         "slides": [
             {
@@ -1566,7 +1566,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ WI-FI 7 DIRECT",
                 "bullet1": "Connects peer-to-peer directly to the PS5 console over 6GHz MLO channels, eliminating home network congestion.",
                 "bullet2": "Delivers native 1080p 120fps video streams with sub-5 millisecond input latency indistinguishable from HDMI cables.",
-                "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=1280&q=85",
             },
             {
                 "hook": "DUALSENSE EDGE 2",
@@ -1574,7 +1574,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🕹️ DUALSENSE EDGE",
                 "bullet1": "Full haptic feedback and adaptive triggers match the console controller 1:1, including tension resistance in bows and guns.",
                 "bullet2": "Modular magnetic back paddles let you jump and reload in Call of Duty without taking thumbs off the aiming sticks.",
-                "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&q=85",
             },
             {
                 "hook": "OLED HDR DISPLAY",
@@ -1582,7 +1582,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "✨ PURE BLACK OLED",
                 "bullet1": "Individual OLED pixel illumination makes dark atmospheric games like Elden Ring and Silent Hill look incredible.",
                 "bullet2": "1,000 nits peak HDR luminance brings vibrant sparks and daylight highlights to life in handheld play.",
-                "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&q=85",
             },
             {
                 "hook": "CLOUD STREAMING",
@@ -1590,7 +1590,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "☁️ PLAYSTATION CLOUD",
                 "bullet1": "Stream hundreds of PS5 and PS4 games directly from Sony cloud servers anywhere with high-speed internet.",
                 "bullet2": "Extended 7-hour battery life allows comfortable handheld sessions on long flights or daily commutes.",
-                "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1280&q=85",
             },
             {
                 "hook": "PORTAL VERDICT",
@@ -1598,7 +1598,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "With OLED 120Hz and Hall Effect joysticks, Sony has created the ultimate companion hardware for PS5 owners.",
                 "bullet2": "It frees the console from the living room television without compromising on premium DualSense immersion.",
-                "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=1280&q=85",
             },
         ],
     },
@@ -1611,7 +1611,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
         "link": f"{SITE_URL}/stories/xbox-next-gen-hybrid-console-windows-pc-bridge",
         "published": "2026-10-05T01:45:00Z",
         "read_time": "45s",
-        "image": "https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=720&q=80",
+        "image": "https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&q=85",
         "summary": "Microsoft unifies Xbox OS and Windows 12, allowing players to install Steam, Epic Games, and Game Pass on a living room console.",
         "slides": [
             {
@@ -1620,7 +1620,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🖥️ STEAM ON XBOX",
                 "bullet1": "Runs modified Windows 12 gaming edition, letting users install Steam, Battle.net, and GOG directly onto the console.",
                 "bullet2": "Eliminates platform exclusives, uniting your entire PC and Xbox digital game library under one hardware box.",
-                "image": "https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&q=85",
             },
             {
                 "hook": "NEXT-GEN SILICON",
@@ -1628,7 +1628,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🚀 30 TFLOPS COMPUTE",
                 "bullet1": "Custom 3nm APU delivers full 4K 120fps ray-traced visuals with Microsoft Neural Super Resolution (DirectSR).",
                 "bullet2": "Full hardware support for path tracing and neural physics transforms living room visual fidelity.",
-                "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1280&q=85",
             },
             {
                 "hook": "CONTROLLER INNOVATION",
@@ -1636,7 +1636,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ DIRECT-TO-CLOUD",
                 "bullet1": "Controller connects directly to Xbox cloud servers via Wi-Fi for near-zero latency when streaming games.",
                 "bullet2": "Dual precision voice-coil actuators deliver nuanced haptic textures matching surface gravel, rain, and recoil.",
-                "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&q=85",
             },
             {
                 "hook": "HYBRID ECOSYSTEM",
@@ -1644,7 +1644,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "🔄 SEAMLESS CROSS-PLAY",
                 "bullet1": "Pick up your RPG save file on the TV, continue playing on your handheld on the train, and finish on your PC desk.",
                 "bullet2": "One purchase unlocks licenses across Windows and Xbox without double-charging players.",
-                "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=1280&q=85",
             },
             {
                 "hook": "REDMOND VERDICT",
@@ -1652,7 +1652,7 @@ CURATED_VIRAL_STORIES: List[Dict[str, Any]] = [
                 "badge": "⚡ TECHPULSE VERDICT",
                 "bullet1": "By opening the console to open PC stores and Windows ecosystems, Microsoft has broken the traditional walled garden.",
                 "bullet2": "It is the most consumer-friendly strategy in modern console gaming history.",
-                "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=720&q=80",
+                "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&q=85",
             },
         ],
     },

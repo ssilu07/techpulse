@@ -27,26 +27,37 @@ def find_all_story_files(dist_dir: Path) -> List[Path]:
     return sorted(list(stories_dir.glob("*/index.html")))
 
 
-def run_batch_amphtml_validator(file_paths: List[Path]) -> Tuple[bool, str]:
+def run_batch_amphtml_validator(file_paths: List[Path], chunk_size: int = 20) -> Tuple[bool, str]:
     """
     Executes official amphtml-validator CLI in batch mode via npx.
+    Chunks paths to avoid Windows command-line character length limits (8191 chars).
     """
     npx_bin = shutil.which("npx.cmd") or shutil.which("npx") or "npx"
-    str_paths = [str(p.resolve()) for p in file_paths]
-    cmd = [npx_bin, "--yes", "amphtml-validator", "--format", "text", *str_paths]
+    all_outputs = []
+    all_passed = True
 
-    try:
-        result = subprocess.run(
-            cmd,
-            capture_output=True,
-            text=True,
-            timeout=60,
-        )
-        output = (result.stdout + "\n" + result.stderr).strip()
-        passed = (result.returncode == 0) and ("FAIL" not in output)
-        return passed, output
-    except Exception as e:
-        return False, f"Validator invocation error: {e}"
+    for i in range(0, len(file_paths), chunk_size):
+        chunk = file_paths[i:i + chunk_size]
+        str_paths = [str(p.resolve()) for p in chunk]
+        cmd = [npx_bin, "--yes", "amphtml-validator", "--format", "text", *str_paths]
+
+        try:
+            result = subprocess.run(
+                cmd,
+                capture_output=True,
+                text=True,
+                timeout=60,
+            )
+            chunk_output = (result.stdout + "\n" + result.stderr).strip()
+            all_outputs.append(chunk_output)
+            if result.returncode != 0 or "FAIL" in chunk_output:
+                all_passed = False
+        except Exception as e:
+            all_outputs.append(f"Validator invocation error: {e}")
+            all_passed = False
+
+    combined_output = "\n".join(all_outputs)
+    return all_passed, combined_output
 
 
 def run_structural_rule_checks(file_path: Path) -> Tuple[bool, List[str]]:
