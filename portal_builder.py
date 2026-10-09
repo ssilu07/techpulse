@@ -164,6 +164,7 @@ def build_portal_html(stories: List[Dict[str, Any]], max_cards: int = 48) -> str
   <title>{SITE_NAME} — {SITE_TAGLINE}</title>
   <meta name="description" content="{SITE_DESCRIPTION}">
   <link rel="canonical" href="{SITE_URL}/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
   <!-- Google Search Console Verification -->
   <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
@@ -371,6 +372,7 @@ def build_legal_page_html(
   <title>{title} | {SITE_NAME}</title>
   <meta name="description" content="{description}">
   <link rel="canonical" href="{canonical_url}">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
   <!-- Google Search Console Verification -->
   <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
