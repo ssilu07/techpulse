@@ -32,6 +32,46 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/my-brief-romance-with-an-ai-bird-feeder/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>My brief romance with an AI bird feeder</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/why-pixel-search-solves-the-productivity-problem-for-older-pixels/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&amp;q=85</image:loc>
+      <image:title>Why Pixel Search solves the productivity problem for older Pixels</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/i-flipped-one-overlooked-pixel-setting-my-daily-battery-anxiety-comple/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&amp;q=85</image:loc>
+      <image:title>I flipped one overlooked Pixel setting; my daily battery anxiety completely disappeared</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/i-switched-to-the-galaxy-s26-ultra-but-its-biggest-display-upgrade-com/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&amp;q=85</image:loc>
+      <image:title>I switched to the Galaxy S26 Ultra, but its biggest display upgrade comes with a major catch</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://techpulse-gadget.vercel.app/stories/decade-old-ram-is-making-a-comeback/</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
