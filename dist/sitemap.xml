@@ -32,6 +32,46 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/what-to-expect-from-apples-welcome-home-event/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&amp;q=85</image:loc>
+      <image:title>What to expect from Apple&apos;s &apos;Welcome Home&apos; event</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/why-the-leappad-couldnt-survive-the-ipad/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&amp;q=85</image:loc>
+      <image:title>Why the LeapPad couldn&apos;t survive the iPad</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-n/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
+      <image:title>Can the AI industry persuade data center opponents by getting rid of NDAs?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>TechCrunch Mobility: A roadblock clears for self-driving trucks</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://techpulse-gadget.vercel.app/stories/how-to-enable-live-activities-on-iphone-and-carplay/</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>daily</changefreq>
