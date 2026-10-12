@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://techpulse-gadget.vercel.app/sitemap.xml
+Sitemap: https://techseconds.com/sitemap.xml
