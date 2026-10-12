@@ -3,33 +3,73 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://techpulse-gadget.vercel.app/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/about/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/privacy/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/terms/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/contact/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-k/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
+      <image:title>The founder&apos;s guide to TechCrunch Disrupt 2026: Everything you need to know</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/openai-dot-vs-meta-muse-how-do-these-ai-agents-compare/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
+      <image:title>OpenAI Dot vs. Meta Muse: How do these AI agents compare?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/the-reason-the-xbox-series-s-is-so-much-cheaper-than-the-series-x/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&amp;q=85</image:loc>
+      <image:title>The reason the Xbox Series S is so much cheaper than the Series X</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techpulse-gadget.vercel.app/stories/why-japan-said-goodbye-to-traditional-flip-phones/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
+      <image:title>Why Japan said goodbye to traditional flip phones</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/a-college-in-illinois-tried-to-cancel-its-flock-contact-and-it-refused/</loc>
@@ -53,7 +93,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/will-the-homeview-be-apples-first-smart-home-success/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -63,7 +103,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/aaron-sorkins-social-reckoning-is-off-to-a-weak-start/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -93,7 +133,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-n/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -103,7 +143,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -113,7 +153,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/how-to-enable-live-activities-on-iphone-and-carplay/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -123,7 +163,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/how-to-use-the-parental-controls-on-ios-27/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -133,7 +173,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/how-to-reduce-mobile-data-usage-on-your-iphone/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -153,7 +193,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-p/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -163,7 +203,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/stop-doing-manual-phone-tasks-this-android-automation-workflow-gave-me/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -173,7 +213,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/7-things-you-should-know-about-androids-confusing-new-sideloading-limi/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -213,7 +253,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/cloudflare-acquires-deno-to-improve-its-workers-programming-model/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -233,7 +273,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/why-pixel-search-solves-the-productivity-problem-for-older-pixels/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -243,7 +283,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/i-flipped-one-overlooked-pixel-setting-my-daily-battery-anxiety-comple/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -253,7 +293,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/i-switched-to-the-galaxy-s26-ultra-but-its-biggest-display-upgrade-com/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -273,7 +313,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-dela/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -283,7 +323,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-inte/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -293,7 +333,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/long-live-the-mechanical-keyboard/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -333,7 +373,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/lumenus-helps-automate-tedious-paperwork-in-times-of-grief/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -373,7 +413,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/beyond-techcrunch-disrupt-2026-the-side-events-parties-networking-you/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -413,7 +453,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detaile/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -453,7 +493,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chil/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -493,7 +533,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/asos-confirms-breach-of-customer-data-after-hackers-send-rogue-app-not/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -503,7 +543,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -513,7 +553,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/nous-research-confirms-it-hit-15b-valuation-launches-ai-agents-for-bus/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -523,7 +563,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/i-finally-customized-these-android-auto-settings-my-daily-commute-will/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -533,7 +573,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/i-disabled-youtube-shorts-now-i-feel-like-i-can-breathe-again/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -573,7 +613,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/while-vcs-crowd-into-san-francisco-endeavor-catalyst-raises-320m-for-f/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -613,7 +653,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/x-expands-its-gametime-sports-hub-beyond-the-nfl-starting-with-mlb/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -633,7 +673,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/spotify-expands-audiobooks-to-over-180-markets/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -643,7 +683,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/apple-tvs-f1-coverage-will-now-support-dolby-atmos/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -653,7 +693,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/how-long-have-wireless-gaming-controllers-been-around-for/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -673,7 +713,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-insti/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -683,7 +723,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/how-to-help-stop-spam-calls-on-iphone-and-android/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -693,7 +733,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/why-do-some-pcs-have-two-ethernet-ports/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -733,7 +773,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -773,7 +813,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/mirror-particle-is-building-a-world-model-of-human-behavior/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -783,7 +823,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/xbox-elite-controller-3-specs-leak-via-xboxs-own-design-lab/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -793,7 +833,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/mini-pc-vs-laptop-which-is-better-for-your-home-office/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -813,7 +853,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/reflection-debuts-beam-an-open-weight-ai-model-to-rival-chinese-models/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -843,7 +883,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/openai-will-start-watermarking-chatgpts-text-in-the-eu/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -853,7 +893,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/etched-fields-funding-offers-at-40b-valuation-sources-say/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -863,7 +903,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/common-mistakes-you-should-avoid-when-using-foldable-phones/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -873,7 +913,7 @@
   </url>
   <url>
     <loc>https://techpulse-gadget.vercel.app/stories/can-a-macbook-handle-heavy-games-heres-what-you-should-know/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
