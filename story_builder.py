@@ -91,7 +91,7 @@ def build_story_html(story: Dict[str, Any]) -> str:
     """
     Renders an AMP Web Story HTML document according to AMP Story 1.0 specification.
     """
-    title = story.get("title", "TechPulse Story")
+    title = story.get("title", f"{SITE_NAME} Story")
     slug = story.get("slug", "story")
     summary = story.get("summary", "")
     category_id = story.get("category_id", "future-tech")
@@ -145,7 +145,7 @@ def build_story_html(story: Dict[str, Any]) -> str:
         slide_title = slide.get("title", "")
         escaped_title = html.escape(slide_title, quote=True)
         slide_hook = slide.get("hook", "")
-        slide_badge = slide.get("badge", "⚡ TECHPULSE")
+        slide_badge = slide.get("badge", f"⚡ {SITE_NAME.upper()}")
         bullet1 = slide.get("bullet1", "")
         bullet2 = slide.get("bullet2", "")
         slide_img = slide.get("image", poster_image)

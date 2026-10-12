@@ -105,7 +105,7 @@ Format your response as a valid JSON array of exactly 5 slide objects, with NO m
 Each object must contain these string keys:
 - "hook": Short uppercase curiosity tag (e.g. "THE BREAKTHROUGH", "CHIP ARCHITECTURE")
 - "title": Punchy slide headline (under 8 words, bold)
-- "badge": Vibrant cyberpunk badge (e.g. "⚡ 3.4X FASTER", "🔥 ZERO LATENCY", "🔍 200MP OPTICS", "⚡ TECHPULSE VERDICT")
+- "badge": Vibrant cyberpunk badge (e.g. "⚡ 3.4X FASTER", "🔥 ZERO LATENCY", "🔍 200MP OPTICS", "⚡ TECHSECONDS VERDICT")
 - "bullet1": First takeaway sentence (informative, snappiest tech facts)
 - "bullet2": Second takeaway sentence (forward-looking or actionable)
 """

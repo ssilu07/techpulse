@@ -37,7 +37,7 @@ jobs:
       - name: Run Quality-First Static Orchestrator & AMP Validator
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          TECHPULSE_NAME: ${{ vars.TECHPULSE_NAME || 'TechPulse' }}
+          TECHPULSE_NAME: ${{ vars.TECHSECONDS_NAME || vars.TECHPULSE_NAME || 'TechSeconds' }}
           SITE_URL: ${{ vars.SITE_URL || 'https://techseconds.com' }}
         run: |
           python fetch_and_generate.py --max-new 4

@@ -17,9 +17,9 @@ STATIC_DIR = BASE_DIR / "static"
 TEMPLATES_DIR = BASE_DIR / "templates"
 
 # Site Identity & Customization
-SITE_NAME = os.environ.get("TECHPULSE_NAME", "TechPulse")
+SITE_NAME = os.environ.get("TECHSECONDS_NAME", os.environ.get("TECHPULSE_NAME", "TechSeconds"))
 SITE_TAGLINE = os.environ.get(
-    "TECHPULSE_TAGLINE", "Autonomous AMP Web Stories & Cutting-Edge Tech Portal"
+    "TECHSECONDS_TAGLINE", os.environ.get("TECHPULSE_TAGLINE", "Autonomous AMP Web Stories & Cutting-Edge Tech Portal")
 )
 SITE_DESCRIPTION = (
     f"{SITE_NAME} is an autonomous, lightning-fast Google AMP Web Stories platform "

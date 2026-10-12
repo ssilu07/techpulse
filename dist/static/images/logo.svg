@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" width="340" height="80" fill="none">
   <defs>
     <linearGradient id="neonCyanEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#06b6d4" />
@@ -20,8 +20,8 @@
   <polygon points="42,18 26,44 38,44 34,64 54,36 42,36" fill="url(#neonCyanEmerald)" filter="url(#neonGlow)" />
   
   <!-- Typography -->
-  <text x="82" y="46" font-family="'Outfit', 'Space Grotesk', -apple-system, sans-serif" font-weight="900" font-size="28" fill="#ffffff" letter-spacing="-0.5">
-    TECH<tspan fill="url(#neonCyanEmerald)">PULSE</tspan>
+  <text x="82" y="46" font-family="'Outfit', 'Space Grotesk', -apple-system, sans-serif" font-weight="900" font-size="27" fill="#ffffff" letter-spacing="-0.5">
+    TECH<tspan fill="url(#neonCyanEmerald)">SECONDS</tspan>
   </text>
   
   <!-- Autonomous Indicator -->
