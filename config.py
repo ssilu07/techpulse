@@ -38,6 +38,9 @@ GOOGLE_SITE_VERIFICATION = os.environ.get(
     "GOOGLE_SITE_VERIFICATION", "r6BhuS0PSzOHjpoPxoiDK9h_gFY2g_OoHPXCkz6MLoc"
 )
 
+# Google Analytics 4 (GA4) Measurement ID
+GA_MEASUREMENT_ID = os.environ.get("GA_MEASUREMENT_ID", "G-LHGLZ8Q53T")
+
 # Publisher Information for AMP & Schema
 PUBLISHER_NAME = SITE_NAME
 PUBLISHER_LOGO_URL = f"{SITE_URL}/static/images/publisher-logo.png"

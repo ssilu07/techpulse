@@ -22,6 +22,7 @@ from config import (
     PUBLISHER_LOGO_URL,
     CATEGORIES,
     GOOGLE_SITE_VERIFICATION,
+    GA_MEASUREMENT_ID,
     get_category_fallback_image,
 )
 
@@ -172,6 +173,15 @@ def build_portal_html(stories: List[Dict[str, Any]], max_cards: Optional[int] = 
   <!-- Google Search Console Verification -->
   <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
   <meta name="google-site-verification" content="XMDt3lDT2kpdjLlHlxQCSn5EcJcH2yw8f6nLjhLgN7g">
+
+  <!-- Google Analytics 4 (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={GA_MEASUREMENT_ID}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+    gtag('config', '{GA_MEASUREMENT_ID}');
+  </script>
 
   <!-- OpenGraph & Twitter Cards -->
   <meta property="og:title" content="{SITE_NAME} — {SITE_TAGLINE}">
@@ -381,6 +391,15 @@ def build_legal_page_html(
   <!-- Google Search Console Verification -->
   <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
   <meta name="google-site-verification" content="XMDt3lDT2kpdjLlHlxQCSn5EcJcH2yw8f6nLjhLgN7g">
+
+  <!-- Google Analytics 4 (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={GA_MEASUREMENT_ID}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+    gtag('config', '{GA_MEASUREMENT_ID}');
+  </script>
 
   <!-- OpenGraph & Twitter Cards -->
   <meta property="og:title" content="{title} | {SITE_NAME}">

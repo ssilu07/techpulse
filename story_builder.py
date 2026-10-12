@@ -18,6 +18,7 @@ from config import (
     PUBLISHER_NAME,
     PUBLISHER_LOGO_URL,
     GOOGLE_SITE_VERIFICATION,
+    GA_MEASUREMENT_ID,
     get_category_fallback_image,
 )
 
@@ -234,6 +235,7 @@ def build_story_html(story: Dict[str, Any]) -> str:
     <!-- AMP Scripts -->
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -365,6 +367,19 @@ def build_story_html(story: Dict[str, Any]) -> str:
       poster-portrait-src="{poster_variants['poster_portrait']}"
       poster-square-src="{poster_variants['poster_square']}"
       poster-landscape-src="{poster_variants['poster_landscape']}">
+      <!-- Google Analytics 4 (GA4) -->
+      <amp-analytics type="gtag">
+        <script type="application/json">
+        {{
+          "vars": {{
+            "gtag_id": "{GA_MEASUREMENT_ID}",
+            "config": {{
+              "{GA_MEASUREMENT_ID}": {{ "groups": "default" }}
+            }}
+          }}
+        }}
+        </script>
+      </amp-analytics>
 {all_slides_markup}
     </amp-story>
   </body>

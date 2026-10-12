@@ -39,6 +39,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TECHPULSE_NAME: ${{ vars.TECHSECONDS_NAME || vars.TECHPULSE_NAME || 'TechSeconds' }}
           SITE_URL: ${{ vars.SITE_URL || 'https://techseconds.com' }}
+          GA_MEASUREMENT_ID: ${{ vars.GA_MEASUREMENT_ID || 'G-LHGLZ8Q53T' }}
         run: |
           python fetch_and_generate.py --max-new 4
 

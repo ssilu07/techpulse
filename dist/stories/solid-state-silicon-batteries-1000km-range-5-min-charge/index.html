@@ -31,6 +31,7 @@
     <!-- AMP Scripts -->
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -162,6 +163,19 @@
       poster-portrait-src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1200&h=1600&fit=crop&q=85"
       poster-square-src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1200&h=1200&fit=crop&q=85"
       poster-landscape-src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1200&h=900&fit=crop&q=85">
+      <!-- Google Analytics 4 (GA4) -->
+      <amp-analytics type="gtag">
+        <script type="application/json">
+        {
+          "vars": {
+            "gtag_id": "G-LHGLZ8Q53T",
+            "config": {
+              "G-LHGLZ8Q53T": { "groups": "default" }
+            }
+          }
+        }
+        </script>
+      </amp-analytics>
 
       <amp-story-page id="page-1">
         <amp-story-grid-layer template="fill">
