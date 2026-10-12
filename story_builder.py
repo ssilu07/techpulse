@@ -210,6 +210,7 @@ def build_story_html(story: Dict[str, Any]) -> str:
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
+    <meta name="google-site-verification" content="XMDt3lDT2kpdjLlHlxQCSn5EcJcH2yw8f6nLjhLgN7g">
     
     <!-- OpenGraph & Twitter Meta -->
     <meta property="og:title" content="{escaped_story_title}">

@@ -35,7 +35,7 @@ CONTACT_EMAIL = os.environ.get("CONTACT_EMAIL", "sumits7196@gmail.com")
 
 # Google Search Console Verification Tag
 GOOGLE_SITE_VERIFICATION = os.environ.get(
-    "GOOGLE_SITE_VERIFICATION", "XMDt3lDT2kpdjLlHlxQCSn5EcJcH2yw8f6nLjhLgN7g"
+    "GOOGLE_SITE_VERIFICATION", "r6BhuS0PSzOHjpoPxoiDK9h_gFY2g_OoHPXCkz6MLoc"
 )
 
 # Publisher Information for AMP & Schema

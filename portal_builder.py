@@ -171,6 +171,7 @@ def build_portal_html(stories: List[Dict[str, Any]], max_cards: Optional[int] = 
 
   <!-- Google Search Console Verification -->
   <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
+  <meta name="google-site-verification" content="XMDt3lDT2kpdjLlHlxQCSn5EcJcH2yw8f6nLjhLgN7g">
 
   <!-- OpenGraph & Twitter Cards -->
   <meta property="og:title" content="{SITE_NAME} — {SITE_TAGLINE}">
@@ -379,6 +380,7 @@ def build_legal_page_html(
 
   <!-- Google Search Console Verification -->
   <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
+  <meta name="google-site-verification" content="XMDt3lDT2kpdjLlHlxQCSn5EcJcH2yw8f6nLjhLgN7g">
 
   <!-- OpenGraph & Twitter Cards -->
   <meta property="og:title" content="{title} | {SITE_NAME}">
