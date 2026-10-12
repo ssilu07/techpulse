@@ -17,6 +17,7 @@ from config import (
     VERIFIED_TECH_IMAGES,
     VERIFIED_CATEGORY_IMAGES,
 )
+from story_builder import optimize_seo_title
 
 
 def get_distinct_slide_images(category_id: str, primary_image: str, index: int) -> List[str]:
@@ -48,11 +49,16 @@ def synthesize_story(article: Dict[str, Any], index: int = 0) -> Dict[str, Any]:
     If pre-crafted slides already exist, returns them.
     Otherwise attempts Gemini API, falling back to deterministic heuristic rules.
     """
+    title = article.get("title", "Tech Breakthrough")
+    slug = article.get("slug", "")
+
+    # Always ensure a high-CTR, Google SERP-compliant title is attached
+    if not article.get("seo_title"):
+        article["seo_title"] = optimize_seo_title(title, slug)
+
     # 1. Check if the article already has high-quality curated slides
     if "slides" in article and len(article["slides"]) == 5:
         return article
-
-    title = article.get("title", "Tech Breakthrough")
     summary = article.get("summary", "")
     category_id = article.get("category_id", "future-tech")
     primary_image = article.get("image") or VERIFIED_TECH_IMAGES[index % len(VERIFIED_TECH_IMAGES)]

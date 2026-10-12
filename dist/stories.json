@@ -1,5 +1,61 @@
 [
   {
+    "title": "One of the biggest issues in Googlebooks is finally fixed",
+    "slug": "one-of-the-biggest-issues-in-googlebooks-is-finally-fixed",
+    "category_id": "smartphones",
+    "card_hook": "📱 FLAGSHIP LEAK",
+    "source": "Android Police",
+    "link": "https://www.androidpolice.com/one-of-the-biggest-issues-in-googlebooks-is-finally-fixed/",
+    "published": "Mon, 12 Oct 2026 06:03:10 GMT",
+    "read_time": "45s",
+    "summary": "Better Together features finally work with Samsung Galaxy phones",
+    "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&q=85",
+    "seo_title": "One of the biggest issues in Googlebooks is finally",
+    "slides": [
+      {
+        "hook": "HARDWARE ANNOUNCEMENT",
+        "title": "One of the biggest issues in Googlebooks is finally fixed",
+        "badge": "📱 MOBILE SILICON",
+        "bullet1": "Better Together features finally work with Samsung Galaxy phones",
+        "bullet2": "A major development for early adopters and tech professionals.",
+        "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&q=85"
+      },
+      {
+        "hook": "CAMERA & SENSORS",
+        "title": "Core Technical Breakthrough",
+        "badge": "🔍 ADVANCED OPTICS",
+        "bullet1": "Technical deep-dive reveals how One of the biggest issues in Googlebooks operates.",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&q=85"
+      },
+      {
+        "hook": "BATTERY & CHARGING",
+        "title": "Key Specifications & Capabilities",
+        "badge": "⚡ ALL-DAY ENDURANCE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&q=85"
+      },
+      {
+        "hook": "FLAGSHIP BENCHMARKS",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🚀 FLUID PERFORMANCE",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Smartphones & Mobile Tech worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine"
+  },
+  {
     "title": "The founder's guide to TechCrunch Disrupt 2026: Everything you need to know",
     "slug": "the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-k",
     "category_id": "ai-tools",
@@ -52,7 +108,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "TechCrunch Disrupt 2026: Everything you need to know"
   },
   {
     "title": "OpenAI Dot vs. Meta Muse: How do these AI agents compare?",
@@ -107,7 +164,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "OpenAI Dot vs. Meta Muse"
   },
   {
     "title": "The reason the Xbox Series S is so much cheaper than the Series X",
@@ -162,7 +220,8 @@
         "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "The reason the Xbox Series S is so much cheaper"
   },
   {
     "title": "Why Japan said goodbye to traditional flip phones",
@@ -217,7 +276,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Why Japan said goodbye to traditional flip phones"
   },
   {
     "title": "A college in Illinois tried to cancel its Flock contact and it refused",
@@ -272,7 +332,8 @@
         "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "A college in Illinois tried to cancel its Flock"
   },
   {
     "title": "The new Apple TV could have a built-in mic and a remote with a speaker",
@@ -327,7 +388,8 @@
         "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "The new Apple TV could have a built-in mic"
   },
   {
     "title": "Will the HomeView be Apple's first smart home success?",
@@ -382,7 +444,8 @@
         "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Will the HomeView be Apple's first smart home success?"
   },
   {
     "title": "Aaron Sorkin's 'Social Reckoning' is off to a weak start",
@@ -437,7 +500,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Aaron Sorkin's 'Social Reckoning' is off to a weak start"
   },
   {
     "title": "What to expect from Apple's 'Welcome Home' event",
@@ -492,7 +556,8 @@
         "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "What to expect from Apple's 'Welcome Home' event"
   },
   {
     "title": "Why the LeapPad couldn't survive the iPad",
@@ -547,7 +612,8 @@
         "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Why the LeapPad couldn't survive the iPad"
   },
   {
     "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
@@ -602,7 +668,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Can the AI industry persuade data center opponents"
   },
   {
     "title": "TechCrunch Mobility: A roadblock clears for self-driving trucks",
@@ -657,7 +724,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "A roadblock clears for self-driving trucks"
   },
   {
     "title": "How to enable Live Activities on iPhone and CarPlay",
@@ -712,7 +780,8 @@
         "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "How to enable Live Activities on iPhone and CarPlay"
   },
   {
     "title": "How to use the parental controls on iOS 27",
@@ -767,7 +836,8 @@
         "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "How to use the parental controls on iOS 27"
   },
   {
     "title": "How to reduce mobile data usage on your iPhone",
@@ -822,7 +892,8 @@
         "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "How to reduce mobile data usage on your iPhone"
   },
   {
     "title": "Satya Nadella says we should assume all AI models are 'compromised'",
@@ -877,7 +948,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Satya Nadella says we should assume all AI models are"
   },
   {
     "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
@@ -932,7 +1004,8 @@
         "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Apple Inks Big AI Tech Deal: Key Details & Strategy"
   },
   {
     "title": "Stop doing manual phone tasks: This Android automation workflow gave me hours back",
@@ -987,7 +1060,8 @@
         "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Stop doing manual phone tasks"
   },
   {
     "title": "7 things you should know about Android's confusing new sideloading limitations",
@@ -1042,7 +1116,8 @@
         "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "7 things you should know about Android's confusing new"
   },
   {
     "title": "Ledger wallet tampering suspected after reports of crypto thefts",
@@ -1097,7 +1172,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Ledger wallet tampering suspected after reports"
   },
   {
     "title": "Will Warner Bros. kill Skydance - or will David Ellison kill Warner Bros?",
@@ -1152,7 +1228,8 @@
         "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Will Warner Bros. kill Skydance - or will David"
   },
   {
     "title": "LG's RGB LED TV is good for certain situations, but an OLED is better",
@@ -1207,7 +1284,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "LG's RGB LED TV is good for certain situations, but"
   },
   {
     "title": "Cloudflare acquires Deno to improve its Workers programming model",
@@ -1262,7 +1340,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Cloudflare acquires Deno to improve its Workers"
   },
   {
     "title": "My brief romance with an AI bird feeder",
@@ -1317,7 +1396,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "My brief romance with an AI bird feeder"
   },
   {
     "title": "Why Pixel Search solves the productivity problem for older Pixels",
@@ -1372,7 +1452,8 @@
         "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Why Pixel Search solves the productivity problem"
   },
   {
     "title": "I flipped one overlooked Pixel setting; my daily battery anxiety completely disappeared",
@@ -1427,7 +1508,8 @@
         "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "I flipped one overlooked Pixel setting; my daily"
   },
   {
     "title": "I switched to the Galaxy S26 Ultra, but its biggest display upgrade comes with a major catch",
@@ -1482,7 +1564,8 @@
         "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "I switched to the Galaxy S26 Ultra, but its biggest"
   },
   {
     "title": "Decade-old RAM is making a comeback",
@@ -1537,7 +1620,8 @@
         "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Decade-old RAM is making a comeback"
   },
   {
     "title": "Elon Musk intensifies attack on Ambani over Starlink India launch delay",
@@ -1592,7 +1676,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Elon Musk intensifies attack on Ambani over Starlink"
   },
   {
     "title": "Anthropic can't reliably control its AI agents. It's cutting off its internal evals from the live internet instead",
@@ -1647,7 +1732,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Anthropic can't reliably control its AI agents. It's"
   },
   {
     "title": "Long live the mechanical keyboard",
@@ -1702,7 +1788,8 @@
         "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Long live the mechanical keyboard"
   },
   {
     "title": "'Pure insanity': Mathematicians will need years to make sense of OpenAI's latest drop",
@@ -1757,7 +1844,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "OpenAI's Math Proof Stuns Top Researchers: Full Details"
   },
   {
     "title": "Brendan Carr says he'll let Pete Hegseth decide whether TV networks can air the public execution",
@@ -1812,7 +1900,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Brendan Carr says he'll let Pete Hegseth decide"
   },
   {
     "title": "Nikon microscopic video competition winner disqualified for using generative AI",
@@ -1867,7 +1956,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Why Nikon Disqualified Its AI Video Winner: Shocking Truth"
   },
   {
     "title": "LumenUs helps automate tedious paperwork in times of grief",
@@ -1922,7 +2012,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "LumenUs helps automate tedious paperwork in times"
   },
   {
     "title": "Trump's attempt to rename AI is looking awfully artificial",
@@ -1977,7 +2068,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Trump's attempt to rename AI is looking awfully"
   },
   {
     "title": "Instinct was the buzziest AI agent around - can it survive Muse?",
@@ -2032,7 +2124,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Instinct was the buzziest AI agent around - can"
   },
   {
     "title": "A week with Googlebooks: four notes from our testing so far",
@@ -2087,7 +2180,8 @@
         "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "A week with Googlebooks"
   },
   {
     "title": "Beyond TechCrunch Disrupt 2026: The Side Events, Parties & Networking You Can't Miss",
@@ -2142,7 +2236,8 @@
         "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Beyond TechCrunch Disrupt 2026"
   },
   {
     "title": "Anthropic launches free AI security scans for open-source projects",
@@ -2197,7 +2292,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Anthropic launches free AI security scans"
   },
   {
     "title": "SpaceX announces plan to become a 'major mobile carrier'",
@@ -2252,7 +2348,8 @@
         "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "SpaceX's Plan to Become a Major Mobile Carrier: Details"
   },
   {
     "title": "AMD will bring FSR 4 to handhelds by the end of 2026",
@@ -2307,7 +2404,8 @@
         "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "AMD FSR 4 Coming to Handhelds by 2026: What to Expect"
   },
   {
     "title": "Pretend you're sitting at Elizabeth Holmes' desk on this weirdly detailed website",
@@ -2362,7 +2460,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Pretend you're sitting at Elizabeth Holmes' desk"
   },
   {
     "title": "Apple will reportedly debut its first touchscreen MacBook in three weeks",
@@ -2417,7 +2516,8 @@
         "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Apple will reportedly debut its first touchscreen"
   },
   {
     "title": "California is trying to shut down robot vs. human cage matches",
@@ -2472,7 +2572,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "California is trying to shut down robot vs. human cage"
   },
   {
     "title": "ICE detainees in Georgia used the facility's video calling software to expose the conditions inside",
@@ -2527,7 +2628,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "ICE detainees in Georgia used the facility's video"
   },
   {
     "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
@@ -2582,7 +2684,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Fired OpenAI safety researchers dispute misconduct"
   },
   {
     "title": "The Retro Song Bird plays just the music from your favorite Game Boy cartridges",
@@ -2637,7 +2740,8 @@
         "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "The Retro Song Bird plays just the music from your"
   },
   {
     "title": "Google is launching a one-stop Gemini agent for your work tasks",
@@ -2692,7 +2796,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Google Gemini Work Agent: One-Stop Autonomous Assistant"
   },
   {
     "title": "Atari is bringing back one of its earliest 8-bit home computers",
@@ -2747,7 +2852,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Atari is bringing back one of its earliest 8-bit home"
   },
   {
     "title": "Asos confirms breach of customer data after hackers send rogue app notification",
@@ -2802,7 +2908,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "ASOS Confirms Major Data Breach: Rogue App Alerts Sent"
   },
   {
     "title": "Robot data startup Mecka AI nabs $60M from Sequoia",
@@ -2857,7 +2964,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Robot data startup Mecka AI nabs $60M from Sequoia"
   },
   {
     "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
@@ -2912,7 +3020,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Nous Research Hits $1.5B Valuation: New AI Agents Live"
   },
   {
     "title": "I finally customized these Android Auto settings; my daily commute will never be the same",
@@ -2967,7 +3076,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "I finally customized these Android Auto settings; my"
   },
   {
     "title": "I disabled YouTube Shorts; now I feel like I can breathe again",
@@ -3022,7 +3132,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "I disabled YouTube Shorts; now I feel like I can"
   },
   {
     "title": "BMW's iX4 SUV is a 428-mile defensive weapon against China's EV takeover",
@@ -3077,7 +3188,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "BMW's iX4 SUV is a 428-mile defensive weapon against"
   },
   {
     "title": "Android's physical navigation buttons are back on Googlebooks, but not the way you think",
@@ -3132,7 +3244,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Android's physical navigation buttons are back"
   },
   {
     "title": "ChatGPT's 'Intelligent UI' update fills its responses with pictures, charts, and buttons",
@@ -3187,7 +3300,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "ChatGPT's New UI Update: Interactive Visuals & Live Charts"
   },
   {
     "title": "While VCs crowd into San Francisco, Endeavor Catalyst raises $320M for founders 'elsewhere'",
@@ -3242,7 +3356,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Endeavor Catalyst Raises $320M: Global Tech VC Shift"
   },
   {
     "title": "Microsoft is giving Copilot more control over Windows and your files",
@@ -3297,7 +3412,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Microsoft is giving Copilot more control over Windows"
   },
   {
     "title": "How Microsoft built its MacBook Pro competitor",
@@ -3352,7 +3468,8 @@
         "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "How Microsoft built its MacBook Pro competitor"
   },
   {
     "title": "The Meta Quest 3S gets a rare discount during October Prime Day",
@@ -3407,7 +3524,8 @@
         "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "The Meta Quest 3S gets a rare discount during October"
   },
   {
     "title": "X expands its 'Gametime' sports hub beyond the NFL, starting with MLB",
@@ -3462,7 +3580,8 @@
         "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "X expands its 'Gametime' sports hub beyond the NFL"
   },
   {
     "title": "ChatGPT for Teens is an 'unacceptable risk,' says Common Sense Media",
@@ -3517,7 +3636,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "ChatGPT for Teens is an 'unacceptable risk,' says"
   },
   {
     "title": "Spotify expands audiobooks to over 180 markets",
@@ -3572,7 +3692,8 @@
         "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Spotify expands audiobooks to over 180 markets"
   },
   {
     "title": "Apple TV's F1 coverage will now support Dolby Atmos",
@@ -3627,7 +3748,8 @@
         "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Apple TV's F1 coverage will now support Dolby Atmos"
   },
   {
     "title": "How long have wireless gaming controllers been around for?",
@@ -3682,7 +3804,8 @@
         "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "How long have wireless gaming controllers been around"
   },
   {
     "title": "OpenAI drops another batch of mathematical breakthroughs",
@@ -3737,7 +3860,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "OpenAI drops another batch of mathematical breakthroughs"
   },
   {
     "title": "Silicon Valley's AI wunderkind launches Underdog, the most private Instinct/Muse competitor yet",
@@ -3792,7 +3916,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Silicon Valley AI Prodigy Launches Underdog: Key Details"
   },
   {
     "title": "How to help stop spam calls on iPhone and Android",
@@ -3847,7 +3972,8 @@
         "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "How to help stop spam calls on iPhone and Android"
   },
   {
     "title": "Why do some PCs have two Ethernet ports?",
@@ -3902,7 +4028,8 @@
         "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Why do some PCs have two Ethernet ports?"
   },
   {
     "title": "Xbox has secured exclusive GTA 6 streaming rights",
@@ -3957,7 +4084,8 @@
         "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Xbox has secured exclusive GTA 6 streaming rights"
   },
   {
     "title": "The best robot vacuum and mop deals during October Prime Day",
@@ -4012,7 +4140,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "The best robot vacuum and mop deals during October"
   },
   {
     "title": "Apple and LG team up on new smart home gear, starting with a lock, doorbell, and thermostat",
@@ -4067,7 +4196,8 @@
         "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Apple and LG team up on new smart home gear, starting"
   },
   {
     "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
@@ -4122,7 +4252,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Ex-Ramp engineers raise $20M for platform Melius after"
   },
   {
     "title": "Our first five impressions of Googlebooks - exciting but underbaked",
@@ -4177,7 +4308,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Google Books Review: Exciting Features But Needs Work"
   },
   {
     "title": "Apple TV's great year continues with Small Prophets",
@@ -4232,7 +4364,8 @@
         "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Apple TV's great year continues with Small Prophets"
   },
   {
     "title": "Anker's 100W universal charger is a great travel gadget for $64",
@@ -4287,7 +4420,8 @@
         "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Anker 100W Travel Charger: Is It Really Worth $64?"
   },
   {
     "title": "Mirror Particle is building a 'world model' of human behavior",
@@ -4342,7 +4476,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Mirror Particle is building a 'world model' of human"
   },
   {
     "title": "Xbox Elite Controller 3 specs leak via Xbox's own Design Lab",
@@ -4397,7 +4532,8 @@
         "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Xbox Elite Controller 3 specs leak via Xbox's own"
   },
   {
     "title": "Mini PC vs. laptop: Which is better for your home office?",
@@ -4452,7 +4588,8 @@
         "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Which is better for your home office?"
   },
   {
     "title": "The Matic is the first robovac to get an FCC ban waiver, not that it needs it",
@@ -4507,7 +4644,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "The Matic is the first robovac to get an FCC ban"
   },
   {
     "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
@@ -4562,7 +4700,8 @@
         "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Reflection Unveils Beam: Open-Weight AI Model Powerhouse"
   },
   {
     "title": "Gemini Call for Me might tell your mom you're running late",
@@ -4617,7 +4756,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Gemini Call for Me might tell your mom you're running"
   },
   {
     "title": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
@@ -4672,7 +4812,8 @@
         "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Reverse-engineered games"
   },
   {
     "title": "OpenAI will start watermarking ChatGPT's text in the EU",
@@ -4727,7 +4868,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "OpenAI will start watermarking ChatGPT's text in the EU"
   },
   {
     "title": "Etched fields funding offers at $40B+ valuation, sources say",
@@ -4782,7 +4924,8 @@
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Etched fields funding offers at $40B+ valuation"
   },
   {
     "title": "Common mistakes you should avoid when using foldable phones",
@@ -4837,7 +4980,8 @@
         "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Common mistakes you should avoid when using foldable"
   },
   {
     "title": "Can a MacBook handle heavy games? Here's what you should know",
@@ -4892,7 +5036,8 @@
         "image": "https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=1280&q=85"
       }
     ],
-    "synthesizer": "context-aware-nlp-engine"
+    "synthesizer": "context-aware-nlp-engine",
+    "seo_title": "Can a MacBook handle heavy games? Here's what you"
   },
   {
     "title": "Apple M4 Max MacBook Pro: 128GB Unified Memory & 3nm Monster Benchmarks",
@@ -4946,7 +5091,8 @@
         "bullet2": "For AI researchers, 3D animators, and software architects, it is the undisputed workstation king.",
         "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Apple M4 Max MacBook Pro"
   },
   {
     "title": "Snapdragon X Elite 2 Laptops: 28-Hour Battery Life & Desktop ARM Computing",
@@ -5000,7 +5146,8 @@
         "bullet2": "If you travel or commute, a Snapdragon X Elite 2 laptop is the smartest tech purchase of the year.",
         "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Snapdragon X Elite 2 Laptops"
   },
   {
     "title": "Framework Laptop 16: The Modular Swappable GPU Revolution That Defeats E-Waste",
@@ -5054,7 +5201,8 @@
         "bullet2": "A resounding 10/10 repairability score makes this the most consumer-friendly laptop in the world.",
         "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Framework Laptop 16: The Modular Swappable GPU"
   },
   {
     "title": "Razer Blade 18 (2026): RTX 5090 Mobile & 300Hz Dual-Mode OLED Gaming Titan",
@@ -5108,7 +5256,8 @@
         "bullet2": "It officially blurs the boundary between desktop battlestations and transportable machines.",
         "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Razer Blade 18 (2026)"
   },
   {
     "title": "ASUS Zenbook S 16 Cera-Aluminum: AMD Zen 5 AI Ultrabook Under 1.5kg",
@@ -5162,7 +5311,8 @@
         "bullet2": "An absolute triumph in industrial engineering, ceramic materials, and AMD Zen 5 efficiency.",
         "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "ASUS Zenbook S 16 Cera-Aluminum"
   },
   {
     "title": "Galaxy S26 Ultra vs iPhone 18 Pro Max: The 200MP Periscope Camera War",
@@ -5216,7 +5366,8 @@
         "bullet2": "Samsung leads in raw telephoto reach, while Apple dominates color science and cinematic stabilization.",
         "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Galaxy S26 Ultra vs iPhone 18 Pro Max"
   },
   {
     "title": "Nothing Phone (3) Revealed: Transparent Glyph Matrix & Custom Snapdragon Silicon",
@@ -5270,7 +5421,8 @@
         "bullet2": "It proves that flagship craftsmanship does not need to cost $1,400 to feel genuinely special in hand.",
         "image": "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Nothing Phone (3) Revealed"
   },
   {
     "title": "Google Pixel 10 Pro: 3nm Tensor G5 & The Pro Magic Video Studio",
@@ -5324,7 +5476,8 @@
         "bullet2": "The Pixel 10 Pro is the undisputed champion of computational photography and pure Android excellence.",
         "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "3nm Tensor G5 & The Pro Magic Video Studio"
   },
   {
     "title": "Huawei Mate XT vs Galaxy Z Fold 7: The Ultra-Thin Tri-Fold Tablet Revolution",
@@ -5378,7 +5531,8 @@
         "bullet2": "While high manufacturing costs keep initial pricing premium, this form factor is the undeniable future of mobile tech.",
         "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Huawei Mate XT vs Galaxy Z Fold 7"
   },
   {
     "title": "Xiaomi 15 Ultra: 1-Inch Sony LYT-900 Sensor & Leica APO 200mm Telephoto",
@@ -5432,7 +5586,8 @@
         "bullet2": "If image quality is your number one priority, nothing else currently on the market compares.",
         "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "1-Inch Sony LYT-900 Sensor & Leica APO 200mm Telephoto"
   },
   {
     "title": "Quantum Supremacy Breakthrough: 1 Million Qubit Chip Shatters Encryption In 4s",
@@ -5486,7 +5641,8 @@
         "bullet2": "The geopolitical and industrial implications will define technological leadership for the next 50 years.",
         "image": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Quantum Supremacy Breakthrough"
   },
   {
     "title": "Inside The First Humanoid Robot Gigafactory: 10,000 Androids Enter Mass Production",
@@ -5540,7 +5696,8 @@
         "bullet2": "Within 36 months, automated bipedal labor will reshape global logistics, warehousing, and manufacturing economics.",
         "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Inside The First Humanoid Robot Gigafactory"
   },
   {
     "title": "Solid-State Silicon Batteries: 1,000km Electric Range In A 5-Minute Fast Charge",
@@ -5594,7 +5751,8 @@
         "bullet2": "Commercial deployment across luxury flagships signals the definitive end of internal combustion development.",
         "image": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Solid-State Silicon Batteries"
   },
   {
     "title": "Neuralink Telepathy 2 & Blindsight: Paralyzed Patients Control Limbs at 120 WPM",
@@ -5648,7 +5806,8 @@
         "bullet2": "The road ahead will bridge disability recovery and, eventually, seamless human-AI cognitive collaboration.",
         "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Neuralink Telepathy 2 & Blindsight"
   },
   {
     "title": "TSMC 2nm N2 GAA Silicon Wafers: Backside Power Delivery & The 2026 Chip Leap",
@@ -5702,7 +5861,8 @@
         "bullet2": "The 2nm node will be the silicon foundation for the entire next decade of AI, robotics, and smartphones.",
         "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "TSMC 2nm N2 GAA Silicon Wafers"
   },
   {
     "title": "Top 7 Secret AI Productivity Tools That Outperform ChatGPT in 2026",
@@ -5756,7 +5916,8 @@
         "bullet2": "Explore our curated breakdowns and unlock the highest leverage workflows available right now.",
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Top 7 Secret AI Productivity Tools That Outperform"
   },
   {
     "title": "Claude 3.7 & Gemini 3.8 Coding Agents: Building Full-Stack Apps in One Prompt",
@@ -5810,7 +5971,8 @@
         "bullet2": "Engineers leveraging these tools build at unprecedented scale with near-zero boilerplate friction.",
         "image": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Claude 3.7 & Gemini 3.8 Coding Agents"
   },
   {
     "title": "Run Open-Source DeepSeek & Llama 4 Locally on Your Laptop With Zero Latency",
@@ -5864,7 +6026,8 @@
         "bullet2": "Taking control of your own local AI stack is the most empowering tech upgrade you can make this year.",
         "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Run Open-Source DeepSeek & Llama 4 Locally on Your"
   },
   {
     "title": "Sora 2 & Gen-3 Alpha: Generating 4K Cinema Scenes With Physics & Sound In 60s",
@@ -5918,7 +6081,8 @@
         "bullet2": "The only remaining bottleneck in modern film production is human imagination and narrative craft.",
         "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Sora 2 & Gen-3 Alpha"
   },
   {
     "title": "NotebookLM Audio Overviews 2.0: Deep-Dive Multi-Source AI Research Podcasts",
@@ -5972,7 +6136,8 @@
         "bullet2": "It is an indispensable weapon for researchers, students, and busy knowledge workers everywhere.",
         "image": "https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "NotebookLM Audio Overviews 2.0"
   },
   {
     "title": "Neural Audio ANC 3.0: Why Audiophiles Are Ditching Wired Headphones",
@@ -6026,7 +6191,8 @@
         "bullet2": "Welcome to the golden age of high-fidelity, cord-free personal listening.",
         "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Neural Audio ANC 3.0"
   },
   {
     "title": "Meta Orion & Apple Vision Pro 2: True Holographic AR Glasses Reality",
@@ -6080,7 +6246,8 @@
         "bullet2": "Within five years, carrying physical glass laptop screens will feel as archaic as carrying a fax machine.",
         "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Meta Orion & Apple Vision Pro 2"
   },
   {
     "title": "Samsung Galaxy Ring 2: Continuous Blood Pressure & Neural Sleep Tracking",
@@ -6134,7 +6301,8 @@
         "bullet2": "It is the sleekest, most comfortable sleep and wellness tracker ever engineered.",
         "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Samsung Galaxy Ring 2"
   },
   {
     "title": "Apple Watch Ultra 3: 2-Way Satellite Messaging & 3,000-Nit Micro-LED Screen",
@@ -6188,7 +6356,8 @@
         "bullet2": "For outdoor adventurers, the standalone satellite capabilities alone make this an essential piece of survival gear.",
         "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "2-Way Satellite Messaging & 3,000-Nit Micro-LED Screen"
   },
   {
     "title": "DJI Pocket 3 Pro & Neo: 4K 120fps AI Autonomous Subject-Tracking Cameras",
@@ -6242,7 +6411,8 @@
         "bullet2": "For YouTubers, vloggers, and mobile journalists, it is the highest-value production tool money can buy.",
         "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "DJI Pocket 3 Pro & Neo"
   },
   {
     "title": "Steam Deck 2 & Handheld PC Gaming Wars: 1080p 120Hz In Your Pocket",
@@ -6296,7 +6466,8 @@
         "bullet2": "The Steam Deck 2 is the most liberating way to experience modern PC gaming anywhere in the world.",
         "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Steam Deck 2 & Handheld PC Gaming Wars"
   },
   {
     "title": "Nintendo Switch 2 Revealed: 4K DLSS Hybrid Portable Powerhouse",
@@ -6350,7 +6521,8 @@
         "bullet2": "With 4K DLSS docked visuals and unmatched first-party gaming franchises, it will dominate global sales for years.",
         "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Nintendo Switch 2 Revealed"
   },
   {
     "title": "480Hz QD-OLED Esports Displays: Zero Ghosting & 0.03ms Flawless Motion Clarity",
@@ -6404,7 +6576,8 @@
         "bullet2": "It is the single biggest hardware upgrade a competitive tournament player can make to their setup.",
         "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "480Hz QD-OLED Esports Displays"
   },
   {
     "title": "PlayStation Portal Pro: Wi-Fi 7 Direct, 120Hz OLED & Zero-Lag Remote Play",
@@ -6458,7 +6631,8 @@
         "bullet2": "It frees the console from the living room television without compromising on premium DualSense immersion.",
         "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "PlayStation Portal Pro"
   },
   {
     "title": "Xbox Next-Gen Hybrid Console: Bridging Native Windows PC Games & Living Room 4K",
@@ -6512,6 +6686,7 @@
         "bullet2": "It is the most consumer-friendly strategy in modern console gaming history.",
         "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&q=85"
       }
-    ]
+    ],
+    "seo_title": "Xbox Next-Gen Hybrid Console"
   }
 ]

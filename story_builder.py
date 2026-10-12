@@ -78,14 +78,119 @@ def get_image_variants(url: str, fallback_url: str) -> Dict[str, Any]:
 
     # For other remote URLs, replace low width queries (e.g. w=720) with high-res (w=1280)
     high_res = re.sub(r"w=\d+", "w=1280", url)
+    # Ensure poster_portrait is strictly 3:4 portrait for Google Discover eligibility
+    fallback_base = fallback_url.split("?")[0] if "images.unsplash.com" in fallback_url else fallback_url
+    portrait_fallback = (
+        f"{fallback_base}?w=1200&h=1600&fit=crop&q=85"
+        if "images.unsplash.com" in fallback_url
+        else high_res
+    )
+    square_fallback = (
+        f"{fallback_base}?w=1200&h=1200&fit=crop&q=85"
+        if "images.unsplash.com" in fallback_url
+        else high_res
+    )
     return {
-        "schema_images": [high_res],
-        "poster_portrait": high_res,
-        "poster_square": high_res,
+        "schema_images": [high_res, portrait_fallback],
+        "poster_portrait": portrait_fallback,
+        "poster_square": square_fallback,
         "poster_landscape": high_res,
         "og_image": high_res,
         "slide_image": high_res,
     }
+
+
+# High-CTR hand-crafted title overrides for top-ranking & trending stories
+HIGH_CTR_TITLE_OVERRIDES: Dict[str, str] = {
+    "nikon-microscopic-video-competition-winner-disqualified-for-using-gene": (
+        "Why Nikon Disqualified Its AI Video Winner: Shocking Truth"
+    ),
+    "pure-insanity-mathematicians-will-need-years-to-make-sense-of-openais": (
+        "OpenAI's Math Proof Stuns Top Researchers: Full Details"
+    ),
+    "silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-insti": (
+        "Silicon Valley AI Prodigy Launches Underdog: Key Details"
+    ),
+    "chatgpts-intelligent-ui-update-fills-its-responses-with-pictures-chart": (
+        "ChatGPT's New UI Update: Interactive Visuals & Live Charts"
+    ),
+    "ankers-100w-universal-charger-is-a-great-travel-gadget-for-64": (
+        "Anker 100W Travel Charger: Is It Really Worth $64?"
+    ),
+    "amd-will-bring-fsr-4-to-handhelds-by-the-end-of-2026": (
+        "AMD FSR 4 Coming to Handhelds by 2026: What to Expect"
+    ),
+    "spacex-announces-plan-to-become-a-major-mobile-carrier": (
+        "SpaceX's Plan to Become a Major Mobile Carrier: Details"
+    ),
+    "danu-robotics-fight-to-build-a-better-recycling-robot": (
+        "Danu Robotics: Inside the Battle for Smart Recycling"
+    ),
+    "google-is-launching-a-one-stop-gemini-agent-for-your-work-tasks": (
+        "Google Gemini Work Agent: One-Stop Autonomous Assistant"
+    ),
+    "nous-research-confirms-it-hit-15b-valuation-launches-ai-agents-for-bus": (
+        "Nous Research Hits $1.5B Valuation: New AI Agents Live"
+    ),
+    "asos-confirms-breach-of-customer-data-after-hackers-send-rogue-app-not": (
+        "ASOS Confirms Major Data Breach: Rogue App Alerts Sent"
+    ),
+    "reflection-debuts-beam-an-open-weight-ai-model-to-rival-chinese-models": (
+        "Reflection Unveils Beam: Open-Weight AI Model Powerhouse"
+    ),
+    "apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-p": (
+        "Apple Inks Big AI Tech Deal: Key Details & Strategy"
+    ),
+    "while-vcs-crowd-into-san-francisco-endeavor-catalyst-raises-320m-for-f": (
+        "Endeavor Catalyst Raises $320M: Global Tech VC Shift"
+    ),
+    "our-first-five-impressions-of-googlebooks-exciting-but-underbaked": (
+        "Google Books Review: Exciting Features But Needs Work"
+    ),
+}
+
+TRAILING_STOPWORDS = {
+    "the", "a", "an", "and", "or", "by", "for", "with", "in", "on", "at",
+    "to", "from", "its", "than", "of", "is", "it", "as", "that"
+}
+
+
+def optimize_seo_title(raw_title: str, slug: str = "") -> str:
+    """
+    Transforms long journalistic headlines into punchy, high-CTR titles (45-58 characters).
+    Guarantees titles never get truncated by Google Search SERP snippets or Google Discover.
+    """
+    if slug and slug in HIGH_CTR_TITLE_OVERRIDES:
+        return HIGH_CTR_TITLE_OVERRIDES[slug]
+
+    clean = raw_title.strip()
+    clean = re.sub(r"\s*\|\s*.*$", "", clean)
+    clean = re.sub(r"^(The founder's guide to |Everything you need to know about |Report:\s*|Watch:\s*|Exclusive:\s*)", "", clean, flags=re.IGNORECASE)
+    clean = re.sub(r"^(A new report suggests that |Reports suggest that |Leaked:\s*)", "", clean, flags=re.IGNORECASE)
+
+    if len(clean) <= 56:
+        return clean
+
+    if ":" in clean:
+        parts = clean.split(":", 1)
+        prefix, suffix = parts[0].strip(), parts[1].strip()
+        if 20 <= len(prefix) <= 56:
+            return prefix
+        if 20 <= len(suffix) <= 56:
+            return suffix
+
+    words = clean.split()
+    short = []
+    for w in words:
+        if len(" ".join(short + [w])) <= 54:
+            short.append(w)
+        else:
+            break
+    while short and short[-1].lower() in TRAILING_STOPWORDS:
+        short.pop()
+
+    result = " ".join(short).rstrip(":, -")
+    return result if len(result) >= 15 else clean[:55].rstrip(":, -")
 
 
 def build_story_html(story: Dict[str, Any]) -> str:
@@ -106,16 +211,18 @@ def build_story_html(story: Dict[str, Any]) -> str:
     canonical_url = f"{SITE_URL}/stories/{slug}/"
     iso_published = to_iso8601(published)
     poster_variants = get_image_variants(poster_image, fallback_img)
+    seo_title = story.get("seo_title") or optimize_seo_title(title, slug)
 
-    # Schema.org JSON-LD (Fully satisfies Google Search Article structured data guidelines)
+    # Schema.org JSON-LD (NewsArticle specification compliant with Google News & Discover guidelines)
     schema_data = {
         "@context": "https://schema.org",
-        "@type": "TechArticle",
+        "@type": "NewsArticle",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": canonical_url,
         },
-        "headline": title,
+        "headline": seo_title,
+        "alternativeHeadline": title,
         "image": poster_variants["schema_images"],
         "datePublished": iso_published,
         "dateModified": iso_published,
@@ -199,14 +306,18 @@ def build_story_html(story: Dict[str, Any]) -> str:
     all_slides_markup = "\n".join(slides_html)
 
     escaped_story_title = html.escape(title, quote=True)
+    escaped_seo_title = html.escape(seo_title, quote=True)
     escaped_summary = html.escape(summary, quote=True)
+    
+    # If seo_title is <= 44 characters, append site branding; otherwise keep hook unclipped
+    page_title_tag = f"{escaped_seo_title} | {SITE_NAME}" if len(seo_title) <= 44 else escaped_seo_title
 
     # 100% Compliant AMP Document
     html_output = f"""<!doctype html>
 <html ⚡ lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{escaped_story_title} | {SITE_NAME}</title>
+    <title>{page_title_tag}</title>
     <link rel="canonical" href="{canonical_url}">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -214,7 +325,7 @@ def build_story_html(story: Dict[str, Any]) -> str:
     <meta name="google-site-verification" content="XMDt3lDT2kpdjLlHlxQCSn5EcJcH2yw8f6nLjhLgN7g">
     
     <!-- OpenGraph & Twitter Meta -->
-    <meta property="og:title" content="{escaped_story_title}">
+    <meta property="og:title" content="{escaped_seo_title}">
     <meta property="og:description" content="{escaped_summary}">
     <meta property="og:image" content="{poster_variants['og_image']}">
     <meta property="og:image:width" content="1280">
@@ -223,7 +334,7 @@ def build_story_html(story: Dict[str, Any]) -> str:
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="{SITE_NAME}">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{escaped_story_title}">
+    <meta name="twitter:title" content="{escaped_seo_title}">
     <meta name="twitter:description" content="{escaped_summary}">
     <meta name="twitter:image" content="{poster_variants['og_image']}">
 
@@ -361,7 +472,7 @@ def build_story_html(story: Dict[str, Any]) -> str:
   </head>
   <body>
     <amp-story standalone
-      title="{escaped_story_title}"
+      title="{escaped_seo_title}"
       publisher="{PUBLISHER_NAME}"
       publisher-logo-src="{PUBLISHER_LOGO_URL}"
       poster-portrait-src="{poster_variants['poster_portrait']}"

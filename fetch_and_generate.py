@@ -33,7 +33,7 @@ from content_engine import (
     fetch_fresh_tech_stories,
 )
 from synthesizer import synthesize_story
-from story_builder import write_story_file
+from story_builder import write_story_file, optimize_seo_title
 from portal_builder import build_all_portal_pages
 from validator import validate_all_stories
 
@@ -80,6 +80,8 @@ def ensure_story_files_exist(stories: List[Dict[str, Any]], dist_dir: Path, forc
         slug = story.get("slug")
         if not slug:
             continue
+        if not story.get("seo_title"):
+            story["seo_title"] = optimize_seo_title(story.get("title", ""), slug)
         story_html = stories_dir / slug / "index.html"
         if force_rerender or not story_html.exists():
             write_story_file(story, dist_dir)

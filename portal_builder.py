@@ -25,14 +25,20 @@ from config import (
     GA_MEASUREMENT_ID,
     get_category_fallback_image,
 )
+from story_builder import optimize_seo_title, HIGH_CTR_TITLE_OVERRIDES
 
 
 def build_portal_html(stories: List[Dict[str, Any]], max_cards: Optional[int] = None) -> str:
     """
     Renders the futuristic Cyber-Dark portal homepage.
     Displays all available catalog stories with content-visibility optimizations.
+    Prioritizes top-performing & trending stories for maximal PageRank & internal linking equity.
     """
-    display_stories = stories[:max_cards] if max_cards and len(stories) > max_cards else stories
+    trending_stories = [s for s in stories if s.get("slug") in HIGH_CTR_TITLE_OVERRIDES]
+    regular_stories = [s for s in stories if s.get("slug") not in HIGH_CTR_TITLE_OVERRIDES]
+    sorted_stories = trending_stories + regular_stories
+
+    display_stories = sorted_stories[:max_cards] if max_cards and len(sorted_stories) > max_cards else sorted_stories
     story_count = len(display_stories)
     current_year = datetime.now(timezone.utc).year
 
@@ -77,7 +83,9 @@ def build_portal_html(stories: List[Dict[str, Any]], max_cards: Optional[int] = 
 
         source = s.get("source", SITE_NAME)
         read_time = s.get("read_time", "45s")
+        display_title = s.get("seo_title") or optimize_seo_title(title, slug)
         escaped_title = html_lib.escape(title, quote=True)
+        escaped_display_title = html_lib.escape(display_title, quote=True)
         escaped_summary = html_lib.escape(summary, quote=True)
 
         # Above-fold priority eager loading vs below-fold lazy async
@@ -101,14 +109,14 @@ def build_portal_html(stories: List[Dict[str, Any]], max_cards: Optional[int] = 
         <article class="story-card" 
           tabindex="0" 
           role="button"
-          aria-label="Open story: {escaped_title}"
+          aria-label="Open story: {escaped_display_title}"
           data-slug="{slug}" 
           data-category="{cat_id}"
           data-title="{escaped_title}"
           data-summary="{escaped_summary}">
           <img class="story-card-bg" 
             src="{card_image}" 
-            alt="{escaped_title}" 
+            alt="{escaped_display_title}" 
             {loading_attrs} 
             width="720" height="1080"
             referrerpolicy="no-referrer"
@@ -122,11 +130,11 @@ def build_portal_html(stories: List[Dict[str, Any]], max_cards: Optional[int] = 
 
           <div class="story-card-body">
             <div class="story-urgency-badge">{card_hook}</div>
-            <h2 class="story-card-title">{title}</h2>
+            <h2 class="story-card-title">{escaped_display_title}</h2>
             <p class="story-card-snippet">{summary}</p>
             <div class="story-card-footer">
               <span class="story-source">via {source}</span>
-              <a href="/stories/{slug}/" class="tap-to-view-cta" aria-label="Read story: {escaped_title}"><span class="play-arrow">▶</span> Tap to Unlock ⚡</a>
+              <a href="/stories/{slug}/" class="tap-to-view-cta" aria-label="Read story: {escaped_display_title}"><span class="play-arrow">▶</span> Tap to Unlock ⚡</a>
             </div>
           </div>
         </article>"""
