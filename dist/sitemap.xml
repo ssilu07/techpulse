@@ -32,6 +32,46 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://techseconds.com/stories/meta-has-some-wonder-full-new-ai-models/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>Meta has some Wonder Full new AI models</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/the-yandex-outage-probably-didnt-blitz-russian-bots/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
+      <image:title>The Yandex outage probably didn&apos;t blitz Russian bots</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/mechanisms-first-switch-2-case-is-as-awesome-as-i-hoped-it-would-be/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=1280&amp;q=85</image:loc>
+      <image:title>Mechanism&apos;s first Switch 2 case is as awesome as I hoped it would be</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/meta-releases-its-first-frontier-model-muse-wonder/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
+      <image:title>Meta releases its first frontier model, Muse Wonder</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://techseconds.com/stories/inside-the-mini-factory-where-gm-builds-its-ev-future/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
