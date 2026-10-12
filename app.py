@@ -95,6 +95,16 @@ def get_sitemap():
     return serve_file_or_404(config.DIST_DIR / "sitemap.xml", media_type="application/xml; charset=utf-8")
 
 
+@app.api_route("/rss.xml", methods=["GET", "HEAD"])
+def get_rss():
+    return serve_file_or_404(config.DIST_DIR / "rss.xml", media_type="application/xml; charset=utf-8")
+
+
+@app.api_route("/feed.xml", methods=["GET", "HEAD"])
+def get_feed():
+    return serve_file_or_404(config.DIST_DIR / "feed.xml", media_type="application/xml; charset=utf-8")
+
+
 @app.api_route("/robots.txt", methods=["GET", "HEAD"])
 def get_robots():
     return serve_file_or_404(config.DIST_DIR / "robots.txt", media_type="text/plain; charset=utf-8")

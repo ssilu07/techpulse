@@ -195,9 +195,10 @@ def build_portal_html(stories: List[Dict[str, Any]], max_cards: Optional[int] = 
   <meta name="twitter:description" content="{SITE_DESCRIPTION}">
   <meta name="twitter:image" content="{SITE_URL}/static/images/og-banner.png">
 
-  <!-- Favicons -->
+  <!-- Favicons & Feeds -->
   <link rel="icon" type="image/svg+xml" href="/static/images/logo.svg">
   <link rel="apple-touch-icon" href="/static/images/publisher-logo.png">
+  <link rel="alternate" type="application/rss+xml" title="{SITE_NAME} RSS Feed" href="{SITE_URL}/rss.xml">
 
   <!-- Google Fonts: Outfit & Space Grotesk -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -840,3 +841,61 @@ def build_all_portal_pages(stories: List[Dict[str, Any]], dist_dir: Path):
     stories_json = json.dumps(stories, indent=2, ensure_ascii=False)
     (dist_dir / "stories.json").write_text(stories_json, encoding="utf-8")
     print(f"[+] Generated manifest: dist/stories.json")
+
+    # 6. RSS 2.0 Feed for Google News & Aggregators
+    rss_xml = generate_rss_xml(stories)
+    (dist_dir / "rss.xml").write_text(rss_xml, encoding="utf-8")
+    (dist_dir / "feed.xml").write_text(rss_xml, encoding="utf-8")
+    print(f"[+] Generated RSS feeds: dist/rss.xml & dist/feed.xml")
+
+
+def generate_rss_xml(stories: List[Dict[str, Any]]) -> str:
+    """Generates standard RSS 2.0 with Media RSS tags for Google News & Feedly."""
+    now_rfc822 = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
+    items_xml = []
+    for s in stories[:60]:
+        title = html_lib.escape(s.get("title", f"{SITE_NAME} Story"))
+        slug = s.get("slug", "")
+        link = f"{SITE_URL}/stories/{slug}/"
+        summary = html_lib.escape(s.get("summary", ""))
+        category = html_lib.escape(s.get("category_name", "Technology"))
+        pub_date = s.get("published", "")
+        if pub_date:
+            try:
+                dt = datetime.fromisoformat(pub_date.replace("Z", "+00:00"))
+                pub_rfc822 = dt.strftime("%a, %d %b %Y %H:%M:%S GMT")
+            except Exception:
+                pub_rfc822 = now_rfc822
+        else:
+            pub_rfc822 = now_rfc822
+
+        image_url = s.get("image", f"{SITE_URL}/static/images/og-banner.png")
+        image_url_esc = html_lib.escape(image_url)
+
+        item = f"""    <item>
+      <title>{title}</title>
+      <link>{link}</link>
+      <guid isPermaLink="true">{link}</guid>
+      <pubDate>{pub_rfc822}</pubDate>
+      <description>{summary}</description>
+      <category>{category}</category>
+      <dc:creator>{html_lib.escape(SITE_NAME)}</dc:creator>
+      <enclosure url="{image_url_esc}" length="120000" type="image/jpeg" />
+      <media:content url="{image_url_esc}" medium="image" />
+    </item>"""
+        items_xml.append(item)
+
+    items_block = "\n".join(items_xml)
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>{html_lib.escape(SITE_NAME)}</title>
+    <link>{SITE_URL}/</link>
+    <description>{html_lib.escape(SITE_DESCRIPTION)}</description>
+    <language>en-us</language>
+    <lastBuildDate>{now_rfc822}</lastBuildDate>
+{items_block}
+  </channel>
+</rss>
+"""
+
