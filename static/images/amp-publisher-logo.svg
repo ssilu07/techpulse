@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 60" width="600" height="60" fill="none">
+  <defs>
+    <linearGradient id="neonCyanEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0891b2" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon Hexagon Frame centered around y=30 -->
+  <polygon points="175,10 195,20 195,40 175,50 155,40 155,20" fill="#0d1117" stroke="url(#neonCyanEmerald)" stroke-width="2" />
+  
+  <!-- Cyber Lightning Bolt -->
+  <polygon points="176,15 164,31 173,31 170,45 184,25 176,25" fill="#06b6d4" />
+  
+  <!-- Typography (Dark Slate for TECH so it is 100% legible on white backgrounds) -->
+  <text x="210" y="36" font-family="'Arial Black', 'Impact', sans-serif" font-weight="900" font-size="24" fill="#0f172a" letter-spacing="-0.5">
+    TECH<tspan fill="url(#neonCyanEmerald)">SECONDS</tspan>
+  </text>
+  
+  <!-- Autonomous Indicator -->
+  <text x="211" y="49" font-family="'Arial', sans-serif" font-weight="700" font-size="9" fill="#0891b2" letter-spacing="1.5">
+    AMP WEB STORIES // 24/7
+  </text>
+</svg>

@@ -43,7 +43,8 @@ GA_MEASUREMENT_ID = os.environ.get("GA_MEASUREMENT_ID", "G-LHGLZ8Q53T")
 
 # Publisher Information for AMP & Schema
 PUBLISHER_NAME = SITE_NAME
-PUBLISHER_LOGO_URL = f"{SITE_URL}/static/images/publisher-logo.png"
+PUBLISHER_LOGO_URL = f"{SITE_URL}/static/images/publisher-logo.png"  # 1:1 square (512x512) for amp-story publisher-logo-src
+AMP_PUBLISHER_LOGO_URL = f"{SITE_URL}/static/images/amp-publisher-logo.png"  # 600x60 px for AMP Article Schema.org publisher.logo
 
 # Gemini API Configuration
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")

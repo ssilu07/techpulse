@@ -86,6 +86,28 @@ def run_structural_rule_checks(file_path: Path) -> Tuple[bool, List[str]]:
     if "<amp-story-page" not in content:
         errors.append("Missing <amp-story-page> tags")
 
+    # Verify Google Search Console & AMP structured data specifications
+    if '<script type="application/ld+json">' in content:
+        import json
+        import re
+        m = re.search(r'<script type="application/ld\+json">(.*?)</script>', content, re.DOTALL)
+        if m:
+            try:
+                schema = json.loads(m.group(1).strip())
+                pub_logo = schema.get("publisher", {}).get("logo", {})
+                if pub_logo.get("width") != 600 or pub_logo.get("height") != 60:
+                    errors.append(f"AMP publisher logo must be 600x60, got {pub_logo.get('width')}x{pub_logo.get('height')}")
+                images = schema.get("image", [])
+                if not images:
+                    errors.append("Missing 'image' array in Schema.org JSON-LD")
+                for img_url in images:
+                    if isinstance(img_url, str):
+                        w_match = re.search(r"w=(\d+)", img_url)
+                        if w_match and int(w_match.group(1)) < 1200:
+                            errors.append(f"Schema image width < 1200px: {img_url}")
+            except Exception as e:
+                errors.append(f"Invalid JSON-LD markup: {e}")
+
     return len(errors) == 0, errors
 
 

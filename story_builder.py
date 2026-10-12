@@ -17,6 +17,7 @@ from config import (
     SITE_URL,
     PUBLISHER_NAME,
     PUBLISHER_LOGO_URL,
+    AMP_PUBLISHER_LOGO_URL,
     GOOGLE_SITE_VERIFICATION,
     GA_MEASUREMENT_ID,
     get_category_fallback_image,
@@ -49,19 +50,17 @@ def get_image_variants(url: str, fallback_url: str) -> Dict[str, Any]:
     - 9:16 vertical (1080x1920) for slide background amp-img
     - 16:9 landscape (1280x720) for OpenGraph and Twitter cards
     """
-    if not url or url.startswith("/"):
-        img = url or fallback_url
-        return {
-            "schema_images": [img],
-            "poster_portrait": img,
-            "poster_square": img,
-            "poster_landscape": img,
-            "og_image": img,
-            "slide_image": img,
-        }
+    default_raster_fallback = "https://images.unsplash.com/photo-1518770660439-4636190af475"
 
-    if "images.unsplash.com" in url:
-        base = url.split("?")[0]
+    target_url = url
+    if not target_url or target_url.startswith("/") or target_url.endswith(".svg"):
+        if fallback_url and not fallback_url.startswith("/") and not fallback_url.endswith(".svg"):
+            target_url = fallback_url
+        else:
+            target_url = default_raster_fallback
+
+    if "images.unsplash.com" in target_url:
+        base = target_url.split("?")[0]
         return {
             # Google Search Article structured data: 16x9, 4x3, 1x1 all >= 1200px wide and >= 800,000px
             "schema_images": [
@@ -76,24 +75,17 @@ def get_image_variants(url: str, fallback_url: str) -> Dict[str, Any]:
             "slide_image": f"{base}?w=1080&h=1920&fit=crop&q=85",
         }
 
-    # For other remote URLs, replace low width queries (e.g. w=720) with high-res (w=1280)
-    high_res = re.sub(r"w=\d+", "w=1280", url)
-    # Ensure poster_portrait is strictly 3:4 portrait for Google Discover eligibility
-    fallback_base = fallback_url.split("?")[0] if "images.unsplash.com" in fallback_url else fallback_url
-    portrait_fallback = (
-        f"{fallback_base}?w=1200&h=1600&fit=crop&q=85"
-        if "images.unsplash.com" in fallback_url
-        else high_res
-    )
-    square_fallback = (
-        f"{fallback_base}?w=1200&h=1200&fit=crop&q=85"
-        if "images.unsplash.com" in fallback_url
-        else high_res
-    )
+    # For other remote raster URLs, ensure high-res queries and fallback triad
+    high_res = re.sub(r"w=\d+", "w=1280", target_url)
+    fb_base = default_raster_fallback
     return {
-        "schema_images": [high_res, portrait_fallback],
-        "poster_portrait": portrait_fallback,
-        "poster_square": square_fallback,
+        "schema_images": [
+            high_res,
+            f"{fb_base}?w=1200&h=900&fit=crop&q=85",
+            f"{fb_base}?w=1200&h=1200&fit=crop&q=85",
+        ],
+        "poster_portrait": f"{fb_base}?w=1200&h=1600&fit=crop&q=85",
+        "poster_square": f"{fb_base}?w=1200&h=1200&fit=crop&q=85",
         "poster_landscape": high_res,
         "og_image": high_res,
         "slide_image": high_res,
@@ -237,9 +229,9 @@ def build_story_html(story: Dict[str, Any]) -> str:
             "url": SITE_URL,
             "logo": {
                 "@type": "ImageObject",
-                "url": PUBLISHER_LOGO_URL,
-                "width": 512,
-                "height": 512,
+                "url": AMP_PUBLISHER_LOGO_URL,
+                "width": 600,
+                "height": 60,
             },
         },
         "description": summary,
