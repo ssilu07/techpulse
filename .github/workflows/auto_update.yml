@@ -2,8 +2,13 @@ name: "TechPulse Autonomous 4-Hour Dispatch"
 
 on:
   schedule:
-    # Runs automatically every 4 hours
-    - cron: '0 */4 * * *'
+    # Staggered off-peak odd minutes (UTC -> IST) to bypass GitHub queue congestion
+    - cron: '43 22 * * *' # 04:13 AM IST
+    - cron: '23 2 * * *'  # 07:53 AM IST
+    - cron: '3 6 * * *'   # 11:33 AM IST
+    - cron: '27 9 * * *'  # 02:57 PM IST
+    - cron: '47 13 * * *' # 07:17 PM IST
+    - cron: '19 18 * * *' # 11:49 PM IST
   workflow_dispatch: # Allows manual trigger from GitHub Actions UI
 
 permissions:
