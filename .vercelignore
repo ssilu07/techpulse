@@ -1,0 +1,17 @@
+.git
+.github
+.vscode
+.idea
+scratch
+__pycache__
+*.pyc
+node_modules
+.env*
+requirements-ci.txt
+content_engine.py
+synthesizer.py
+story_builder.py
+portal_builder.py
+validator.py
+fetch_and_generate.py
+README.md

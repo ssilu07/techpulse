@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "python fetch_and_generate.py --count 3 --skip-val",
+  "buildCommand": "python -c \"print('Serving pre-built static dist')\"",
   "outputDirectory": "dist",
   "routes": [
     {
