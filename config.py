@@ -5,10 +5,12 @@ Supports environment customization for site branding, feeds, categories, and sty
 
 import os
 from pathlib import Path
-from dotenv import load_dotenv
 
-# Load local .env if present
-load_dotenv()
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 # Base paths
 BASE_DIR = Path(__file__).resolve().parent

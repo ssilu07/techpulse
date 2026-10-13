@@ -26,8 +26,11 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Ensure dist and static directories exist
-config.DIST_DIR.mkdir(parents=True, exist_ok=True)
+# Ensure dist and static directories exist (safe on read-only serverless filesystem)
+try:
+    config.DIST_DIR.mkdir(parents=True, exist_ok=True)
+except OSError:
+    pass
 static_path = config.DIST_DIR / "static"
 if not static_path.exists() and config.STATIC_DIR.exists():
     static_path = config.STATIC_DIR
