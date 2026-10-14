@@ -40,8 +40,12 @@ GOOGLE_SITE_VERIFICATION = os.environ.get(
     "GOOGLE_SITE_VERIFICATION", "r6BhuS0PSzOHjpoPxoiDK9h_gFY2g_OoHPXCkz6MLoc"
 )
 
-# Google Analytics 4 (GA4) Measurement ID
+# Google Analytics 4 (GA4) Configuration
 GA_MEASUREMENT_ID = os.environ.get("GA_MEASUREMENT_ID", "G-LHGLZ8Q53T")
+GA4_PROPERTY_ID = os.environ.get("GA4_PROPERTY_ID", "558519433")
+
+# IndexNow Instant Indexing Protocol (Bing, Yandex, Naver)
+INDEXNOW_KEY = os.environ.get("INDEXNOW_KEY", "8d21abf59e4b4f6ca1c03e8721c5b89a")
 
 # Publisher Information for AMP & Schema
 PUBLISHER_NAME = SITE_NAME

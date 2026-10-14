@@ -98,6 +98,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.body.style.overflow = 'hidden';
 
+    // Track story open in GA4 (fires virtual page_view and select_content for desktop modal)
+    try {
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'select_content', {
+          content_type: 'amp_story',
+          item_id: slug,
+        });
+        window.gtag('event', 'page_view', {
+          page_title: `Web Story: ${slug}`,
+          page_location: window.location.origin + storyUrl,
+          page_path: storyUrl,
+        });
+      }
+    } catch (err) {
+      console.warn('GA4 event tracking notice:', err);
+    }
+
     if (pushHistory) {
       history.pushState({ story: slug }, '', `#story-${slug}`);
     }
@@ -159,7 +176,19 @@ document.addEventListener('DOMContentLoaded', () => {
       if (e.target.closest('a')) return;
 
       const slug = card.getAttribute('data-slug');
+      const cat = card.getAttribute('data-category') || 'general';
       if (slug) {
+        // Track story click in GA4
+        try {
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'story_click', {
+              story_slug: slug,
+              category: cat,
+              viewport: window.innerWidth <= 768 ? 'mobile' : 'desktop'
+            });
+          }
+        } catch (err) {}
+
         // On mobile viewports (<= 768px), direct navigate to AMP story for 100% native 120Hz gestures
         if (window.innerWidth <= 768) {
           window.location.href = `/stories/${slug}/`;

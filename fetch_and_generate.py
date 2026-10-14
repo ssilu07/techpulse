@@ -160,6 +160,14 @@ def run_pipeline(
 
         final_catalog = merged_catalog
 
+    # 4b. Wire sequential next-story navigation so readers binge seamlessly
+    if final_catalog:
+        catalog_len = len(final_catalog)
+        for i, st in enumerate(final_catalog):
+            next_st = final_catalog[(i + 1) % catalog_len]
+            st["next_story_url"] = f"/stories/{next_st.get('slug', '')}/"
+            st["next_story_title"] = next_st.get("seo_title") or next_st.get("title", "")
+
     # 5. Ensure every cataloged story has its HTML file rendered on disk
     ensure_story_files_exist(final_catalog, DIST_DIR)
 
@@ -191,6 +199,20 @@ def run_pipeline(
             f"({len(new_synthesized_stories)} added) in {elapsed}s"
         )
         print(f" Output ready for instant Vercel deployment: {DIST_DIR}")
+
+        # 9. Automatic IndexNow Search Notification (Bing, Yandex, Naver)
+        try:
+            from indexnow_submitter import submit_to_indexnow
+            submit_to_indexnow()
+        except Exception as e:
+            print(f"[!] IndexNow submission notice: {e}")
+
+        # 10. Automatic WebSub & RSS Syndication Ping (Google News & Aggregators)
+        try:
+            from rss_pinger import ping_rss_hubs
+            ping_rss_hubs()
+        except Exception as e:
+            print(f"[!] RSS hub ping notice: {e}")
     else:
         print(f" [!] PIPELINE COMPLETED WITH VALIDATION ISSUES ({elapsed}s)")
     print("=" * 70)

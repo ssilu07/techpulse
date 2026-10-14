@@ -895,10 +895,12 @@ def generate_rss_xml(stories: List[Dict[str, Any]]) -> str:
 
     items_block = "\n".join(items_xml)
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{html_lib.escape(SITE_NAME)}</title>
     <link>{SITE_URL}/</link>
+    <atom:link href="{SITE_URL}/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <description>{html_lib.escape(SITE_DESCRIPTION)}</description>
     <language>en-us</language>
     <lastBuildDate>{now_rfc822}</lastBuildDate>

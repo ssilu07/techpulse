@@ -30,3 +30,5 @@ scratch/
 
 .vercel
 .env*
+*service_account*.json
+credentials*.json
