@@ -7,7 +7,51 @@
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <description>TechSeconds is an autonomous, lightning-fast Google AMP Web Stories platform delivering cutting-edge visual tech news, breakthrough AI tools, smartphone reveals, next-gen laptops, and futuristic computing in 45-second interactive slides.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Oct 2026 14:35:03 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 18:11:43 GMT</lastBuildDate>
+    <item>
+      <title>Sprout Pi adds Bluetooth, streaming, and USB-C to your aging iPod</title>
+      <link>https://techseconds.com/stories/sprout-pi-adds-bluetooth-streaming-and-usb-c-to-your-aging-ipod/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/sprout-pi-adds-bluetooth-streaming-and-usb-c-to-your-aging-ipod/</guid>
+      <pubDate>Wed, 14 Oct 2026 13:19:11 GMT</pubDate>
+      <description>There&#x27;s an entire cottage industry of iPod mods out there, but Sprout Pi and Sprout Pico are two of the few full motherboard replacements that combine many of the most popular mods into a single upgrade. Both versions add Bluetooth, Wi-Fi, USB-C, a microSD card slot, FLAC play...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Anbernic&#x27;s next dual-screen handheld could replace your aging Nintendo 3DS</title>
+      <link>https://techseconds.com/stories/anbernics-next-dual-screen-handheld-could-replace-your-aging-nintendo/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/anbernics-next-dual-screen-handheld-could-replace-your-aging-nintendo/</guid>
+      <pubDate>Wed, 14 Oct 2026 13:13:27 GMT</pubDate>
+      <description>Anbernic shared a new video of its upcoming dual-screen handheld it announced last week showing the device playing 3DS, Xbox, and PS3 games through emulation. While competitors like Ayaneo have been making dual-screen handhelds for a few years, Anbernic only recently introduce...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Apate sends AI agents undercover to get scammed so they can gather fraud intelligence</title>
+      <link>https://techseconds.com/stories/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fra/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fra/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
+      <description>Most companies use AI agents to ship products faster or speed up workflows. Apate.ai sends them undercover to get scammed.</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Mosqitter is turning its mosquito traps into an AI-powered surveillance network</title>
+      <link>https://techseconds.com/stories/mosqitter-is-turning-its-mosquito-traps-into-an-ai-powered-surveillanc/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/mosqitter-is-turning-its-mosquito-traps-into-an-ai-powered-surveillanc/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
+      <description>Mosqitter is turning its mosquito-trapping hardware into an AI-powered surveillance network designed to identify species, monitor populations, and provide earlier warnings of mosquito-borne disease risks.</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85" medium="image" />
+    </item>
     <item>
       <title>Halo&#x27;s co-creator wrote a novel about AI taking over the world</title>
       <link>https://techseconds.com/stories/halos-co-creator-wrote-a-novel-about-ai-taking-over-the-world/</link>
@@ -45,7 +89,7 @@
       <title>I used 3 Gemini prompts to clean 200 unread Gmail threads in one hour</title>
       <link>https://techseconds.com/stories/i-used-3-gemini-prompts-to-clean-200-unread-gmail-threads-in-one-hour/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-used-3-gemini-prompts-to-clean-200-unread-gmail-threads-in-one-hour/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>These prompts can be used by everyone to clear their inbox</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -56,7 +100,7 @@
       <title>Scimplify raises $25M to challenge China&#x27;s grip on critical materials with AI</title>
       <link>https://techseconds.com/stories/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-wi/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-wi/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Scimplify&#x27;s annualized revenue run rate has tripled to $200 million as it eyes U.S. expansion.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -67,7 +111,7 @@
       <title>These 4 crucial Android settings are disabled by default; I can&#x27;t live without them</title>
       <link>https://techseconds.com/stories/these-4-crucial-android-settings-are-disabled-by-default-i-cant-live-w/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/these-4-crucial-android-settings-are-disabled-by-default-i-cant-live-w/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>From Pixel phones to Galaxy tablets, these settings are crucial</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -78,7 +122,7 @@
       <title>The Flowtica Verso e-paper AI recorder is coming for $199 with early reservations</title>
       <link>https://techseconds.com/stories/the-flowtica-verso-e-paper-ai-recorder-is-coming-for-199-with-early-re/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/the-flowtica-verso-e-paper-ai-recorder-is-coming-for-199-with-early-re/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Flowtica&#x27;s AI recorder could be a busy person&#x27;s best buddy</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -89,7 +133,7 @@
       <title>Google is gutting free Gemini features, now I have every reason to ditch it</title>
       <link>https://techseconds.com/stories/google-is-gutting-free-gemini-features-now-i-have-every-reason-to-ditc/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/google-is-gutting-free-gemini-features-now-i-have-every-reason-to-ditc/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Google just made it impossible to justify paying for Gemini</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -100,7 +144,7 @@
       <title>Justice Department says North Koreans have infiltrated dozens of U.S. companies</title>
       <link>https://techseconds.com/stories/justice-department-says-north-koreans-have-infiltrated-dozens-of-us-co/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/justice-department-says-north-koreans-have-infiltrated-dozens-of-us-co/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>U.S. authorities warn that sanctioned hackers are increasingly targeting Americans to act as facilitators between breached U.S. companies and Pyongyang.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -111,7 +155,7 @@
       <title>Streamlining daily texts is easier with these underrated Google Messages settings</title>
       <link>https://techseconds.com/stories/streamlining-daily-texts-is-easier-with-these-underrated-google-messag/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/streamlining-daily-texts-is-easier-with-these-underrated-google-messag/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>It&#x27;s the little things in Google Messages that speed things up</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -122,7 +166,7 @@
       <title>How to improve your online privacy and security in Google Chrome</title>
       <link>https://techseconds.com/stories/how-to-improve-your-online-privacy-and-security-in-google-chrome/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/how-to-improve-your-online-privacy-and-security-in-google-chrome/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Google has much to gain by collecting data from you through your activity on Chrome, but you can make it harder.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -133,7 +177,7 @@
       <title>5 clever ways Gemini can automate everyday tasks</title>
       <link>https://techseconds.com/stories/5-clever-ways-gemini-can-automate-everyday-tasks/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/5-clever-ways-gemini-can-automate-everyday-tasks/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>If you&#x27;re not using some of these skills, you&#x27;re missing out on a chance to streamline your days, keep up to date and more.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -144,7 +188,7 @@
       <title>Science Corporation implants its vision-restoring chip in its first Stargardt disease patient</title>
       <link>https://techseconds.com/stories/science-corporation-implants-its-vision-restoring-chip-in-its-first-st/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/science-corporation-implants-its-vision-restoring-chip-in-its-first-st/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Max Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company&#x27;s work with PRIMA is part of its path toward a novel brain-computer interface (BCI).</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -155,7 +199,7 @@
       <title>Cerebras CEO says we&#x27;re nearing a future where everyone has a personal AI assistant at home</title>
       <link>https://techseconds.com/stories/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -166,7 +210,7 @@
       <title>Industrial Next wants factory robots to switch tasks in minutes, not weeks</title>
       <link>https://techseconds.com/stories/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-we/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-we/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -177,7 +221,7 @@
       <title>These quiet Google Calendar features make managing your daily schedule much simpler</title>
       <link>https://techseconds.com/stories/these-quiet-google-calendar-features-make-managing-your-daily-schedule/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/these-quiet-google-calendar-features-make-managing-your-daily-schedule/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Google Calendar&#x27;s lesser-known features can dramatically improve time management</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -210,7 +254,7 @@
       <title>Cerebras CEO pushes back on AI doomsday warnings</title>
       <link>https://techseconds.com/stories/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Cerebras CEO Andrew Feldman has a message for AI leaders spreading doomsday warnings: Maybe stop talking? At TechCrunch Disrupt, he argued that the industry&#x27;s focus on AI&#x27;s risks is drowning out its potential benefits.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -221,7 +265,7 @@
       <title>Helix Carbon says it can make iron cheaper by recycling blast furnace pollution</title>
       <link>https://techseconds.com/stories/helix-carbon-says-it-can-make-iron-cheaper-by-recycling-blast-furnace/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/helix-carbon-says-it-can-make-iron-cheaper-by-recycling-blast-furnace/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>The steel industry is a big polluter, but Helix Carbon can upcycle pollution from blast furnaces to drive down emissions and improve margins.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -265,7 +309,7 @@
       <title>Niobia takes the guesswork out of some of tech&#x27;s most expensive mistakes</title>
       <link>https://techseconds.com/stories/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistake/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistake/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>The San Francisco startup aims to help battery and chip manufacturers identify defects on production lines, reducing downtime and costly mistakes.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -309,7 +353,7 @@
       <title>Google Play now supports private, vibe-coded apps built just for you</title>
       <link>https://techseconds.com/stories/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -353,7 +397,7 @@
       <title>Apple refreshes its Homepod mini with a new chip and $149 price tag</title>
       <link>https://techseconds.com/stories/apple-refreshes-its-homepod-mini-with-a-new-chip-and-149-price-tag/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/apple-refreshes-its-homepod-mini-with-a-new-chip-and-149-price-tag/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>The new $149 HomePod mini with Siri AI and a &#x27;SoundGlow&#x27; visual feature will be available starting October 30.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -364,7 +408,7 @@
       <title>WindBorne wins a hefty US Air Force contract for its balloon data</title>
       <link>https://techseconds.com/stories/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -375,7 +419,7 @@
       <title>Honeyjar offers AI tools to improve PR and comms at every company</title>
       <link>https://techseconds.com/stories/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -386,7 +430,7 @@
       <title>Why this one Android keyboard shortcut is the single most useful feature on my phone</title>
       <link>https://techseconds.com/stories/why-this-one-android-keyboard-shortcut-is-the-single-most-useful-featu/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/why-this-one-android-keyboard-shortcut-is-the-single-most-useful-featu/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>I use it every day and typing feels incomplete without it</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -397,7 +441,7 @@
       <title>Don&#x27;t buy a cheap Android phone without these non-negotiable features</title>
       <link>https://techseconds.com/stories/dont-buy-a-cheap-android-phone-without-these-non-negotiable-features/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/dont-buy-a-cheap-android-phone-without-these-non-negotiable-features/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Android phones can be had at many different price points, but the most important features aren&#x27;t always found in the cheapest available devices.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -441,7 +485,7 @@
       <title>Meta releases its first frontier model, Muse Wonder</title>
       <link>https://techseconds.com/stories/meta-releases-its-first-frontier-model-muse-wonder/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/meta-releases-its-first-frontier-model-muse-wonder/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -463,7 +507,7 @@
       <title>WhatsApp users may soon be able to schedule messages</title>
       <link>https://techseconds.com/stories/whatsapp-users-may-soon-be-able-to-schedule-messages/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/whatsapp-users-may-soon-be-able-to-schedule-messages/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>WhatsApp is finally allowing message scheduling, a feature that&#x27;s been available on Telegram since 2019.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -474,7 +518,7 @@
       <title>Microsoft&#x27;s president says AI is less regulated than a carton of milk</title>
       <link>https://techseconds.com/stories/microsofts-president-says-ai-is-less-regulated-than-a-carton-of-milk/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/microsofts-president-says-ai-is-less-regulated-than-a-carton-of-milk/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Milk can&#x27;t hack companies and governments like AI definitely can, but it&#x27;s still subject to more regulation.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -485,7 +529,7 @@
       <title>One of the biggest issues in Googlebooks is finally fixed</title>
       <link>https://techseconds.com/stories/one-of-the-biggest-issues-in-googlebooks-is-finally-fixed/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/one-of-the-biggest-issues-in-googlebooks-is-finally-fixed/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Better Together features finally work with Samsung Galaxy phones</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -496,7 +540,7 @@
       <title>The founder&#x27;s guide to TechCrunch Disrupt 2026: Everything you need to know</title>
       <link>https://techseconds.com/stories/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-k/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-k/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -507,7 +551,7 @@
       <title>OpenAI Dot vs. Meta Muse: How do these AI agents compare?</title>
       <link>https://techseconds.com/stories/openai-dot-vs-meta-muse-how-do-these-ai-agents-compare/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/openai-dot-vs-meta-muse-how-do-these-ai-agents-compare/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Meta and OpenAI&#x27;s new AI agents are in direct competition. Here&#x27;s what each can do, what they cost and who has access.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -518,7 +562,7 @@
       <title>The reason the Xbox Series S is so much cheaper than the Series X</title>
       <link>https://techseconds.com/stories/the-reason-the-xbox-series-s-is-so-much-cheaper-than-the-series-x/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/the-reason-the-xbox-series-s-is-so-much-cheaper-than-the-series-x/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>The Xbox Series X and S have seen the same price hikes as all other gaming hardware, but the Series S still provides a lower cost to entry.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -529,7 +573,7 @@
       <title>Why Japan said goodbye to traditional flip phones</title>
       <link>https://techseconds.com/stories/why-japan-said-goodbye-to-traditional-flip-phones/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/why-japan-said-goodbye-to-traditional-flip-phones/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Flip phones endured in Japan longer than the US, but the trend is shifting.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -562,7 +606,7 @@
       <title>Will the HomeView be Apple&#x27;s first smart home success?</title>
       <link>https://techseconds.com/stories/will-the-homeview-be-apples-first-smart-home-success/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/will-the-homeview-be-apples-first-smart-home-success/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Over the past couple of years, we&#x27;ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -573,7 +617,7 @@
       <title>Aaron Sorkin&#x27;s &#x27;Social Reckoning&#x27; is off to a weak start</title>
       <link>https://techseconds.com/stories/aaron-sorkins-social-reckoning-is-off-to-a-weak-start/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/aaron-sorkins-social-reckoning-is-off-to-a-weak-start/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>What does this mean for a fall full of movies starring villainous tech CEOs?</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -606,7 +650,7 @@
       <title>Can the AI industry persuade data center opponents by getting rid of NDAs?</title>
       <link>https://techseconds.com/stories/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-n/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-n/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -617,56 +661,12 @@
       <title>TechCrunch Mobility: A roadblock clears for self-driving trucks</title>
       <link>https://techseconds.com/stories/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:11:43 GMT</pubDate>
       <description>Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
       <enclosure url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85" length="120000" type="image/jpeg" />
       <media:content url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>How to enable Live Activities on iPhone and CarPlay</title>
-      <link>https://techseconds.com/stories/how-to-enable-live-activities-on-iphone-and-carplay/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/how-to-enable-live-activities-on-iphone-and-carplay/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
-      <description>Live Activities put the most important real-time information from apps in a place where it&#x27;s easy to keep an eye on.</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>How to use the parental controls on iOS 27</title>
-      <link>https://techseconds.com/stories/how-to-use-the-parental-controls-on-ios-27/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/how-to-use-the-parental-controls-on-ios-27/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
-      <description>Screen Time has new features to help parents manage their children&#x27;s Apple devices, as well as refinements to existing controls.</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>How to reduce mobile data usage on your iPhone</title>
-      <link>https://techseconds.com/stories/how-to-reduce-mobile-data-usage-on-your-iphone/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/how-to-reduce-mobile-data-usage-on-your-iphone/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:35:03 GMT</pubDate>
-      <description>If your cellular plan has limited data, you&#x27;ll want to take advantage of these easy tweaks to stretch those gigabytes.</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Satya Nadella says we should assume all AI models are &#x27;compromised&#x27;</title>
-      <link>https://techseconds.com/stories/satya-nadella-says-we-should-assume-all-ai-models-are-compromised/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/satya-nadella-says-we-should-assume-all-ai-models-are-compromised/</guid>
-      <pubDate>Sat, 10 Oct 2026 18:10:17 GMT</pubDate>
-      <description>In a lengthy post on X, Microsoft&#x27;s CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a &quot;set of nested black boxes&quot; whose advice and actions we simply ac...</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85" medium="image" />
     </item>
   </channel>
 </rss>
