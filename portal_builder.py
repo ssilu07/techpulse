@@ -26,14 +26,20 @@ from config import (
     get_category_fallback_image,
 )
 from story_builder import optimize_seo_title, HIGH_CTR_TITLE_OVERRIDES
+from article_builder import build_all_articles, FLAGSHIP_ARTICLES
 
 
-def build_portal_html(stories: List[Dict[str, Any]], max_cards: Optional[int] = None) -> str:
+def build_portal_html(
+    stories: List[Dict[str, Any]],
+    max_cards: Optional[int] = None,
+    articles: Optional[List[Dict[str, Any]]] = None,
+) -> str:
     """
     Renders the futuristic Cyber-Dark portal homepage.
-    Displays all available catalog stories with content-visibility optimizations.
+    Displays in-depth tech editorial deep dives and interactive Google AMP Web Stories.
     Prioritizes top-performing & trending stories for maximal PageRank & internal linking equity.
     """
+    active_articles = articles if articles is not None else FLAGSHIP_ARTICLES
     trending_stories = [s for s in stories if s.get("slug") in HIGH_CTR_TITLE_OVERRIDES]
     regular_stories = [s for s in stories if s.get("slug") not in HIGH_CTR_TITLE_OVERRIDES]
     sorted_stories = trending_stories + regular_stories
@@ -41,6 +47,39 @@ def build_portal_html(stories: List[Dict[str, Any]], max_cards: Optional[int] = 
     display_stories = sorted_stories[:max_cards] if max_cards and len(sorted_stories) > max_cards else sorted_stories
     story_count = len(display_stories)
     current_year = datetime.now(timezone.utc).year
+
+    # Build deepdives cards HTML for homepage showcase
+    deepdive_cards_html = []
+    for art in active_articles[:6]:
+        art_slug = art.get("slug", "")
+        art_title = html_lib.escape(art.get("title", ""))
+        art_sub = html_lib.escape(art.get("subtitle", "")[:130] + "...")
+        art_cat = art.get("category_id", "future-tech")
+        art_thumb = art.get("image") or get_category_fallback_image(art_cat)
+        art_time = art.get("read_time", "6 min read")
+        deepdive_cards_html.append(f"""
+        <article class="deepdive-card">
+          <div class="deepdive-thumb-wrap">
+            <img src="{art_thumb}" alt="{art_title}" class="deepdive-thumb" loading="lazy">
+            <span class="deepdive-thumb-badge">{art_cat.upper()}</span>
+          </div>
+          <div class="deepdive-body">
+            <div class="deepdive-meta">
+              <span>⏱️ {art_time}</span>
+              <span>•</span>
+              <span style="color: var(--neon-cyan);">600+ WORDS</span>
+            </div>
+            <h3 class="deepdive-card-title">
+              <a href="/articles/{art_slug}/" style="color: inherit; text-decoration: none;">{art_title}</a>
+            </h3>
+            <p class="deepdive-excerpt">{art_sub}</p>
+            <div class="deepdive-footer">
+              <a href="/articles/{art_slug}/" class="deepdive-read-btn">Read Deep Dive →</a>
+              <a href="/stories/{art_slug}/" class="deepdive-story-link" target="_blank">⚡ Story</a>
+            </div>
+          </div>
+        </article>""")
+    deepdives_markup = "\n        ".join(deepdive_cards_html)
 
     # Build category filter pills HTML
     pills_html = []
@@ -233,6 +272,7 @@ def build_portal_html(stories: List[Dict[str, Any]], max_cards: Optional[int] = 
       <nav aria-label="Main Navigation">
         <ul class="nav-links">
           <li><a href="/" class="nav-link active">Stories</a></li>
+          <li><a href="/articles/" class="nav-link">Articles</a></li>
           <li><a href="/about/" class="nav-link">About</a></li>
           <li><a href="/privacy/" class="nav-link">Privacy</a></li>
           <li><a href="/terms/" class="nav-link">Terms</a></li>
@@ -252,14 +292,31 @@ def build_portal_html(stories: List[Dict[str, Any]], max_cards: Optional[int] = 
     <section class="hero-section">
       <div class="hero-glow-aura"></div>
       <div class="hero-eyebrow">
-        <span>⚡</span> 100% GOOGLE AMP WEB STORIES
+        <span>⚡</span> 100% GOOGLE AMP WEB STORIES & IN-DEPTH ARTICLES
       </div>
       <h1 class="hero-title">
-        The Future Of Tech in <span class="gradient-text">45-Second Visual Stories</span>
+        The Future Of Tech in <span class="gradient-text">Visual Stories & Deep Dives</span>
       </h1>
       <p class="hero-subtitle">
-        Instant, mobile-first Google Web Stories breaking down frontier AI, flagship smartphone leaks, quantum breakthroughs, and futuristic computing.
+        Instant mobile-first Google Web Stories and comprehensive 600-900+ word engineering breakdowns covering frontier AI, silicon lithography, flagship phones, and futuristic computing.
       </p>
+    </section>
+
+    <!-- In-Depth Editorial Deep Dives & Articles Section -->
+    <section class="deepdives-section" aria-label="In-Depth Editorial Deep Dives">
+      <div class="deepdives-header">
+        <div>
+          <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--neon-cyan); text-transform: uppercase; margin-bottom: 0.35rem;">
+            ⚡ 600–900+ WORD EDITORIAL DEEP DIVES
+          </div>
+          <h2 class="deepdives-title">In-Depth <span class="gradient-text">Tech Analysis & Reviews</span></h2>
+          <p class="deepdives-subtitle">Exhaustive architectural breakdowns, silicon micro-benchmarks, and comparative buying advice.</p>
+        </div>
+        <a href="/articles/" class="deepdives-view-all">View All Articles ({len(active_articles)}) →</a>
+      </div>
+      <div class="deepdives-grid">
+        {deepdives_markup}
+      </div>
     </section>
 
     <!-- Controls: Search & Category Filter Pills -->
@@ -450,6 +507,7 @@ def build_legal_page_html(
       <nav aria-label="Main Navigation">
         <ul class="nav-links">
           <li><a href="/" class="nav-link">Stories</a></li>
+          <li><a href="/articles/" class="nav-link">Articles</a></li>
           <li><a href="/about/" class="nav-link{' active' if page_id == 'about' else ''}">About</a></li>
           <li><a href="/privacy/" class="nav-link{' active' if page_id == 'privacy' else ''}">Privacy</a></li>
           <li><a href="/terms/" class="nav-link{' active' if page_id == 'terms' else ''}">Terms</a></li>
@@ -490,6 +548,7 @@ def build_legal_page_html(
         <h4 class="footer-col-title">Navigation</h4>
         <ul class="footer-links">
           <li><a href="/">Latest Stories</a></li>
+          <li><a href="/articles/">In-Depth Articles</a></li>
           <li><a href="/about/">About & Mission</a></li>
           <li><a href="/contact/">Editorial Desk</a></li>
           <li><a href="/sitemap.xml">XML Sitemap</a></li>
@@ -732,19 +791,48 @@ def _xml_escape(val: Any) -> str:
     )
 
 
-def generate_sitemap_xml(stories: List[Dict[str, Any]]) -> str:
+def generate_sitemap_xml(
+    stories: List[Dict[str, Any]],
+    articles: Optional[List[Dict[str, Any]]] = None,
+) -> str:
     """
     Builds dynamic sitemap.xml adhering to Sitemaps Protocol 0.9 with Google Image extensions.
+    Includes portal, articles index, full-length articles, legal pages, and AMP stories.
     """
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     urls = [
         {"loc": f"{SITE_URL}/", "priority": "1.0", "changefreq": "hourly", "image": None},
+        {"loc": f"{SITE_URL}/articles/", "priority": "0.8", "changefreq": "daily", "image": None},
         {"loc": f"{SITE_URL}/about/", "priority": "0.7", "changefreq": "monthly", "image": None},
         {"loc": f"{SITE_URL}/privacy/", "priority": "0.5", "changefreq": "monthly", "image": None},
         {"loc": f"{SITE_URL}/terms/", "priority": "0.5", "changefreq": "monthly", "image": None},
         {"loc": f"{SITE_URL}/contact/", "priority": "0.6", "changefreq": "monthly", "image": None},
     ]
+
+    # Add all in-depth articles
+    if articles:
+        for a in articles:
+            a_slug = a.get("slug", "")
+            if not a_slug:
+                continue
+            a_title = a.get("title", "")
+            a_img = a.get("image", "")
+            a_pub = a.get("published", "")
+            a_mod = now_iso
+            if a_pub and len(a_pub) >= 10:
+                cand = a_pub[:10]
+                if re.match(r"^\d{4}-\d{2}-\d{2}$", cand):
+                    a_mod = cand
+
+            image_data = {"loc": a_img, "title": a_title} if a_img else None
+            urls.append({
+                "loc": f"{SITE_URL}/articles/{a_slug}/",
+                "priority": "0.9",
+                "changefreq": "weekly",
+                "lastmod": a_mod,
+                "image": image_data,
+            })
 
     for s in stories:
         slug = s.get("slug", "")
@@ -762,7 +850,7 @@ def generate_sitemap_xml(stories: List[Dict[str, Any]]) -> str:
         image_data = {"loc": img, "title": title} if img else None
         urls.append({
             "loc": f"{SITE_URL}/stories/{slug}/",
-            "priority": "0.9",
+            "priority": "0.8",
             "changefreq": "daily",
             "lastmod": story_mod,
             "image": image_data,
@@ -813,10 +901,13 @@ Sitemap: {SITE_URL}/sitemap.xml
 
 def build_all_portal_pages(stories: List[Dict[str, Any]], dist_dir: Path):
     """
-    Renders and writes portal homepage, legal pages, sitemap, robots, and stories.json.
+    Renders and writes in-depth articles, portal homepage, legal pages, sitemap, robots, and stories.json.
     """
+    # 0. In-Depth Editorial Articles (/articles/ and /articles/<slug>/)
+    articles = build_all_articles(stories, dist_dir)
+
     # 1. Homepage dist/index.html
-    home_html = build_portal_html(stories)
+    home_html = build_portal_html(stories, articles=articles)
     (dist_dir / "index.html").write_text(home_html, encoding="utf-8")
     print(f"[+] Generated homepage: dist/index.html")
 
@@ -835,8 +926,8 @@ def build_all_portal_pages(stories: List[Dict[str, Any]], dist_dir: Path):
         (page_dir / "index.html").write_text(page_markup, encoding="utf-8")
         print(f"[+] Generated legal page: dist/{page_id}/index.html")
 
-    # 3. Dynamic Sitemap.xml
-    sitemap_xml = generate_sitemap_xml(stories)
+    # 3. Dynamic Sitemap.xml (Includes stories and in-depth articles)
+    sitemap_xml = generate_sitemap_xml(stories, articles=articles)
     (dist_dir / "sitemap.xml").write_text(sitemap_xml, encoding="utf-8")
     print(f"[+] Generated sitemap: dist/sitemap.xml")
 

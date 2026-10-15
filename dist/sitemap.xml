@@ -3,38 +3,434 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://techseconds.com/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://techseconds.com/articles/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://techseconds.com/about/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://techseconds.com/privacy/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://techseconds.com/terms/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://techseconds.com/contact/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://techseconds.com/stories/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://techseconds.com/articles/apple-m4-max-macbook-pro-128gb-unified-memory-benchmarks/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1280&amp;q=85</image:loc>
+      <image:title>Apple M4 Max MacBook Pro: 128GB Unified Memory &amp; 3nm Monster Benchmarks</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/snapdragon-x-elite-2-laptops-28-hour-battery-desktop-arm/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=1280&amp;q=85</image:loc>
+      <image:title>Snapdragon X Elite 2 Laptops: 28-Hour Battery Life &amp; Desktop ARM Computing</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/framework-laptop-16-modular-swappable-gpu-revolution/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1280&amp;q=85</image:loc>
+      <image:title>Framework Laptop 16: The Modular Swappable GPU Revolution That Defeats E-Waste</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/razer-blade-18-rtx-5090-blackwell-4k-oled/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=1280&amp;q=85</image:loc>
+      <image:title>Razer Blade 18 (2026): RTX 5090 Mobile &amp; 300Hz Dual-Mode OLED Gaming Titan</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/asus-zenbook-s-16-cera-aluminum-amd-zen-5-ultrabook/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&amp;q=85</image:loc>
+      <image:title>ASUS Zenbook S 16 Cera-Aluminum: AMD Zen 5 AI Ultrabook Under 1.5kg</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/galaxy-s26-ultra-vs-iphone-18-pro-max-camera-war/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&amp;q=85</image:loc>
+      <image:title>Galaxy S26 Ultra vs iPhone 18 Pro Max: The 200MP Periscope Camera War</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/nothing-phone-3-revealed-glyph-matrix-snapdragon/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&amp;q=85</image:loc>
+      <image:title>Nothing Phone (3) Revealed: Transparent Glyph Matrix &amp; Custom Snapdragon Silicon</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/google-pixel-10-pro-3nm-tensor-g5-magic-video/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&amp;q=85</image:loc>
+      <image:title>Google Pixel 10 Pro: 3nm Tensor G5 &amp; The Pro Magic Video Studio</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/huawei-mate-xt-galaxy-z-fold-7-tri-fold-revolution/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&amp;q=85</image:loc>
+      <image:title>Huawei Mate XT vs Galaxy Z Fold 7: The Ultra-Thin Tri-Fold Tablet Revolution</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/quantum-supremacy-breakthrough-1-million-qubit-chip/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1518770660439-4636190af475?w=1280&amp;q=85</image:loc>
+      <image:title>Quantum Supremacy Breakthrough: 1 Million Qubit Chip Shatters Encryption In 4s</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/humanoid-robots-enter-mass-production-gigafactory/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1280&amp;q=85</image:loc>
+      <image:title>Inside The First Humanoid Robot Gigafactory: 10,000 Androids Enter Mass Production</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/solid-state-silicon-batteries-1000km-range-5-min-charge/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1280&amp;q=85</image:loc>
+      <image:title>Solid-State Silicon Batteries: 1,000km Electric Range In A 5-Minute Fast Charge</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/neuralink-blindsight-telepathy-2-bionic-trials/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1280&amp;q=85</image:loc>
+      <image:title>Neuralink Telepathy 2 &amp; Blindsight: Paralyzed Patients Control Limbs at 120 WPM</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/tsmc-2nm-n2-gaa-silicon-wafers-backside-power-delivery/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1280&amp;q=85</image:loc>
+      <image:title>TSMC 2nm N2 GAA Silicon Wafers: Backside Power Delivery &amp; The 2026 Chip Leap</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/top-secret-ai-productivity-tools-outperform-chatgpt/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
+      <image:title>Top 7 Secret AI Productivity Tools That Outperform ChatGPT in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/claude-37-gemini-38-coding-agents-full-stack/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
+      <image:title>Claude 3.7 &amp; Gemini 3.8 Coding Agents: Building Full-Stack Apps in One Prompt</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/run-open-source-deepseek-llama-4-locally-laptop/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>Run Open-Source DeepSeek &amp; Llama 4 Locally on Your Laptop With Zero Latency</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/sora-2-gen-3-alpha-4k-cinema-sound-models/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
+      <image:title>Sora 2 &amp; Gen-3 Alpha: Generating 4K Cinema Scenes With Physics &amp; Sound In 60s</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/notebooklm-audio-overviews-deep-dive-ai-research/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85</image:loc>
+      <image:title>NotebookLM Audio Overviews 2.0: Deep-Dive Multi-Source AI Research Podcasts</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/science-corporation-implants-its-vision-restoring-chip-in-its-first-st/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1280&amp;q=85</image:loc>
+      <image:title>Science Corporation implants its vision-restoring chip in its first Stargardt disease patient</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
+      <image:title>Cerebras CEO says we&apos;re nearing a future where everyone has a personal AI assistant at home</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-we/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85</image:loc>
+      <image:title>Industrial Next wants factory robots to switch tasks in minutes, not weeks</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/these-quiet-google-calendar-features-make-managing-your-daily-schedule/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>These quiet Google Calendar features make managing your daily schedule much simpler</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/apples-homeview-ad-is-confusing-to-everyone-except-parents/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&amp;q=85</image:loc>
+      <image:title>Apple&apos;s HomeView ad is confusing to everyone except parents</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/it-looks-like-apple-music-is-getting-a-new-icon/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&amp;q=85</image:loc>
+      <image:title>It looks like Apple Music is getting a new icon</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
+      <image:title>Cerebras CEO pushes back on AI doomsday warnings</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/helix-carbon-says-it-can-make-iron-cheaper-by-recycling-blast-furnace/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=1280&amp;q=85</image:loc>
+      <image:title>Helix Carbon says it can make iron cheaper by recycling blast furnace pollution</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/shopify-opens-its-catalog-up-to-more-ai-agents/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
+      <image:title>Shopify opens its catalog up to more AI agents</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/xbox-is-officially-embracing-the-chaos-of-ai-powered-game-ports/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&amp;q=85</image:loc>
+      <image:title>Xbox is officially embracing the chaos of AI-powered game ports</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/russian-bot-farms-are-still-trolling-even-after-ukraines-drone-strikes/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>Russian bot farms are still trolling, even after Ukraine&apos;s drone strikes on Yandex</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistake/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
+      <image:title>Niobia takes the guesswork out of some of tech&apos;s most expensive mistakes</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/facebook-will-let-you-customize-your-feed-algorithm-using-ai/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
+      <image:title>Facebook will let you customize your feed algorithm using AI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/google-makes-it-easier-to-launch-your-vibe-coded-apps/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
+      <image:title>Google makes it easier to launch your vibe-coded apps</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/i-tried-out-apples-homeview-smart-display/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&amp;q=85</image:loc>
+      <image:title>I tried out Apple&apos;s HomeView smart display</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85</image:loc>
+      <image:title>Google Play now supports private, vibe-coded apps built just for you</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/where-to-preorder-the-new-apple-tv-4k/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&amp;q=85</image:loc>
+      <image:title>Where to preorder the new Apple TV 4K</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/watch-apples-reveal-video-for-the-homeview/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1280&amp;q=85</image:loc>
+      <image:title>Watch Apple&apos;s reveal video for the HomeView</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/getty-images-is-going-private-after-failed-shutterstock-merger/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
+      <image:title>Getty Images is going private after failed Shutterstock merger</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/apple-refreshes-its-homepod-mini-with-a-new-chip-and-149-price-tag/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&amp;q=85</image:loc>
+      <image:title>Apple refreshes its Homepod mini with a new chip and $149 price tag</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
@@ -42,9 +438,9 @@
     </image:image>
   </url>
   <url>
-    <loc>https://techseconds.com/stories/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://techseconds.com/articles/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
@@ -52,9 +448,9 @@
     </image:image>
   </url>
   <url>
-    <loc>https://techseconds.com/stories/why-this-one-android-keyboard-shortcut-is-the-single-most-useful-featu/</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://techseconds.com/articles/why-this-one-android-keyboard-shortcut-is-the-single-most-useful-featu/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&amp;q=85</image:loc>
@@ -62,10 +458,1330 @@
     </image:image>
   </url>
   <url>
-    <loc>https://techseconds.com/stories/dont-buy-a-cheap-android-phone-without-these-non-negotiable-features/</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://techseconds.com/articles/dont-buy-a-cheap-android-phone-without-these-non-negotiable-features/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
+      <image:title>Don&apos;t buy a cheap Android phone without these non-negotiable features</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/meta-has-some-wonder-full-new-ai-models/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>Meta has some Wonder Full new AI models</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/the-yandex-outage-probably-didnt-blitz-russian-bots/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
+      <image:title>The Yandex outage probably didn&apos;t blitz Russian bots</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/mechanisms-first-switch-2-case-is-as-awesome-as-i-hoped-it-would-be/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=1280&amp;q=85</image:loc>
+      <image:title>Mechanism&apos;s first Switch 2 case is as awesome as I hoped it would be</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/meta-releases-its-first-frontier-model-muse-wonder/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
+      <image:title>Meta releases its first frontier model, Muse Wonder</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/inside-the-mini-factory-where-gm-builds-its-ev-future/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85</image:loc>
+      <image:title>Inside the mini factory where GM builds its EV future</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/whatsapp-users-may-soon-be-able-to-schedule-messages/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
+      <image:title>WhatsApp users may soon be able to schedule messages</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/microsofts-president-says-ai-is-less-regulated-than-a-carton-of-milk/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85</image:loc>
+      <image:title>Microsoft&apos;s president says AI is less regulated than a carton of milk</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/one-of-the-biggest-issues-in-googlebooks-is-finally-fixed/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&amp;q=85</image:loc>
+      <image:title>One of the biggest issues in Googlebooks is finally fixed</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-k/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
+      <image:title>The founder&apos;s guide to TechCrunch Disrupt 2026: Everything you need to know</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/openai-dot-vs-meta-muse-how-do-these-ai-agents-compare/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
+      <image:title>OpenAI Dot vs. Meta Muse: How do these AI agents compare?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/the-reason-the-xbox-series-s-is-so-much-cheaper-than-the-series-x/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&amp;q=85</image:loc>
+      <image:title>The reason the Xbox Series S is so much cheaper than the Series X</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/why-japan-said-goodbye-to-traditional-flip-phones/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
+      <image:title>Why Japan said goodbye to traditional flip phones</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/a-college-in-illinois-tried-to-cancel-its-flock-contact-and-it-refused/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&amp;q=85</image:loc>
+      <image:title>A college in Illinois tried to cancel its Flock contact and it refused</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/the-new-apple-tv-could-have-a-built-in-mic-and-a-remote-with-a-speaker/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&amp;q=85</image:loc>
+      <image:title>The new Apple TV could have a built-in mic and a remote with a speaker</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/will-the-homeview-be-apples-first-smart-home-success/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&amp;q=85</image:loc>
+      <image:title>Will the HomeView be Apple&apos;s first smart home success?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/aaron-sorkins-social-reckoning-is-off-to-a-weak-start/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>Aaron Sorkin&apos;s &apos;Social Reckoning&apos; is off to a weak start</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/what-to-expect-from-apples-welcome-home-event/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&amp;q=85</image:loc>
+      <image:title>What to expect from Apple&apos;s &apos;Welcome Home&apos; event</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/why-the-leappad-couldnt-survive-the-ipad/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&amp;q=85</image:loc>
+      <image:title>Why the LeapPad couldn&apos;t survive the iPad</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-n/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
+      <image:title>Can the AI industry persuade data center opponents by getting rid of NDAs?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>TechCrunch Mobility: A roadblock clears for self-driving trucks</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/how-to-enable-live-activities-on-iphone-and-carplay/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&amp;q=85</image:loc>
+      <image:title>How to enable Live Activities on iPhone and CarPlay</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/how-to-use-the-parental-controls-on-ios-27/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1280&amp;q=85</image:loc>
+      <image:title>How to use the parental controls on iOS 27</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/how-to-reduce-mobile-data-usage-on-your-iphone/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1280&amp;q=85</image:loc>
+      <image:title>How to reduce mobile data usage on your iPhone</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/satya-nadella-says-we-should-assume-all-ai-models-are-compromised/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
+      <image:title>Satya Nadella says we should assume all AI models are &apos;compromised&apos;</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-p/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&amp;q=85</image:loc>
+      <image:title>Apple discloses deal to hire team and license tech from personalized podcast startup Huxe</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/stop-doing-manual-phone-tasks-this-android-automation-workflow-gave-me/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&amp;q=85</image:loc>
+      <image:title>Stop doing manual phone tasks: This Android automation workflow gave me hours back</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/7-things-you-should-know-about-androids-confusing-new-sideloading-limi/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=1280&amp;q=85</image:loc>
+      <image:title>7 things you should know about Android&apos;s confusing new sideloading limitations</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>Ledger wallet tampering suspected after reports of crypto thefts</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/will-warner-bros-kill-skydance-or-will-david-ellison-kill-warner-bros/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1280&amp;q=85</image:loc>
+      <image:title>Will Warner Bros. kill Skydance - or will David Ellison kill Warner Bros?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/lgs-rgb-led-tv-is-good-for-certain-situations-but-an-oled-is-better/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
+      <image:title>LG&apos;s RGB LED TV is good for certain situations, but an OLED is better</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/cloudflare-acquires-deno-to-improve-its-workers-programming-model/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
+      <image:title>Cloudflare acquires Deno to improve its Workers programming model</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/my-brief-romance-with-an-ai-bird-feeder/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>My brief romance with an AI bird feeder</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/why-pixel-search-solves-the-productivity-problem-for-older-pixels/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&amp;q=85</image:loc>
+      <image:title>Why Pixel Search solves the productivity problem for older Pixels</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/i-flipped-one-overlooked-pixel-setting-my-daily-battery-anxiety-comple/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&amp;q=85</image:loc>
+      <image:title>I flipped one overlooked Pixel setting; my daily battery anxiety completely disappeared</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/i-switched-to-the-galaxy-s26-ultra-but-its-biggest-display-upgrade-com/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&amp;q=85</image:loc>
+      <image:title>I switched to the Galaxy S26 Ultra, but its biggest display upgrade comes with a major catch</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/decade-old-ram-is-making-a-comeback/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=1280&amp;q=85</image:loc>
+      <image:title>Decade-old RAM is making a comeback</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-dela/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
+      <image:title>Elon Musk intensifies attack on Ambani over Starlink India launch delay</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-inte/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
+      <image:title>Anthropic can&apos;t reliably control its AI agents. It&apos;s cutting off its internal evals from the live internet instead</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/long-live-the-mechanical-keyboard/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&amp;q=85</image:loc>
+      <image:title>Long live the mechanical keyboard</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/pure-insanity-mathematicians-will-need-years-to-make-sense-of-openais/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85</image:loc>
+      <image:title>&apos;Pure insanity&apos;: Mathematicians will need years to make sense of OpenAI&apos;s latest drop</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/brendan-carr-says-hell-let-pete-hegseth-decide-whether-tv-networks-can/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
+      <image:title>Brendan Carr says he&apos;ll let Pete Hegseth decide whether TV networks can air the public execution</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/nikon-microscopic-video-competition-winner-disqualified-for-using-gene/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85</image:loc>
+      <image:title>Nikon microscopic video competition winner disqualified for using generative AI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/lumenus-helps-automate-tedious-paperwork-in-times-of-grief/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>LumenUs helps automate tedious paperwork in times of grief</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/trumps-attempt-to-rename-ai-is-looking-awfully-artificial/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
+      <image:title>Trump&apos;s attempt to rename AI is looking awfully artificial</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/instinct-was-the-buzziest-ai-agent-around-can-it-survive-muse/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
+      <image:title>Instinct was the buzziest AI agent around - can it survive Muse?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/a-week-with-googlebooks-four-notes-from-our-testing-so-far/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1280&amp;q=85</image:loc>
+      <image:title>A week with Googlebooks: four notes from our testing so far</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/beyond-techcrunch-disrupt-2026-the-side-events-parties-networking-you/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=1280&amp;q=85</image:loc>
+      <image:title>Beyond TechCrunch Disrupt 2026: The Side Events, Parties &amp; Networking You Can&apos;t Miss</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/anthropic-launches-free-ai-security-scans-for-open-source-projects/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
+      <image:title>Anthropic launches free AI security scans for open-source projects</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/spacex-announces-plan-to-become-a-major-mobile-carrier/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1280&amp;q=85</image:loc>
+      <image:title>SpaceX announces plan to become a &apos;major mobile carrier&apos;</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/amd-will-bring-fsr-4-to-handhelds-by-the-end-of-2026/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1280&amp;q=85</image:loc>
+      <image:title>AMD will bring FSR 4 to handhelds by the end of 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detaile/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
+      <image:title>Pretend you&apos;re sitting at Elizabeth Holmes&apos; desk on this weirdly detailed website</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/apple-will-reportedly-debut-its-first-touchscreen-macbook-in-three-wee/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&amp;q=85</image:loc>
+      <image:title>Apple will reportedly debut its first touchscreen MacBook in three weeks</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/california-is-trying-to-shut-down-robot-vs-human-cage-matches/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
+      <image:title>California is trying to shut down robot vs. human cage matches</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/ice-detainees-in-georgia-used-the-facilitys-video-calling-software-to/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>ICE detainees in Georgia used the facility&apos;s video calling software to expose the conditions inside</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chil/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85</image:loc>
+      <image:title>Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/the-retro-song-bird-plays-just-the-music-from-your-favorite-game-boy-c/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&amp;q=85</image:loc>
+      <image:title>The Retro Song Bird plays just the music from your favorite Game Boy cartridges</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/google-is-launching-a-one-stop-gemini-agent-for-your-work-tasks/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>Google is launching a one-stop Gemini agent for your work tasks</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/atari-is-bringing-back-one-of-its-earliest-8-bit-home-computers/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
+      <image:title>Atari is bringing back one of its earliest 8-bit home computers</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/asos-confirms-breach-of-customer-data-after-hackers-send-rogue-app-not/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
+      <image:title>Asos confirms breach of customer data after hackers send rogue app notification</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
+      <image:title>Robot data startup Mecka AI nabs $60M from Sequoia</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/nous-research-confirms-it-hit-15b-valuation-launches-ai-agents-for-bus/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>Nous Research confirms it hit $1.5B valuation, launches AI agents for business users</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/i-finally-customized-these-android-auto-settings-my-daily-commute-will/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85</image:loc>
+      <image:title>I finally customized these Android Auto settings; my daily commute will never be the same</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/i-disabled-youtube-shorts-now-i-feel-like-i-can-breathe-again/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
+      <image:title>I disabled YouTube Shorts; now I feel like I can breathe again</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/bmws-ix4-suv-is-a-428-mile-defensive-weapon-against-chinas-ev-takeover/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>BMW&apos;s iX4 SUV is a 428-mile defensive weapon against China&apos;s EV takeover</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/androids-physical-navigation-buttons-are-back-on-googlebooks-but-not-t/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
+      <image:title>Android&apos;s physical navigation buttons are back on Googlebooks, but not the way you think</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/chatgpts-intelligent-ui-update-fills-its-responses-with-pictures-chart/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
+      <image:title>ChatGPT&apos;s &apos;Intelligent UI&apos; update fills its responses with pictures, charts, and buttons</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/while-vcs-crowd-into-san-francisco-endeavor-catalyst-raises-320m-for-f/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
+      <image:title>While VCs crowd into San Francisco, Endeavor Catalyst raises $320M for founders &apos;elsewhere&apos;</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/microsoft-is-giving-copilot-more-control-over-windows-and-your-files/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>Microsoft is giving Copilot more control over Windows and your files</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/how-microsoft-built-its-macbook-pro-competitor/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&amp;q=85</image:loc>
+      <image:title>How Microsoft built its MacBook Pro competitor</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/the-meta-quest-3s-gets-a-rare-discount-during-october-prime-day/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=1280&amp;q=85</image:loc>
+      <image:title>The Meta Quest 3S gets a rare discount during October Prime Day</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/x-expands-its-gametime-sports-hub-beyond-the-nfl-starting-with-mlb/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&amp;q=85</image:loc>
+      <image:title>X expands its &apos;Gametime&apos; sports hub beyond the NFL, starting with MLB</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/chatgpt-for-teens-is-an-unacceptable-risk-says-common-sense-media/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1280&amp;q=85</image:loc>
+      <image:title>ChatGPT for Teens is an &apos;unacceptable risk,&apos; says Common Sense Media</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/spotify-expands-audiobooks-to-over-180-markets/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1280&amp;q=85</image:loc>
+      <image:title>Spotify expands audiobooks to over 180 markets</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/apple-tvs-f1-coverage-will-now-support-dolby-atmos/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&amp;q=85</image:loc>
+      <image:title>Apple TV&apos;s F1 coverage will now support Dolby Atmos</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/how-long-have-wireless-gaming-controllers-been-around-for/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&amp;q=85</image:loc>
+      <image:title>How long have wireless gaming controllers been around for?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/openai-drops-another-batch-of-mathematical-breakthroughs/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=1280&amp;q=85</image:loc>
+      <image:title>OpenAI drops another batch of mathematical breakthroughs</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-insti/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1280&amp;q=85</image:loc>
+      <image:title>Silicon Valley&apos;s AI wunderkind launches Underdog, the most private Instinct/Muse competitor yet</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/how-to-help-stop-spam-calls-on-iphone-and-android/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1280&amp;q=85</image:loc>
+      <image:title>How to help stop spam calls on iPhone and Android</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/why-do-some-pcs-have-two-ethernet-ports/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1280&amp;q=85</image:loc>
+      <image:title>Why do some PCs have two Ethernet ports?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/xbox-has-secured-exclusive-gta-6-streaming-rights/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=1280&amp;q=85</image:loc>
+      <image:title>Xbox has secured exclusive GTA 6 streaming rights</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/the-best-robot-vacuum-and-mop-deals-during-october-prime-day/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1280&amp;q=85</image:loc>
+      <image:title>The best robot vacuum and mop deals during October Prime Day</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/apple-and-lg-team-up-on-new-smart-home-gear-starting-with-a-lock-doorb/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1542393545-10f5cde2c810?w=1280&amp;q=85</image:loc>
+      <image:title>Apple and LG team up on new smart home gear, starting with a lock, doorbell, and thermostat</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=1280&amp;q=85</image:loc>
+      <image:title>Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/our-first-five-impressions-of-googlebooks-exciting-but-underbaked/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1280&amp;q=85</image:loc>
+      <image:title>Our first five impressions of Googlebooks - exciting but underbaked</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/apple-tvs-great-year-continues-with-small-prophets/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&amp;q=85</image:loc>
+      <image:title>Apple TV&apos;s great year continues with Small Prophets</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/ankers-100w-universal-charger-is-a-great-travel-gadget-for-64/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=1280&amp;q=85</image:loc>
+      <image:title>Anker&apos;s 100W universal charger is a great travel gadget for $64</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/mirror-particle-is-building-a-world-model-of-human-behavior/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=1280&amp;q=85</image:loc>
+      <image:title>Mirror Particle is building a &apos;world model&apos; of human behavior</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/xbox-elite-controller-3-specs-leak-via-xboxs-own-design-lab/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1280&amp;q=85</image:loc>
+      <image:title>Xbox Elite Controller 3 specs leak via Xbox&apos;s own Design Lab</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/mini-pc-vs-laptop-which-is-better-for-your-home-office/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=1280&amp;q=85</image:loc>
+      <image:title>Mini PC vs. laptop: Which is better for your home office?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/the-matic-is-the-first-robovac-to-get-an-fcc-ban-waiver-not-that-it-ne/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
+      <image:title>The Matic is the first robovac to get an FCC ban waiver, not that it needs it</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/reflection-debuts-beam-an-open-weight-ai-model-to-rival-chinese-models/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1280&amp;q=85</image:loc>
+      <image:title>Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/gemini-call-for-me-might-tell-your-mom-youre-running-late/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
+      <image:title>Gemini Call for Me might tell your mom you&apos;re running late</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&amp;q=85</image:loc>
+      <image:title>Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/openai-will-start-watermarking-chatgpts-text-in-the-eu/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
+      <image:title>OpenAI will start watermarking ChatGPT&apos;s text in the EU</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/etched-fields-funding-offers-at-40b-valuation-sources-say/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>Etched fields funding offers at $40B+ valuation, sources say</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/common-mistakes-you-should-avoid-when-using-foldable-phones/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&amp;q=85</image:loc>
+      <image:title>Common mistakes you should avoid when using foldable phones</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/can-a-macbook-handle-heavy-games-heres-what-you-should-know/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&amp;q=85</image:loc>
+      <image:title>Can a MacBook handle heavy games? Here&apos;s what you should know</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/xiaomi-15-ultra-sony-lyt-900-leica-telephoto/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&amp;q=85</image:loc>
+      <image:title>Xiaomi 15 Ultra: 1-Inch Sony LYT-900 Sensor &amp; Leica APO 200mm Telephoto</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/neural-audio-anc-3-audiophiles-ditching-wired/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&amp;q=85</image:loc>
+      <image:title>Neural Audio ANC 3.0: Why Audiophiles Are Ditching Wired Headphones</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/meta-orion-apple-vision-pro-2-holographic-ar-glasses/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=1280&amp;q=85</image:loc>
+      <image:title>Meta Orion &amp; Apple Vision Pro 2: True Holographic AR Glasses Reality</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/samsung-galaxy-ring-2-blood-pressure-sleep-tracking/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=1280&amp;q=85</image:loc>
+      <image:title>Samsung Galaxy Ring 2: Continuous Blood Pressure &amp; Neural Sleep Tracking</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/apple-watch-ultra-3-satellite-microled-display/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&amp;q=85</image:loc>
+      <image:title>Apple Watch Ultra 3: 2-Way Satellite Messaging &amp; 3,000-Nit Micro-LED Screen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/dji-pocket-3-pro-neo-ai-tracking-cameras/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1280&amp;q=85</image:loc>
+      <image:title>DJI Pocket 3 Pro &amp; Neo: 4K 120fps AI Autonomous Subject-Tracking Cameras</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/steam-deck-2-handheld-pc-gaming-wars-1080p-120hz/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1280&amp;q=85</image:loc>
+      <image:title>Steam Deck 2 &amp; Handheld PC Gaming Wars: 1080p 120Hz In Your Pocket</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/nintendo-switch-2-revealed-4k-dlss-hybrid-powerhouse/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&amp;q=85</image:loc>
+      <image:title>Nintendo Switch 2 Revealed: 4K DLSS Hybrid Portable Powerhouse</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/480hz-qd-oled-esports-displays-zero-ghosting/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=1280&amp;q=85</image:loc>
+      <image:title>480Hz QD-OLED Esports Displays: Zero Ghosting &amp; 0.03ms Flawless Motion Clarity</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/playstation-portal-pro-dualsense-edge-2-hall-effect/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&amp;q=85</image:loc>
+      <image:title>PlayStation Portal Pro: Wi-Fi 7 Direct, 120Hz OLED &amp; Zero-Lag Remote Play</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/xbox-next-gen-hybrid-console-windows-pc-bridge/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&amp;q=85</image:loc>
+      <image:title>Xbox Next-Gen Hybrid Console: Bridging Native Windows PC Games &amp; Living Room 4K</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/science-corporation-implants-its-vision-restoring-chip-in-its-first-st/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1280&amp;q=85</image:loc>
+      <image:title>Science Corporation implants its vision-restoring chip in its first Stargardt disease patient</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
+      <image:title>Cerebras CEO says we&apos;re nearing a future where everyone has a personal AI assistant at home</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-we/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85</image:loc>
+      <image:title>Industrial Next wants factory robots to switch tasks in minutes, not weeks</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/these-quiet-google-calendar-features-make-managing-your-daily-schedule/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>These quiet Google Calendar features make managing your daily schedule much simpler</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/apples-homeview-ad-is-confusing-to-everyone-except-parents/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&amp;q=85</image:loc>
+      <image:title>Apple&apos;s HomeView ad is confusing to everyone except parents</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/it-looks-like-apple-music-is-getting-a-new-icon/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&amp;q=85</image:loc>
+      <image:title>It looks like Apple Music is getting a new icon</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
+      <image:title>Cerebras CEO pushes back on AI doomsday warnings</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/helix-carbon-says-it-can-make-iron-cheaper-by-recycling-blast-furnace/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=1280&amp;q=85</image:loc>
+      <image:title>Helix Carbon says it can make iron cheaper by recycling blast furnace pollution</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/shopify-opens-its-catalog-up-to-more-ai-agents/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
+      <image:title>Shopify opens its catalog up to more AI agents</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/xbox-is-officially-embracing-the-chaos-of-ai-powered-game-ports/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&amp;q=85</image:loc>
+      <image:title>Xbox is officially embracing the chaos of AI-powered game ports</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/russian-bot-farms-are-still-trolling-even-after-ukraines-drone-strikes/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>Russian bot farms are still trolling, even after Ukraine&apos;s drone strikes on Yandex</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistake/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
+      <image:title>Niobia takes the guesswork out of some of tech&apos;s most expensive mistakes</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/facebook-will-let-you-customize-your-feed-algorithm-using-ai/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
+      <image:title>Facebook will let you customize your feed algorithm using AI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/google-makes-it-easier-to-launch-your-vibe-coded-apps/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
+      <image:title>Google makes it easier to launch your vibe-coded apps</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/i-tried-out-apples-homeview-smart-display/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&amp;q=85</image:loc>
+      <image:title>I tried out Apple&apos;s HomeView smart display</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85</image:loc>
+      <image:title>Google Play now supports private, vibe-coded apps built just for you</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/where-to-preorder-the-new-apple-tv-4k/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&amp;q=85</image:loc>
+      <image:title>Where to preorder the new Apple TV 4K</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/watch-apples-reveal-video-for-the-homeview/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1280&amp;q=85</image:loc>
+      <image:title>Watch Apple&apos;s reveal video for the HomeView</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/getty-images-is-going-private-after-failed-shutterstock-merger/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
+      <image:title>Getty Images is going private after failed Shutterstock merger</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/apple-refreshes-its-homepod-mini-with-a-new-chip-and-149-price-tag/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&amp;q=85</image:loc>
+      <image:title>Apple refreshes its Homepod mini with a new chip and $149 price tag</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
+      <image:title>WindBorne wins a hefty US Air Force contract for its balloon data</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>Honeyjar offers AI tools to improve PR and comms at every company</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/why-this-one-android-keyboard-shortcut-is-the-single-most-useful-featu/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&amp;q=85</image:loc>
+      <image:title>Why this one Android keyboard shortcut is the single most useful feature on my phone</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/dont-buy-a-cheap-android-phone-without-these-non-negotiable-features/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
       <image:title>Don&apos;t buy a cheap Android phone without these non-negotiable features</image:title>
@@ -75,7 +1791,7 @@
     <loc>https://techseconds.com/stories/meta-has-some-wonder-full-new-ai-models/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
       <image:title>Meta has some Wonder Full new AI models</image:title>
@@ -85,7 +1801,7 @@
     <loc>https://techseconds.com/stories/the-yandex-outage-probably-didnt-blitz-russian-bots/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
       <image:title>The Yandex outage probably didn&apos;t blitz Russian bots</image:title>
@@ -95,7 +1811,7 @@
     <loc>https://techseconds.com/stories/mechanisms-first-switch-2-case-is-as-awesome-as-i-hoped-it-would-be/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=1280&amp;q=85</image:loc>
       <image:title>Mechanism&apos;s first Switch 2 case is as awesome as I hoped it would be</image:title>
@@ -103,9 +1819,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/meta-releases-its-first-frontier-model-muse-wonder/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
       <image:title>Meta releases its first frontier model, Muse Wonder</image:title>
@@ -115,7 +1831,7 @@
     <loc>https://techseconds.com/stories/inside-the-mini-factory-where-gm-builds-its-ev-future/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85</image:loc>
       <image:title>Inside the mini factory where GM builds its EV future</image:title>
@@ -123,9 +1839,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/whatsapp-users-may-soon-be-able-to-schedule-messages/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
       <image:title>WhatsApp users may soon be able to schedule messages</image:title>
@@ -133,9 +1849,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/microsofts-president-says-ai-is-less-regulated-than-a-carton-of-milk/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85</image:loc>
       <image:title>Microsoft&apos;s president says AI is less regulated than a carton of milk</image:title>
@@ -143,9 +1859,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/one-of-the-biggest-issues-in-googlebooks-is-finally-fixed/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&amp;q=85</image:loc>
       <image:title>One of the biggest issues in Googlebooks is finally fixed</image:title>
@@ -153,9 +1869,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-k/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
       <image:title>The founder&apos;s guide to TechCrunch Disrupt 2026: Everything you need to know</image:title>
@@ -163,9 +1879,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/openai-dot-vs-meta-muse-how-do-these-ai-agents-compare/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
       <image:title>OpenAI Dot vs. Meta Muse: How do these AI agents compare?</image:title>
@@ -173,9 +1889,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/the-reason-the-xbox-series-s-is-so-much-cheaper-than-the-series-x/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&amp;q=85</image:loc>
       <image:title>The reason the Xbox Series S is so much cheaper than the Series X</image:title>
@@ -183,9 +1899,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/why-japan-said-goodbye-to-traditional-flip-phones/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
       <image:title>Why Japan said goodbye to traditional flip phones</image:title>
@@ -195,7 +1911,7 @@
     <loc>https://techseconds.com/stories/a-college-in-illinois-tried-to-cancel-its-flock-contact-and-it-refused/</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&amp;q=85</image:loc>
       <image:title>A college in Illinois tried to cancel its Flock contact and it refused</image:title>
@@ -205,7 +1921,7 @@
     <loc>https://techseconds.com/stories/the-new-apple-tv-could-have-a-built-in-mic-and-a-remote-with-a-speaker/</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&amp;q=85</image:loc>
       <image:title>The new Apple TV could have a built-in mic and a remote with a speaker</image:title>
@@ -213,9 +1929,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/will-the-homeview-be-apples-first-smart-home-success/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&amp;q=85</image:loc>
       <image:title>Will the HomeView be Apple&apos;s first smart home success?</image:title>
@@ -223,9 +1939,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/aaron-sorkins-social-reckoning-is-off-to-a-weak-start/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
       <image:title>Aaron Sorkin&apos;s &apos;Social Reckoning&apos; is off to a weak start</image:title>
@@ -235,7 +1951,7 @@
     <loc>https://techseconds.com/stories/what-to-expect-from-apples-welcome-home-event/</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&amp;q=85</image:loc>
       <image:title>What to expect from Apple&apos;s &apos;Welcome Home&apos; event</image:title>
@@ -245,7 +1961,7 @@
     <loc>https://techseconds.com/stories/why-the-leappad-couldnt-survive-the-ipad/</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&amp;q=85</image:loc>
       <image:title>Why the LeapPad couldn&apos;t survive the iPad</image:title>
@@ -253,9 +1969,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-n/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
       <image:title>Can the AI industry persuade data center opponents by getting rid of NDAs?</image:title>
@@ -263,9 +1979,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
       <image:title>TechCrunch Mobility: A roadblock clears for self-driving trucks</image:title>
@@ -273,9 +1989,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/how-to-enable-live-activities-on-iphone-and-carplay/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&amp;q=85</image:loc>
       <image:title>How to enable Live Activities on iPhone and CarPlay</image:title>
@@ -283,9 +1999,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/how-to-use-the-parental-controls-on-ios-27/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1280&amp;q=85</image:loc>
       <image:title>How to use the parental controls on iOS 27</image:title>
@@ -293,9 +2009,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/how-to-reduce-mobile-data-usage-on-your-iphone/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1280&amp;q=85</image:loc>
       <image:title>How to reduce mobile data usage on your iPhone</image:title>
@@ -305,7 +2021,7 @@
     <loc>https://techseconds.com/stories/satya-nadella-says-we-should-assume-all-ai-models-are-compromised/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
       <image:title>Satya Nadella says we should assume all AI models are &apos;compromised&apos;</image:title>
@@ -313,9 +2029,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-p/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&amp;q=85</image:loc>
       <image:title>Apple discloses deal to hire team and license tech from personalized podcast startup Huxe</image:title>
@@ -323,9 +2039,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/stop-doing-manual-phone-tasks-this-android-automation-workflow-gave-me/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&amp;q=85</image:loc>
       <image:title>Stop doing manual phone tasks: This Android automation workflow gave me hours back</image:title>
@@ -333,9 +2049,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/7-things-you-should-know-about-androids-confusing-new-sideloading-limi/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=1280&amp;q=85</image:loc>
       <image:title>7 things you should know about Android&apos;s confusing new sideloading limitations</image:title>
@@ -345,7 +2061,7 @@
     <loc>https://techseconds.com/stories/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
       <image:title>Ledger wallet tampering suspected after reports of crypto thefts</image:title>
@@ -355,7 +2071,7 @@
     <loc>https://techseconds.com/stories/will-warner-bros-kill-skydance-or-will-david-ellison-kill-warner-bros/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1280&amp;q=85</image:loc>
       <image:title>Will Warner Bros. kill Skydance - or will David Ellison kill Warner Bros?</image:title>
@@ -365,7 +2081,7 @@
     <loc>https://techseconds.com/stories/lgs-rgb-led-tv-is-good-for-certain-situations-but-an-oled-is-better/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
       <image:title>LG&apos;s RGB LED TV is good for certain situations, but an OLED is better</image:title>
@@ -373,9 +2089,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/cloudflare-acquires-deno-to-improve-its-workers-programming-model/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
       <image:title>Cloudflare acquires Deno to improve its Workers programming model</image:title>
@@ -385,7 +2101,7 @@
     <loc>https://techseconds.com/stories/my-brief-romance-with-an-ai-bird-feeder/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
       <image:title>My brief romance with an AI bird feeder</image:title>
@@ -393,9 +2109,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/why-pixel-search-solves-the-productivity-problem-for-older-pixels/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&amp;q=85</image:loc>
       <image:title>Why Pixel Search solves the productivity problem for older Pixels</image:title>
@@ -403,9 +2119,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/i-flipped-one-overlooked-pixel-setting-my-daily-battery-anxiety-comple/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&amp;q=85</image:loc>
       <image:title>I flipped one overlooked Pixel setting; my daily battery anxiety completely disappeared</image:title>
@@ -413,9 +2129,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/i-switched-to-the-galaxy-s26-ultra-but-its-biggest-display-upgrade-com/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&amp;q=85</image:loc>
       <image:title>I switched to the Galaxy S26 Ultra, but its biggest display upgrade comes with a major catch</image:title>
@@ -425,7 +2141,7 @@
     <loc>https://techseconds.com/stories/decade-old-ram-is-making-a-comeback/</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=1280&amp;q=85</image:loc>
       <image:title>Decade-old RAM is making a comeback</image:title>
@@ -433,9 +2149,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-dela/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
       <image:title>Elon Musk intensifies attack on Ambani over Starlink India launch delay</image:title>
@@ -443,9 +2159,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-inte/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
       <image:title>Anthropic can&apos;t reliably control its AI agents. It&apos;s cutting off its internal evals from the live internet instead</image:title>
@@ -453,9 +2169,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/long-live-the-mechanical-keyboard/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&amp;q=85</image:loc>
       <image:title>Long live the mechanical keyboard</image:title>
@@ -465,7 +2181,7 @@
     <loc>https://techseconds.com/stories/pure-insanity-mathematicians-will-need-years-to-make-sense-of-openais/</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85</image:loc>
       <image:title>&apos;Pure insanity&apos;: Mathematicians will need years to make sense of OpenAI&apos;s latest drop</image:title>
@@ -475,7 +2191,7 @@
     <loc>https://techseconds.com/stories/brendan-carr-says-hell-let-pete-hegseth-decide-whether-tv-networks-can/</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
       <image:title>Brendan Carr says he&apos;ll let Pete Hegseth decide whether TV networks can air the public execution</image:title>
@@ -485,7 +2201,7 @@
     <loc>https://techseconds.com/stories/nikon-microscopic-video-competition-winner-disqualified-for-using-gene/</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85</image:loc>
       <image:title>Nikon microscopic video competition winner disqualified for using generative AI</image:title>
@@ -493,9 +2209,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/lumenus-helps-automate-tedious-paperwork-in-times-of-grief/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
       <image:title>LumenUs helps automate tedious paperwork in times of grief</image:title>
@@ -505,7 +2221,7 @@
     <loc>https://techseconds.com/stories/trumps-attempt-to-rename-ai-is-looking-awfully-artificial/</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
       <image:title>Trump&apos;s attempt to rename AI is looking awfully artificial</image:title>
@@ -515,7 +2231,7 @@
     <loc>https://techseconds.com/stories/instinct-was-the-buzziest-ai-agent-around-can-it-survive-muse/</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
       <image:title>Instinct was the buzziest AI agent around - can it survive Muse?</image:title>
@@ -525,7 +2241,7 @@
     <loc>https://techseconds.com/stories/a-week-with-googlebooks-four-notes-from-our-testing-so-far/</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1280&amp;q=85</image:loc>
       <image:title>A week with Googlebooks: four notes from our testing so far</image:title>
@@ -533,9 +2249,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/beyond-techcrunch-disrupt-2026-the-side-events-parties-networking-you/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=1280&amp;q=85</image:loc>
       <image:title>Beyond TechCrunch Disrupt 2026: The Side Events, Parties &amp; Networking You Can&apos;t Miss</image:title>
@@ -545,7 +2261,7 @@
     <loc>https://techseconds.com/stories/anthropic-launches-free-ai-security-scans-for-open-source-projects/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
       <image:title>Anthropic launches free AI security scans for open-source projects</image:title>
@@ -555,7 +2271,7 @@
     <loc>https://techseconds.com/stories/spacex-announces-plan-to-become-a-major-mobile-carrier/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1280&amp;q=85</image:loc>
       <image:title>SpaceX announces plan to become a &apos;major mobile carrier&apos;</image:title>
@@ -565,7 +2281,7 @@
     <loc>https://techseconds.com/stories/amd-will-bring-fsr-4-to-handhelds-by-the-end-of-2026/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1280&amp;q=85</image:loc>
       <image:title>AMD will bring FSR 4 to handhelds by the end of 2026</image:title>
@@ -573,9 +2289,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detaile/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
       <image:title>Pretend you&apos;re sitting at Elizabeth Holmes&apos; desk on this weirdly detailed website</image:title>
@@ -585,7 +2301,7 @@
     <loc>https://techseconds.com/stories/apple-will-reportedly-debut-its-first-touchscreen-macbook-in-three-wee/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&amp;q=85</image:loc>
       <image:title>Apple will reportedly debut its first touchscreen MacBook in three weeks</image:title>
@@ -595,7 +2311,7 @@
     <loc>https://techseconds.com/stories/california-is-trying-to-shut-down-robot-vs-human-cage-matches/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
       <image:title>California is trying to shut down robot vs. human cage matches</image:title>
@@ -605,7 +2321,7 @@
     <loc>https://techseconds.com/stories/ice-detainees-in-georgia-used-the-facilitys-video-calling-software-to/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
       <image:title>ICE detainees in Georgia used the facility&apos;s video calling software to expose the conditions inside</image:title>
@@ -613,9 +2329,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chil/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85</image:loc>
       <image:title>Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect</image:title>
@@ -625,7 +2341,7 @@
     <loc>https://techseconds.com/stories/the-retro-song-bird-plays-just-the-music-from-your-favorite-game-boy-c/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&amp;q=85</image:loc>
       <image:title>The Retro Song Bird plays just the music from your favorite Game Boy cartridges</image:title>
@@ -635,7 +2351,7 @@
     <loc>https://techseconds.com/stories/google-is-launching-a-one-stop-gemini-agent-for-your-work-tasks/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
       <image:title>Google is launching a one-stop Gemini agent for your work tasks</image:title>
@@ -645,7 +2361,7 @@
     <loc>https://techseconds.com/stories/atari-is-bringing-back-one-of-its-earliest-8-bit-home-computers/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
       <image:title>Atari is bringing back one of its earliest 8-bit home computers</image:title>
@@ -653,9 +2369,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/asos-confirms-breach-of-customer-data-after-hackers-send-rogue-app-not/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
       <image:title>Asos confirms breach of customer data after hackers send rogue app notification</image:title>
@@ -663,9 +2379,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
       <image:title>Robot data startup Mecka AI nabs $60M from Sequoia</image:title>
@@ -673,9 +2389,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/nous-research-confirms-it-hit-15b-valuation-launches-ai-agents-for-bus/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
       <image:title>Nous Research confirms it hit $1.5B valuation, launches AI agents for business users</image:title>
@@ -683,9 +2399,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/i-finally-customized-these-android-auto-settings-my-daily-commute-will/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85</image:loc>
       <image:title>I finally customized these Android Auto settings; my daily commute will never be the same</image:title>
@@ -693,9 +2409,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/i-disabled-youtube-shorts-now-i-feel-like-i-can-breathe-again/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
       <image:title>I disabled YouTube Shorts; now I feel like I can breathe again</image:title>
@@ -705,7 +2421,7 @@
     <loc>https://techseconds.com/stories/bmws-ix4-suv-is-a-428-mile-defensive-weapon-against-chinas-ev-takeover/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
       <image:title>BMW&apos;s iX4 SUV is a 428-mile defensive weapon against China&apos;s EV takeover</image:title>
@@ -715,7 +2431,7 @@
     <loc>https://techseconds.com/stories/androids-physical-navigation-buttons-are-back-on-googlebooks-but-not-t/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
       <image:title>Android&apos;s physical navigation buttons are back on Googlebooks, but not the way you think</image:title>
@@ -725,7 +2441,7 @@
     <loc>https://techseconds.com/stories/chatgpts-intelligent-ui-update-fills-its-responses-with-pictures-chart/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
       <image:title>ChatGPT&apos;s &apos;Intelligent UI&apos; update fills its responses with pictures, charts, and buttons</image:title>
@@ -733,9 +2449,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/while-vcs-crowd-into-san-francisco-endeavor-catalyst-raises-320m-for-f/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
       <image:title>While VCs crowd into San Francisco, Endeavor Catalyst raises $320M for founders &apos;elsewhere&apos;</image:title>
@@ -745,7 +2461,7 @@
     <loc>https://techseconds.com/stories/microsoft-is-giving-copilot-more-control-over-windows-and-your-files/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
       <image:title>Microsoft is giving Copilot more control over Windows and your files</image:title>
@@ -755,7 +2471,7 @@
     <loc>https://techseconds.com/stories/how-microsoft-built-its-macbook-pro-competitor/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&amp;q=85</image:loc>
       <image:title>How Microsoft built its MacBook Pro competitor</image:title>
@@ -765,7 +2481,7 @@
     <loc>https://techseconds.com/stories/the-meta-quest-3s-gets-a-rare-discount-during-october-prime-day/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=1280&amp;q=85</image:loc>
       <image:title>The Meta Quest 3S gets a rare discount during October Prime Day</image:title>
@@ -773,9 +2489,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/x-expands-its-gametime-sports-hub-beyond-the-nfl-starting-with-mlb/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&amp;q=85</image:loc>
       <image:title>X expands its &apos;Gametime&apos; sports hub beyond the NFL, starting with MLB</image:title>
@@ -785,7 +2501,7 @@
     <loc>https://techseconds.com/stories/chatgpt-for-teens-is-an-unacceptable-risk-says-common-sense-media/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1280&amp;q=85</image:loc>
       <image:title>ChatGPT for Teens is an &apos;unacceptable risk,&apos; says Common Sense Media</image:title>
@@ -793,9 +2509,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/spotify-expands-audiobooks-to-over-180-markets/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1280&amp;q=85</image:loc>
       <image:title>Spotify expands audiobooks to over 180 markets</image:title>
@@ -803,9 +2519,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/apple-tvs-f1-coverage-will-now-support-dolby-atmos/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&amp;q=85</image:loc>
       <image:title>Apple TV&apos;s F1 coverage will now support Dolby Atmos</image:title>
@@ -813,9 +2529,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/how-long-have-wireless-gaming-controllers-been-around-for/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&amp;q=85</image:loc>
       <image:title>How long have wireless gaming controllers been around for?</image:title>
@@ -825,7 +2541,7 @@
     <loc>https://techseconds.com/stories/openai-drops-another-batch-of-mathematical-breakthroughs/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=1280&amp;q=85</image:loc>
       <image:title>OpenAI drops another batch of mathematical breakthroughs</image:title>
@@ -833,9 +2549,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-insti/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1280&amp;q=85</image:loc>
       <image:title>Silicon Valley&apos;s AI wunderkind launches Underdog, the most private Instinct/Muse competitor yet</image:title>
@@ -843,9 +2559,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/how-to-help-stop-spam-calls-on-iphone-and-android/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1280&amp;q=85</image:loc>
       <image:title>How to help stop spam calls on iPhone and Android</image:title>
@@ -853,9 +2569,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/why-do-some-pcs-have-two-ethernet-ports/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1280&amp;q=85</image:loc>
       <image:title>Why do some PCs have two Ethernet ports?</image:title>
@@ -865,7 +2581,7 @@
     <loc>https://techseconds.com/stories/xbox-has-secured-exclusive-gta-6-streaming-rights/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=1280&amp;q=85</image:loc>
       <image:title>Xbox has secured exclusive GTA 6 streaming rights</image:title>
@@ -875,7 +2591,7 @@
     <loc>https://techseconds.com/stories/the-best-robot-vacuum-and-mop-deals-during-october-prime-day/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1280&amp;q=85</image:loc>
       <image:title>The best robot vacuum and mop deals during October Prime Day</image:title>
@@ -885,7 +2601,7 @@
     <loc>https://techseconds.com/stories/apple-and-lg-team-up-on-new-smart-home-gear-starting-with-a-lock-doorb/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1542393545-10f5cde2c810?w=1280&amp;q=85</image:loc>
       <image:title>Apple and LG team up on new smart home gear, starting with a lock, doorbell, and thermostat</image:title>
@@ -893,9 +2609,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=1280&amp;q=85</image:loc>
       <image:title>Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product</image:title>
@@ -905,7 +2621,7 @@
     <loc>https://techseconds.com/stories/our-first-five-impressions-of-googlebooks-exciting-but-underbaked/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1280&amp;q=85</image:loc>
       <image:title>Our first five impressions of Googlebooks - exciting but underbaked</image:title>
@@ -915,7 +2631,7 @@
     <loc>https://techseconds.com/stories/apple-tvs-great-year-continues-with-small-prophets/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&amp;q=85</image:loc>
       <image:title>Apple TV&apos;s great year continues with Small Prophets</image:title>
@@ -925,7 +2641,7 @@
     <loc>https://techseconds.com/stories/ankers-100w-universal-charger-is-a-great-travel-gadget-for-64/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=1280&amp;q=85</image:loc>
       <image:title>Anker&apos;s 100W universal charger is a great travel gadget for $64</image:title>
@@ -933,9 +2649,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/mirror-particle-is-building-a-world-model-of-human-behavior/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=1280&amp;q=85</image:loc>
       <image:title>Mirror Particle is building a &apos;world model&apos; of human behavior</image:title>
@@ -943,9 +2659,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/xbox-elite-controller-3-specs-leak-via-xboxs-own-design-lab/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1280&amp;q=85</image:loc>
       <image:title>Xbox Elite Controller 3 specs leak via Xbox&apos;s own Design Lab</image:title>
@@ -953,9 +2669,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/mini-pc-vs-laptop-which-is-better-for-your-home-office/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=1280&amp;q=85</image:loc>
       <image:title>Mini PC vs. laptop: Which is better for your home office?</image:title>
@@ -965,7 +2681,7 @@
     <loc>https://techseconds.com/stories/the-matic-is-the-first-robovac-to-get-an-fcc-ban-waiver-not-that-it-ne/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
       <image:title>The Matic is the first robovac to get an FCC ban waiver, not that it needs it</image:title>
@@ -973,9 +2689,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/reflection-debuts-beam-an-open-weight-ai-model-to-rival-chinese-models/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1280&amp;q=85</image:loc>
       <image:title>Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost</image:title>
@@ -985,7 +2701,7 @@
     <loc>https://techseconds.com/stories/gemini-call-for-me-might-tell-your-mom-youre-running-late/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
       <image:title>Gemini Call for Me might tell your mom you&apos;re running late</image:title>
@@ -995,7 +2711,7 @@
     <loc>https://techseconds.com/stories/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&amp;q=85</image:loc>
       <image:title>Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports</image:title>
@@ -1003,9 +2719,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/openai-will-start-watermarking-chatgpts-text-in-the-eu/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
       <image:title>OpenAI will start watermarking ChatGPT&apos;s text in the EU</image:title>
@@ -1013,9 +2729,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/etched-fields-funding-offers-at-40b-valuation-sources-say/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
       <image:title>Etched fields funding offers at $40B+ valuation, sources say</image:title>
@@ -1023,9 +2739,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/common-mistakes-you-should-avoid-when-using-foldable-phones/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&amp;q=85</image:loc>
       <image:title>Common mistakes you should avoid when using foldable phones</image:title>
@@ -1033,9 +2749,9 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/can-a-macbook-handle-heavy-games-heres-what-you-should-know/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&amp;q=85</image:loc>
       <image:title>Can a MacBook handle heavy games? Here&apos;s what you should know</image:title>
@@ -1045,7 +2761,7 @@
     <loc>https://techseconds.com/stories/apple-m4-max-macbook-pro-128gb-unified-memory-benchmarks/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1280&amp;q=85</image:loc>
       <image:title>Apple M4 Max MacBook Pro: 128GB Unified Memory &amp; 3nm Monster Benchmarks</image:title>
@@ -1055,7 +2771,7 @@
     <loc>https://techseconds.com/stories/snapdragon-x-elite-2-laptops-28-hour-battery-desktop-arm/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=1280&amp;q=85</image:loc>
       <image:title>Snapdragon X Elite 2 Laptops: 28-Hour Battery Life &amp; Desktop ARM Computing</image:title>
@@ -1065,7 +2781,7 @@
     <loc>https://techseconds.com/stories/framework-laptop-16-modular-swappable-gpu-revolution/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1280&amp;q=85</image:loc>
       <image:title>Framework Laptop 16: The Modular Swappable GPU Revolution That Defeats E-Waste</image:title>
@@ -1075,7 +2791,7 @@
     <loc>https://techseconds.com/stories/razer-blade-18-rtx-5090-blackwell-4k-oled/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=1280&amp;q=85</image:loc>
       <image:title>Razer Blade 18 (2026): RTX 5090 Mobile &amp; 300Hz Dual-Mode OLED Gaming Titan</image:title>
@@ -1085,7 +2801,7 @@
     <loc>https://techseconds.com/stories/asus-zenbook-s-16-cera-aluminum-amd-zen-5-ultrabook/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&amp;q=85</image:loc>
       <image:title>ASUS Zenbook S 16 Cera-Aluminum: AMD Zen 5 AI Ultrabook Under 1.5kg</image:title>
@@ -1095,7 +2811,7 @@
     <loc>https://techseconds.com/stories/galaxy-s26-ultra-vs-iphone-18-pro-max-camera-war/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&amp;q=85</image:loc>
       <image:title>Galaxy S26 Ultra vs iPhone 18 Pro Max: The 200MP Periscope Camera War</image:title>
@@ -1105,7 +2821,7 @@
     <loc>https://techseconds.com/stories/nothing-phone-3-revealed-glyph-matrix-snapdragon/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&amp;q=85</image:loc>
       <image:title>Nothing Phone (3) Revealed: Transparent Glyph Matrix &amp; Custom Snapdragon Silicon</image:title>
@@ -1115,7 +2831,7 @@
     <loc>https://techseconds.com/stories/google-pixel-10-pro-3nm-tensor-g5-magic-video/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&amp;q=85</image:loc>
       <image:title>Google Pixel 10 Pro: 3nm Tensor G5 &amp; The Pro Magic Video Studio</image:title>
@@ -1125,7 +2841,7 @@
     <loc>https://techseconds.com/stories/huawei-mate-xt-galaxy-z-fold-7-tri-fold-revolution/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&amp;q=85</image:loc>
       <image:title>Huawei Mate XT vs Galaxy Z Fold 7: The Ultra-Thin Tri-Fold Tablet Revolution</image:title>
@@ -1135,7 +2851,7 @@
     <loc>https://techseconds.com/stories/xiaomi-15-ultra-sony-lyt-900-leica-telephoto/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&amp;q=85</image:loc>
       <image:title>Xiaomi 15 Ultra: 1-Inch Sony LYT-900 Sensor &amp; Leica APO 200mm Telephoto</image:title>
@@ -1145,7 +2861,7 @@
     <loc>https://techseconds.com/stories/quantum-supremacy-breakthrough-1-million-qubit-chip/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1518770660439-4636190af475?w=1280&amp;q=85</image:loc>
       <image:title>Quantum Supremacy Breakthrough: 1 Million Qubit Chip Shatters Encryption In 4s</image:title>
@@ -1155,7 +2871,7 @@
     <loc>https://techseconds.com/stories/humanoid-robots-enter-mass-production-gigafactory/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1280&amp;q=85</image:loc>
       <image:title>Inside The First Humanoid Robot Gigafactory: 10,000 Androids Enter Mass Production</image:title>
@@ -1165,7 +2881,7 @@
     <loc>https://techseconds.com/stories/solid-state-silicon-batteries-1000km-range-5-min-charge/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1280&amp;q=85</image:loc>
       <image:title>Solid-State Silicon Batteries: 1,000km Electric Range In A 5-Minute Fast Charge</image:title>
@@ -1175,7 +2891,7 @@
     <loc>https://techseconds.com/stories/neuralink-blindsight-telepathy-2-bionic-trials/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1280&amp;q=85</image:loc>
       <image:title>Neuralink Telepathy 2 &amp; Blindsight: Paralyzed Patients Control Limbs at 120 WPM</image:title>
@@ -1185,7 +2901,7 @@
     <loc>https://techseconds.com/stories/tsmc-2nm-n2-gaa-silicon-wafers-backside-power-delivery/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1280&amp;q=85</image:loc>
       <image:title>TSMC 2nm N2 GAA Silicon Wafers: Backside Power Delivery &amp; The 2026 Chip Leap</image:title>
@@ -1195,7 +2911,7 @@
     <loc>https://techseconds.com/stories/top-secret-ai-productivity-tools-outperform-chatgpt/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85</image:loc>
       <image:title>Top 7 Secret AI Productivity Tools That Outperform ChatGPT in 2026</image:title>
@@ -1205,7 +2921,7 @@
     <loc>https://techseconds.com/stories/claude-37-gemini-38-coding-agents-full-stack/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
       <image:title>Claude 3.7 &amp; Gemini 3.8 Coding Agents: Building Full-Stack Apps in One Prompt</image:title>
@@ -1215,7 +2931,7 @@
     <loc>https://techseconds.com/stories/run-open-source-deepseek-llama-4-locally-laptop/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85</image:loc>
       <image:title>Run Open-Source DeepSeek &amp; Llama 4 Locally on Your Laptop With Zero Latency</image:title>
@@ -1225,7 +2941,7 @@
     <loc>https://techseconds.com/stories/sora-2-gen-3-alpha-4k-cinema-sound-models/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
       <image:title>Sora 2 &amp; Gen-3 Alpha: Generating 4K Cinema Scenes With Physics &amp; Sound In 60s</image:title>
@@ -1235,7 +2951,7 @@
     <loc>https://techseconds.com/stories/notebooklm-audio-overviews-deep-dive-ai-research/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
       <image:title>NotebookLM Audio Overviews 2.0: Deep-Dive Multi-Source AI Research Podcasts</image:title>
@@ -1245,7 +2961,7 @@
     <loc>https://techseconds.com/stories/neural-audio-anc-3-audiophiles-ditching-wired/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&amp;q=85</image:loc>
       <image:title>Neural Audio ANC 3.0: Why Audiophiles Are Ditching Wired Headphones</image:title>
@@ -1255,7 +2971,7 @@
     <loc>https://techseconds.com/stories/meta-orion-apple-vision-pro-2-holographic-ar-glasses/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=1280&amp;q=85</image:loc>
       <image:title>Meta Orion &amp; Apple Vision Pro 2: True Holographic AR Glasses Reality</image:title>
@@ -1265,7 +2981,7 @@
     <loc>https://techseconds.com/stories/samsung-galaxy-ring-2-blood-pressure-sleep-tracking/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=1280&amp;q=85</image:loc>
       <image:title>Samsung Galaxy Ring 2: Continuous Blood Pressure &amp; Neural Sleep Tracking</image:title>
@@ -1275,7 +2991,7 @@
     <loc>https://techseconds.com/stories/apple-watch-ultra-3-satellite-microled-display/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&amp;q=85</image:loc>
       <image:title>Apple Watch Ultra 3: 2-Way Satellite Messaging &amp; 3,000-Nit Micro-LED Screen</image:title>
@@ -1285,7 +3001,7 @@
     <loc>https://techseconds.com/stories/dji-pocket-3-pro-neo-ai-tracking-cameras/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1280&amp;q=85</image:loc>
       <image:title>DJI Pocket 3 Pro &amp; Neo: 4K 120fps AI Autonomous Subject-Tracking Cameras</image:title>
@@ -1295,7 +3011,7 @@
     <loc>https://techseconds.com/stories/steam-deck-2-handheld-pc-gaming-wars-1080p-120hz/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1280&amp;q=85</image:loc>
       <image:title>Steam Deck 2 &amp; Handheld PC Gaming Wars: 1080p 120Hz In Your Pocket</image:title>
@@ -1305,7 +3021,7 @@
     <loc>https://techseconds.com/stories/nintendo-switch-2-revealed-4k-dlss-hybrid-powerhouse/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&amp;q=85</image:loc>
       <image:title>Nintendo Switch 2 Revealed: 4K DLSS Hybrid Portable Powerhouse</image:title>
@@ -1315,7 +3031,7 @@
     <loc>https://techseconds.com/stories/480hz-qd-oled-esports-displays-zero-ghosting/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=1280&amp;q=85</image:loc>
       <image:title>480Hz QD-OLED Esports Displays: Zero Ghosting &amp; 0.03ms Flawless Motion Clarity</image:title>
@@ -1325,7 +3041,7 @@
     <loc>https://techseconds.com/stories/playstation-portal-pro-dualsense-edge-2-hall-effect/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&amp;q=85</image:loc>
       <image:title>PlayStation Portal Pro: Wi-Fi 7 Direct, 120Hz OLED &amp; Zero-Lag Remote Play</image:title>
@@ -1335,7 +3051,7 @@
     <loc>https://techseconds.com/stories/xbox-next-gen-hybrid-console-windows-pc-bridge/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&amp;q=85</image:loc>
       <image:title>Xbox Next-Gen Hybrid Console: Bridging Native Windows PC Games &amp; Living Room 4K</image:title>

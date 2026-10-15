@@ -84,8 +84,8 @@ def run_realtime_report(property_id: str):
     print("=" * 50 + "\n")
 
 
-def run_period_report(property_id: str, days: int = 7):
-    """Fetches high-level performance over the last N days."""
+def run_period_report(property_id: str, days: int = 7, is_yesterday: bool = False):
+    """Fetches high-level performance over the last N days or yesterday."""
     from google.analytics.data_v1beta.types import (
         RunReportRequest,
         DateRange,
@@ -95,8 +95,18 @@ def run_period_report(property_id: str, days: int = 7):
     )
 
     client = get_client()
-    start_date = f"{days}daysAgo" if days > 1 else "today"
-    end_date = "today"
+    if is_yesterday:
+        start_date = "yesterday"
+        end_date = "yesterday"
+        title_period = "YESTERDAY"
+    elif days > 1:
+        start_date = f"{days}daysAgo"
+        end_date = "today"
+        title_period = f"LAST {days} DAYS"
+    else:
+        start_date = "today"
+        end_date = "today"
+        title_period = "TODAY"
 
     # 1. Overview metrics
     overview_req = RunReportRequest(
@@ -115,7 +125,7 @@ def run_period_report(property_id: str, days: int = 7):
     overview_res = client.run_report(overview_req)
 
     print("\n" + "=" * 60)
-    print(f"📊 TECHSECONDS - PERFORMANCE REPORT (LAST {days} DAYS)")
+    print(f"📊 TECHSECONDS - PERFORMANCE REPORT ({title_period})")
     print("=" * 60)
 
     if overview_res.rows:
@@ -239,6 +249,7 @@ def main():
         help="Numeric GA4 Property ID (found in Admin > Property details)",
     )
     parser.add_argument("--realtime", action="store_true", help="Fetch real-time active users (last 30 mins)")
+    parser.add_argument("--yesterday", action="store_true", help="Fetch report specifically for yesterday")
     parser.add_argument("--days", type=int, default=7, help="Number of past days to report (default: 7)")
     parser.add_argument("--setup", action="store_true", help="Show setup instructions")
 
@@ -258,7 +269,7 @@ def main():
         if args.realtime:
             run_realtime_report(args.property_id)
         else:
-            run_period_report(args.property_id, days=args.days)
+            run_period_report(args.property_id, days=args.days, is_yesterday=args.yesterday)
     except Exception as e:
         print(f"\n❌ API Error: {e}")
         print("Please check that the Service Account has been added as a Viewer in GA4 Property Access Management.")

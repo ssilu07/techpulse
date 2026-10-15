@@ -39,12 +39,17 @@ from validator import validate_all_stories
 
 
 def copy_static_assets(src_dir: Path, dist_dir: Path):
-    """Copies static CSS, JS, and image assets to dist/static/"""
+    """Copies static CSS, JS, and image assets to dist/static/, and ensures ads.txt is copied."""
     target_static = dist_dir / "static"
     if target_static.exists():
         shutil.rmtree(target_static)
     shutil.copytree(src_dir, target_static)
     print(f"[+] Static assets deployed to: {target_static}")
+
+    root_ads_txt = src_dir.parent / "ads.txt"
+    if root_ads_txt.exists():
+        shutil.copy2(root_ads_txt, dist_dir / "ads.txt")
+        print(f"[+] Deployed Google AdSense ads.txt to: {dist_dir / 'ads.txt'}")
 
 
 def load_persistent_catalog(dist_dir: Path) -> List[Dict[str, Any]]:

@@ -253,22 +253,14 @@ def build_story_html(story: Dict[str, Any]) -> str:
         slide_img_url = slide_variants["slide_image"]
 
         outlink_html = ""
-        # On final slide, add call-to-action outlink to next story or portal
+        # On final slide, link directly to the comprehensive in-depth article
         if idx == len(slides) - 1:
-            next_url = story.get("next_story_url") or f"{SITE_URL}/"
-            next_title = story.get("next_story_title", "")
-            if next_title:
-                clean_title = next_title.split(":")[0].split("—")[0].strip()
-                if len(clean_title) > 35:
-                    clean_title = clean_title[:32] + "..."
-                cta_label = f"⚡ Next Story: {clean_title}"
-            else:
-                cta_label = f"⚡ More Trending Stories on {SITE_NAME}"
-            
+            article_url = f"{SITE_URL}/articles/{slug}/"
+            cta_label = f"📖 Read Full In-Depth Analysis (750+ Words)"
             escaped_cta = html.escape(cta_label, quote=True)
             outlink_html = f"""
         <amp-story-page-outlink layout="nodisplay">
-          <a href="{next_url}">{escaped_cta}</a>
+          <a href="{article_url}">{escaped_cta}</a>
         </amp-story-page-outlink>"""
 
         slide_markup = f"""
