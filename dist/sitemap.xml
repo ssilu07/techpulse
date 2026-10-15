@@ -32,6 +32,46 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://techseconds.com/stories/volvo-will-use-nvidias-tech-for-hands-free-point-to-point-driving/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1280&amp;q=85</image:loc>
+      <image:title>Volvo will use Nvidia&apos;s tech for hands-free, point-to-point driving</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/alienwares-latest-34-inch-qd-oled-gaming-monitor-is-50-off/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=1280&amp;q=85</image:loc>
+      <image:title>Alienware&apos;s latest 34-inch QD-OLED gaming monitor is $50 off</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/sonys-wh-1000xm6-headphones-are-130-off-today-only/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&amp;q=85</image:loc>
+      <image:title>Sony&apos;s WH-1000XM6 headphones are $130 off today only</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/volvo-makes-a-bigger-bet-on-nvidia/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1280&amp;q=85</image:loc>
+      <image:title>Volvo makes a bigger bet on Nvidia</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://techseconds.com/stories/prep-your-cart-before-iphone-duo-preorders-open-tomorrow/</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
