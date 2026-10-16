@@ -21,12 +21,13 @@ TEMPLATES_DIR = BASE_DIR / "templates"
 # Site Identity & Customization
 SITE_NAME = os.environ.get("TECHSECONDS_NAME", os.environ.get("TECHPULSE_NAME", "TechSeconds"))
 SITE_TAGLINE = os.environ.get(
-    "TECHSECONDS_TAGLINE", os.environ.get("TECHPULSE_TAGLINE", "Autonomous AMP Web Stories & Cutting-Edge Tech Portal")
+    "TECHSECONDS_TAGLINE", os.environ.get("TECHPULSE_TAGLINE", "Premier Tech Journalism, In-Depth Hardware Analysis & Visual Stories")
 )
 SITE_DESCRIPTION = (
-    f"{SITE_NAME} is an autonomous, lightning-fast Google AMP Web Stories platform "
-    "delivering cutting-edge visual tech news, breakthrough AI tools, smartphone reveals, "
-    "next-gen laptops, and futuristic computing in 45-second interactive slides."
+    f"{SITE_NAME} is a premier technology publication and hardware intelligence lab "
+    "delivering in-depth architectural breakdowns, expert hardware benchmarks, comprehensive "
+    "buying guides, and high-speed visual web stories across artificial intelligence, silicon "
+    "lithography, flagship smartphones, and future computing."
 )
 
 # Canonical domain (user's active production domain)

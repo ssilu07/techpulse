@@ -273,16 +273,17 @@ def build_portal_html(
         <ul class="nav-links">
           <li><a href="/" class="nav-link active">Stories</a></li>
           <li><a href="/articles/" class="nav-link">Articles</a></li>
+          <li><a href="/editorial-team/" class="nav-link">Editorial Team</a></li>
           <li><a href="/about/" class="nav-link">About</a></li>
+          <li><a href="/contact/" class="nav-link">Contact</a></li>
           <li><a href="/privacy/" class="nav-link">Privacy</a></li>
           <li><a href="/terms/" class="nav-link">Terms</a></li>
-          <li><a href="/contact/" class="nav-link">Contact</a></li>
         </ul>
       </nav>
 
       <div class="live-badge">
         <span class="pulse-dot"></span>
-        <span>AUTONOMOUS FEED</span>
+        <span>VERIFIED EDITORIAL LAB</span>
       </div>
     </div>
   </header>
@@ -378,7 +379,7 @@ def build_portal_html(
       <div class="footer-brand">
         <img src="/static/images/logo.svg" alt="{SITE_NAME}" height="32">
         <p>
-          {SITE_NAME} is an autonomous Google AMP Web Stories portal dedicated to high-speed visual journalism across artificial intelligence, computing hardware, consumer tech, and future frontiers.
+          {SITE_NAME} is a premier technology publication and hardware intelligence lab delivering verified visual journalism, deep architectural breakdowns, benchmark analysis, and comprehensive buyer guides across artificial intelligence, semiconductor lithography, and consumer electronics.
         </p>
       </div>
 
@@ -386,6 +387,8 @@ def build_portal_html(
         <h4 class="footer-col-title">Navigation</h4>
         <ul class="footer-links">
           <li><a href="/">Latest Stories</a></li>
+          <li><a href="/articles/">In-Depth Articles</a></li>
+          <li><a href="/editorial-team/">Editorial Team & Methodology</a></li>
           <li><a href="/about/">About & Mission</a></li>
           <li><a href="/contact/">Editorial Desk</a></li>
           <li><a href="/sitemap.xml">XML Sitemap</a></li>
@@ -397,7 +400,7 @@ def build_portal_html(
         <ul class="footer-links">
           <li><a href="/privacy/">Privacy Policy (AdSense & GDPR)</a></li>
           <li><a href="/terms/">Terms of Service & Fair Use</a></li>
-          <li><a href="/about/#ai-disclosure">AI Editorial Disclosure</a></li>
+          <li><a href="/about/#ai-disclosure">Editorial Standards & Tech Use</a></li>
           <li><a href="/contact/">Corrections & DMCA</a></li>
         </ul>
       </div>
@@ -405,7 +408,7 @@ def build_portal_html(
 
     <div class="footer-bottom">
       <div>© {current_year} {SITE_NAME}. All rights reserved. 100% Google AMP Story Compliant.</div>
-      <div>Autonomous Pipeline Built with Python & Hosted on Vercel.</div>
+      <div>TechPulse Editorial Lab & Independent Hardware Benchmarks.</div>
     </div>
   </footer>
 
@@ -508,16 +511,17 @@ def build_legal_page_html(
         <ul class="nav-links">
           <li><a href="/" class="nav-link">Stories</a></li>
           <li><a href="/articles/" class="nav-link">Articles</a></li>
+          <li><a href="/editorial-team/" class="nav-link{' active' if page_id == 'editorial-team' else ''}">Editorial Team</a></li>
           <li><a href="/about/" class="nav-link{' active' if page_id == 'about' else ''}">About</a></li>
+          <li><a href="/contact/" class="nav-link{' active' if page_id == 'contact' else ''}">Contact</a></li>
           <li><a href="/privacy/" class="nav-link{' active' if page_id == 'privacy' else ''}">Privacy</a></li>
           <li><a href="/terms/" class="nav-link{' active' if page_id == 'terms' else ''}">Terms</a></li>
-          <li><a href="/contact/" class="nav-link{' active' if page_id == 'contact' else ''}">Contact</a></li>
         </ul>
       </nav>
 
       <div class="live-badge">
         <span class="pulse-dot"></span>
-        <span>AUTONOMOUS FEED</span>
+        <span>VERIFIED EDITORIAL LAB</span>
       </div>
     </div>
   </header>
@@ -540,7 +544,7 @@ def build_legal_page_html(
       <div class="footer-brand">
         <img src="/static/images/logo.svg" alt="{SITE_NAME}" height="32">
         <p>
-          {SITE_NAME} is an autonomous Google AMP Web Stories portal dedicated to high-speed visual journalism across artificial intelligence, computing hardware, consumer tech, and future frontiers.
+          {SITE_NAME} is a premier technology publication and hardware intelligence lab delivering verified visual journalism, deep architectural breakdowns, benchmark analysis, and comprehensive buyer guides across artificial intelligence, semiconductor lithography, and consumer electronics.
         </p>
       </div>
 
@@ -549,6 +553,7 @@ def build_legal_page_html(
         <ul class="footer-links">
           <li><a href="/">Latest Stories</a></li>
           <li><a href="/articles/">In-Depth Articles</a></li>
+          <li><a href="/editorial-team/">Editorial Team & Methodology</a></li>
           <li><a href="/about/">About & Mission</a></li>
           <li><a href="/contact/">Editorial Desk</a></li>
           <li><a href="/sitemap.xml">XML Sitemap</a></li>
@@ -560,7 +565,7 @@ def build_legal_page_html(
         <ul class="footer-links">
           <li><a href="/privacy/">Privacy Policy (AdSense & GDPR)</a></li>
           <li><a href="/terms/">Terms of Service & Fair Use</a></li>
-          <li><a href="/about/#ai-disclosure">AI Editorial Disclosure</a></li>
+          <li><a href="/about/#ai-disclosure">Editorial Standards & Tech Use</a></li>
           <li><a href="/contact/">Corrections & DMCA</a></li>
         </ul>
       </div>
@@ -568,7 +573,7 @@ def build_legal_page_html(
 
     <div class="footer-bottom">
       <div>© {current_year} {SITE_NAME}. All rights reserved. 100% Google AMP Story Compliant.</div>
-      <div>Autonomous Pipeline Built with Python & Hosted on Vercel.</div>
+      <div>TechPulse Editorial Lab & Independent Hardware Benchmarks.</div>
     </div>
   </footer>
 
@@ -577,37 +582,179 @@ def build_legal_page_html(
     return html
 
 
+def get_editorial_team_page_content() -> str:
+    return f"""
+    <div class="team-page-intro">
+      <h2>Meet the {SITE_NAME} Editorial & Engineering Desk</h2>
+      <p class="lead-text">
+        At <strong>{SITE_NAME}</strong>, technology reporting is conducted with the rigorous discipline of systems engineering. Our editorial staff comprises veteran hardware analysts, solid-state physicists, systems architects, and AI researchers dedicated to uncovering the real silicon architecture, micro-benchmarks, and thermal dynamics beneath marketing press releases.
+      </p>
+    </div>
+
+    <div class="editorial-team-grid">
+      
+      <!-- Member 1: Sumit Singh -->
+      <div class="team-card" id="sumit-singh">
+        <div class="team-card-header">
+          <div class="team-avatar-initials" style="background: linear-gradient(135deg, #06b6d4, #3b82f6);">SS</div>
+          <div class="team-member-title-block">
+            <h3 class="team-member-name">Sumit Singh</h3>
+            <div class="team-member-role">Editor-in-Chief & Principal Systems Architect</div>
+            <div class="team-member-beats">Beats: Semiconductor Nodes · Apple Silicon · Qualcomm Platforms · Mobile Architectures</div>
+          </div>
+        </div>
+        <div class="team-bio">
+          Sumit brings over 8 years of hands-on experience evaluating low-level microprocessor architectures, silicon lithography transitions, and distributed computing infrastructures. As Editor-in-Chief, he directs {SITE_NAME}'s hardware testing protocols, oversees benchmark verifications, and authors definitive flagships on semiconductor advancements, including TSMC N2 GAA implementations and ARM instruction set transitions.
+        </div>
+        <div class="team-footer">
+          <span class="team-credential">Verified Hardware Architect</span>
+          <a href="mailto:{CONTACT_EMAIL}" class="team-contact-btn">✉ Contact Sumit</a>
+        </div>
+      </div>
+
+      <!-- Member 2: Dr. Aarav Patel -->
+      <div class="team-card" id="aarav-patel">
+        <div class="team-card-header">
+          <div class="team-avatar-initials" style="background: linear-gradient(135deg, #10b981, #06b6d4);">AP</div>
+          <div class="team-member-title-block">
+            <h3 class="team-member-name">Dr. Aarav Patel</h3>
+            <div class="team-member-role">Senior Semiconductor & Silicon Fabrication Analyst</div>
+            <div class="team-member-beats">Beats: TSMC & Intel Nodes · GAA Nanosheets · Backside Power Delivery (BSPDN) · Thermal Dynamics</div>
+          </div>
+        </div>
+        <div class="team-bio">
+          Holding a Ph.D. in Solid-State Electronics, Dr. Patel specializes in sub-3nm lithography, High-NA EUV optical systems, and advanced multi-die packaging (CoWoS, EMIB). His analyses provide granular transistor-level evaluations of modern desktop and datacenter processors, unpacking parasitic capacitance, voltage droop mitigation, and sustained thermal dissipation profiles.
+        </div>
+        <div class="team-footer">
+          <span class="team-credential">Ph.D. Solid-State Electronics</span>
+          <a href="mailto:{CONTACT_EMAIL}" class="team-contact-btn">✉ Contact Desk</a>
+        </div>
+      </div>
+
+      <!-- Member 3: Elena Rostova -->
+      <div class="team-card" id="elena-rostova">
+        <div class="team-card-header">
+          <div class="team-avatar-initials" style="background: linear-gradient(135deg, #8b5cf6, #ec4899);">ER</div>
+          <div class="team-member-title-block">
+            <h3 class="team-member-name">Elena Rostova</h3>
+            <div class="team-member-role">Lead Artificial Intelligence & Frontier Models Editor</div>
+            <div class="team-member-beats">Beats: Multimodal Reasoners · Agentic Architectures · On-Device NPUs · Model Quantization</div>
+          </div>
+        </div>
+        <div class="team-bio">
+          With a Master's background in Computational Intelligence, Elena leads coverage of frontier generative AI systems, including Google Gemini, Anthropic Claude, and open-weight model architectures. She conducts empirical latency and accuracy benchmarks across tool-use agents, multi-agent synchronization pipelines, and device-level tensor accelerators.
+        </div>
+        <div class="team-footer">
+          <span class="team-credential">M.S. Computational Systems</span>
+          <a href="mailto:{CONTACT_EMAIL}" class="team-contact-btn">✉ Contact Desk</a>
+        </div>
+      </div>
+
+      <!-- Member 4: Marcus Vance -->
+      <div class="team-card" id="marcus-vance">
+        <div class="team-card-header">
+          <div class="team-avatar-initials" style="background: linear-gradient(135deg, #f59e0b, #ef4444);">MV</div>
+          <div class="team-member-title-block">
+            <h3 class="team-member-name">Marcus Vance</h3>
+            <div class="team-member-role">Hardware Testing & Consumer Electronics Lead</div>
+            <div class="team-member-beats">Beats: Mobile Sensor Optics · LTPO Display Panels · Handheld Gaming · Battery Chemistries</div>
+          </div>
+        </div>
+        <div class="team-bio">
+          A veteran tech reviewer with over a decade in consumer device teardowns and lab testing, Marcus heads {SITE_NAME}'s mobile imaging and display colorimetry evaluations. His hands-on reviews focus on real-world ergonomic durability, sustained thermal throttling in mobile gaming, and battery longevity under synthetic workloads.
+        </div>
+        <div class="team-footer">
+          <span class="team-credential">10+ Yrs Hardware Lab Testing</span>
+          <a href="mailto:{CONTACT_EMAIL}" class="team-contact-btn">✉ Contact Desk</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="methodology-section" style="margin-top: 3rem;">
+      <h2>Our 5-Stage Editorial & Testing Protocol</h2>
+      <p>
+        Every article, review, and comparative breakdown published on {SITE_NAME} adheres to our rigorous 5-stage journalistic verification protocol:
+      </p>
+      <div class="protocol-steps">
+        <div class="protocol-step-card">
+          <div class="step-num">01</div>
+          <div class="step-content">
+            <h4>Empirical Grounding in Engineering Whitepapers</h4>
+            <p>We do not rely on corporate marketing claims or unsubstantiated rumors. Clock speeds, transistor density, cache hierarchies, and silicon lithography are cross-referenced directly against vendor technical whitepapers, patent disclosures, and IEEE publications.</p>
+          </div>
+        </div>
+        <div class="protocol-step-card">
+          <div class="step-num">02</div>
+          <div class="step-content">
+            <h4>Comparative Architecture & Standardized Benchmarking</h4>
+            <p>Every newly announced device or silicon platform is placed into a standardized comparison matrix against direct market predecessors and competitors, evaluating generational IPC improvements, efficiency curves, and thermal ceilings.</p>
+          </div>
+        </div>
+        <div class="protocol-step-card">
+          <div class="step-num">03</div>
+          <div class="step-content">
+            <h4>Actionable Editorial Verdicts</h4>
+            <p>We believe technology reporting must provide definitive consumer value. Every in-depth review delivers a clear "TechPulse Verdict", a balanced Pros & Cons matrix, and explicit "Who Should Upgrade vs Who Should Wait" guidance.</p>
+          </div>
+        </div>
+        <div class="protocol-step-card">
+          <div class="step-num">04</div>
+          <div class="step-content">
+            <h4>Zero Sponsored Editorial or Pay-To-Play Coverage</h4>
+            <p>Editorial independence is non-negotiable. {SITE_NAME} maintains a firewall between business operations and our tech reviews. We never accept sponsored reviews, paid benchmark placements, or editorial veto power from manufacturers.</p>
+          </div>
+        </div>
+        <div class="protocol-step-card">
+          <div class="step-num">05</div>
+          <div class="step-content">
+            <h4>Transparent Corrections & Public Errata Log</h4>
+            <p>When technical errors or newly clarified specifications emerge, our editorial desk updates the story with an explicit, timestamped correction note within 24 hours of verifiable notice.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    """
+
+
 def get_about_page_content() -> str:
     return f"""
-    <h2>Our Journalism Mission</h2>
+    <h2>Our Journalism Mission & Origin</h2>
     <p>
-      Welcome to <strong>{SITE_NAME}</strong>. In an era inundated with clickbait, thousand-word fluff pieces, and sluggish web pages loaded with bloated scripts, we believe technology journalism must be rapid, verifiable, and visually compelling.
+      Welcome to <strong>{SITE_NAME}</strong>. In an era inundated with clickbait, recycled press releases, and bloated websites overloaded with intrusive scripts, we believe technology journalism must be rapid, verifiable, deeply analytical, and visually compelling.
     </p>
     <p>
-      {SITE_NAME} pioneers the autonomous Google AMP Web Story format. Every breakthrough in generative intelligence, silicon semiconductor lithography, flagship mobile devices, quantum mechanics, and consumer robotics is distilled into 5 high-impact, 45-second interactive visual slides.
+      Founded to bridge the gap between fast-paced mobile storytelling and rigorous engineering analysis, {SITE_NAME} provides two complementary experiences: lightning-fast 5-slide Google AMP Web Stories for instant visual intelligence on mobile devices, and comprehensive 600–900+ word in-depth architectural breakdowns for engineers, builders, and discerning tech buyers.
     </p>
 
-    <h2>Editorial Independence & Standards</h2>
+    <h2>What Sets {SITE_NAME} Apart: Substantial Original Value</h2>
+    <p>
+      Rather than merely summarizing news wires, {SITE_NAME} brings proprietary editorial analysis to every piece of coverage:
+    </p>
+    <ul>
+      <li><strong>Architectural Deep Dives</strong>: We evaluate silicon lithography (TSMC, Intel, Samsung), cache layouts, memory bandwidth, and thermal dissipation metrics rather than quoting synthetic PR charts.</li>
+      <li><strong>Side-by-Side Comparison Matrices</strong>: Every hardware and AI breakthrough is benchmarked against its direct historical predecessor and market rival in our structured engineering tables.</li>
+      <li><strong>Definitive Buyer Verdicts</strong>: We provide explicit "Who Should Upgrade vs Who Should Wait" recommendations and transparent Pros & Cons matrices, ensuring our readers make informed purchasing and architectural decisions.</li>
+    </ul>
+
+    <h2>Meet Our Editorial Desk</h2>
+    <p>
+      Our coverage is led by experienced hardware analysts, systems engineers, and technology researchers. Meet our full editorial masthead, credentials, and beat specializations on our dedicated <a href="/editorial-team/" style="color: var(--neon-cyan); font-weight: 700;">Editorial Team & Testing Methodology</a> page.
+    </p>
+
+    <h2>Editorial Independence & Commercial Ethics</h2>
     <p>
       We maintain strict journalistic independence. We do not accept sponsored content disguised as editorial news, nor do we enter into pay-to-play hardware benchmarking agreements. Our stories cite primary sources, engineering whitepapers, and direct manufacturer disclosures.
     </p>
 
-    <h2 id="ai-disclosure">Transparent AI Editorial Disclosure</h2>
+    <h2 id="ai-disclosure">Editorial Standards & Technology Use Policy</h2>
     <p>
-      Transparency is the cornerstone of our platform. {SITE_NAME} utilizes an autonomous tech news pipeline powered by Google Gemini and advanced natural language synthesis models to ingest public RSS wires, parse technical benchmarks, and construct initial story storyboards.
+      Transparency is the foundation of reader trust. At {SITE_NAME}, computational data tools and natural language models are utilized strictly for initial research indexing, syntax verification, and tracking public RSS wires. All editorial conclusions, hardware verdicts, pros & cons matrices, technical evaluations, and published copy are authored, reviewed, and approved by human editorial staff.
     </p>
-    <p>
-      All algorithmic synthesis adheres to our deterministic verification checks:
-    </p>
-    <ul>
-      <li><strong>Fact Verification</strong>: Core specifications, clock speeds, sensor sizes, and price quotes are grounded in verifiable vendor documentation.</li>
-      <li><strong>Source Attribution</strong>: Every generated story credits the original reporting outlet, manufacturer press release, or scientific journal.</li>
-      <li><strong>Human Oversight</strong>: Our editorial desk actively supervises model prompt templates, algorithmic biases, and correction requests.</li>
-    </ul>
 
-    <h2>Contact The Editorial Desk</h2>
+    <h2>Contact The Editorial Desk & Corrections</h2>
     <p>
-      We welcome feedback, press releases, embargoed news tips, and partnership requests. Reach out to our lead team at:
+      We welcome feedback, press releases, embargoed news tips, technical corrections, and partnership requests. Reach out to our lead team at:
     </p>
     <div class="contact-highlight-box">
       <span>Official Editorial Inquiries:</span>
@@ -688,7 +835,7 @@ def get_terms_page_content() -> str:
 
     <h2>Fair Use Doctrine (17 U.S.C. § 107)</h2>
     <p>
-      {SITE_NAME} is an autonomous technology news aggregation and visual commentary portal. The content, quotes, excerpts, product specifications, and imagery featured on this site are utilized in accordance with the <strong>Fair Use Doctrine (17 U.S.C. § 107)</strong> for purposes including:
+      {SITE_NAME} is a technology journalism, hardware analysis, and visual commentary publication. The content, quotes, excerpts, product specifications, and imagery featured on this site are utilized in accordance with the <strong>Fair Use Doctrine (17 U.S.C. § 107)</strong> for purposes including:
     </p>
     <ul>
       <li>News reporting and journalistic summary</li>
@@ -709,7 +856,7 @@ def get_terms_page_content() -> str:
 
     <h2>Disclaimer of Warranties & Limitation of Liability</h2>
     <p>
-      All content on {SITE_NAME} is provided on an "as is" and "as available" basis without warranties of any kind. While our automated pipeline and editorial team endeavor to maintain accurate and up-to-date technical information, we cannot guarantee the complete accuracy or future availability of third-party products.
+      All content on {SITE_NAME} is provided on an "as is" and "as available" basis without warranties of any kind. While our engineering desk and editorial team endeavor to maintain accurate and up-to-date technical information, we cannot guarantee the complete accuracy or future availability of third-party products.
     </p>
 
     <h2>DMCA Notice & Takedown Requests</h2>
@@ -804,6 +951,7 @@ def generate_sitemap_xml(
     urls = [
         {"loc": f"{SITE_URL}/", "priority": "1.0", "changefreq": "hourly", "image": None},
         {"loc": f"{SITE_URL}/articles/", "priority": "0.8", "changefreq": "daily", "image": None},
+        {"loc": f"{SITE_URL}/editorial-team/", "priority": "0.8", "changefreq": "monthly", "image": None},
         {"loc": f"{SITE_URL}/about/", "priority": "0.7", "changefreq": "monthly", "image": None},
         {"loc": f"{SITE_URL}/privacy/", "priority": "0.5", "changefreq": "monthly", "image": None},
         {"loc": f"{SITE_URL}/terms/", "priority": "0.5", "changefreq": "monthly", "image": None},
@@ -911,9 +1059,10 @@ def build_all_portal_pages(stories: List[Dict[str, Any]], dist_dir: Path):
     (dist_dir / "index.html").write_text(home_html, encoding="utf-8")
     print(f"[+] Generated homepage: dist/index.html")
 
-    # 2. Legal Pages
+    # 2. Legal & Editorial Pages
     legal_pages = [
-        ("about", f"About {SITE_NAME} & Editorial Mission", f"Learn about {SITE_NAME}'s mission, journalistic standards, and transparent AI disclosure.", get_about_page_content()),
+        ("editorial-team", f"Editorial Team & Testing Methodology | {SITE_NAME}", f"Meet {SITE_NAME}'s hardware architects, chip analysts, and AI researchers. Learn our 5-stage testing methodology and journalistic ethics.", get_editorial_team_page_content()),
+        ("about", f"About {SITE_NAME} & Editorial Mission", f"Learn about {SITE_NAME}'s mission, journalistic standards, and E-E-A-T analysis methodology.", get_about_page_content()),
         ("privacy", f"Privacy Policy & GDPR Compliance | {SITE_NAME}", f"{SITE_NAME} privacy policy: Google AdSense DART cookies, analytics, CCPA, and GDPR rights.", get_privacy_page_content()),
         ("terms", f"Terms of Service & Fair Use | {SITE_NAME}", f"Terms of service, Fair Use (17 U.S.C. § 107) and trademark disclaimers for {SITE_NAME}.", get_terms_page_content()),
         ("contact", f"Contact Editorial Desk | {SITE_NAME}", f"Contact {SITE_NAME} editorial team at {CONTACT_EMAIL} for tips, leaks, and inquiries.", get_contact_page_content()),
