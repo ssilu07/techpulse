@@ -45,8 +45,8 @@ GOOGLE_SITE_VERIFICATION = os.environ.get(
 GA_MEASUREMENT_ID = os.environ.get("GA_MEASUREMENT_ID", "G-LHGLZ8Q53T")
 GA4_PROPERTY_ID = os.environ.get("GA4_PROPERTY_ID", "558519433")
 
-# Google AdSense Configuration (e.g. ca-pub-1234567890123456 or pub-1234567890123456)
-ADSENSE_CLIENT_ID = os.environ.get("ADSENSE_CLIENT_ID", "").strip()
+# Google AdSense Configuration
+ADSENSE_CLIENT_ID = os.environ.get("ADSENSE_CLIENT_ID", "ca-pub-1811294933992844").strip()
 
 
 def get_adsense_pub_id() -> str:
