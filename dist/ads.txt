@@ -1,3 +1,2 @@
 # Google AdSense Authorized Digital Sellers for TechSeconds
-# Configure ADSENSE_CLIENT_ID in .env or run: python update_adsense.py ca-pub-XXXXXXXXXXXXXXXX
-# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+google.com, pub-1811294933992844, DIRECT, f08c47fec0942fa0
