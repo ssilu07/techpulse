@@ -34,7 +34,7 @@ SITE_DESCRIPTION = (
 SITE_URL = os.environ.get("SITE_URL", "https://techseconds.com").rstrip("/")
 
 # Official contact & editorial email
-CONTACT_EMAIL = os.environ.get("CONTACT_EMAIL", "sumits7196@gmail.com")
+CONTACT_EMAIL = os.environ.get("CONTACT_EMAIL", "arilu007@gmail.com")
 
 # Google Search Console Verification Tag
 GOOGLE_SITE_VERIFICATION = os.environ.get(
