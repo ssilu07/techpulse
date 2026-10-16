@@ -234,6 +234,46 @@
     </image:image>
   </url>
   <url>
+    <loc>https://techseconds.com/articles/time-is-a-changin-say-goodbye-to-the-leap-second/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85</image:loc>
+      <image:title>Time is a-changin&apos;: say goodbye to the leap second</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/samsungs-one-ui-update-proves-everything-google-is-doing-with-pixel-is/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1280&amp;q=85</image:loc>
+      <image:title>Samsung&apos;s One UI update proves everything Google is doing with Pixel is completely wrong</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/apples-2000-iphone-duo-goes-on-pre-order-today-at-8am-et/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1280&amp;q=85</image:loc>
+      <image:title>Apple&apos;s $2,000 iPhone Duo goes on pre-order today at 8AM ET</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/gmails-live-ai-search-feature-arrives-for-google-ai-subscribers/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
+      <image:title>Gmail&apos;s Live AI search feature arrives for Google AI subscribers</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://techseconds.com/articles/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-r/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -2071,6 +2111,46 @@
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&amp;q=85</image:loc>
       <image:title>Xbox Next-Gen Hybrid Console: Bridging Native Windows PC Games &amp; Living Room 4K</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/time-is-a-changin-say-goodbye-to-the-leap-second/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85</image:loc>
+      <image:title>Time is a-changin&apos;: say goodbye to the leap second</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/samsungs-one-ui-update-proves-everything-google-is-doing-with-pixel-is/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1280&amp;q=85</image:loc>
+      <image:title>Samsung&apos;s One UI update proves everything Google is doing with Pixel is completely wrong</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/apples-2000-iphone-duo-goes-on-pre-order-today-at-8am-et/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1280&amp;q=85</image:loc>
+      <image:title>Apple&apos;s $2,000 iPhone Duo goes on pre-order today at 8AM ET</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/gmails-live-ai-search-feature-arrives-for-google-ai-subscribers/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85</image:loc>
+      <image:title>Gmail&apos;s Live AI search feature arrives for Google AI subscribers</image:title>
     </image:image>
   </url>
   <url>

@@ -1,5 +1,237 @@
 [
   {
+    "title": "Time is a-changin': say goodbye to the leap second",
+    "slug": "time-is-a-changin-say-goodbye-to-the-leap-second",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/1012689/leap-second-discontinue-timekeeping-change",
+    "published": "2026-10-16T06:00:25-04:00",
+    "read_time": "45s",
+    "summary": "An important change will soon be made to global timekeeping that aims to prevent potential infrastructure failures akin to the Y2K bug scare. On Thursday, the International Bureau of Weights and Measures (BIPM) voted to scrap the leap second, an ad hoc time adjustment that's o...",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&q=85",
+    "seo_title": "Time is a-changin': say goodbye to the leap second",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "Time is a-changin': say goodbye to the leap second",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "An important change will soon be made to global timekeeping that aims to prevent potential infrastructure failures akin to the Y2K bug scare",
+        "bullet2": "On Thursday, the International Bureau of Weights and Measures (BIPM) voted to scrap the leap second, an ad hoc time adjustment that's o",
+        "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&q=85"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "On Thursday, the International Bureau of Weights and Measures (BIPM) voted to scrap the leap second, an ad hoc time adjustment that's o",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&q=85"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/samsungs-one-ui-update-proves-everything-google-is-doing-with-pixel-is/",
+    "next_story_title": "Samsung's One UI update proves everything Google"
+  },
+  {
+    "title": "Samsung's One UI update proves everything Google is doing with Pixel is completely wrong",
+    "slug": "samsungs-one-ui-update-proves-everything-google-is-doing-with-pixel-is",
+    "category_id": "smartphones",
+    "card_hook": "📱 FLAGSHIP LEAK",
+    "source": "Android Police",
+    "link": "https://www.androidpolice.com/samsung-one-ui-update-proves-everything-google-is-doing-with-pixel-is-wrong/",
+    "published": "Fri, 16 Oct 2026 10:00:13 GMT",
+    "read_time": "45s",
+    "summary": "Google gives my phone bugs while Samsung gives me fixes",
+    "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1280&q=85",
+    "seo_title": "Samsung's One UI update proves everything Google",
+    "slides": [
+      {
+        "hook": "HARDWARE ANNOUNCEMENT",
+        "title": "Samsung's One UI update proves everything Google is doing with Pi...",
+        "badge": "📱 MOBILE SILICON",
+        "bullet1": "Google gives my phone bugs while Samsung gives me fixes",
+        "bullet2": "A major development for early adopters and tech professionals.",
+        "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1280&q=85"
+      },
+      {
+        "hook": "CAMERA & SENSORS",
+        "title": "Core Technical Breakthrough",
+        "badge": "🔍 ADVANCED OPTICS",
+        "bullet1": "Technical deep-dive reveals how Samsung's One UI update proves everythin operates.",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&q=85"
+      },
+      {
+        "hook": "BATTERY & CHARGING",
+        "title": "Key Specifications & Capabilities",
+        "badge": "⚡ ALL-DAY ENDURANCE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&q=85"
+      },
+      {
+        "hook": "FLAGSHIP BENCHMARKS",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🚀 FLUID PERFORMANCE",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Smartphones & Mobile Tech worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/apples-2000-iphone-duo-goes-on-pre-order-today-at-8am-et/",
+    "next_story_title": "Apple's $2,000 iPhone Duo goes on pre-order today"
+  },
+  {
+    "title": "Apple's $2,000 iPhone Duo goes on pre-order today at 8AM ET",
+    "slug": "apples-2000-iphone-duo-goes-on-pre-order-today-at-8am-et",
+    "category_id": "smartphones",
+    "card_hook": "📱 FLAGSHIP LEAK",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2288565/apple-iphone-duo-pre-orders-open-today/",
+    "published": "Fri, 16 Oct 2026 09:36:05 +0000",
+    "read_time": "45s",
+    "summary": "The Apple Store is down ahead of pre-orders for the first folding iPhone.",
+    "image": "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1280&q=85",
+    "seo_title": "Apple's $2,000 iPhone Duo goes on pre-order today",
+    "slides": [
+      {
+        "hook": "HARDWARE ANNOUNCEMENT",
+        "title": "Apple's $2,000 iPhone Duo goes on pre-order today at 8AM ET",
+        "badge": "📱 MOBILE SILICON",
+        "bullet1": "The Apple Store is down ahead of pre-orders for the first folding iPhone",
+        "bullet2": "A major development for early adopters and tech professionals.",
+        "image": "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1280&q=85"
+      },
+      {
+        "hook": "CAMERA & SENSORS",
+        "title": "Core Technical Breakthrough",
+        "badge": "🔍 ADVANCED OPTICS",
+        "bullet1": "Technical deep-dive reveals how Apple's $2,000 iPhone Duo goes on pre-or operates.",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&q=85"
+      },
+      {
+        "hook": "BATTERY & CHARGING",
+        "title": "Key Specifications & Capabilities",
+        "badge": "⚡ ALL-DAY ENDURANCE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&q=85"
+      },
+      {
+        "hook": "FLAGSHIP BENCHMARKS",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🚀 FLUID PERFORMANCE",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Smartphones & Mobile Tech worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/gmails-live-ai-search-feature-arrives-for-google-ai-subscribers/",
+    "next_story_title": "Gmail's Live AI search feature arrives for Google AI"
+  },
+  {
+    "title": "Gmail's Live AI search feature arrives for Google AI subscribers",
+    "slug": "gmails-live-ai-search-feature-arrives-for-google-ai-subscribers",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2288545/gmail-live-ai-search-feature-arrives-for-google-ai-subscribers/",
+    "published": "Fri, 16 Oct 2026 08:31:48 +0000",
+    "read_time": "45s",
+    "summary": "Gmail's search can be frustrating and basic, but Google is finally smartening it up for AI plan subscribers.",
+    "image": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&q=85",
+    "seo_title": "Gmail's Live AI search feature arrives for Google AI",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "Gmail's Live AI search feature arrives for Google AI subscribers",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "Gmail's search can be frustrating and basic, but Google is finally smartening it up for AI plan subscribers",
+        "bullet2": "A major development for early adopters and tech professionals.",
+        "image": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&q=85"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "Technical deep-dive reveals how Gmail's Live AI search feature arrives f operates.",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&q=85"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-r/",
+    "next_story_title": "Even Benchmark thinks AI is eroding the venture pact"
+  },
+  {
     "title": "Even Benchmark thinks AI is eroding the venture pact against backing rivals",
     "slug": "even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-r",
     "category_id": "ai-tools",
@@ -11740,7 +11972,7 @@
       }
     ],
     "seo_title": "Xbox Next-Gen Hybrid Console",
-    "next_story_url": "/stories/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-r/",
-    "next_story_title": "Even Benchmark thinks AI is eroding the venture pact"
+    "next_story_url": "/stories/time-is-a-changin-say-goodbye-to-the-leap-second/",
+    "next_story_title": "Time is a-changin': say goodbye to the leap second"
   }
 ]
