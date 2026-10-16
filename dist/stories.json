@@ -1,5 +1,237 @@
 [
   {
+    "title": "Apple's HomeView has an app problem",
+    "slug": "apples-homeview-has-an-app-problem",
+    "category_id": "smartphones",
+    "card_hook": "📱 FLAGSHIP LEAK",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/podcast/1012911/apple-homeview-apps-carplay-vergecast",
+    "published": "2026-10-16T11:38:17-04:00",
+    "read_time": "45s",
+    "summary": "It's been a couple of days since Apple's big smart home announcement, and we have some more information - and a bunch of new questions - about the Apple HomeView. The device has plenty of computing oomph, is always connected to power, and looks like a perfect place to run a bu...",
+    "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&q=85",
+    "seo_title": "Apple's HomeView has an app problem",
+    "slides": [
+      {
+        "hook": "HARDWARE ANNOUNCEMENT",
+        "title": "Apple's HomeView has an app problem",
+        "badge": "📱 MOBILE SILICON",
+        "bullet1": "It's been a couple of days since Apple's big smart home announcement, and we have some more information - and a bunch of new questions - about the Apple HomeView",
+        "bullet2": "The device has plenty of computing oomph, is always connected to power, and looks like a perfect place to run a bu",
+        "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&q=85"
+      },
+      {
+        "hook": "CAMERA & SENSORS",
+        "title": "Core Technical Breakthrough",
+        "badge": "🔍 ADVANCED OPTICS",
+        "bullet1": "The device has plenty of computing oomph, is always connected to power, and looks like a perfect place to run a bu",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&q=85"
+      },
+      {
+        "hook": "BATTERY & CHARGING",
+        "title": "Key Specifications & Capabilities",
+        "badge": "⚡ ALL-DAY ENDURANCE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&q=85"
+      },
+      {
+        "hook": "FLAGSHIP BENCHMARKS",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🚀 FLUID PERFORMANCE",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Smartphones & Mobile Tech worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/analogue-is-re-releasing-its-snes-and-genesis-consoles-with-some-nice/",
+    "next_story_title": "Analogue is re-releasing its SNES and Genesis consoles"
+  },
+  {
+    "title": "Analogue is re-releasing its SNES and Genesis consoles with some nice upgrades",
+    "slug": "analogue-is-re-releasing-its-snes-and-genesis-consoles-with-some-nice",
+    "category_id": "gaming-gear",
+    "card_hook": "🎮 120Hz BEAST",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/1012901/analogue-retro-console-supern-nt-plus-nintendo-sega-genesis-mega-plus",
+    "published": "2026-10-16T11:08:38-04:00",
+    "read_time": "45s",
+    "summary": "Analogue announced new versions of its Super Nt and Mega Sg retro consoles today with a \"reworked industrial design\" and built-in wireless connectivity for controllers and accessories. Like the original versions, the new Super Nt Plus and Mega Sg Plus are able to play Nintendo...",
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&q=85",
+    "seo_title": "Analogue is re-releasing its SNES and Genesis consoles",
+    "slides": [
+      {
+        "hook": "GAMING HARDWARE REVEAL",
+        "title": "Analogue is re-releasing its SNES and Genesis consoles with some ...",
+        "badge": "🎮 HIGH-REFRESH GEAR",
+        "bullet1": "Analogue announced new versions of its Super Nt and Mega Sg retro consoles today with a \"reworked industrial design\" and built-in wireless connectivity for controllers and accessories",
+        "bullet2": "Like the original versions, the new Super Nt Plus and Mega Sg Plus are able to play Nintendo",
+        "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&q=85"
+      },
+      {
+        "hook": "GRAPHICS ENGINE",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ HIGH-FRAMERATE AAA",
+        "bullet1": "Like the original versions, the new Super Nt Plus and Mega Sg Plus are able to play Nintendo",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&q=85"
+      },
+      {
+        "hook": "PRECISION CONTROLS",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🕹️ LOW-LATENCY INPUT",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&q=85"
+      },
+      {
+        "hook": "DISPLAY & ERGONOMICS",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "✨ PURE COLOR CLARITY",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Gaming Hardware & Peripherals worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/an-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-mome/",
+    "next_story_title": "An Nvidia insider-turned-VC on why robotics hasn't hit"
+  },
+  {
+    "title": "An Nvidia insider-turned-VC on why robotics hasn't hit its ChatGPT moment, yet",
+    "slug": "an-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-mome",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+    "published": "Fri, 16 Oct 2026 16:30:00 +0000",
+    "read_time": "45s",
+    "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA's robotics platforms, says robotics is currently in its \"Lego era,\" with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs co...",
+    "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&q=85",
+    "seo_title": "An Nvidia insider-turned-VC on why robotics hasn't hit",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "An Nvidia insider-turned-VC on why robotics hasn't hit its ChatGP...",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA's robotics platforms, says robotics is currently in its \"Lego era,\" with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt",
+        "bullet2": "This view runs co",
+        "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&q=85"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "This view runs co",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&q=85"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/waymos-robotaxis-are-headed-to-canada/",
+    "next_story_title": "Waymo's robotaxis are headed to Canada"
+  },
+  {
+    "title": "Waymo's robotaxis are headed to Canada",
+    "slug": "waymos-robotaxis-are-headed-to-canada",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/10/16/waymos-robotaxis-are-headed-to-canada/",
+    "published": "Fri, 16 Oct 2026 16:06:38 +0000",
+    "read_time": "45s",
+    "summary": "The company will start off by testing its self-driving vehicles on Toronto's streets.",
+    "image": "https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&q=85",
+    "seo_title": "Waymo's robotaxis are headed to Canada",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "Waymo's robotaxis are headed to Canada",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "The company will start off by testing its self-driving vehicles on Toronto's streets",
+        "bullet2": "A major development for early adopters and tech professionals.",
+        "image": "https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&q=85"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "Technical deep-dive reveals how Waymo's robotaxis are headed to Canada operates.",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&q=85"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/this-stretchy-magsafe-storage-pouch-gives-your-phone-a-sizable-trunk/",
+    "next_story_title": "This stretchy MagSafe storage pouch gives your phone"
+  },
+  {
     "title": "This stretchy MagSafe storage pouch gives your phone a sizable trunk",
     "slug": "this-stretchy-magsafe-storage-pouch-gives-your-phone-a-sizable-trunk",
     "category_id": "ai-tools",
@@ -12204,7 +12436,7 @@
       }
     ],
     "seo_title": "Xbox Next-Gen Hybrid Console",
-    "next_story_url": "/stories/this-stretchy-magsafe-storage-pouch-gives-your-phone-a-sizable-trunk/",
-    "next_story_title": "This stretchy MagSafe storage pouch gives your phone"
+    "next_story_url": "/stories/apples-homeview-has-an-app-problem/",
+    "next_story_title": "Apple's HomeView has an app problem"
   }
 ]

@@ -234,6 +234,46 @@
     </image:image>
   </url>
   <url>
+    <loc>https://techseconds.com/articles/apples-homeview-has-an-app-problem/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&amp;q=85</image:loc>
+      <image:title>Apple&apos;s HomeView has an app problem</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/analogue-is-re-releasing-its-snes-and-genesis-consoles-with-some-nice/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&amp;q=85</image:loc>
+      <image:title>Analogue is re-releasing its SNES and Genesis consoles with some nice upgrades</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/an-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-mome/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>An Nvidia insider-turned-VC on why robotics hasn&apos;t hit its ChatGPT moment, yet</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/waymos-robotaxis-are-headed-to-canada/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
+      <image:title>Waymo&apos;s robotaxis are headed to Canada</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://techseconds.com/articles/this-stretchy-magsafe-storage-pouch-gives-your-phone-a-sizable-trunk/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -2151,6 +2191,46 @@
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&amp;q=85</image:loc>
       <image:title>Xbox Next-Gen Hybrid Console: Bridging Native Windows PC Games &amp; Living Room 4K</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/apples-homeview-has-an-app-problem/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&amp;q=85</image:loc>
+      <image:title>Apple&apos;s HomeView has an app problem</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/analogue-is-re-releasing-its-snes-and-genesis-consoles-with-some-nice/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&amp;q=85</image:loc>
+      <image:title>Analogue is re-releasing its SNES and Genesis consoles with some nice upgrades</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/an-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-mome/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>An Nvidia insider-turned-VC on why robotics hasn&apos;t hit its ChatGPT moment, yet</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/waymos-robotaxis-are-headed-to-canada/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
+      <image:title>Waymo&apos;s robotaxis are headed to Canada</image:title>
     </image:image>
   </url>
   <url>
