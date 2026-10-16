@@ -24,6 +24,8 @@ from config import (
     GOOGLE_SITE_VERIFICATION,
     GA_MEASUREMENT_ID,
     get_category_fallback_image,
+    get_adsense_script_tag,
+    get_adsense_pub_id,
 )
 from story_builder import optimize_seo_title, HIGH_CTR_TITLE_OVERRIDES
 from article_builder import build_all_articles, FLAGSHIP_ARTICLES
@@ -229,6 +231,7 @@ def build_portal_html(
     gtag('js', new Date());
     gtag('config', '{GA_MEASUREMENT_ID}');
   </script>
+{get_adsense_script_tag()}
 
   <!-- OpenGraph & Twitter Cards -->
   <meta property="og:title" content="{SITE_NAME} — {SITE_TAGLINE}">
@@ -469,6 +472,7 @@ def build_legal_page_html(
     gtag('js', new Date());
     gtag('config', '{GA_MEASUREMENT_ID}');
   </script>
+{get_adsense_script_tag()}
 
   <!-- OpenGraph & Twitter Cards -->
   <meta property="og:title" content="{title} | {SITE_NAME}">
@@ -1095,6 +1099,24 @@ def build_all_portal_pages(stories: List[Dict[str, Any]], dist_dir: Path):
     (dist_dir / "rss.xml").write_text(rss_xml, encoding="utf-8")
     (dist_dir / "feed.xml").write_text(rss_xml, encoding="utf-8")
     print(f"[+] Generated RSS feeds: dist/rss.xml & dist/feed.xml")
+
+    # 7. Google AdSense Authorized Digital Sellers (ads.txt)
+    pub_id = get_adsense_pub_id()
+    if pub_id:
+        ads_txt_body = (
+            f"# Google AdSense Authorized Digital Sellers for {SITE_NAME}\n"
+            f"google.com, {pub_id}, DIRECT, f08c47fec0942fa0\n"
+        )
+    else:
+        ads_txt_body = (
+            f"# Google AdSense Authorized Digital Sellers for {SITE_NAME}\n"
+            "# Configure ADSENSE_CLIENT_ID in .env or run: python update_adsense.py ca-pub-XXXXXXXXXXXXXXXX\n"
+            "# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0\n"
+        )
+    (dist_dir / "ads.txt").write_text(ads_txt_body, encoding="utf-8")
+    if dist_dir.parent:
+        (dist_dir.parent / "ads.txt").write_text(ads_txt_body, encoding="utf-8")
+    print(f"[+] Deployed Google AdSense ads.txt (pub_id: {pub_id or 'awaiting client ID'})")
 
 
 def generate_rss_xml(stories: List[Dict[str, Any]]) -> str:

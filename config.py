@@ -45,6 +45,29 @@ GOOGLE_SITE_VERIFICATION = os.environ.get(
 GA_MEASUREMENT_ID = os.environ.get("GA_MEASUREMENT_ID", "G-LHGLZ8Q53T")
 GA4_PROPERTY_ID = os.environ.get("GA4_PROPERTY_ID", "558519433")
 
+# Google AdSense Configuration (e.g. ca-pub-1234567890123456 or pub-1234567890123456)
+ADSENSE_CLIENT_ID = os.environ.get("ADSENSE_CLIENT_ID", "").strip()
+
+
+def get_adsense_pub_id() -> str:
+    """Returns pure publisher ID (e.g., 'pub-1234567890123456')."""
+    if not ADSENSE_CLIENT_ID:
+        return ""
+    clean = ADSENSE_CLIENT_ID.replace("ca-", "").strip()
+    if not clean.startswith("pub-"):
+        clean = f"pub-{clean}"
+    return clean
+
+
+def get_adsense_script_tag() -> str:
+    """Returns official Google AdSense verification & auto ads script tag."""
+    pub_id = get_adsense_pub_id()
+    if not pub_id:
+        return ""
+    ca_pub = f"ca-{pub_id}" if not pub_id.startswith("ca-") else pub_id
+    return f'  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={ca_pub}" crossorigin="anonymous"></script>'
+
+
 # IndexNow Instant Indexing Protocol (Bing, Yandex, Naver)
 INDEXNOW_KEY = os.environ.get("INDEXNOW_KEY", "8d21abf59e4b4f6ca1c03e8721c5b89a")
 

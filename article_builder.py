@@ -24,6 +24,7 @@ from config import (
     GOOGLE_SITE_VERIFICATION,
     GA_MEASUREMENT_ID,
     get_category_fallback_image,
+    get_adsense_script_tag,
 )
 from story_builder import optimize_seo_title
 
@@ -1748,6 +1749,7 @@ def build_article_html(article: Dict[str, Any], related_articles: Optional[List[
     gtag('js', new Date());
     gtag('config', '{GA_MEASUREMENT_ID}');
   </script>
+{get_adsense_script_tag()}
 
   <!-- OpenGraph & Twitter -->
   <meta property="og:title" content="{html_lib.escape(title)}">
@@ -2009,6 +2011,7 @@ def build_articles_index_html(articles: List[Dict[str, Any]]) -> str:
     gtag('js', new Date());
     gtag('config', '{GA_MEASUREMENT_ID}');
   </script>
+{get_adsense_script_tag()}
 
   <!-- OpenGraph -->
   <meta property="og:title" content="In-Depth Technology Articles & Engineering Deep Dives | {SITE_NAME}">
