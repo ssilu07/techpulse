@@ -234,6 +234,26 @@
     </image:image>
   </url>
   <url>
+    <loc>https://techseconds.com/articles/you-dont-have-to-turn-off-your-phone-to-switch-sim-cards-but-you-proba/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&amp;q=85</image:loc>
+      <image:title>You don&apos;t have to turn off your phone to switch SIM cards (but you probably should)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/openai-is-building-a-humanoid-robot-but-the-body-isnt-the-real-challen/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>OpenAI is building a humanoid robot, but the body isn&apos;t the real challenge</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://techseconds.com/articles/meta-removes-language-that-raised-scraping-and-ai-training-concerns/</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -2481,6 +2501,26 @@
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&amp;q=85</image:loc>
       <image:title>Xbox Next-Gen Hybrid Console: Bridging Native Windows PC Games &amp; Living Room 4K</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/you-dont-have-to-turn-off-your-phone-to-switch-sim-cards-but-you-proba/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&amp;q=85</image:loc>
+      <image:title>You don&apos;t have to turn off your phone to switch SIM cards (but you probably should)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/openai-is-building-a-humanoid-robot-but-the-body-isnt-the-real-challen/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>OpenAI is building a humanoid robot, but the body isn&apos;t the real challenge</image:title>
     </image:image>
   </url>
   <url>
