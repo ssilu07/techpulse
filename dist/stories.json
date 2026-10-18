@@ -1,5 +1,237 @@
 [
   {
+    "title": "The best gadget I bought this year is a milk frother",
+    "slug": "the-best-gadget-i-bought-this-year-is-a-milk-frother",
+    "category_id": "gadgets",
+    "card_hook": "🎧 HARDWARE SHOCK",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/gadgets/1013257/milk-frother-cold-foam-gadget",
+    "published": "2026-10-18T09:00:00-04:00",
+    "read_time": "45s",
+    "summary": "Back in February, I went to Los Angeles to take in some art and stayed in Koreatown. Down the street from my hotel, there was this little coffee shop - Stagger - that is, I think, best known for its matcha, which is good. But the drink I unexpectedly found myself obsessed with...",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=1280&q=85",
+    "seo_title": "The best gadget I bought this year is a milk frother",
+    "slides": [
+      {
+        "hook": "HARDWARE REVOLUTION",
+        "title": "The best gadget I bought this year is a milk frother",
+        "badge": "🎧 SMART WEARABLE",
+        "bullet1": "Back in February, I went to Los Angeles to take in some art and stayed in Koreatown",
+        "bullet2": "Down the street from my hotel, there was this little coffee shop - Stagger - that is, I think, best known for its matcha, which is good",
+        "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=1280&q=85"
+      },
+      {
+        "hook": "ACOUSTICS & SENSORS",
+        "title": "Core Technical Breakthrough",
+        "badge": "🔇 ACTIVE PROCESSING",
+        "bullet1": "Down the street from my hotel, there was this little coffee shop - Stagger - that is, I think, best known for its matcha, which is good",
+        "bullet2": "But the drink I unexpectedly found myself obsessed with",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&q=85"
+      },
+      {
+        "hook": "BATTERY INNOVATION",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🔋 ULTRA-LOW POWER",
+        "bullet1": "But the drink I unexpectedly found myself obsessed with",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=1280&q=85"
+      },
+      {
+        "hook": "ERGONOMIC DESIGN",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "💎 TITANIUM BUILD",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Gadgets & Wearable Tech worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/cities-want-to-put-the-boot-on-robotaxis/",
+    "next_story_title": "Cities want to put the boot on robotaxis"
+  },
+  {
+    "title": "Cities want to put the boot on robotaxis",
+    "slug": "cities-want-to-put-the-boot-on-robotaxis",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+    "published": "2026-10-18T08:00:00-04:00",
+    "read_time": "45s",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it ...",
+    "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&q=85",
+    "seo_title": "Cities want to put the boot on robotaxis",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "Cities want to put the boot on robotaxis",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world",
+        "bullet2": "For more on autonomous vehicles, policy, and road rules, follow Andrew J",
+        "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&q=85"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "For more on autonomous vehicles, policy, and road rules, follow Andrew J",
+        "bullet2": "The Stepback arrives in our subscribers' inboxes at 8AM ET",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&q=85"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "The Stepback arrives in our subscribers' inboxes at 8AM ET",
+        "bullet2": "Opt in for The Stepback here",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "Opt in for The Stepback here",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/the-fitbit-edge-is-stuck-between-the-air-and-pixel-watch-5-and-it-miss/",
+    "next_story_title": "The Fitbit Edge is stuck between the Air and Pixel"
+  },
+  {
+    "title": "The Fitbit Edge is stuck between the Air and Pixel Watch 5, and it misses the point of both",
+    "slug": "the-fitbit-edge-is-stuck-between-the-air-and-pixel-watch-5-and-it-miss",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "Android Police",
+    "link": "https://www.androidpolice.com/fitbit-edge-middle-ground-between-air-and-pixel-watch-5-misses-point-of-both/",
+    "published": "Sun, 18 Oct 2026 12:45:13 GMT",
+    "read_time": "45s",
+    "summary": "Google's new wearable doesn't have the strength to carve its own niche",
+    "image": "https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&q=85",
+    "seo_title": "The Fitbit Edge is stuck between the Air and Pixel",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "The Fitbit Edge is stuck between the Air and Pixel Watch 5, and i...",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "Google's new wearable doesn't have the strength to carve its own niche",
+        "bullet2": "A major development for early adopters and tech professionals.",
+        "image": "https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&q=85"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "Technical deep-dive reveals how The Fitbit Edge is stuck between the Air operates.",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&q=85"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/i-used-nova-launcher-for-years-until-this-free-alternative-replaced-it/",
+    "next_story_title": "I used Nova Launcher for years until this free"
+  },
+  {
+    "title": "I used Nova Launcher for years until this free alternative replaced it for good",
+    "slug": "i-used-nova-launcher-for-years-until-this-free-alternative-replaced-it",
+    "category_id": "smartphones",
+    "card_hook": "📱 FLAGSHIP LEAK",
+    "source": "Android Police",
+    "link": "https://www.androidpolice.com/i-used-nova-launcher-for-years-until-this-free-app-replaced-it-for-good/",
+    "published": "Sun, 18 Oct 2026 12:00:13 GMT",
+    "read_time": "45s",
+    "summary": "Microsoft Launcher is just as smooth as Pixel Launcher",
+    "image": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&q=85",
+    "seo_title": "I used Nova Launcher for years until this free",
+    "slides": [
+      {
+        "hook": "HARDWARE ANNOUNCEMENT",
+        "title": "I used Nova Launcher for years until this free alternative replac...",
+        "badge": "📱 MOBILE SILICON",
+        "bullet1": "Microsoft Launcher is just as smooth as Pixel Launcher",
+        "bullet2": "A major development for early adopters and tech professionals.",
+        "image": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&q=85"
+      },
+      {
+        "hook": "CAMERA & SENSORS",
+        "title": "Core Technical Breakthrough",
+        "badge": "🔍 ADVANCED OPTICS",
+        "bullet1": "Technical deep-dive reveals how I used Nova Launcher for years until thi operates.",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&q=85"
+      },
+      {
+        "hook": "BATTERY & CHARGING",
+        "title": "Key Specifications & Capabilities",
+        "badge": "⚡ ALL-DAY ENDURANCE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&q=85"
+      },
+      {
+        "hook": "FLAGSHIP BENCHMARKS",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🚀 FLUID PERFORMANCE",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Smartphones & Mobile Tech worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/google-maps-isnt-just-for-roads-heres-how-i-use-it-to-navigate-inside/",
+    "next_story_title": "Google Maps isn't just for roads; here's how I use"
+  },
+  {
     "title": "Google Maps isn't just for roads; here's how I use it to navigate inside buildings",
     "slug": "google-maps-isnt-just-for-roads-heres-how-i-use-it-to-navigate-inside",
     "category_id": "ai-tools",
@@ -14350,7 +14582,7 @@
       }
     ],
     "seo_title": "Xbox Next-Gen Hybrid Console",
-    "next_story_url": "/stories/google-maps-isnt-just-for-roads-heres-how-i-use-it-to-navigate-inside/",
-    "next_story_title": "Google Maps isn't just for roads; here's how I use"
+    "next_story_url": "/stories/the-best-gadget-i-bought-this-year-is-a-milk-frother/",
+    "next_story_title": "The best gadget I bought this year is a milk frother"
   }
 ]
