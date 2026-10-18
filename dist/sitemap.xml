@@ -3,43 +3,43 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://techseconds.com/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://techseconds.com/articles/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://techseconds.com/editorial-team/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://techseconds.com/about/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://techseconds.com/privacy/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://techseconds.com/terms/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://techseconds.com/contact/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -234,6 +234,46 @@
     </image:image>
   </url>
   <url>
+    <loc>https://techseconds.com/articles/meta-removes-language-that-raised-scraping-and-ai-training-concerns/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>Meta removes language that raised scraping and AI training concerns</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/tiktok-permanently-bans-musk-documentary-advertising-account/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1280&amp;q=85</image:loc>
+      <image:title>TikTok permanently bans &apos;Musk&apos; documentary advertising account</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/using-eqsweep-to-fine-tune-my-pixel-buds-improved-their-sound-quality/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&amp;q=85</image:loc>
+      <image:title>Using EQSweep to fine-tune my Pixel Buds improved their sound quality</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/what-to-check-if-your-nintendo-switch-2-isnt-connecting-to-the-tv/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&amp;q=85</image:loc>
+      <image:title>What to check if your Nintendo Switch 2 isn&apos;t connecting to the TV</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://techseconds.com/articles/mercedes-amgs-first-ground-up-suv-is-a-1150hp-electric-beast/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -245,7 +285,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-mo/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -255,7 +295,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/liquid-cooling-finally-made-a-qi2-power-bank-worth-it-for-my-pixel-11/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -265,7 +305,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/the-s26-ultras-best-camera-setting-is-hiding-in-a-separate-samsung-app/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -295,7 +335,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/now-is-the-perfect-time-for-amazon-to-bring-back-its-android-fire-phon/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -305,7 +345,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/my-galaxy-s22-was-stolen-samsung-find-couldnt-help-me-find-it/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -345,7 +385,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/3-pixel-launcher-alternatives-that-fix-its-distractions-gestures-and-o/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -355,7 +395,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/if-memory-shortages-last-tech-companies-should-offer-cheap-battery-rep/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -365,7 +405,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-aff/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -375,7 +415,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/i-spent-hours-testing-googlebook-os-on-my-macbook-it-confirmed-my-bigg/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -385,7 +425,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/a-flying-tesla-roadster-sounds-impossible-until-you-see-what-lockheed/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -395,7 +435,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/analogue-returns-to-the-16-bit-era-with-the-mega-sg-and-super-nt/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -425,7 +465,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/replit-is-no-longer-working-with-anthropic-ceo-says/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -435,7 +475,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/my-pixel-10-pros-battery-life-reached-a-new-level-after-turning-off-sm/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -465,7 +505,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -475,7 +515,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/android-auto-finally-brings-back-this-feature-that-has-been-missing-fo/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -505,7 +545,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/an-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-mome/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -515,7 +555,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/waymos-robotaxis-are-headed-to-canada/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -555,7 +595,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/veritas-expands-its-anti-counterfeit-chip-to-jewelry-trophies-and-frag/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -575,7 +615,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/samsungs-one-ui-update-proves-everything-google-is-doing-with-pixel-is/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -585,7 +625,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/apples-2000-iphone-duo-goes-on-pre-order-today-at-8am-et/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -595,7 +635,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/gmails-live-ai-search-feature-arrives-for-google-ai-subscribers/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -605,7 +645,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-r/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -615,7 +655,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -625,7 +665,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/i-stopped-cleaning-up-my-gmail-inbox-heres-the-email-system-that-worke/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -635,7 +675,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/your-galaxy-phone-comes-with-built-in-samsung-one-ui-apps-you-shouldnt/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -675,7 +715,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -715,7 +755,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/amazon-devices-chief-panos-panay-on-the-importance-of-failure-and-boun/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -755,7 +795,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/volvo-makes-a-bigger-bet-on-nvidia/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -795,7 +835,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -825,7 +865,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/i-cant-wait-for-apple-to-show-google-how-to-make-a-better-smart-speake/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -835,7 +875,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/apple-i-hatfield-computer-signed-by-woz-fetches-a-record-115-million-a/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -845,7 +885,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/figma-announces-new-features-to-define-how-agents-work-on-its-platform/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -855,7 +895,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-t/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -865,7 +905,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/this-google-pixel-feature-leaves-users-with-less-storage-space-than-ex/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -875,7 +915,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/fitbit-edge-vs-fitbit-air-the-differences-beyond-a-screen/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -905,7 +945,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/flock-ceo-defends-surveillance-technology-amid-national-backlash-we-sh/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -915,7 +955,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-b/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -935,7 +975,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/colossal-biosciences-announces-new-ai-platform-to-help-accelerate-de-e/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -945,7 +985,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/timeteller-puts-our-internal-clocks-at-the-center-of-personalized-medi/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -955,7 +995,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/samsung-healths-new-scan-meal-feature-could-make-calorie-tracking-effo/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -985,7 +1025,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fra/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -995,7 +1035,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/mosqitter-is-turning-its-mosquito-traps-into-an-ai-powered-surveillanc/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1035,7 +1075,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/i-used-3-gemini-prompts-to-clean-200-unread-gmail-threads-in-one-hour/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1045,7 +1085,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-wi/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1055,7 +1095,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/these-4-crucial-android-settings-are-disabled-by-default-i-cant-live-w/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1065,7 +1105,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/the-flowtica-verso-e-paper-ai-recorder-is-coming-for-199-with-early-re/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1075,7 +1115,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/google-is-gutting-free-gemini-features-now-i-have-every-reason-to-ditc/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1085,7 +1125,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/justice-department-says-north-koreans-have-infiltrated-dozens-of-us-co/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1095,7 +1135,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/streamlining-daily-texts-is-easier-with-these-underrated-google-messag/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1105,7 +1145,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/how-to-improve-your-online-privacy-and-security-in-google-chrome/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1115,7 +1155,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/5-clever-ways-gemini-can-automate-everyday-tasks/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1125,7 +1165,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/science-corporation-implants-its-vision-restoring-chip-in-its-first-st/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1135,7 +1175,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1145,7 +1185,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-we/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1155,7 +1195,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/these-quiet-google-calendar-features-make-managing-your-daily-schedule/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1185,7 +1225,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1195,7 +1235,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/helix-carbon-says-it-can-make-iron-cheaper-by-recycling-blast-furnace/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1235,7 +1275,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistake/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1275,7 +1315,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1315,7 +1355,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/apple-refreshes-its-homepod-mini-with-a-new-chip-and-149-price-tag/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1325,7 +1365,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1335,7 +1375,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1345,7 +1385,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/why-this-one-android-keyboard-shortcut-is-the-single-most-useful-featu/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1355,7 +1395,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/dont-buy-a-cheap-android-phone-without-these-non-negotiable-features/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1395,7 +1435,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/meta-releases-its-first-frontier-model-muse-wonder/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1415,7 +1455,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/whatsapp-users-may-soon-be-able-to-schedule-messages/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1425,7 +1465,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/microsofts-president-says-ai-is-less-regulated-than-a-carton-of-milk/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1435,7 +1475,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/one-of-the-biggest-issues-in-googlebooks-is-finally-fixed/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1445,7 +1485,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-k/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1455,7 +1495,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/openai-dot-vs-meta-muse-how-do-these-ai-agents-compare/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1465,7 +1505,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/the-reason-the-xbox-series-s-is-so-much-cheaper-than-the-series-x/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1475,7 +1515,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/why-japan-said-goodbye-to-traditional-flip-phones/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1505,7 +1545,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/will-the-homeview-be-apples-first-smart-home-success/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1515,7 +1555,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/aaron-sorkins-social-reckoning-is-off-to-a-weak-start/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1545,7 +1585,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-n/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1555,7 +1595,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1565,7 +1605,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/how-to-enable-live-activities-on-iphone-and-carplay/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1575,7 +1615,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/how-to-use-the-parental-controls-on-ios-27/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1585,7 +1625,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/how-to-reduce-mobile-data-usage-on-your-iphone/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1605,7 +1645,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-p/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1615,7 +1655,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/stop-doing-manual-phone-tasks-this-android-automation-workflow-gave-me/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1625,7 +1665,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/7-things-you-should-know-about-androids-confusing-new-sideloading-limi/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1665,7 +1705,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/cloudflare-acquires-deno-to-improve-its-workers-programming-model/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1685,7 +1725,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/why-pixel-search-solves-the-productivity-problem-for-older-pixels/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1695,7 +1735,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/i-flipped-one-overlooked-pixel-setting-my-daily-battery-anxiety-comple/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1705,7 +1745,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/i-switched-to-the-galaxy-s26-ultra-but-its-biggest-display-upgrade-com/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1725,7 +1765,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-dela/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1735,7 +1775,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-inte/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1745,7 +1785,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/long-live-the-mechanical-keyboard/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1785,7 +1825,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/lumenus-helps-automate-tedious-paperwork-in-times-of-grief/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1825,7 +1865,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/beyond-techcrunch-disrupt-2026-the-side-events-parties-networking-you/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1865,7 +1905,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detaile/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1905,7 +1945,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chil/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1945,7 +1985,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/asos-confirms-breach-of-customer-data-after-hackers-send-rogue-app-not/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1955,7 +1995,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1965,7 +2005,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/nous-research-confirms-it-hit-15b-valuation-launches-ai-agents-for-bus/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1975,7 +2015,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/i-finally-customized-these-android-auto-settings-my-daily-commute-will/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1985,7 +2025,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/i-disabled-youtube-shorts-now-i-feel-like-i-can-breathe-again/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2025,7 +2065,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/while-vcs-crowd-into-san-francisco-endeavor-catalyst-raises-320m-for-f/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2065,7 +2105,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/x-expands-its-gametime-sports-hub-beyond-the-nfl-starting-with-mlb/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2085,7 +2125,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/spotify-expands-audiobooks-to-over-180-markets/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2095,7 +2135,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/apple-tvs-f1-coverage-will-now-support-dolby-atmos/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2105,7 +2145,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/how-long-have-wireless-gaming-controllers-been-around-for/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2125,7 +2165,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-insti/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2135,7 +2175,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/how-to-help-stop-spam-calls-on-iphone-and-android/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2145,7 +2185,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/why-do-some-pcs-have-two-ethernet-ports/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2185,7 +2225,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2225,7 +2265,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/mirror-particle-is-building-a-world-model-of-human-behavior/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2235,7 +2275,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/xbox-elite-controller-3-specs-leak-via-xboxs-own-design-lab/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2245,7 +2285,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/mini-pc-vs-laptop-which-is-better-for-your-home-office/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2265,7 +2305,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/reflection-debuts-beam-an-open-weight-ai-model-to-rival-chinese-models/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2295,7 +2335,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/openai-will-start-watermarking-chatgpts-text-in-the-eu/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2305,7 +2345,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/etched-fields-funding-offers-at-40b-valuation-sources-say/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2315,7 +2355,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/common-mistakes-you-should-avoid-when-using-foldable-phones/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2325,7 +2365,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/articles/can-a-macbook-handle-heavy-games-heres-what-you-should-know/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -2444,6 +2484,46 @@
     </image:image>
   </url>
   <url>
+    <loc>https://techseconds.com/stories/meta-removes-language-that-raised-scraping-and-ai-training-concerns/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>Meta removes language that raised scraping and AI training concerns</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/tiktok-permanently-bans-musk-documentary-advertising-account/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1280&amp;q=85</image:loc>
+      <image:title>TikTok permanently bans &apos;Musk&apos; documentary advertising account</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/using-eqsweep-to-fine-tune-my-pixel-buds-improved-their-sound-quality/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&amp;q=85</image:loc>
+      <image:title>Using EQSweep to fine-tune my Pixel Buds improved their sound quality</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/what-to-check-if-your-nintendo-switch-2-isnt-connecting-to-the-tv/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&amp;q=85</image:loc>
+      <image:title>What to check if your Nintendo Switch 2 isn&apos;t connecting to the TV</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://techseconds.com/stories/mercedes-amgs-first-ground-up-suv-is-a-1150hp-electric-beast/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>daily</changefreq>
@@ -2455,7 +2535,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-mo/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2465,7 +2545,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/liquid-cooling-finally-made-a-qi2-power-bank-worth-it-for-my-pixel-11/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2475,7 +2555,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/the-s26-ultras-best-camera-setting-is-hiding-in-a-separate-samsung-app/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2505,7 +2585,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/now-is-the-perfect-time-for-amazon-to-bring-back-its-android-fire-phon/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2515,7 +2595,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/my-galaxy-s22-was-stolen-samsung-find-couldnt-help-me-find-it/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2555,7 +2635,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/3-pixel-launcher-alternatives-that-fix-its-distractions-gestures-and-o/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2565,7 +2645,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/if-memory-shortages-last-tech-companies-should-offer-cheap-battery-rep/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2575,7 +2655,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-aff/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2585,7 +2665,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/i-spent-hours-testing-googlebook-os-on-my-macbook-it-confirmed-my-bigg/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2595,7 +2675,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/a-flying-tesla-roadster-sounds-impossible-until-you-see-what-lockheed/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2605,7 +2685,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/analogue-returns-to-the-16-bit-era-with-the-mega-sg-and-super-nt/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2635,7 +2715,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/replit-is-no-longer-working-with-anthropic-ceo-says/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2645,7 +2725,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/my-pixel-10-pros-battery-life-reached-a-new-level-after-turning-off-sm/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2675,7 +2755,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2685,7 +2765,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/android-auto-finally-brings-back-this-feature-that-has-been-missing-fo/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2715,7 +2795,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/an-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-mome/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2725,7 +2805,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/waymos-robotaxis-are-headed-to-canada/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2765,7 +2845,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/veritas-expands-its-anti-counterfeit-chip-to-jewelry-trophies-and-frag/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2785,7 +2865,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/samsungs-one-ui-update-proves-everything-google-is-doing-with-pixel-is/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2795,7 +2875,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/apples-2000-iphone-duo-goes-on-pre-order-today-at-8am-et/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2805,7 +2885,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/gmails-live-ai-search-feature-arrives-for-google-ai-subscribers/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2815,7 +2895,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-r/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2825,7 +2905,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2835,7 +2915,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/i-stopped-cleaning-up-my-gmail-inbox-heres-the-email-system-that-worke/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2845,7 +2925,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/your-galaxy-phone-comes-with-built-in-samsung-one-ui-apps-you-shouldnt/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2885,7 +2965,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2925,7 +3005,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/amazon-devices-chief-panos-panay-on-the-importance-of-failure-and-boun/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -2965,7 +3045,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/volvo-makes-a-bigger-bet-on-nvidia/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3005,7 +3085,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3035,7 +3115,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/i-cant-wait-for-apple-to-show-google-how-to-make-a-better-smart-speake/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3045,7 +3125,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/apple-i-hatfield-computer-signed-by-woz-fetches-a-record-115-million-a/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3055,7 +3135,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/figma-announces-new-features-to-define-how-agents-work-on-its-platform/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3065,7 +3145,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-t/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3075,7 +3155,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/this-google-pixel-feature-leaves-users-with-less-storage-space-than-ex/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3085,7 +3165,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/fitbit-edge-vs-fitbit-air-the-differences-beyond-a-screen/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3115,7 +3195,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/flock-ceo-defends-surveillance-technology-amid-national-backlash-we-sh/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3125,7 +3205,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-b/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3145,7 +3225,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/colossal-biosciences-announces-new-ai-platform-to-help-accelerate-de-e/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3155,7 +3235,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/timeteller-puts-our-internal-clocks-at-the-center-of-personalized-medi/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3165,7 +3245,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/samsung-healths-new-scan-meal-feature-could-make-calorie-tracking-effo/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3195,7 +3275,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fra/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3205,7 +3285,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/mosqitter-is-turning-its-mosquito-traps-into-an-ai-powered-surveillanc/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3245,7 +3325,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/i-used-3-gemini-prompts-to-clean-200-unread-gmail-threads-in-one-hour/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3255,7 +3335,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-wi/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3265,7 +3345,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/these-4-crucial-android-settings-are-disabled-by-default-i-cant-live-w/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3275,7 +3355,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/the-flowtica-verso-e-paper-ai-recorder-is-coming-for-199-with-early-re/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3285,7 +3365,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/google-is-gutting-free-gemini-features-now-i-have-every-reason-to-ditc/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3295,7 +3375,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/justice-department-says-north-koreans-have-infiltrated-dozens-of-us-co/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3305,7 +3385,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/streamlining-daily-texts-is-easier-with-these-underrated-google-messag/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3315,7 +3395,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/how-to-improve-your-online-privacy-and-security-in-google-chrome/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3325,7 +3405,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/5-clever-ways-gemini-can-automate-everyday-tasks/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3335,7 +3415,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/science-corporation-implants-its-vision-restoring-chip-in-its-first-st/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3345,7 +3425,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3355,7 +3435,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-we/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3365,7 +3445,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/these-quiet-google-calendar-features-make-managing-your-daily-schedule/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3395,7 +3475,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3405,7 +3485,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/helix-carbon-says-it-can-make-iron-cheaper-by-recycling-blast-furnace/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3445,7 +3525,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistake/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3485,7 +3565,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3525,7 +3605,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/apple-refreshes-its-homepod-mini-with-a-new-chip-and-149-price-tag/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3535,7 +3615,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3545,7 +3625,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3555,7 +3635,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/why-this-one-android-keyboard-shortcut-is-the-single-most-useful-featu/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3565,7 +3645,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/dont-buy-a-cheap-android-phone-without-these-non-negotiable-features/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3605,7 +3685,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/meta-releases-its-first-frontier-model-muse-wonder/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3625,7 +3705,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/whatsapp-users-may-soon-be-able-to-schedule-messages/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3635,7 +3715,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/microsofts-president-says-ai-is-less-regulated-than-a-carton-of-milk/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3645,7 +3725,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/one-of-the-biggest-issues-in-googlebooks-is-finally-fixed/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3655,7 +3735,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-k/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3665,7 +3745,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/openai-dot-vs-meta-muse-how-do-these-ai-agents-compare/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3675,7 +3755,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/the-reason-the-xbox-series-s-is-so-much-cheaper-than-the-series-x/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3685,7 +3765,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/why-japan-said-goodbye-to-traditional-flip-phones/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3715,7 +3795,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/will-the-homeview-be-apples-first-smart-home-success/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3725,7 +3805,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/aaron-sorkins-social-reckoning-is-off-to-a-weak-start/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3755,7 +3835,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-n/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3765,7 +3845,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3775,7 +3855,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/how-to-enable-live-activities-on-iphone-and-carplay/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3785,7 +3865,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/how-to-use-the-parental-controls-on-ios-27/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3795,7 +3875,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/how-to-reduce-mobile-data-usage-on-your-iphone/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3815,7 +3895,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-p/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3825,7 +3905,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/stop-doing-manual-phone-tasks-this-android-automation-workflow-gave-me/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3835,7 +3915,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/7-things-you-should-know-about-androids-confusing-new-sideloading-limi/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3875,7 +3955,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/cloudflare-acquires-deno-to-improve-its-workers-programming-model/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3895,7 +3975,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/why-pixel-search-solves-the-productivity-problem-for-older-pixels/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3905,7 +3985,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/i-flipped-one-overlooked-pixel-setting-my-daily-battery-anxiety-comple/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3915,7 +3995,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/i-switched-to-the-galaxy-s26-ultra-but-its-biggest-display-upgrade-com/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3935,7 +4015,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-dela/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3945,7 +4025,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-inte/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3955,7 +4035,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/long-live-the-mechanical-keyboard/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3995,7 +4075,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/lumenus-helps-automate-tedious-paperwork-in-times-of-grief/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4035,7 +4115,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/beyond-techcrunch-disrupt-2026-the-side-events-parties-networking-you/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4075,7 +4155,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detaile/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4115,7 +4195,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chil/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4155,7 +4235,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/asos-confirms-breach-of-customer-data-after-hackers-send-rogue-app-not/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4165,7 +4245,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4175,7 +4255,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/nous-research-confirms-it-hit-15b-valuation-launches-ai-agents-for-bus/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4185,7 +4265,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/i-finally-customized-these-android-auto-settings-my-daily-commute-will/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4195,7 +4275,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/i-disabled-youtube-shorts-now-i-feel-like-i-can-breathe-again/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4235,7 +4315,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/while-vcs-crowd-into-san-francisco-endeavor-catalyst-raises-320m-for-f/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4275,7 +4355,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/x-expands-its-gametime-sports-hub-beyond-the-nfl-starting-with-mlb/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4295,7 +4375,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/spotify-expands-audiobooks-to-over-180-markets/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4305,7 +4385,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/apple-tvs-f1-coverage-will-now-support-dolby-atmos/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4315,7 +4395,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/how-long-have-wireless-gaming-controllers-been-around-for/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4335,7 +4415,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-insti/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4345,7 +4425,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/how-to-help-stop-spam-calls-on-iphone-and-android/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4355,7 +4435,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/why-do-some-pcs-have-two-ethernet-ports/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4395,7 +4475,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4435,7 +4515,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/mirror-particle-is-building-a-world-model-of-human-behavior/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4445,7 +4525,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/xbox-elite-controller-3-specs-leak-via-xboxs-own-design-lab/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4455,7 +4535,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/mini-pc-vs-laptop-which-is-better-for-your-home-office/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4475,7 +4555,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/reflection-debuts-beam-an-open-weight-ai-model-to-rival-chinese-models/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4505,7 +4585,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/openai-will-start-watermarking-chatgpts-text-in-the-eu/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4515,7 +4595,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/etched-fields-funding-offers-at-40b-valuation-sources-say/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4525,7 +4605,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/common-mistakes-you-should-avoid-when-using-foldable-phones/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -4535,7 +4615,7 @@
   </url>
   <url>
     <loc>https://techseconds.com/stories/can-a-macbook-handle-heavy-games-heres-what-you-should-know/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
