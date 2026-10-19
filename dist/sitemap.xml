@@ -234,6 +234,46 @@
     </image:image>
   </url>
   <url>
+    <loc>https://techseconds.com/articles/apple-teases-macbook-pro-event-next-week/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&amp;q=85</image:loc>
+      <image:title>Apple teases MacBook Pro event next week</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/amazon-is-funding-a-new-nuclear-plant-in-indiana/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
+      <image:title>Amazon is funding a new nuclear plant in Indiana</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/apples-last-gen-mac-mini-with-the-m4-is-150-off/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&amp;q=85</image:loc>
+      <image:title>Apple&apos;s last-gen Mac Mini with the M4 is $150 off</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/people-are-using-ai-to-make-their-smart-tvs-dumb-again/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>People are using AI to make their smart TVs dumb again</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://techseconds.com/articles/the-maeving-rm2-is-high-style-electric-riding-with-a-few-compromises/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -2731,6 +2771,46 @@
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&amp;q=85</image:loc>
       <image:title>Xbox Next-Gen Hybrid Console: Bridging Native Windows PC Games &amp; Living Room 4K</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/apple-teases-macbook-pro-event-next-week/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&amp;q=85</image:loc>
+      <image:title>Apple teases MacBook Pro event next week</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/amazon-is-funding-a-new-nuclear-plant-in-indiana/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85</image:loc>
+      <image:title>Amazon is funding a new nuclear plant in Indiana</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/apples-last-gen-mac-mini-with-the-m4-is-150-off/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&amp;q=85</image:loc>
+      <image:title>Apple&apos;s last-gen Mac Mini with the M4 is $150 off</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/people-are-using-ai-to-make-their-smart-tvs-dumb-again/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>People are using AI to make their smart TVs dumb again</image:title>
     </image:image>
   </url>
   <url>
