@@ -7,7 +7,51 @@
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <description>TechSeconds is a premier technology publication and hardware intelligence lab delivering in-depth architectural breakdowns, expert hardware benchmarks, comprehensive buying guides, and high-speed visual web stories across artificial intelligence, silicon lithography, flagship smartphones, and future computing.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2026 14:35:10 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 18:10:51 GMT</lastBuildDate>
+    <item>
+      <title>Tesla driver using Full Self-Driving struck and killed a man crossing I-80</title>
+      <link>https://techseconds.com/stories/tesla-driver-using-full-self-driving-struck-and-killed-a-man-crossing/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/tesla-driver-using-full-self-driving-struck-and-killed-a-man-crossing/</guid>
+      <pubDate>Thu, 22 Oct 2026 14:07:02 GMT</pubDate>
+      <description>A 71-year-old man was fatally hit by a Tesla operating in Full Self-Driving (FSD) mode while crossing I-80 in Vallejo, CA around 2:30 AM on Thursday, reports the San Francisco Chronicle. The California Highway Patrol&#x27;s statement to media outlets says it reviewed video of the a...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Microsoft says its AI tool is better than doctors at diagnosing conditions</title>
+      <link>https://techseconds.com/stories/microsoft-says-its-ai-tool-is-better-than-doctors-at-diagnosing-condit/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/microsoft-says-its-ai-tool-is-better-than-doctors-at-diagnosing-condit/</guid>
+      <pubDate>Thu, 22 Oct 2026 14:00:00 GMT</pubDate>
+      <description>For years, AI leaders have touted healthcare as one of the clearest examples of where their technology will improve lives. Now &quot;it is finally here,&quot; Microsoft AI CEO Mustafa Suleyman tells The Verge. The company claims to have developed an AI-powered tool it says can diagnose ...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Amazon renames Kindle Unlimited to Kindle Plus and expands access to audiobooks</title>
+      <link>https://techseconds.com/stories/amazon-renames-kindle-unlimited-to-kindle-plus-and-expands-access-to-a/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/amazon-renames-kindle-unlimited-to-kindle-plus-and-expands-access-to-a/</guid>
+      <pubDate>Thu, 22 Oct 2026 13:46:40 GMT</pubDate>
+      <description>The plus-ification of subscription services continues unabated with Amazon becoming the latest company to follow suit with a Kindle Unlimited rebrand. The subscription service is now known as Kindle Plus but will continue to offer unlimited access to a select collection of ebo...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Elon Musk made a $1 billion investment in Skydance, report says</title>
+      <link>https://techseconds.com/stories/elon-musk-made-a-1-billion-investment-in-skydance-report-says/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/elon-musk-made-a-1-billion-investment-in-skydance-report-says/</guid>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
+      <description>The investment will provide a much needed financial boost as the company seeks to cut costs and lift its stock price.</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=1280&amp;q=85" medium="image" />
+    </item>
     <item>
       <title>Coolpad&#x27;s new $150 Android phone has a wider screen like the iPhone Duo, but doesn&#x27;t fold</title>
       <link>https://techseconds.com/stories/coolpads-new-150-android-phone-has-a-wider-screen-like-the-iphone-duo/</link>
@@ -45,7 +89,7 @@
       <title>Developer platform Railway urges &#x27;all users&#x27; to revoke secret keys after cyberattack</title>
       <link>https://techseconds.com/stories/developer-platform-railway-urges-all-users-to-revoke-secret-keys-after/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/developer-platform-railway-urges-all-users-to-revoke-secret-keys-after/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>The vibe-coding platform said all of its customers should revoke and rotate their private keys, after hackers were able to decrypt some customer secrets.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -67,7 +111,7 @@
       <title>I took my Galaxy phone offline and hunted it with Samsung Find and Google Find Hub</title>
       <link>https://techseconds.com/stories/i-took-my-galaxy-phone-offline-and-hunted-it-with-samsung-find-and-goo/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-took-my-galaxy-phone-offline-and-hunted-it-with-samsung-find-and-goo/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Neither tracker earned my full trust or my uninstall</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -78,7 +122,7 @@
       <title>Fortnite is coming back to Apple&#x27;s Australian App Store following court ruling</title>
       <link>https://techseconds.com/stories/fortnite-is-coming-back-to-apples-australian-app-store-following-court/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/fortnite-is-coming-back-to-apples-australian-app-store-following-court/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Fortnite is back on the App Store in Australia after a federal court ordered Apple to open its iOS ecosystem up to competition.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -89,7 +133,7 @@
       <title>Meta wants to pay for its broad AI buildout with a newly created class of stock</title>
       <link>https://techseconds.com/stories/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>The social media giant is planning a new stock strategy to help power its broad investments in AI models and services.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -100,7 +144,7 @@
       <title>I let Gemini in Google Keep create checklists for me; it sped up my daily workflow</title>
       <link>https://techseconds.com/stories/i-let-gemini-in-google-keep-create-checklists-for-me-it-sped-up-my-dai/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-let-gemini-in-google-keep-create-checklists-for-me-it-sped-up-my-dai/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Google Keep and Gemini are the productivity duo I didn&#x27;t know I needed</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -111,7 +155,7 @@
       <title>Testing Spotify&#x27;s lossless audio streaming feature converted me into a Hi-Fi listener</title>
       <link>https://techseconds.com/stories/testing-spotifys-lossless-audio-streaming-feature-converted-me-into-a/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/testing-spotifys-lossless-audio-streaming-feature-converted-me-into-a/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Spotify&#x27;s HiFi mode streams music in a lossless format, delivering the full recording as it was mastered</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -122,7 +166,7 @@
       <title>Mark Zuckerberg says Meta is &#x27;entering a new phase&#x27; with Muse</title>
       <link>https://techseconds.com/stories/mark-zuckerberg-says-meta-is-entering-a-new-phase-with-muse/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/mark-zuckerberg-says-meta-is-entering-a-new-phase-with-muse/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Zuckerberg expects the agent will generate more revenue per user than the company&#x27;s apps.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -155,7 +199,7 @@
       <title>Tesla says it will start selling Cybercabs by end of year</title>
       <link>https://techseconds.com/stories/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Tesla said Wednesday it will start selling its Cybercab to customers by the end of the year, even as federal regulators investigate whether the vehicle meets vehicle safety standards. The gold-hued, autonomous two-seater lacks a steering wheel and other traditional controls. D...</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -166,7 +210,7 @@
       <title>Blackstone&#x27;s Jas Khaira says fears over AI-buildout debt are overblown</title>
       <link>https://techseconds.com/stories/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Blackstone&#x27;s AI head on why the PE giant isn&#x27;t panicked by market jitters.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -210,7 +254,7 @@
       <title>Meta says Muse has over 10M users, with shopping a top activity</title>
       <link>https://techseconds.com/stories/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -243,7 +287,7 @@
       <title>GM is giving OnStar an AI makeover</title>
       <link>https://techseconds.com/stories/gm-is-giving-onstar-an-ai-makeover/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/gm-is-giving-onstar-an-ai-makeover/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>It&#x27;s one of the biggest overhauls ever to the 30-year-old connected car product.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -254,7 +298,7 @@
       <title>PHP armageddon: OpenAI, Google&#x27;s Wiz find ancient holes, panicking the internet</title>
       <link>https://techseconds.com/stories/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-int/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-int/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -298,7 +342,7 @@
       <title>Foursquare co-founder says equity holders saw no returns from the company&#x27;s acquisition</title>
       <link>https://techseconds.com/stories/foursquare-co-founder-says-equity-holders-saw-no-returns-from-the-comp/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/foursquare-co-founder-says-equity-holders-saw-no-returns-from-the-comp/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Foursquare raised $411 million in funding according to PitchBook data, but its equity holders saw no returns from its final acquisition.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -309,7 +353,7 @@
       <title>OpenAI&#x27;s agents disabled their own safety monitoring systems</title>
       <link>https://techseconds.com/stories/openais-agents-disabled-their-own-safety-monitoring-systems/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/openais-agents-disabled-their-own-safety-monitoring-systems/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>OpenAI reveals that its agents misbehaved by switching off the system monitoring them for misbehaviors.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -320,7 +364,7 @@
       <title>Hugging Face CEO warns that Netflix&#x27;s OpenAI hack documentary isn&#x27;t accurate</title>
       <link>https://techseconds.com/stories/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accu/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accu/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Before you share the Netflix documentary &quot;AI Gone Rogue,&quot; take note. Clem Delangue, Hugging Face&#x27;s co-founder who is featured in the film, says it went &quot;full doomer mode&quot; and isn&#x27;t accurate.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -331,7 +375,7 @@
       <title>What can you use your Apple Watch Ultra 4 action button for?</title>
       <link>https://techseconds.com/stories/what-can-you-use-your-apple-watch-ultra-4-action-button-for/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/what-can-you-use-your-apple-watch-ultra-4-action-button-for/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Here&#x27;s what your Apple Watch Ultra 4 action button can really do, from launching workouts and retracing routes to controlling smart home devices with one tap.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -342,7 +386,7 @@
       <title>Oura Ring can track new stats related to cardio fitness</title>
       <link>https://techseconds.com/stories/oura-ring-can-track-new-stats-related-to-cardio-fitness/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/oura-ring-can-track-new-stats-related-to-cardio-fitness/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Oura has updated its smart rings with new cardio fitness-related metrics, including VO2 Max estimates.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -353,7 +397,7 @@
       <title>Five things you should know before buying the iPhone Duo</title>
       <link>https://techseconds.com/stories/five-things-you-should-know-before-buying-the-iphone-duo/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/five-things-you-should-know-before-buying-the-iphone-duo/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>From software limitations to the pre-sale deals, here&#x27;s what you need to know ahead of the iPhone Duo launch.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -386,7 +430,7 @@
       <title>Anthropic pitches AI safety bill that may block a model if 50+ people could be killed</title>
       <link>https://techseconds.com/stories/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-c/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-c/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model&#x27;s release without the permission of a judge.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -397,7 +441,7 @@
       <title>SpaceX and Tesla boards form special committees to review merger</title>
       <link>https://techseconds.com/stories/spacex-and-tesla-boards-form-special-committees-to-review-merger/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/spacex-and-tesla-boards-form-special-committees-to-review-merger/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Elon Musk likes the idea but says he is not on either committee, which is made up of independent directors.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -441,7 +485,7 @@
       <title>Anthropic&#x27;s cloud partnerships are getting messy</title>
       <link>https://techseconds.com/stories/anthropics-cloud-partnerships-are-getting-messy/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/anthropics-cloud-partnerships-are-getting-messy/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -485,7 +529,7 @@
       <title>Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei</title>
       <link>https://techseconds.com/stories/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-da/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-da/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>The former Google CEO owns about 1% stake in the leading AI lab, Bloomberg reported.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -529,7 +573,7 @@
       <title>Figma co-founder Dylan Field thinks MCP is not a perfect protocol</title>
       <link>https://techseconds.com/stories/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Figma said it plans to support as many standards as possible without exposing all of its data</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -540,7 +584,7 @@
       <title>Yelp can now call on your behalf to check wait times at a restaurant</title>
       <link>https://techseconds.com/stories/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -551,7 +595,7 @@
       <title>Otter.ai raises $320 million from General Catalyst&#x27;s growth fund for its meeting tool</title>
       <link>https://techseconds.com/stories/otterai-raises-320-million-from-general-catalysts-growth-fund-for-its/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/otterai-raises-320-million-from-general-catalysts-growth-fund-for-its/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst&#x27;s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it will u...</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -562,7 +606,7 @@
       <title>I run my Windows laptop off my Samsung phone&#x27;s hotspot, and a metered connection made it bearable</title>
       <link>https://techseconds.com/stories/i-run-my-windows-laptop-off-my-samsung-phones-hotspot-and-a-metered-co/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-run-my-windows-laptop-off-my-samsung-phones-hotspot-and-a-metered-co/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Plus a few other Windows and Android connectivity settings</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -573,7 +617,7 @@
       <title>The Apple Store will only let you check out two iPhone Duos</title>
       <link>https://techseconds.com/stories/the-apple-store-will-only-let-you-check-out-two-iphone-duos/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/the-apple-store-will-only-let-you-check-out-two-iphone-duos/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Apple is limiting iPhone Duo purchases to two per customers around the world.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -595,7 +639,7 @@
       <title>Blackwall quadruples valuation to $2.2B as websites wrangle an increasingly crowded internet</title>
       <link>https://techseconds.com/stories/blackwall-quadruples-valuation-to-22b-as-websites-wrangle-an-increasin/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/blackwall-quadruples-valuation-to-22b-as-websites-wrangle-an-increasin/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Blackwall has raised $100M at a $2.2B valuation to continue building security and filtering tools that help websites grapple with growing bot and AI traffic.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -606,7 +650,7 @@
       <title>Walmart&#x27;s Flipkart is quietly building a food delivery challenger in India</title>
       <link>https://techseconds.com/stories/walmarts-flipkart-is-quietly-building-a-food-delivery-challenger-in-in/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/walmarts-flipkart-is-quietly-building-a-food-delivery-challenger-in-in/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Flipkart has expanded access to its food-delivery service to thousands of employees ahead of its public launch.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -617,56 +661,12 @@
       <title>Mamdani says feds have abdicated on AI, urges New Yorkers to push back</title>
       <link>https://techseconds.com/stories/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
+      <pubDate>Thu, 22 Oct 2026 18:10:51 GMT</pubDate>
       <description>Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
       <enclosure url="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85" length="120000" type="image/jpeg" />
       <media:content url="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Elon Musk&#x27;s proposed SpaceX stock giveaway would go into &#x27;Trump Accounts&#x27;</title>
-      <link>https://techseconds.com/stories/elon-musks-proposed-spacex-stock-giveaway-would-go-into-trump-accounts/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/elon-musks-proposed-spacex-stock-giveaway-would-go-into-trump-accounts/</guid>
-      <pubDate>Mon, 19 Oct 2026 18:30:42 GMT</pubDate>
-      <description>President Donald Trump announced this afternoon that Elon Musk&#x27;s SpaceX shares for children will be given through Trump Accounts. Musk said earlier today that he would give one of his SpaceX shares to &quot;every kid in America&quot; sometime next year. Musk had thanked Trump Account bo...</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal</title>
-      <link>https://techseconds.com/stories/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billio/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billio/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
-      <description>In August, Nscale and Anthropic announced a $45 billion compute deal. The two companies are reportedly discussing yet another deal of the same magnitude.</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Embedded AI evaluators won&#x27;t be an easy solution, Hugging Face&#x27;s policy chief says</title>
-      <link>https://techseconds.com/stories/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-c/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-c/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
-      <description>AI labs have staked their reputations on model benchmarking - the supposedly neutral and accurate system of evaluations that are designed to measure whether one AI product is better than another. However, the methods behind these evaluations are complicated and still maturing,...</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>How to stop audio from auto-playing on Android Auto</title>
-      <link>https://techseconds.com/stories/how-to-stop-audio-from-auto-playing-on-android-auto/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/how-to-stop-audio-from-auto-playing-on-android-auto/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:35:10 GMT</pubDate>
-      <description>Although Android Auto&#x27;s autoplay feature is intended to be a convenience, you may find yourself wanting to turn it off. Here&#x27;s how.</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=1280&amp;q=85" medium="image" />
     </item>
   </channel>
 </rss>
