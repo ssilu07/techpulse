@@ -234,6 +234,46 @@
     </image:image>
   </url>
   <url>
+    <loc>https://techseconds.com/articles/pc-shipments-dropped-over-20-percent-in-q3-due-to-ram-price-hikes/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&amp;q=85</image:loc>
+      <image:title>PC shipments dropped over 20 percent in Q3 due to RAM price hikes</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/fall-2026-earnings-watch/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
+      <image:title>Fall 2026 earnings watch</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/metas-ai-could-still-scrape-news-sites-legal-experts-say/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85</image:loc>
+      <image:title>Meta&apos;s AI could still scrape news sites, legal experts say</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>Rivian buys world model startup to accelerate self-driving ambitions</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://techseconds.com/articles/tesla-driver-using-full-self-driving-struck-and-killed-a-man-crossing/</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -3491,6 +3531,46 @@
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&amp;q=85</image:loc>
       <image:title>Xbox Next-Gen Hybrid Console: Bridging Native Windows PC Games &amp; Living Room 4K</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/pc-shipments-dropped-over-20-percent-in-q3-due-to-ram-price-hikes/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&amp;q=85</image:loc>
+      <image:title>PC shipments dropped over 20 percent in Q3 due to RAM price hikes</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/fall-2026-earnings-watch/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85</image:loc>
+      <image:title>Fall 2026 earnings watch</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/metas-ai-could-still-scrape-news-sites-legal-experts-say/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85</image:loc>
+      <image:title>Meta&apos;s AI could still scrape news sites, legal experts say</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>Rivian buys world model startup to accelerate self-driving ambitions</image:title>
     </image:image>
   </url>
   <url>
