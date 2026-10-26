@@ -65,73 +65,37 @@ PINTEREST_HASHTAGS = {
     "gaming-gear": "#GamingGear #GamingSetup #Battlestation #PlayStation #Xbox #GamingCommunity #PCGaming",
 }
 
-# Category Visual Styling Palettes & Dynamic Spec HUD Templates
+# Category Visual Styling Palettes & Modern Editorial Accents
 CATEGORY_THEMES = {
     "ai-tools": {
         "accent": (6, 182, 212),       # Neon Cyan
-        "secondary": (236, 72, 153),   # Electric Pink
-        "badge": "🤖 SECRET AI TOOL // BENCHMARK EXPOSED",
-        "specs": [
-            ("⚡ 10X CODING VELOCITY", (6, 182, 212)),
-            ("🤖 FRONTIER AGENTIC LLM", (168, 85, 247)),
-            ("🧠 2M+ CONTEXT WINDOW", (16, 185, 129)),
-            ("💸 100% FREE TIER ACCESS", (245, 158, 11)),
-        ],
+        "label": "AI TOOLS & BENCHMARKS",
+        "cta": "Read Review ↗",
     },
     "smartphones": {
-        "accent": (245, 158, 11),      # Amber/Gold
-        "secondary": (59, 130, 246),   # Tech Blue
-        "badge": "📱 2026 FLAGSHIP LEAK // HARDWARE REVEAL",
-        "specs": [
-            ("📸 200MP OPTICS SENSOR", (245, 158, 11)),
-            ("⚡ 2nm TSMC SILICON", (6, 182, 212)),
-            ("🔋 28H REAL-WORLD BATTERY", (16, 185, 129)),
-            ("📱 144Hz LTPO OLED PANEL", (168, 85, 247)),
-        ],
+        "accent": (245, 158, 11),      # Amber / Gold
+        "label": "SMARTPHONES & SILICON",
+        "cta": "Read Review ↗",
     },
     "laptops-pc": {
-        "accent": (16, 185, 129),      # Emerald
-        "secondary": (6, 182, 212),    # Cyan
-        "badge": "💻 SILICON MONSTER // PERFORMANCE REPORT",
-        "specs": [
-            ("⚡ 3nm CUSTOM SILICON", (16, 185, 129)),
-            ("🚀 128GB UNIFIED MEMORY", (6, 182, 212)),
-            ("🏎️ 546 GB/s BUS BANDWIDTH", (168, 85, 247)),
-            ("🔥 70B LLM LOCAL EXECUTION", (245, 158, 11)),
-        ],
+        "accent": (16, 185, 129),      # Emerald Green
+        "label": "LAPTOPS & SILICON TECH",
+        "cta": "Read Review ↗",
     },
     "gadgets": {
         "accent": (249, 115, 22),      # Coral Orange
-        "secondary": (6, 182, 212),    # Cyan
-        "badge": "🎧 HARDWARE LAB // FIELD BENCHMARKED",
-        "specs": [
-            ("⚡ ZERO LATENCY LOSSLESS", (249, 115, 22)),
-            ("🔋 40H ACTIVE ENDURANCE", (16, 185, 129)),
-            ("🎧 SPATIAL AUDIO DAC", (6, 182, 212)),
-            ("🔒 CNC TITANIUM CHASSIS", (168, 85, 247)),
-        ],
+        "label": "GADGETS & WEARABLES",
+        "cta": "Explore Specs ↗",
     },
     "gaming-gear": {
         "accent": (239, 68, 68),       # Neon Crimson
-        "secondary": (245, 158, 11),   # Cyber Amber
-        "badge": "🎮 120FPS TITAN // HARDWARE SHOWDOWN",
-        "specs": [
-            ("⚡ 300Hz OLED ZERO GHOSTING", (239, 68, 68)),
-            ("🚀 RTX BLACKWELL ARCHITECTURE", (245, 158, 11)),
-            ("🎮 DLSS 4 FRAME MULTIPLIER", (6, 182, 212)),
-            ("🏎️ 0.03ms PIXEL RESPONSE", (16, 185, 129)),
-        ],
+        "label": "GAMING HARDWARE",
+        "cta": "Benchmark Report ↗",
     },
     "future-tech": {
         "accent": (132, 204, 22),      # Neon Lime
-        "secondary": (6, 182, 212),    # Cyan
-        "badge": "🚀 QUANTUM BREAKTHROUGH // LAB INTEL",
-        "specs": [
-            ("⚡ FAULT-TOLERANT QUBITS", (132, 204, 22)),
-            ("🔬 CRYOGENIC INTERCONNECTS", (6, 182, 212)),
-            ("⚙️ N2 GAA NANOSHEET NODES", (168, 85, 247)),
-            ("🤖 AUTONOMOUS VLA BRAIN", (245, 158, 11)),
-        ],
+        "label": "FUTURE TECH & INNOVATION",
+        "cta": "Read Breakdown ↗",
     },
 }
 
@@ -141,17 +105,23 @@ def get_pinterest_board_for_category(cat_id: str) -> str:
     return PINTEREST_BOARD_MAP.get(cat_id, "Tech Trends & Breakthroughs")
 
 
-def get_font_safe(font_filename: str, size: int) -> ImageFont.ImageFont:
-    """Loads custom typography from static/fonts with reliable fallback."""
+def get_font_safe(font_filename: str, size: int, weight: str = "Bold") -> ImageFont.ImageFont:
+    """Loads custom typography from static/fonts with reliable fallback and weight variation."""
     font_path = FONTS_DIR / font_filename
     if font_path.exists():
         try:
-            return ImageFont.truetype(str(font_path), size)
+            f = ImageFont.truetype(str(font_path), size)
+            if hasattr(f, "set_variation_by_name"):
+                try:
+                    f.set_variation_by_name(weight)
+                except Exception:
+                    pass
+            return f
         except Exception:
             pass
 
     # Windows fallback
-    for sys_font in ("segoeuib.ttf", "arialbd.ttf", "calibrib.ttf"):
+    for sys_font in ("segoeuib.ttf", "arialbd.ttf", "calibrib.ttf", "segoeui.ttf", "arial.ttf"):
         try:
             return ImageFont.truetype(sys_font, size)
         except Exception:
@@ -166,25 +136,31 @@ def generate_editorial_pin_image(
     category_id: str,
     raw_image_url: str,
     output_dir: Path,
+    subtitle: str = "",
+    force: bool = False,
 ) -> Path:
     """
-    Renders an ultra-high CTR, magazine-grade cyberpunk editorial graphic Pin (1000x1500 px, 2:3 ratio).
-    Guarantees crisp typography, blueprint reticles, glassmorphic spec HUD, and high conversion rate.
+    Renders an ultra-high CTR, magazine-grade editorial graphic Pin (1000x1500 px, 2:3 ratio).
+    Features full-bleed high-res hardware photography, smooth cinematic gradient,
+    clean bold typography, zero clutter, and zero box/grid lines.
     """
     output_dir.mkdir(parents=True, exist_ok=True)
     out_file = output_dir / f"{slug}.jpg"
-    if out_file.exists():
+    if out_file.exists() and not force:
         return out_file
 
     w, h = 1000, 1500
-    pin = Image.new("RGB", (w, h), color=(8, 9, 13))
+    pin = Image.new("RGB", (w, h), color=(8, 10, 15))
 
     # 1. Fetch & Scale background photo
     bg_loaded = False
     if raw_image_url and not raw_image_url.startswith("/") and not raw_image_url.endswith(".svg"):
         try:
-            req = urllib.request.Request(raw_image_url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=5) as resp:
+            req = urllib.request.Request(
+                raw_image_url,
+                headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"},
+            )
+            with urllib.request.urlopen(req, timeout=8) as resp:
                 data = resp.read()
                 bg = Image.open(io.BytesIO(data)).convert("RGBA")
                 bg = bg.resize((w, h), Image.Resampling.LANCZOS)
@@ -194,123 +170,85 @@ def generate_editorial_pin_image(
             pass
 
     if not bg_loaded:
-        # Fallback cyber gradient base
         fallback_bg = Image.new("RGBA", (w, h), color=(14, 18, 28))
         pin.paste(fallback_bg, (0, 0))
 
-    # 2. Advanced Multi-Stop Cyber Gradient Overlay
+    # 2. Seamless Dual-Scrim Overlay (No harsh boxes or lines)
     overlay = Image.new("RGBA", (w, h), (0, 0, 0, 0))
     draw_ov = ImageDraw.Draw(overlay)
 
-    # Top fade for HUD header
-    for y in range(0, 260):
-        alpha = int(220 * (1 - (y / 260)) ** 1.2)
-        draw_ov.line([(0, y), (w, y)], fill=(8, 9, 13, alpha))
+    # Top scrim for header legibility
+    for y in range(0, 150):
+        alpha = int(140 * (1 - (y / 150)) ** 1.5)
+        draw_ov.line([(0, y), (w, y)], fill=(8, 10, 15, alpha))
 
-    # Deep Cyber Dark fade from y=480 to 1500
-    for y in range(480, h):
-        factor = (y - 480) / (h - 480)
-        alpha = int(255 * (factor ** 1.35))
-        draw_ov.line([(0, y), (w, y)], fill=(8, 9, 13, min(alpha, 255)))
+    # Bottom cinematic fade: starts at y=450, achieves solid obsidian black by y=750
+    grad_start = 450
+    grad_solid = 750
+    for y in range(grad_start, h):
+        if y < grad_solid:
+            factor = (y - grad_start) / (grad_solid - grad_start)
+            alpha = int(255 * (factor ** 1.3))
+        else:
+            alpha = 255
+        draw_ov.line([(0, y), (w, y)], fill=(8, 10, 15, alpha))
 
     pin = Image.alpha_composite(pin.convert("RGBA"), overlay)
     draw = ImageDraw.Draw(pin)
 
-    # 3. Typography
-    f_badge = get_font_safe("JetBrainsMono-Variable.ttf", 20)
-    f_hook = get_font_safe("Outfit-Variable.ttf", 36)
-    f_title = get_font_safe("Outfit-Variable.ttf", 52)
-    f_spec = get_font_safe("SpaceGrotesk-Variable.ttf", 22)
-    f_brand = get_font_safe("JetBrainsMono-Variable.ttf", 18)
-    f_cta = get_font_safe("Outfit-Variable.ttf", 24)
+    # 3. Typography Hierarchy
+    f_brand_top = get_font_safe("JetBrainsMono-Variable.ttf", 18, "Bold")
+    f_cat = get_font_safe("JetBrainsMono-Variable.ttf", 21, "Bold")
+
+    # Responsive title sizing so long headlines never get cut off
+    if len(title) > 50:
+        f_title = get_font_safe("Outfit-Variable.ttf", 54, "Bold")
+        title_line_h = 66
+        wrap_w = 25
+    else:
+        f_title = get_font_safe("Outfit-Variable.ttf", 62, "Bold")
+        title_line_h = 74
+        wrap_w = 22
+
+    f_sub = get_font_safe("SpaceGrotesk-Variable.ttf", 28, "Regular")
+    f_footer = get_font_safe("JetBrainsMono-Variable.ttf", 19, "Medium")
 
     theme = CATEGORY_THEMES.get(category_id, CATEGORY_THEMES["future-tech"])
     c_accent = theme["accent"]
-    c_secondary = theme["secondary"]
-    c_muted = (148, 163, 184)
+    cat_label = theme.get("label", "TECH TRENDS & BREAKTHROUGHS")
+    cta_label = theme.get("cta", "Read Full Review ↗")
 
-    # 4. Blueprint Reticles
-    draw.line([(45, 45), (45, 80)], fill=c_accent, width=2)
-    draw.line([(45, 45), (80, 45)], fill=c_accent, width=2)
-    draw.text((95, 42), "TECHSECONDS // HARDWARE LAB INTEL", fill=c_accent, font=f_brand)
+    # 4. Top Minimal Brand Header (No box)
+    draw.text((70, 50), "TECHSECONDS // EXCLUSIVE REPORT", fill=(226, 232, 240, 220), font=f_brand_top)
 
-    draw.line([(955, 45), (955, 80)], fill=c_accent, width=2)
-    draw.line([(920, 45), (955, 45)], fill=c_accent, width=2)
-    draw.text((790, 42), "ISSUE #2026 // 4K", fill=c_muted, font=f_brand)
+    # 5. Editorial Content Block (Pure Typography, Zero Boxes)
+    y_cursor = 760
 
-    # 5. Floating Curiosity Banner
-    badge_width = min(len(theme["badge"]) * 14 + 40, 600)
-    draw.rounded_rectangle(
-        [60, 615, 60 + badge_width, 615 + 46],
-        radius=12,
-        fill=(c_accent[0], c_accent[1], c_accent[2], 35),
-        outline=(c_accent[0], c_accent[1], c_accent[2], 220),
-        width=2,
-    )
-    draw.text((80, 626), theme["badge"], fill=c_accent, font=f_badge)
+    # Category Tag with Neon Bullet
+    draw.text((70, y_cursor), f"● {cat_label}", fill=c_accent, font=f_cat)
+    y_cursor += 44
 
-    # 6. Extract Punchy Hook & Headline
-    parts = title.split(":")
-    if len(parts) >= 2:
-        hook_text = parts[0].strip()[:35]
-        main_headline = ":".join(parts[1:]).strip()
-    else:
-        words = title.split(" ")
-        hook_text = " ".join(words[:4])[:35]
-        main_headline = " ".join(words[4:]) if len(words) > 4 else title
+    # Bold Headline (Outfit Bold with soft drop shadow)
+    lines = textwrap.wrap(title, width=wrap_w)
+    for line in lines[:4]:
+        draw.text((72, y_cursor + 3), line, fill=(0, 0, 0, 180), font=f_title)
+        draw.text((70, y_cursor), line, fill=(255, 255, 255), font=f_title)
+        y_cursor += title_line_h
 
-    draw.text((60, 680), hook_text.upper(), fill=c_secondary, font=f_hook)
+    y_cursor += 16
+    # Clean Subtitle / Teaser
+    if not subtitle:
+        subtitle = "Full technical architecture, benchmark stress testing, and real-world performance breakdown."
 
-    lines = textwrap.wrap(main_headline, width=26)
-    y_pos = 735
-    for l in lines[:3]:
-        draw.text((62, y_pos + 3), l, fill=(0, 0, 0), font=f_title)
-        draw.text((60, y_pos), l, fill=(255, 255, 255), font=f_title)
-        y_pos += 64
+    sub_lines = textwrap.wrap(subtitle, width=42)
+    for s_line in sub_lines[:3]:
+        draw.text((70, y_cursor), s_line, fill=(148, 163, 184), font=f_sub)
+        y_cursor += 40
 
-    # 7. Interactive Spec Matrix HUD (Pills that trigger massive Pinterest saves)
-    hud_y = y_pos + 25
-    draw.text((60, hud_y), "LAB VERIFIED HARDWARE MATRIX:", fill=c_muted, font=f_spec)
-    hud_y += 36
-
-    pill_w = 420
-    pill_h = 50
-    for idx, (label, color) in enumerate(theme["specs"][:4]):
-        col = idx % 2
-        row = idx // 2
-        px = 60 + col * (pill_w + 30)
-        py = hud_y + row * (pill_h + 14)
-        draw.rounded_rectangle(
-            [px, py, px + pill_w, py + pill_h],
-            radius=10,
-            fill=(255, 255, 255, 12),
-            outline=(255, 255, 255, 30),
-            width=1,
-        )
-        draw.rounded_rectangle([px + 4, py + 8, px + 10, py + pill_h - 8], radius=3, fill=color)
-        draw.text((px + 24, py + 11), label, fill=(255, 255, 255), font=f_spec)
-
-    # 8. Verdict Rating Bar
-    verdict_y = hud_y + 2 * (pill_h + 14) + 24
-    draw.rounded_rectangle(
-        [60, verdict_y, 940, verdict_y + 56],
-        radius=12,
-        fill=(c_accent[0], c_accent[1], c_accent[2], 25),
-        outline=(c_accent[0], c_accent[1], c_accent[2], 120),
-        width=1,
-    )
-    draw.text((85, verdict_y + 14), "EDITORIAL SCORE: 9.8 / 10", fill=c_accent, font=f_spec)
-    draw.text((700, verdict_y + 14), "★★★★★ VERIFIED", fill=(245, 158, 11), font=f_spec)
-
-    # 9. 3D Action Button
-    cta_y = verdict_y + 80
-    draw.rounded_rectangle([60, cta_y, 940, cta_y + 68], radius=34, fill=c_accent)
-    cta_text = "TAP TO UNLOCK FULL ARCHITECTURAL REPORT ⚡"
-    draw.text((170, cta_y + 18), cta_text, fill=(8, 9, 13), font=f_cta)
-
-    # 10. Bottom Sub-Footer
-    draw.text((60, 1445), "⚡ TECHSECONDS.COM // INDEPENDENT BENCHMARKS", fill=c_muted, font=f_brand)
-    draw.text((745, 1445), "FAIR USE (17 U.S.C. § 107)", fill=(100, 116, 139), font=f_brand)
+    # 6. Minimalist Studio Divider & Footer (No button boxes)
+    draw.line([(70, 1390), (930, 1390)], fill=(30, 41, 59), width=1)
+    draw.text((70, 1420), "techseconds.com/articles", fill=(100, 116, 139), font=f_footer)
+    draw.text((730, 1420), cta_label, fill=c_accent, font=f_footer)
 
     # Save high-res JPEG
     pin_rgb = pin.convert("RGB")
@@ -498,30 +436,45 @@ def generate_pinterest_bulk_csv(
 def render_all_editorial_pins(
     stories: List[Dict[str, Any]],
     articles: Optional[List[Dict[str, Any]]] = None,
-    max_pins: int = 40,
+    max_pins: int = 50,
+    force: bool = True,
 ):
     """
-    Renders custom editorial graphic pins for top articles and stories.
+    Renders clean, box-free magazine-grade editorial graphic pins for articles and stories.
     """
     rendered = 0
     items = []
     if articles:
-        for a in articles[:20]:
-            items.append((a.get("title", ""), a.get("slug", ""), a.get("category_id", "future-tech"), a.get("image", "")))
-    for s in stories[:20]:
-        items.append((s.get("title", ""), s.get("slug", ""), s.get("category_id", "future-tech"), s.get("image", "")))
+        for a in articles:
+            items.append((
+                a.get("title", ""),
+                a.get("slug", ""),
+                a.get("category_id", "future-tech"),
+                a.get("image", ""),
+                a.get("subtitle", ""),
+            ))
+    for s in stories[:30]:
+        items.append((
+            s.get("title", ""),
+            s.get("slug", ""),
+            s.get("category_id", "future-tech"),
+            s.get("image", ""),
+            s.get("summary", ""),
+        ))
 
-    print(f"[*] Generating {len(items)} ultra-high CTR editorial graphic pins...")
-    for title, slug, cat_id, img_url in items:
+    print(f"[*] Rendering {len(items)} clean editorial graphic pins (force={force})...")
+    for title, slug, cat_id, img_url, sub in items:
         if not slug or not title:
             continue
         try:
-            generate_editorial_pin_image(title, slug, cat_id, img_url, PINS_DIST_DIR)
+            generate_editorial_pin_image(
+                title, slug, cat_id, img_url, PINS_DIST_DIR, subtitle=sub, force=force
+            )
             rendered += 1
         except Exception as e:
-            pass
+            print(f"  [!] Failed to render {slug}: {e}")
 
-    print(f"[+] Successfully rendered {rendered} custom editorial Pins to dist/pins/")
+    print(f"[+] Successfully rendered {rendered} custom clean editorial Pins to dist/pins/ and static/pins/")
 
 
 def sync_pinterest_assets(
