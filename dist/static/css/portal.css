@@ -806,7 +806,7 @@ dialog#story-dialog {
   max-width: 1300px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
   gap: 2.5rem;
   margin-bottom: 2.5rem;
 }
@@ -1873,5 +1873,145 @@ dialog#story-dialog {
   line-height: 1.6;
   margin: 0;
 }
+
+/* ==========================================================================
+   Viral Article Share & Save Bar (Pinterest, X, WhatsApp, 1-Click Copy)
+   ========================================================================== */
+.article-share-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.85rem 1.25rem;
+  margin: 1.25rem 0 2rem;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-md);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.share-label {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--neon-cyan);
+}
+
+.share-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.42rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  background: transparent;
+  user-select: none;
+}
+
+.share-btn:hover {
+  transform: translateY(-2px);
+}
+
+.share-btn:active {
+  transform: translateY(0);
+}
+
+/* Pinterest Pin Button */
+.share-btn.share-pinterest {
+  background: rgba(230, 0, 35, 0.12);
+  color: #ff5277;
+  border-color: rgba(230, 0, 35, 0.35);
+}
+
+.share-btn.share-pinterest:hover {
+  background: #e60023;
+  color: #ffffff;
+  border-color: #e60023;
+  box-shadow: 0 4px 16px rgba(230, 0, 35, 0.45);
+}
+
+/* X / Twitter Button */
+.share-btn.share-x {
+  background: rgba(255, 255, 255, 0.06);
+  color: #e2e8f0;
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+.share-btn.share-x:hover {
+  background: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+  box-shadow: 0 4px 14px rgba(255, 255, 255, 0.25);
+}
+
+/* WhatsApp Button */
+.share-btn.share-wa {
+  background: rgba(37, 211, 102, 0.12);
+  color: #25d366;
+  border-color: rgba(37, 211, 102, 0.35);
+}
+
+.share-btn.share-wa:hover {
+  background: #25d366;
+  color: #ffffff;
+  border-color: #25d366;
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.4);
+}
+
+/* Copy Link Button */
+.share-btn.share-copy {
+  background: rgba(6, 182, 212, 0.1);
+  color: var(--neon-cyan);
+  border-color: rgba(6, 182, 212, 0.3);
+  font-family: inherit;
+}
+
+.share-btn.share-copy:hover {
+  background: var(--neon-cyan);
+  color: #08090d;
+  border-color: var(--neon-cyan);
+  box-shadow: 0 4px 16px rgba(6, 182, 212, 0.4);
+}
+
+@media (max-width: 640px) {
+  .article-share-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .share-actions {
+    justify-content: space-between;
+  }
+
+  .share-btn {
+    flex: 1;
+    justify-content: center;
+    padding: 0.45rem 0.5rem;
+    font-size: 0.78rem;
+  }
+}
+
 
 

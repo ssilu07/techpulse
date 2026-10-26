@@ -26,9 +26,14 @@ from config import (
     get_category_fallback_image,
     get_adsense_script_tag,
     get_adsense_pub_id,
+    PINTEREST_PROFILE_URL,
+    PINTEREST_USERNAME,
+    PINTEREST_DOMAIN_VERIFY,
+    get_pinterest_verify_tag,
 )
 from story_builder import optimize_seo_title, HIGH_CTR_TITLE_OVERRIDES
 from article_builder import build_all_articles, FLAGSHIP_ARTICLES
+from pinterest_poster import sync_pinterest_assets
 
 
 def build_portal_html(
@@ -190,10 +195,16 @@ def build_portal_html(
         "name": SITE_NAME,
         "url": SITE_URL,
         "description": SITE_DESCRIPTION,
+        "sameAs": [
+            PINTEREST_PROFILE_URL,
+        ],
         "publisher": {
             "@type": "Organization",
             "name": PUBLISHER_NAME,
             "url": SITE_URL,
+            "sameAs": [
+                PINTEREST_PROFILE_URL,
+            ],
             "logo": {
                 "@type": "ImageObject",
                 "url": PUBLISHER_LOGO_URL,
@@ -223,6 +234,9 @@ def build_portal_html(
   <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
   <meta name="google-site-verification" content="XMDt3lDT2kpdjLlHlxQCSn5EcJcH2yw8f6nLjhLgN7g">
 
+  <!-- Pinterest Official Domain Verification -->
+{get_pinterest_verify_tag()}
+
   <!-- Google Analytics 4 (GA4) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={GA_MEASUREMENT_ID}"></script>
   <script>
@@ -249,6 +263,7 @@ def build_portal_html(
   <link rel="icon" type="image/svg+xml" href="/static/images/logo.svg">
   <link rel="apple-touch-icon" href="/static/images/publisher-logo.png">
   <link rel="alternate" type="application/rss+xml" title="{SITE_NAME} RSS Feed" href="{SITE_URL}/rss.xml">
+  <link rel="alternate" type="application/rss+xml" title="{SITE_NAME} Pinterest Feed" href="{SITE_URL}/pinterest-feed.xml">
 
   <!-- Google Fonts: Outfit & Space Grotesk -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -394,6 +409,20 @@ def build_portal_html(
           <li><a href="/editorial-team/">Editorial Team & Methodology</a></li>
           <li><a href="/about/">About & Mission</a></li>
           <li><a href="/contact/">Editorial Desk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Connect & Feeds</h4>
+        <ul class="footer-links">
+          <li>
+            <a href="{PINTEREST_PROFILE_URL}" target="_blank" rel="noopener me" style="display: inline-flex; align-items: center; gap: 0.45rem; color: #ff5277; font-weight: 600;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="#e60023"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/></svg>
+              Pinterest (@{PINTEREST_USERNAME})
+            </a>
+          </li>
+          <li><a href="/rss.xml" target="_blank">RSS 2.0 Feed</a></li>
+          <li><a href="/pinterest-feed.xml" target="_blank">Pinterest RSS Feed</a></li>
           <li><a href="/sitemap.xml">XML Sitemap</a></li>
         </ul>
       </div>
@@ -463,6 +492,9 @@ def build_legal_page_html(
   <!-- Google Search Console Verification -->
   <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
   <meta name="google-site-verification" content="XMDt3lDT2kpdjLlHlxQCSn5EcJcH2yw8f6nLjhLgN7g">
+
+  <!-- Pinterest Official Domain Verification -->
+{get_pinterest_verify_tag()}
 
   <!-- Google Analytics 4 (GA4) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={GA_MEASUREMENT_ID}"></script>
@@ -560,6 +592,20 @@ def build_legal_page_html(
           <li><a href="/editorial-team/">Editorial Team & Methodology</a></li>
           <li><a href="/about/">About & Mission</a></li>
           <li><a href="/contact/">Editorial Desk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Connect & Feeds</h4>
+        <ul class="footer-links">
+          <li>
+            <a href="{PINTEREST_PROFILE_URL}" target="_blank" rel="noopener me" style="display: inline-flex; align-items: center; gap: 0.45rem; color: #ff5277; font-weight: 600;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="#e60023"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/></svg>
+              Pinterest (@{PINTEREST_USERNAME})
+            </a>
+          </li>
+          <li><a href="/rss.xml" target="_blank">RSS 2.0 Feed</a></li>
+          <li><a href="/pinterest-feed.xml" target="_blank">Pinterest RSS Feed</a></li>
           <li><a href="/sitemap.xml">XML Sitemap</a></li>
         </ul>
       </div>
@@ -1099,6 +1145,9 @@ def build_all_portal_pages(stories: List[Dict[str, Any]], dist_dir: Path):
     (dist_dir / "rss.xml").write_text(rss_xml, encoding="utf-8")
     (dist_dir / "feed.xml").write_text(rss_xml, encoding="utf-8")
     print(f"[+] Generated RSS feeds: dist/rss.xml & dist/feed.xml")
+
+    # 6b. Pinterest RSS Auto-Publish Feed & Bulk CSV Syndication
+    sync_pinterest_assets(stories, dist_dir, articles=articles)
 
     # 7. Google AdSense Authorized Digital Sellers (ads.txt)
     pub_id = get_adsense_pub_id()

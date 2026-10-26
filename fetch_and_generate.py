@@ -218,6 +218,14 @@ def run_pipeline(
             ping_rss_hubs()
         except Exception as e:
             print(f"[!] RSS hub ping notice: {e}")
+
+        # 11. Automatic Pinterest Syndication Assets (Auto-Feed & Bulk Pins CSV)
+        try:
+            from pinterest_poster import sync_pinterest_assets
+            from article_builder import FLAGSHIP_ARTICLES
+            sync_pinterest_assets(final_catalog, DIST_DIR, articles=FLAGSHIP_ARTICLES)
+        except Exception as e:
+            print(f"[!] Pinterest syndication notice: {e}")
     else:
         print(f" [!] PIPELINE COMPLETED WITH VALIDATION ISSUES ({elapsed}s)")
     print("=" * 70)

@@ -68,6 +68,23 @@ def get_adsense_script_tag() -> str:
     return f'  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={ca_pub}" crossorigin="anonymous"></script>'
 
 
+# Pinterest Official Profile & Domain Verification
+PINTEREST_PROFILE_URL = os.environ.get(
+    "PINTEREST_PROFILE_URL", "https://in.pinterest.com/lovews1007/"
+).strip()
+PINTEREST_USERNAME = os.environ.get("PINTEREST_USERNAME", "lovews1007").strip()
+PINTEREST_DOMAIN_VERIFY = os.environ.get(
+    "PINTEREST_DOMAIN_VERIFY", "e7034ef7cec69acc395a2f131e7525e8"
+).strip()
+
+
+def get_pinterest_verify_tag() -> str:
+    """Returns official Pinterest domain verification meta tag if configured."""
+    if not PINTEREST_DOMAIN_VERIFY:
+        return ""
+    return f'  <meta name="p:domain_verify" content="{PINTEREST_DOMAIN_VERIFY}">'
+
+
 # IndexNow Instant Indexing Protocol (Bing, Yandex, Naver)
 INDEXNOW_KEY = os.environ.get("INDEXNOW_KEY", "8d21abf59e4b4f6ca1c03e8721c5b89a")
 

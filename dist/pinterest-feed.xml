@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TechSeconds — Pinterest Auto-Publish Feed</title>
+    <link>https://techseconds.com/</link>
+    <atom:link href="https://techseconds.com/pinterest-feed.xml" rel="self" type="application/rss+xml" />
+    <description>TechSeconds is a premier technology publication and hardware intelligence lab delivering in-depth architectural breakdowns, expert hardware benchmarks, comprehensive buying guides, and high-speed visual web stories across artificial intelligence, silicon lithography, flagship smartphones, and future computing.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Oct 2026 06:28:26 GMT</lastBuildDate>
+    <item>
+      <title>Apple M4 Max MacBook Pro: 128GB Unified Memory &amp; 3nm Monster Benchmarks</title>
+      <link>https://techseconds.com/articles/apple-m4-max-macbook-pro-128gb-unified-memory-benchmarks/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/apple-m4-max-macbook-pro-128gb-unified-memory-benchmarks/</guid>
+      <pubDate>Mon, 12 Oct 2026 10:00:00 GMT</pubDate>
+      <description>TSMC second-generation 3nm silicon unleashes 16 CPU cores, 40 GPU cores, and 546 GB/s memory bandwidth for local 70B parameter LLM execution. Read the full technical breakdown on TechSeconds. #Laptops #PCTech #AppleSilicon #TechSetup #Ultrabook #Hardware #DeskGoals</description>
+      <category>Laptops, PC &amp; Silicon Tech</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Snapdragon X Elite 2 Laptops: 28-Hour Battery Life &amp; Desktop ARM Computing</title>
+      <link>https://techseconds.com/articles/snapdragon-x-elite-2-laptops-28-hour-battery-desktop-arm/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/snapdragon-x-elite-2-laptops-28-hour-battery-desktop-arm/</guid>
+      <pubDate>Mon, 12 Oct 2026 09:30:00 GMT</pubDate>
+      <description>Qualcomm&#x27;s second-generation Oryon V2 architecture shatters x86 efficiency standards, delivering 28 hours of real-world battery life on Windows 12. Read the full technical breakdown on TechSeconds. #Laptops #PCTech #AppleSilicon #TechSetup #Ultrabook #Hardware #DeskGoals</description>
+      <category>Laptops, PC &amp; Silicon Tech</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Framework Laptop 16: The Modular Swappable GPU Revolution That Defeats E-Waste</title>
+      <link>https://techseconds.com/articles/framework-laptop-16-modular-swappable-gpu-revolution/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/framework-laptop-16-modular-swappable-gpu-revolution/</guid>
+      <pubDate>Mon, 12 Oct 2026 09:00:00 GMT</pubDate>
+      <description>Swap your graphics card, ports, and keyboard modules in 30 seconds: the repairable laptop that upgrades year after year. Read the full technical breakdown on TechSeconds. #Laptops #PCTech #AppleSilicon #TechSetup #Ultrabook #Hardware #DeskGoals</description>
+      <category>Laptops, PC &amp; Silicon Tech</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Razer Blade 18 (2026): RTX 5090 Mobile &amp; 300Hz Dual-Mode OLED Gaming Titan</title>
+      <link>https://techseconds.com/articles/razer-blade-18-rtx-5090-blackwell-4k-oled/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/razer-blade-18-rtx-5090-blackwell-4k-oled/</guid>
+      <pubDate>Mon, 12 Oct 2026 08:30:00 GMT</pubDate>
+      <description>Nvidia&#x27;s Blackwell mobile architecture packs 24GB GDDR7 VRAM and DLSS 4 frame generation into an ultra-slim CNC aluminum unibody. Read the full technical breakdown on TechSeconds. #Laptops #PCTech #AppleSilicon #TechSetup #Ultrabook #Hardware #DeskGoals</description>
+      <category>Laptops, PC &amp; Silicon Tech</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>ASUS Zenbook S 16 Cera-Aluminum: AMD Zen 5 AI Ultrabook Under 1.5kg</title>
+      <link>https://techseconds.com/articles/asus-zenbook-s-16-cera-aluminum-amd-zen-5-ultrabook/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/asus-zenbook-s-16-cera-aluminum-amd-zen-5-ultrabook/</guid>
+      <pubDate>Mon, 12 Oct 2026 08:00:00 GMT</pubDate>
+      <description>ASUS bonds ceramic directly to aluminum alloy to create a scratchproof, fingerprint-free chassis packing AMD Ryzen AI 9 365 silicon. Read the full technical breakdown on TechSeconds. #Laptops #PCTech #AppleSilicon #TechSetup #Ultrabook #Hardware #DeskGoals</description>
+      <category>Laptops, PC &amp; Silicon Tech</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Galaxy S26 Ultra vs iPhone 18 Pro Max: The 200MP Periscope Camera War</title>
+      <link>https://techseconds.com/articles/galaxy-s26-ultra-vs-iphone-18-pro-max-camera-war/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/galaxy-s26-ultra-vs-iphone-18-pro-max-camera-war/</guid>
+      <pubDate>Mon, 12 Oct 2026 07:30:00 GMT</pubDate>
+      <description>Variable mechanical f/1.4 apertures, liquid glass lenses, and 2nm neural silicon battle for mobile photography supremacy. Read the full technical breakdown on TechSeconds. #Smartphones #MobileTech #iPhone #SamsungGalaxy #TechLeaks #PhoneReviews #Android</description>
+      <category>Smartphones, Leaks &amp; Reviews</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Nothing Phone (3) Revealed: Transparent Glyph Matrix &amp; Custom Snapdragon Silicon</title>
+      <link>https://techseconds.com/articles/nothing-phone-3-revealed-glyph-matrix-snapdragon/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/nothing-phone-3-revealed-glyph-matrix-snapdragon/</guid>
+      <pubDate>Mon, 12 Oct 2026 07:00:00 GMT</pubDate>
+      <description>Carl Pei&#x27;s team unveils micro-LED interactive dot matrix glyphs that transform the back of the phone into a secondary display. Read the full technical breakdown on TechSeconds. #Smartphones #MobileTech #iPhone #SamsungGalaxy #TechLeaks #PhoneReviews #Android</description>
+      <category>Smartphones, Leaks &amp; Reviews</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Google Pixel 10 Pro: 3nm Tensor G5 &amp; The Pro Magic Video Studio</title>
+      <link>https://techseconds.com/articles/google-pixel-10-pro-3nm-tensor-g5-magic-video/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/google-pixel-10-pro-3nm-tensor-g5-magic-video/</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 GMT</pubDate>
+      <description>Google&#x27;s first fully custom TSMC-manufactured Tensor G5 chip eliminates thermal throttling while debuting instant on-device Video Boost. Read the full technical breakdown on TechSeconds. #Smartphones #MobileTech #iPhone #SamsungGalaxy #TechLeaks #PhoneReviews #Android</description>
+      <category>Smartphones, Leaks &amp; Reviews</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Huawei Mate XT vs Galaxy Z Fold 7: The Ultra-Thin Tri-Fold Tablet Revolution</title>
+      <link>https://techseconds.com/articles/huawei-mate-xt-galaxy-z-fold-7-tri-fold-revolution/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/huawei-mate-xt-galaxy-z-fold-7-tri-fold-revolution/</guid>
+      <pubDate>Mon, 12 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Dual hinges and triple folding panels transform a 3.6mm ultra-thin phone into a full 10.2-inch workstation tablet. Read the full technical breakdown on TechSeconds. #Smartphones #MobileTech #iPhone #SamsungGalaxy #TechLeaks #PhoneReviews #Android</description>
+      <category>Smartphones, Leaks &amp; Reviews</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Quantum Supremacy Breakthrough: 1 Million Qubit Chip Shatters Encryption In 4s</title>
+      <link>https://techseconds.com/articles/quantum-supremacy-breakthrough-1-million-qubit-chip/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/quantum-supremacy-breakthrough-1-million-qubit-chip/</guid>
+      <pubDate>Mon, 12 Oct 2026 05:30:00 GMT</pubDate>
+      <description>Engineers achieve fault-tolerant logical quantum computing with 99.98% 2-qubit gate fidelity at room-temperature cryogenic boundaries. Read the full technical breakdown on TechSeconds. #FutureTech #Robotics #QuantumComputing #Chips #Technology #Innovation #TechNews</description>
+      <category>Future Tech &amp; Computing</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Inside The First Humanoid Robot Gigafactory: 10,000 Androids Enter Mass Production</title>
+      <link>https://techseconds.com/articles/humanoid-robots-enter-mass-production-gigafactory/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/humanoid-robots-enter-mass-production-gigafactory/</guid>
+      <pubDate>Mon, 12 Oct 2026 05:00:00 GMT</pubDate>
+      <description>Full-scale assembly lines begin shipping autonomous bipedal robots with tactile sensor skins and vision-language-action brains. Read the full technical breakdown on TechSeconds. #FutureTech #Robotics #QuantumComputing #Chips #Technology #Innovation #TechNews</description>
+      <category>Future Tech &amp; Computing</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Solid-State Silicon Batteries: 1,000km Electric Range In A 5-Minute Fast Charge</title>
+      <link>https://techseconds.com/articles/solid-state-silicon-batteries-1000km-range-5-min-charge/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/solid-state-silicon-batteries-1000km-range-5-min-charge/</guid>
+      <pubDate>Mon, 12 Oct 2026 04:30:00 GMT</pubDate>
+      <description>Sulfide-based solid electrolytes eliminate dendrite formation, enabling 500 Wh/kg energy density and zero fire risk. Read the full technical breakdown on TechSeconds. #FutureTech #Robotics #QuantumComputing #Chips #Technology #Innovation #TechNews</description>
+      <category>Future Tech &amp; Computing</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Neuralink Telepathy 2 &amp; Blindsight: Paralyzed Patients Control Limbs at 120 WPM</title>
+      <link>https://techseconds.com/articles/neuralink-blindsight-telepathy-2-bionic-trials/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/neuralink-blindsight-telepathy-2-bionic-trials/</guid>
+      <pubDate>Mon, 12 Oct 2026 04:00:00 GMT</pubDate>
+      <description>Next-gen 4,096-channel brain-computer interfaces enable high-speed thought typing and direct visual cortex stimulation. Read the full technical breakdown on TechSeconds. #FutureTech #Robotics #QuantumComputing #Chips #Technology #Innovation #TechNews</description>
+      <category>Future Tech &amp; Computing</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>TSMC 2nm N2 GAA Silicon Wafers: Backside Power Delivery &amp; The 2026 Chip Leap</title>
+      <link>https://techseconds.com/articles/tsmc-2nm-n2-gaa-silicon-wafers-backside-power-delivery/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/tsmc-2nm-n2-gaa-silicon-wafers-backside-power-delivery/</guid>
+      <pubDate>Mon, 12 Oct 2026 03:30:00 GMT</pubDate>
+      <description>Gate-All-Around nanosheets and Super Power Rail backside power routing usher in a 25% efficiency leap across computing. Read the full technical breakdown on TechSeconds. #FutureTech #Robotics #QuantumComputing #Chips #Technology #Innovation #TechNews</description>
+      <category>Future Tech &amp; Computing</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Top 7 Secret AI Productivity Tools That Outperform ChatGPT in 2026</title>
+      <link>https://techseconds.com/articles/top-secret-ai-productivity-tools-outperform-chatgpt/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/top-secret-ai-productivity-tools-outperform-chatgpt/</guid>
+      <pubDate>Mon, 12 Oct 2026 03:00:00 GMT</pubDate>
+      <description>Specialized agentic tools, local context engines, and zero-prompt visual IDEs leaving legacy chatbots in the dust. Read the full technical breakdown on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Claude 3.7 &amp; Gemini 3.8 Coding Agents: Building Full-Stack Apps in One Prompt</title>
+      <link>https://techseconds.com/articles/claude-37-gemini-38-coding-agents-full-stack/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/claude-37-gemini-38-coding-agents-full-stack/</guid>
+      <pubDate>Mon, 12 Oct 2026 02:30:00 GMT</pubDate>
+      <description>Hybrid reasoning architectures pair fast system-1 code drafting with extended system-2 algorithmic thinking. Read the full technical breakdown on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Run Open-Source DeepSeek &amp; Llama 4 Locally on Your Laptop With Zero Latency</title>
+      <link>https://techseconds.com/articles/run-open-source-deepseek-llama-4-locally-laptop/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/run-open-source-deepseek-llama-4-locally-laptop/</guid>
+      <pubDate>Mon, 12 Oct 2026 02:00:00 GMT</pubDate>
+      <description>Mixture-of-Experts quantization and Ollama let you execute frontier intelligence completely offline without subscriptions. Read the full technical breakdown on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Sora 2 &amp; Gen-3 Alpha: Generating 4K Cinema Scenes With Physics &amp; Sound In 60s</title>
+      <link>https://techseconds.com/articles/sora-2-gen-3-alpha-4k-cinema-sound-models/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/sora-2-gen-3-alpha-4k-cinema-sound-models/</guid>
+      <pubDate>Mon, 12 Oct 2026 01:30:00 GMT</pubDate>
+      <description>Spatiotemporal video diffusion models simulate real-world light bounces, object permanence, and synchronized spatial Foley audio. Read the full technical breakdown on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>NotebookLM Audio Overviews 2.0: Deep-Dive Multi-Source AI Research Podcasts</title>
+      <link>https://techseconds.com/articles/notebooklm-audio-overviews-deep-dive-ai-research/</link>
+      <guid isPermaLink="true">https://techseconds.com/articles/notebooklm-audio-overviews-deep-dive-ai-research/</guid>
+      <pubDate>Mon, 12 Oct 2026 01:00:00 GMT</pubDate>
+      <description>Google&#x27;s Gemini-driven NotebookLM converts hundreds of research papers into engaging, hyper-accurate two-host audio discussions. Read the full technical breakdown on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Which Android phone is the closest equivalent to the iPhone Duo?</title>
+      <link>https://techseconds.com/stories/which-android-phone-is-the-closest-equivalent-to-the-iphone-duo/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/which-android-phone-is-the-closest-equivalent-to-the-iphone-duo/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>Can we find the iPhone Duo&#x27;s perfect Android match? Tap to view the full interactive story on TechSeconds. #Smartphones #MobileTech #iPhone #SamsungGalaxy #TechLeaks #PhoneReviews #Android</description>
+      <category>Smartphones, Leaks &amp; Reviews</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Most Windows users are seriously underusing this powerful desktop feature</title>
+      <link>https://techseconds.com/stories/most-windows-users-are-seriously-underusing-this-powerful-desktop-feat/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/most-windows-users-are-seriously-underusing-this-powerful-desktop-feat/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>Windows has an option to give you more working desktop space, but you might have overlooked it. Tap to view the full interactive story on TechSeconds. #Laptops #PCTech #AppleSilicon #TechSetup #Ultrabook #Hardware #DeskGoals</description>
+      <category>Laptops, PC &amp; Silicon Tech</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Does TSA actually allow AirTags in your luggage? Here&#x27;s what the rules say</title>
+      <link>https://techseconds.com/stories/does-tsa-actually-allow-airtags-in-your-luggage-heres-what-the-rules-s/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/does-tsa-actually-allow-airtags-in-your-luggage-heres-what-the-rules-s/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>Airlines don&#x27;t want you to put batteries in your checked luggage, but how does this affect tiny batteries like those in AirTags? Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>AI delivers &#x27;zero financial payoff&#x27; to most companies, Apollo economist says</title>
+      <link>https://techseconds.com/stories/ai-delivers-zero-financial-payoff-to-most-companies-apollo-economist-s/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/ai-delivers-zero-financial-payoff-to-most-companies-apollo-economist-s/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>&quot;Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.&quot; Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>TechCrunch Mobility: Blue-green is the color of autonomy</title>
+      <link>https://techseconds.com/stories/techcrunch-mobility-blue-green-is-the-color-of-autonomy/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/techcrunch-mobility-blue-green-is-the-color-of-autonomy/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it. Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>After testing all major mobile browsers, this one finally earned my default spot</title>
+      <link>https://techseconds.com/stories/after-testing-all-major-mobile-browsers-this-one-finally-earned-my-def/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/after-testing-all-major-mobile-browsers-this-one-finally-earned-my-def/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>Looking beyond Chrome paid off with the best browser experience Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>I trained for a marathon with the Pixel Watch 5; Google&#x27;s Health Coach guided me all the way through</title>
+      <link>https://techseconds.com/stories/i-trained-for-a-marathon-with-the-pixel-watch-5-googles-health-coach-g/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/i-trained-for-a-marathon-with-the-pixel-watch-5-googles-health-coach-g/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>Conversational planning fits a busy life by rescheduling runs, suggesting short strength work, and tracking sleep signals Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>iFixit&#x27;s look inside the iPhone Duo may explain those broken screens and hinges</title>
+      <link>https://techseconds.com/stories/ifixits-look-inside-the-iphone-duo-may-explain-those-broken-screens-an/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/ifixits-look-inside-the-iphone-duo-may-explain-those-broken-screens-an/</guid>
+      <pubDate>Sun, 25 Oct 2026 17:40:27 GMT</pubDate>
+      <description>As is tradition, iFixit has torn open the latest iPhone and laid its parts bare on a table. It found some interesting details about how Apple might be hiding the crease on the Duo&#x27;s folding screen and gave it a 5/10 repairability score. That might not seem particularly high, b... Tap to view the full interactive story on TechSeconds. #Smartphones #MobileTech #iPhone #SamsungGalaxy #TechLeaks #PhoneReviews #Android</description>
+      <category>Smartphones, Leaks &amp; Reviews</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>A YouTuber dissected an iPhone Duo and thinks he found the cause of crackgate</title>
+      <link>https://techseconds.com/stories/a-youtuber-dissected-an-iphone-duo-and-thinks-he-found-the-cause-of-cr/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/a-youtuber-dissected-an-iphone-duo-and-thinks-he-found-the-cause-of-cr/</guid>
+      <pubDate>Sun, 25 Oct 2026 16:16:19 GMT</pubDate>
+      <description>Social media and the iPhone Duo subreddit are filled with reports of Apple&#x27;s foldable failing quickly and in spectacular fashion. Some users report having the phone for only a few hours before the hinge seems to catch on something, then audibly crack and break the screen. Tell... Tap to view the full interactive story on TechSeconds. #Smartphones #MobileTech #iPhone #SamsungGalaxy #TechLeaks #PhoneReviews #Android</description>
+      <category>Smartphones, Leaks &amp; Reviews</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Zen Browser is the Arc replacement I was looking for</title>
+      <link>https://techseconds.com/stories/zen-browser-is-the-arc-replacement-i-was-looking-for/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/zen-browser-is-the-arc-replacement-i-was-looking-for/</guid>
+      <pubDate>Sun, 25 Oct 2026 15:24:50 GMT</pubDate>
+      <description>I know many of you are mourning the loss of the Arc browser, and I get it. It felt like the first app in a long time to really offer a new approach to browser design. Atlassian bought the company last year and shifted its focus to developing Dia, its even more AI-focused brows... Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Grok releases the first seven minutes of its AI-generated &#x27;Odyssey&#x27;</title>
+      <link>https://techseconds.com/stories/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>The footage looks okay, as long as you&#x27;re not seeking artistry, inspiration, or human interest. Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Even Benchmark thinks AI is eroding the venture pact against backing rivals</title>
+      <link>https://techseconds.com/stories/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-r/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-r/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>Benchmark says the Valley&#x27;s rule against backing rivals is getting harder to keep. Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Tesla reveals SpaceX-powered Roadster that flies and falls with style</title>
+      <link>https://techseconds.com/stories/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>The new car used thrusters to leap over a Cybercab, Cybertruck, Tesla Semi, Model Y, and Model 3 at a demo in Texas. Tap to view the full interactive story on TechSeconds. #FutureTech #Robotics #QuantumComputing #Chips #Technology #Innovation #TechNews</description>
+      <category>Future Tech &amp; Computing</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>I stopped cleaning up my Gmail inbox; here&#x27;s the email system that worked</title>
+      <link>https://techseconds.com/stories/i-stopped-cleaning-up-my-gmail-inbox-heres-the-email-system-that-worke/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/i-stopped-cleaning-up-my-gmail-inbox-heres-the-email-system-that-worke/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>It automatically cleans up my Gmail inbox, but I never lose my emails Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Your Galaxy phone comes with built-in Samsung One UI apps you shouldn&#x27;t ignore</title>
+      <link>https://techseconds.com/stories/your-galaxy-phone-comes-with-built-in-samsung-one-ui-apps-you-shouldnt/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/your-galaxy-phone-comes-with-built-in-samsung-one-ui-apps-you-shouldnt/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>The One UI apps nobody talks about but everyone should use Tap to view the full interactive story on TechSeconds. #Smartphones #MobileTech #iPhone #SamsungGalaxy #TechLeaks #PhoneReviews #Android</description>
+      <category>Smartphones, Leaks &amp; Reviews</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Steam can now show game achievements in separate &#x27;sets&#x27;</title>
+      <link>https://techseconds.com/stories/steam-can-now-show-game-achievements-in-separate-sets/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/steam-can-now-show-game-achievements-in-separate-sets/</guid>
+      <pubDate>Thu, 15 Oct 2026 19:18:28 GMT</pubDate>
+      <description>Valve is introducing a major new feature for Steam achievements called &quot;achievement sets&quot; that lets developers list different groups of achievements for a base game and DLCs. &quot;In games that support sets, you still unlock achievements by playing the game as usual,&quot; Valve says. ... Tap to view the full interactive story on TechSeconds. #GamingGear #GamingSetup #Battlestation #PlayStation #Xbox #GamingCommunity #PCGaming</description>
+      <category>Gaming Gear &amp; Desk Setups</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>ChatGPT can peek at your Chrome tabs now</title>
+      <link>https://techseconds.com/stories/chatgpt-can-peek-at-your-chrome-tabs-now/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/chatgpt-can-peek-at-your-chrome-tabs-now/</guid>
+      <pubDate>Thu, 15 Oct 2026 18:43:23 GMT</pubDate>
+      <description>OpenAI&#x27;s ChatGPT Atlas browser is gone, but now ChatGPT&#x27;s Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatG... Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch</title>
+      <link>https://techseconds.com/stories/sega-pulls-total-war-shogun-2-remaster-from-sale-following-disastrous/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/sega-pulls-total-war-shogun-2-remaster-from-sale-following-disastrous/</guid>
+      <pubDate>Thu, 15 Oct 2026 18:35:55 GMT</pubDate>
+      <description>Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch where users complained about issues like bugs and upscaling that appears to have been done by AI. Complete Edition, a remaster of the 2011 strategy game, launched on Tuesday,... Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>When it came to Cal AI&#x27;s viral success, a small army of influencers paid off</title>
+      <link>https://techseconds.com/stories/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March. Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Trump posts AI-edited photo to brag about White House restoration work</title>
+      <link>https://techseconds.com/stories/trump-posts-ai-edited-photo-to-brag-about-white-house-restoration-work/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/trump-posts-ai-edited-photo-to-brag-about-white-house-restoration-work/</guid>
+      <pubDate>Thu, 15 Oct 2026 17:09:33 GMT</pubDate>
+      <description>President Donald Trump posted a series of photos on Truth Social showing off renovations to the White House - but one of them appears to be modified with AI. The picture, which compares an old White House column to a &quot;restored&quot; one, has several discrepancies and was flagged by... Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Bluesky&#x27;s AI tool now lets you make games and apps to share on social</title>
+      <link>https://techseconds.com/stories/blueskys-ai-tool-now-lets-you-make-games-and-apps-to-share-on-social/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/blueskys-ai-tool-now-lets-you-make-games-and-apps-to-share-on-social/</guid>
+      <pubDate>Thu, 15 Oct 2026 15:57:16 GMT</pubDate>
+      <description>Bluesky&#x27;s Attie AI tool, which initially launched earlier this year as a way to use AI to build your own feeds, now lets you make &quot;small&quot; social apps like games, polls, and dashboards that you can then share with others as their own websites. In an interview at TechCrunch Disr... Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Withings now charges $100 per year to sync your data to other apps</title>
+      <link>https://techseconds.com/stories/withings-now-charges-100-per-year-to-sync-your-data-to-other-apps/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/withings-now-charges-100-per-year-to-sync-your-data-to-other-apps/</guid>
+      <pubDate>Thu, 15 Oct 2026 15:52:13 GMT</pubDate>
+      <description>If you&#x27;re a new user of Withings&#x27; fitness-tracking smartwatches or smart scales and want to sync and access your health data through third party apps like Apple Health or Google Health it&#x27;s now going to cost you. According to a discussion on Withings&#x27; support forums spotted by... Tap to view the full interactive story on TechSeconds. #Smartphones #MobileTech #iPhone #SamsungGalaxy #TechLeaks #PhoneReviews #Android</description>
+      <category>Smartphones, Leaks &amp; Reviews</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Amazon devices chief Panos Panay on the importance of failure and bouncing back from it</title>
+      <link>https://techseconds.com/stories/amazon-devices-chief-panos-panay-on-the-importance-of-failure-and-boun/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/amazon-devices-chief-panos-panay-on-the-importance-of-failure-and-boun/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>Panay said that it&#x27;s possible to recover and learn from all sorts of failures, even catastrophic ones, when building products. Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Volvo will use Nvidia&#x27;s tech for hands-free, point-to-point driving</title>
+      <link>https://techseconds.com/stories/volvo-will-use-nvidias-tech-for-hands-free-point-to-point-driving/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/volvo-will-use-nvidias-tech-for-hands-free-point-to-point-driving/</guid>
+      <pubDate>Thu, 15 Oct 2026 13:30:00 GMT</pubDate>
+      <description>Volvo plans to launch hands-free, point-to-point driving by 2030, powered by Nvidia&#x27;s latest AI technology. The Chinese-owned, Swedish-designed automaker said Thursday it would use Nvidia&#x27;s autonomous driving stack to power a new partially automated driving system similar to T... Tap to view the full interactive story on TechSeconds. #FutureTech #Robotics #QuantumComputing #Chips #Technology #Innovation #TechNews</description>
+      <category>Future Tech &amp; Computing</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Alienware&#x27;s latest 34-inch QD-OLED gaming monitor is $50 off</title>
+      <link>https://techseconds.com/stories/alienwares-latest-34-inch-qd-oled-gaming-monitor-is-50-off/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/alienwares-latest-34-inch-qd-oled-gaming-monitor-is-50-off/</guid>
+      <pubDate>Thu, 15 Oct 2026 13:30:00 GMT</pubDate>
+      <description>The Alienware AW3426DW is discounted to $742.22 at Amazon, just over $50 off its usual price of $799.99. It&#x27;s not quite the lowest price we&#x27;ve seen on this well-equipped gaming monitor, but still a decent discount. The 34-inch screen just came out a couple months ago, and is e... Tap to view the full interactive story on TechSeconds. #GamingGear #GamingSetup #Battlestation #PlayStation #Xbox #GamingCommunity #PCGaming</description>
+      <category>Gaming Gear &amp; Desk Setups</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Sony&#x27;s WH-1000XM6 headphones are $130 off today only</title>
+      <link>https://techseconds.com/stories/sonys-wh-1000xm6-headphones-are-130-off-today-only/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/sonys-wh-1000xm6-headphones-are-130-off-today-only/</guid>
+      <pubDate>Thu, 15 Oct 2026 13:10:58 GMT</pubDate>
+      <description>If you missed out on Prime Day&#x27;s headphones deals, you&#x27;re in luck. Sony&#x27;s latest flagship headphones are selling for even less than they did during Amazon&#x27;s big fall sale. As part of B&amp;H Photo&#x27;s Deals of the Day, you can currently pick up Sony&#x27;s WH-1000XM6 noise-canceling head... Tap to view the full interactive story on TechSeconds. #Gadgets #TechGadgets #Smartwatch #Headphones #Wearables #EverydayCarry #CoolTech</description>
+      <category>Gadgets, Wearables &amp; Audio</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Volvo makes a bigger bet on Nvidia</title>
+      <link>https://techseconds.com/stories/volvo-makes-a-bigger-bet-on-nvidia/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/volvo-makes-a-bigger-bet-on-nvidia/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>Volvo is leveling up its automated driving system through an expansion of its nearly decade-long partnership with Nvidia that will extend beyond its battery electric vehicles. Tap to view the full interactive story on TechSeconds. #FutureTech #Robotics #QuantumComputing #Chips #Technology #Innovation #TechNews</description>
+      <category>Future Tech &amp; Computing</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Prep your cart before iPhone Duo preorders open tomorrow</title>
+      <link>https://techseconds.com/stories/prep-your-cart-before-iphone-duo-preorders-open-tomorrow/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/prep-your-cart-before-iphone-duo-preorders-open-tomorrow/</guid>
+      <pubDate>Thu, 15 Oct 2026 10:07:33 GMT</pubDate>
+      <description>Apple&#x27;s iPhone Duo foldable phone opens for preorder tomorrow, October 16th, at 8am ET / 5am PT, but you don&#x27;t have to wait until then to get your order mostly sorted. The company&#x27;s product page for the phone now lets you select the color you want, along with storage capacity,... Tap to view the full interactive story on TechSeconds. #Smartphones #MobileTech #iPhone #SamsungGalaxy #TechLeaks #PhoneReviews #Android</description>
+      <category>Smartphones, Leaks &amp; Reviews</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Some great games to play before GTA VI and Zelda launch</title>
+      <link>https://techseconds.com/stories/some-great-games-to-play-before-gta-vi-and-zelda-launch/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/some-great-games-to-play-before-gta-vi-and-zelda-launch/</guid>
+      <pubDate>Thu, 15 Oct 2026 10:00:00 GMT</pubDate>
+      <description>You could say we&#x27;re in the eye of the storm right now. The storm, of course, being the fall and winter release calendar for new video games. Things started out with a hectic few weeks that were packed with major titles like Control Resonant, Marvel&#x27;s Wolverine, Fire Emblem: Fo... Tap to view the full interactive story on TechSeconds. #GamingGear #GamingSetup #Battlestation #PlayStation #Xbox #GamingCommunity #PCGaming</description>
+      <category>Gaming Gear &amp; Desk Setups</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Microsoft says Windows 11 is now &#x27;more responsive&#x27; and runs better on 8GB of RAM</title>
+      <link>https://techseconds.com/stories/microsoft-says-windows-11-is-now-more-responsive-and-runs-better-on-8g/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/microsoft-says-windows-11-is-now-more-responsive-and-runs-better-on-8g/</guid>
+      <pubDate>Thu, 15 Oct 2026 09:41:00 GMT</pubDate>
+      <description>Earlier this year Microsoft laid out a plan to fix Windows 11, with a focus on performance, reliability, and the overall OS experience. After months of fixes, Microsoft now says the &quot;result is a Windows experience that&#x27;s up to 20 percent more responsive.&quot; Microsoft has made im... Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Amazon&#x27;s Bee launches two new personal AI devices, starting at $75</title>
+      <link>https://techseconds.com/stories/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping,... Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Your secrets aren&#x27;t safe with this cute robot toy - they&#x27;re on Chinese servers ready to be hacked</title>
+      <link>https://techseconds.com/stories/your-secrets-arent-safe-with-this-cute-robot-toy-theyre-on-chinese-ser/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/your-secrets-arent-safe-with-this-cute-robot-toy-theyre-on-chinese-ser/</guid>
+      <pubDate>Thu, 15 Oct 2026 07:00:00 GMT</pubDate>
+      <description>There&#x27;s a new digital pet in town - a cute little marshmallow of a robot that can change its cartoony expressions to match your mood. But if you or your kids talk to &quot;Eiliko&quot; over Wi-Fi, it&#x27;ll phone home to China. Its AI companion can store literally everything you tell it on ... Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Big Walk skipped Xbox to boycott Microsoft&#x27;s involvement with Israel</title>
+      <link>https://techseconds.com/stories/big-walk-skipped-xbox-to-boycott-microsofts-involvement-with-israel/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/big-walk-skipped-xbox-to-boycott-microsofts-involvement-with-israel/</guid>
+      <pubDate>Thu, 15 Oct 2026 06:05:07 GMT</pubDate>
+      <description>Big Walk&#x27;s co-op multiplayer walking adventure has proved popular since launching in August, but Xbox players have been excluded from the fun - and now the game&#x27;s creators have explained why. Developer House House said in a blog post that it decided not to release Big Walk on ... Tap to view the full interactive story on TechSeconds. #GamingGear #GamingSetup #Battlestation #PlayStation #Xbox #GamingCommunity #PCGaming</description>
+      <category>Gaming Gear &amp; Desk Setups</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>I can&#x27;t wait for Apple to show Google how to make a better smart speaker</title>
+      <link>https://techseconds.com/stories/i-cant-wait-for-apple-to-show-google-how-to-make-a-better-smart-speake/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/i-cant-wait-for-apple-to-show-google-how-to-make-a-better-smart-speake/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>Apple&#x27;s new home hub could be the wake-up call Google needs to fix its frustrating smart home ecosystem Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Apple I &#x27;Hatfield&#x27; computer signed by Woz fetches a record $1.15 million at auction</title>
+      <link>https://techseconds.com/stories/apple-i-hatfield-computer-signed-by-woz-fetches-a-record-115-million-a/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/apple-i-hatfield-computer-signed-by-woz-fetches-a-record-115-million-a/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:28:26 GMT</pubDate>
+      <description>The famous Apple I &quot;Hatfield&quot; computer signed by Steve Wozniak just sold to an unknown buyer for a record $1,148,200. Tap to view the full interactive story on TechSeconds. #Smartphones #MobileTech #iPhone #SamsungGalaxy #TechLeaks #PhoneReviews #Android</description>
+      <category>Smartphones, Leaks &amp; Reviews</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" length="150000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1000&amp;h=1500&amp;fit=crop&amp;q=85" medium="image" width="1000" height="1500" />
+    </item>
+  </channel>
+</rss>

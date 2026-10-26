@@ -96,9 +96,11 @@ def run_period_report(property_id: str, days: int = 7, is_yesterday: bool = Fals
 
     client = get_client()
     if is_yesterday:
-        start_date = "yesterday"
-        end_date = "yesterday"
-        title_period = "YESTERDAY"
+        from datetime import datetime, timedelta
+        y_date = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+        start_date = y_date
+        end_date = y_date
+        title_period = f"YESTERDAY ({y_date})"
     elif days > 1:
         start_date = f"{days}daysAgo"
         end_date = "today"
@@ -117,6 +119,7 @@ def run_period_report(property_id: str, days: int = 7, is_yesterday: bool = Fals
             Metric(name="newUsers"),
             Metric(name="sessions"),
             Metric(name="screenPageViews"),
+            Metric(name="eventCount"),
             Metric(name="engagedSessions"),
             Metric(name="engagementRate"),
             Metric(name="userEngagementDuration"),
@@ -134,16 +137,18 @@ def run_period_report(property_id: str, days: int = 7, is_yesterday: bool = Fals
         new_users = vals[1].value
         sessions = vals[2].value
         page_views = vals[3].value
-        engaged_sessions = vals[4].value
-        eng_rate = float(vals[5].value) * 100
+        event_count = vals[4].value
+        engaged_sessions = vals[5].value
+        eng_rate = float(vals[6].value) * 100
         avg_duration = (
-            float(vals[6].value) / int(active_users) if int(active_users) > 0 else 0
+            float(vals[7].value) / int(active_users) if int(active_users) > 0 else 0
         )
 
         print(f"👤 Total Active Users:     {active_users}")
         print(f"✨ New Users:              {new_users}")
         print(f"🔄 Sessions:               {sessions}")
         print(f"👁️ Page Views:             {page_views}")
+        print(f"⚡ Total Event Count:      {event_count}")
         print(f"🎯 Engaged Sessions:       {engaged_sessions} ({eng_rate:.1f}% Engagement Rate)")
         print(f"⏱️ Avg Engagement Time:    {avg_duration:.1f} seconds / user")
     else:
@@ -206,7 +211,81 @@ def run_period_report(property_id: str, days: int = 7, is_yesterday: bool = Fals
         engaged = row.metric_values[1].value
         print(f" • {channel:20} -> {sessions:>3} sessions ({engaged} engaged)")
 
+    # 5. Device Categories
+    device_req = RunReportRequest(
+        property=f"properties/{property_id}",
+        date_ranges=[DateRange(start_date=start_date, end_date=end_date)],
+        dimensions=[Dimension(name="deviceCategory")],
+        metrics=[Metric(name="activeUsers"), Metric(name="engagedSessions")],
+        order_bys=[OrderBy(metric=OrderBy.MetricOrderBy(metric_name="activeUsers"), desc=True)],
+        limit=5,
+    )
+    device_res = client.run_report(device_req)
+
+    print("\n📱 DEVICE BREAKDOWN:")
+    print("-" * 60)
+    for row in device_res.rows:
+        device = row.dimension_values[0].value.title()
+        users = row.metric_values[0].value
+        engaged = row.metric_values[1].value
+        print(f" • {device:20} -> {users:>3} users ({engaged} engaged)")
+
     print("=" * 60 + "\n")
+
+
+def run_impressions_report(property_id: str, days: int = 7):
+    """Fetches Google Search Console impression and click metrics linked in GA4."""
+    from google.analytics.data_v1beta.types import (
+        RunReportRequest,
+        DateRange,
+        Metric,
+        Dimension,
+        OrderBy,
+    )
+
+    client = get_client()
+    req = RunReportRequest(
+        property=f"properties/{property_id}",
+        date_ranges=[DateRange(start_date=f"{days}daysAgo", end_date="today")],
+        dimensions=[Dimension(name="landingPagePlusQueryString")],
+        metrics=[
+            Metric(name="organicGoogleSearchImpressions"),
+            Metric(name="organicGoogleSearchClicks"),
+        ],
+        order_bys=[OrderBy(metric=OrderBy.MetricOrderBy(metric_name="organicGoogleSearchImpressions"), desc=True)],
+        limit=250,
+    )
+
+    res = client.run_report(req)
+
+    total_imp = 0
+    total_clicks = 0
+    pages_count = 0
+
+    print("\n" + "=" * 65)
+    print(f"🔍 GOOGLE SEARCH CONSOLE - IMPRESSIONS & CLICKS (LAST {days} DAYS)")
+    print("=" * 65)
+
+    for row in res.rows:
+        imp = int(row.metric_values[0].value)
+        clk = int(row.metric_values[1].value)
+        total_imp += imp
+        total_clicks += clk
+        pages_count += 1
+
+    print(f"👁️ Total Search Impressions:  {total_imp:,}")
+    print(f"🎯 Total Organic Clicks:      {total_clicks:,}")
+    print(f"📄 Stories Getting Impressions: {pages_count} pages")
+
+    print("\n🔥 TOP 10 STORIES APPEARING IN GOOGLE SEARCH:")
+    print("-" * 65)
+    for row in res.rows[:10]:
+        page = row.dimension_values[0].value
+        imp = int(row.metric_values[0].value)
+        clk = int(row.metric_values[1].value)
+        print(f" • {imp:>4} impressions ({clk} clicks) -> {page[:45]}")
+
+    print("=" * 65 + "\n")
 
 
 def print_setup_instructions():
@@ -250,6 +329,7 @@ def main():
     )
     parser.add_argument("--realtime", action="store_true", help="Fetch real-time active users (last 30 mins)")
     parser.add_argument("--yesterday", action="store_true", help="Fetch report specifically for yesterday")
+    parser.add_argument("--impressions", action="store_true", help="Fetch Google Search Console impressions and clicks")
     parser.add_argument("--days", type=int, default=7, help="Number of past days to report (default: 7)")
     parser.add_argument("--setup", action="store_true", help="Show setup instructions")
 
@@ -268,6 +348,8 @@ def main():
     try:
         if args.realtime:
             run_realtime_report(args.property_id)
+        elif args.impressions:
+            run_impressions_report(args.property_id, days=args.days)
         else:
             run_period_report(args.property_id, days=args.days, is_yesterday=args.yesterday)
     except Exception as e:
