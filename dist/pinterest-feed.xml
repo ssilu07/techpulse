@@ -6,7 +6,7 @@
     <atom:link href="https://techseconds.com/pinterest-feed.xml" rel="self" type="application/rss+xml" />
     <description>TechSeconds is a premier technology publication and hardware intelligence lab delivering in-depth architectural breakdowns, expert hardware benchmarks, comprehensive buying guides, and high-speed visual web stories across artificial intelligence, silicon lithography, flagship smartphones, and future computing.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2026 22:43:21 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 01:39:08 GMT</lastBuildDate>
     <item>
       <title>Apple M4 Max MacBook Pro: 128GB Unified Memory &amp; 3nm Monster Benchmarks</title>
       <link>https://techseconds.com/articles/apple-m4-max-macbook-pro-128gb-unified-memory-benchmarks/</link>
@@ -217,6 +217,50 @@
       <media:content url="https://techseconds.com/pins/notebooklm-audio-overviews-deep-dive-ai-research.jpg" medium="image" width="1000" height="1500" />
     </item>
     <item>
+      <title>OpenAI announces three big science discoveries and a new way to work with academics</title>
+      <link>https://techseconds.com/stories/openai-announces-three-big-science-discoveries-and-a-new-way-to-work-w/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/openai-announces-three-big-science-discoveries-and-a-new-way-to-work-w/</guid>
+      <pubDate>Mon, 26 Oct 2026 19:34:58 GMT</pubDate>
+      <description>Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more &quot;major&quot; discoveries in math, computer science, and physics. What&#x27;s different this time is the choice to h... Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://techseconds.com/pins/openai-announces-three-big-science-discoveries-and-a-new-way-to-work-w.jpg" length="180000" type="image/jpeg" />
+      <media:content url="https://techseconds.com/pins/openai-announces-three-big-science-discoveries-and-a-new-way-to-work-w.jpg" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>Cohere says Alibaba&#x27;s Qwen model tried to send a file to Beijing</title>
+      <link>https://techseconds.com/stories/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/</guid>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
+      <description>An AI model said it wouldn&#x27;t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it&#x27;s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI. Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://techseconds.com/pins/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing.jpg" length="180000" type="image/jpeg" />
+      <media:content url="https://techseconds.com/pins/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing.jpg" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>I use time blocking in Google Calendar to schedule my day; I&#x27;ve reclaimed hours of focus time</title>
+      <link>https://techseconds.com/stories/i-use-time-blocking-in-google-calendar-to-schedule-my-day-ive-reclaime/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/i-use-time-blocking-in-google-calendar-to-schedule-my-day-ive-reclaime/</guid>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
+      <description>This game-changing Google Calendar trick will up your productivity Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
+      <category>AI Tools &amp; AI Hacks</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://techseconds.com/pins/i-use-time-blocking-in-google-calendar-to-schedule-my-day-ive-reclaime.jpg" length="180000" type="image/jpeg" />
+      <media:content url="https://techseconds.com/pins/i-use-time-blocking-in-google-calendar-to-schedule-my-day-ive-reclaime.jpg" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
+      <title>iPhone Lockdown Mode: The pros and cons of enabling Apple&#x27;s security feature</title>
+      <link>https://techseconds.com/stories/iphone-lockdown-mode-the-pros-and-cons-of-enabling-apples-security-fea/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/iphone-lockdown-mode-the-pros-and-cons-of-enabling-apples-security-fea/</guid>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
+      <description>Lockdown Mode enables extreme protections for those most at risk, but it&#x27;s overkill for most people. Tap to view the full interactive story on TechSeconds. #Smartphones #MobileTech #iPhone #SamsungGalaxy #TechLeaks #PhoneReviews #Android</description>
+      <category>Smartphones, Leaks &amp; Reviews</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://techseconds.com/pins/iphone-lockdown-mode-the-pros-and-cons-of-enabling-apples-security-fea.jpg" length="180000" type="image/jpeg" />
+      <media:content url="https://techseconds.com/pins/iphone-lockdown-mode-the-pros-and-cons-of-enabling-apples-security-fea.jpg" medium="image" width="1000" height="1500" />
+    </item>
+    <item>
       <title>Samsung&#x27;s Switch 2-ready MicroSD Express card is on sale for less than $50</title>
       <link>https://techseconds.com/stories/samsungs-switch-2-ready-microsd-express-card-is-on-sale-for-less-than/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/samsungs-switch-2-ready-microsd-express-card-is-on-sale-for-less-than/</guid>
@@ -242,7 +286,7 @@
       <title>Fusion startups are giving the government shares in exchange for awards. Is it worth it?</title>
       <link>https://techseconds.com/stories/fusion-startups-are-giving-the-government-shares-in-exchange-for-award/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/fusion-startups-are-giving-the-government-shares-in-exchange-for-award/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>Fusion startups face a new challenge, one unrelated to plasma physics: Give the government shares in exchange for funding awards or go it alone? Tap to view the full interactive story on TechSeconds. #FutureTech #Robotics #QuantumComputing #Chips #Technology #Innovation #TechNews</description>
       <category>Future Tech &amp; Computing</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -253,7 +297,7 @@
       <title>This startup&#x27;s self-driving excavators help dig up $600M in new funding</title>
       <link>https://techseconds.com/stories/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>Bedrock Robotics, which is now valued at $4.1 billion, is particularly focused on autonomous excavators, in part because of a growing shortage of skilled operators. Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
       <category>AI Tools &amp; AI Hacks</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -297,7 +341,7 @@
       <title>Uh oh, it sounds like the iPhone Duo keeps cracking and users aren&#x27;t happy about it</title>
       <link>https://techseconds.com/stories/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-hap/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-hap/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>A small number of early adopters of the much hyped new foldable phone from Apple have complained of screens cracking. Tap to view the full interactive story on TechSeconds. #Smartphones #MobileTech #iPhone #SamsungGalaxy #TechLeaks #PhoneReviews #Android</description>
       <category>Smartphones, Leaks &amp; Reviews</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -341,7 +385,7 @@
       <title>Anthropic officially files for its public debut</title>
       <link>https://techseconds.com/stories/anthropic-officially-files-for-its-public-debut/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/anthropic-officially-files-for-its-public-debut/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission. Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
       <category>AI Tools &amp; AI Hacks</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -352,7 +396,7 @@
       <title>Elvis Presley&#x27;s estate is suing Anthropic over copyright infringement</title>
       <link>https://techseconds.com/stories/elvis-presleys-estate-is-suing-anthropic-over-copyright-infringement/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/elvis-presleys-estate-is-suing-anthropic-over-copyright-infringement/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>The latest AI copyright infringement suit centers around a single music artist from decades past: Elvis. Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
       <category>AI Tools &amp; AI Hacks</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -363,7 +407,7 @@
       <title>iFixit&#x27;s teardown of the iPhone Duo shows potential causes for cracked screens</title>
       <link>https://techseconds.com/stories/ifixits-teardown-of-the-iphone-duo-shows-potential-causes-for-cracked/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/ifixits-teardown-of-the-iphone-duo-shows-potential-causes-for-cracked/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>iFixit&#x27;s teardown of the iPhone Duo has arrived and it&#x27;s especially interesting because of the device&#x27;s complex folding display. Tap to view the full interactive story on TechSeconds. #Smartphones #MobileTech #iPhone #SamsungGalaxy #TechLeaks #PhoneReviews #Android</description>
       <category>Smartphones, Leaks &amp; Reviews</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -374,7 +418,7 @@
       <title>Which Android phone is the closest equivalent to the iPhone Duo?</title>
       <link>https://techseconds.com/stories/which-android-phone-is-the-closest-equivalent-to-the-iphone-duo/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/which-android-phone-is-the-closest-equivalent-to-the-iphone-duo/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>Can we find the iPhone Duo&#x27;s perfect Android match? Tap to view the full interactive story on TechSeconds. #Smartphones #MobileTech #iPhone #SamsungGalaxy #TechLeaks #PhoneReviews #Android</description>
       <category>Smartphones, Leaks &amp; Reviews</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -385,7 +429,7 @@
       <title>Most Windows users are seriously underusing this powerful desktop feature</title>
       <link>https://techseconds.com/stories/most-windows-users-are-seriously-underusing-this-powerful-desktop-feat/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/most-windows-users-are-seriously-underusing-this-powerful-desktop-feat/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>Windows has an option to give you more working desktop space, but you might have overlooked it. Tap to view the full interactive story on TechSeconds. #Laptops #PCTech #AppleSilicon #TechSetup #Ultrabook #Hardware #DeskGoals</description>
       <category>Laptops, PC &amp; Silicon Tech</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -396,7 +440,7 @@
       <title>Does TSA actually allow AirTags in your luggage? Here&#x27;s what the rules say</title>
       <link>https://techseconds.com/stories/does-tsa-actually-allow-airtags-in-your-luggage-heres-what-the-rules-s/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/does-tsa-actually-allow-airtags-in-your-luggage-heres-what-the-rules-s/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>Airlines don&#x27;t want you to put batteries in your checked luggage, but how does this affect tiny batteries like those in AirTags? Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
       <category>AI Tools &amp; AI Hacks</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -407,7 +451,7 @@
       <title>AI delivers &#x27;zero financial payoff&#x27; to most companies, Apollo economist says</title>
       <link>https://techseconds.com/stories/ai-delivers-zero-financial-payoff-to-most-companies-apollo-economist-s/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/ai-delivers-zero-financial-payoff-to-most-companies-apollo-economist-s/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>&quot;Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.&quot; Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
       <category>AI Tools &amp; AI Hacks</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -418,7 +462,7 @@
       <title>TechCrunch Mobility: Blue-green is the color of autonomy</title>
       <link>https://techseconds.com/stories/techcrunch-mobility-blue-green-is-the-color-of-autonomy/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/techcrunch-mobility-blue-green-is-the-color-of-autonomy/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it. Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
       <category>AI Tools &amp; AI Hacks</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -429,7 +473,7 @@
       <title>After testing all major mobile browsers, this one finally earned my default spot</title>
       <link>https://techseconds.com/stories/after-testing-all-major-mobile-browsers-this-one-finally-earned-my-def/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/after-testing-all-major-mobile-browsers-this-one-finally-earned-my-def/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>Looking beyond Chrome paid off with the best browser experience Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
       <category>AI Tools &amp; AI Hacks</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -440,7 +484,7 @@
       <title>I trained for a marathon with the Pixel Watch 5; Google&#x27;s Health Coach guided me all the way through</title>
       <link>https://techseconds.com/stories/i-trained-for-a-marathon-with-the-pixel-watch-5-googles-health-coach-g/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-trained-for-a-marathon-with-the-pixel-watch-5-googles-health-coach-g/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>Conversational planning fits a busy life by rescheduling runs, suggesting short strength work, and tracking sleep signals Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
       <category>AI Tools &amp; AI Hacks</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -484,7 +528,7 @@
       <title>Grok releases the first seven minutes of its AI-generated &#x27;Odyssey&#x27;</title>
       <link>https://techseconds.com/stories/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>The footage looks okay, as long as you&#x27;re not seeking artistry, inspiration, or human interest. Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
       <category>AI Tools &amp; AI Hacks</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -495,7 +539,7 @@
       <title>Even Benchmark thinks AI is eroding the venture pact against backing rivals</title>
       <link>https://techseconds.com/stories/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-r/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-r/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>Benchmark says the Valley&#x27;s rule against backing rivals is getting harder to keep. Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
       <category>AI Tools &amp; AI Hacks</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -506,7 +550,7 @@
       <title>Tesla reveals SpaceX-powered Roadster that flies and falls with style</title>
       <link>https://techseconds.com/stories/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>The new car used thrusters to leap over a Cybercab, Cybertruck, Tesla Semi, Model Y, and Model 3 at a demo in Texas. Tap to view the full interactive story on TechSeconds. #FutureTech #Robotics #QuantumComputing #Chips #Technology #Innovation #TechNews</description>
       <category>Future Tech &amp; Computing</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -517,7 +561,7 @@
       <title>I stopped cleaning up my Gmail inbox; here&#x27;s the email system that worked</title>
       <link>https://techseconds.com/stories/i-stopped-cleaning-up-my-gmail-inbox-heres-the-email-system-that-worke/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-stopped-cleaning-up-my-gmail-inbox-heres-the-email-system-that-worke/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>It automatically cleans up my Gmail inbox, but I never lose my emails Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
       <category>AI Tools &amp; AI Hacks</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -528,7 +572,7 @@
       <title>Your Galaxy phone comes with built-in Samsung One UI apps you shouldn&#x27;t ignore</title>
       <link>https://techseconds.com/stories/your-galaxy-phone-comes-with-built-in-samsung-one-ui-apps-you-shouldnt/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/your-galaxy-phone-comes-with-built-in-samsung-one-ui-apps-you-shouldnt/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 01:39:08 GMT</pubDate>
       <description>The One UI apps nobody talks about but everyone should use Tap to view the full interactive story on TechSeconds. #Smartphones #MobileTech #iPhone #SamsungGalaxy #TechLeaks #PhoneReviews #Android</description>
       <category>Smartphones, Leaks &amp; Reviews</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -556,50 +600,6 @@
       <dc:creator>TechSeconds</dc:creator>
       <enclosure url="https://techseconds.com/pins/chatgpt-can-peek-at-your-chrome-tabs-now.jpg" length="180000" type="image/jpeg" />
       <media:content url="https://techseconds.com/pins/chatgpt-can-peek-at-your-chrome-tabs-now.jpg" medium="image" width="1000" height="1500" />
-    </item>
-    <item>
-      <title>Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch</title>
-      <link>https://techseconds.com/stories/sega-pulls-total-war-shogun-2-remaster-from-sale-following-disastrous/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/sega-pulls-total-war-shogun-2-remaster-from-sale-following-disastrous/</guid>
-      <pubDate>Thu, 15 Oct 2026 18:35:55 GMT</pubDate>
-      <description>Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch where users complained about issues like bugs and upscaling that appears to have been done by AI. Complete Edition, a remaster of the 2011 strategy game, launched on Tuesday,... Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
-      <category>AI Tools &amp; AI Hacks</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://techseconds.com/pins/sega-pulls-total-war-shogun-2-remaster-from-sale-following-disastrous.jpg" length="180000" type="image/jpeg" />
-      <media:content url="https://techseconds.com/pins/sega-pulls-total-war-shogun-2-remaster-from-sale-following-disastrous.jpg" medium="image" width="1000" height="1500" />
-    </item>
-    <item>
-      <title>When it came to Cal AI&#x27;s viral success, a small army of influencers paid off</title>
-      <link>https://techseconds.com/stories/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:43:21 GMT</pubDate>
-      <description>The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March. Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
-      <category>AI Tools &amp; AI Hacks</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://techseconds.com/pins/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid.jpg" length="180000" type="image/jpeg" />
-      <media:content url="https://techseconds.com/pins/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid.jpg" medium="image" width="1000" height="1500" />
-    </item>
-    <item>
-      <title>Trump posts AI-edited photo to brag about White House restoration work</title>
-      <link>https://techseconds.com/stories/trump-posts-ai-edited-photo-to-brag-about-white-house-restoration-work/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/trump-posts-ai-edited-photo-to-brag-about-white-house-restoration-work/</guid>
-      <pubDate>Thu, 15 Oct 2026 17:09:33 GMT</pubDate>
-      <description>President Donald Trump posted a series of photos on Truth Social showing off renovations to the White House - but one of them appears to be modified with AI. The picture, which compares an old White House column to a &quot;restored&quot; one, has several discrepancies and was flagged by... Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
-      <category>AI Tools &amp; AI Hacks</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://techseconds.com/pins/trump-posts-ai-edited-photo-to-brag-about-white-house-restoration-work.jpg" length="180000" type="image/jpeg" />
-      <media:content url="https://techseconds.com/pins/trump-posts-ai-edited-photo-to-brag-about-white-house-restoration-work.jpg" medium="image" width="1000" height="1500" />
-    </item>
-    <item>
-      <title>Bluesky&#x27;s AI tool now lets you make games and apps to share on social</title>
-      <link>https://techseconds.com/stories/blueskys-ai-tool-now-lets-you-make-games-and-apps-to-share-on-social/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/blueskys-ai-tool-now-lets-you-make-games-and-apps-to-share-on-social/</guid>
-      <pubDate>Thu, 15 Oct 2026 15:57:16 GMT</pubDate>
-      <description>Bluesky&#x27;s Attie AI tool, which initially launched earlier this year as a way to use AI to build your own feeds, now lets you make &quot;small&quot; social apps like games, polls, and dashboards that you can then share with others as their own websites. In an interview at TechCrunch Disr... Tap to view the full interactive story on TechSeconds. #AITools #ArtificialIntelligence #ChatGPT #Gemini #TechHacks #MachineLearning #ProductivityHacks</description>
-      <category>AI Tools &amp; AI Hacks</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://techseconds.com/pins/blueskys-ai-tool-now-lets-you-make-games-and-apps-to-share-on-social.jpg" length="180000" type="image/jpeg" />
-      <media:content url="https://techseconds.com/pins/blueskys-ai-tool-now-lets-you-make-games-and-apps-to-share-on-social.jpg" medium="image" width="1000" height="1500" />
     </item>
   </channel>
 </rss>
