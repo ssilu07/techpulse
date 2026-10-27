@@ -7,7 +7,51 @@
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <description>TechSeconds is a premier technology publication and hardware intelligence lab delivering in-depth architectural breakdowns, expert hardware benchmarks, comprehensive buying guides, and high-speed visual web stories across artificial intelligence, silicon lithography, flagship smartphones, and future computing.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2026 11:49:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 15:27:20 GMT</lastBuildDate>
+    <item>
+      <title>We&#x27;ve had touchscreen laptops for years. Can Apple make them better?</title>
+      <link>https://techseconds.com/stories/weve-had-touchscreen-laptops-for-years-can-apple-make-them-better/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/weve-had-touchscreen-laptops-for-years-can-apple-make-them-better/</guid>
+      <pubDate>Tue, 27 Oct 2026 10:00:00 GMT</pubDate>
+      <description>A fridge is about to be merged with a toaster. Dogs and cats are soon to be living together. But it&#x27;s not mass hysteria; Apple is expected to finally announce a touchscreen MacBook tomorrow at its &quot;Pro and Tell&quot; event. A laptop with a touchscreen should be no big deal - we&#x27;ve ...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Apple is adding an AI chatbot to Pages, Keynote, and Numbers</title>
+      <link>https://techseconds.com/stories/apple-is-adding-an-ai-chatbot-to-pages-keynote-and-numbers/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/apple-is-adding-an-ai-chatbot-to-pages-keynote-and-numbers/</guid>
+      <pubDate>Tue, 27 Oct 2026 09:50:51 GMT</pubDate>
+      <description>Apple is bringing an AI assistant to its suite of productivity apps, including Keynote, Pages, and Numbers. The assistant, which is built on AI models from Apple and OpenAI, can understand a document&#x27;s context to perform tasks like designing, animating, and refining slides in ...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Apple updates the MacBook Pro with M6 chips</title>
+      <link>https://techseconds.com/stories/apple-updates-the-macbook-pro-with-m6-chips/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/apple-updates-the-macbook-pro-with-m6-chips/</guid>
+      <pubDate>Tue, 27 Oct 2026 09:04:28 GMT</pubDate>
+      <description>Apple is giving its entry-level MacBook Pro a spec bump. After upgrading the entry-level MacBook Pro with its M5 chip a year ago, Apple is refreshing the laptop today with the M6 chip, which the company launched in August as part of recent upgrades to the new Mac Mini. Last ye...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace</title>
+      <link>https://techseconds.com/stories/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-go/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-go/</guid>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
+      <description>Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85" medium="image" />
+    </item>
     <item>
       <title>Sterling Anderson doesn&#x27;t think humanoid robots should be building cars</title>
       <link>https://techseconds.com/stories/sterling-anderson-doesnt-think-humanoid-robots-should-be-building-cars/</link>
@@ -34,7 +78,7 @@
       <title>Nvidia backs Indian startup helping companies run AI models with fewer GPUs</title>
       <link>https://techseconds.com/stories/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -45,7 +89,7 @@
       <title>This T-Mobile deal could get you a Samsung Galaxy S26 Ultra for the price of a monthly cup of coffee</title>
       <link>https://techseconds.com/stories/this-t-mobile-deal-could-get-you-a-samsung-galaxy-s26-ultra-for-the-pr/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/this-t-mobile-deal-could-get-you-a-samsung-galaxy-s26-ultra-for-the-pr/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Simply add a line with an eligible data plan and score $1,200 off the phone.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -56,7 +100,7 @@
       <title>How OpenAI turned its coding tools into dots, an always-on personal assistant</title>
       <link>https://techseconds.com/stories/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-ass/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-ass/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else&#x27;s AI agent.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -67,7 +111,7 @@
       <title>6+ ways you can use your PlayStation 5&#x27;s USB ports</title>
       <link>https://techseconds.com/stories/6-ways-you-can-use-your-playstation-5s-usb-ports/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/6-ways-you-can-use-your-playstation-5s-usb-ports/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>You can do more than charge your controllers with the USB ports on your PS5. Here are some of the possibilities.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -78,7 +122,7 @@
       <title>Halide releases its first batch of updates for the iPhone Duo</title>
       <link>https://techseconds.com/stories/halide-releases-its-first-batch-of-updates-for-the-iphone-duo/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/halide-releases-its-first-batch-of-updates-for-the-iphone-duo/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Camera app Halide released a new update for the iPhone Duo that adds three different shooting modes based on what position the foldable is in.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -100,7 +144,7 @@
       <title>Cohere says Alibaba&#x27;s Qwen model tried to send a file to Beijing</title>
       <link>https://techseconds.com/stories/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>An AI model said it wouldn&#x27;t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it&#x27;s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -111,7 +155,7 @@
       <title>I use time blocking in Google Calendar to schedule my day; I&#x27;ve reclaimed hours of focus time</title>
       <link>https://techseconds.com/stories/i-use-time-blocking-in-google-calendar-to-schedule-my-day-ive-reclaime/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-use-time-blocking-in-google-calendar-to-schedule-my-day-ive-reclaime/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>This game-changing Google Calendar trick will up your productivity</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -122,7 +166,7 @@
       <title>iPhone Lockdown Mode: The pros and cons of enabling Apple&#x27;s security feature</title>
       <link>https://techseconds.com/stories/iphone-lockdown-mode-the-pros-and-cons-of-enabling-apples-security-fea/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/iphone-lockdown-mode-the-pros-and-cons-of-enabling-apples-security-fea/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Lockdown Mode enables extreme protections for those most at risk, but it&#x27;s overkill for most people.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -155,7 +199,7 @@
       <title>Fusion startups are giving the government shares in exchange for awards. Is it worth it?</title>
       <link>https://techseconds.com/stories/fusion-startups-are-giving-the-government-shares-in-exchange-for-award/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/fusion-startups-are-giving-the-government-shares-in-exchange-for-award/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Fusion startups face a new challenge, one unrelated to plasma physics: Give the government shares in exchange for funding awards or go it alone?</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -166,7 +210,7 @@
       <title>This startup&#x27;s self-driving excavators help dig up $600M in new funding</title>
       <link>https://techseconds.com/stories/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Bedrock Robotics, which is now valued at $4.1 billion, is particularly focused on autonomous excavators, in part because of a growing shortage of skilled operators.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -210,7 +254,7 @@
       <title>Uh oh, it sounds like the iPhone Duo keeps cracking and users aren&#x27;t happy about it</title>
       <link>https://techseconds.com/stories/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-hap/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-hap/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>A small number of early adopters of the much hyped new foldable phone from Apple have complained of screens cracking.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -254,7 +298,7 @@
       <title>Anthropic officially files for its public debut</title>
       <link>https://techseconds.com/stories/anthropic-officially-files-for-its-public-debut/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/anthropic-officially-files-for-its-public-debut/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -265,7 +309,7 @@
       <title>Elvis Presley&#x27;s estate is suing Anthropic over copyright infringement</title>
       <link>https://techseconds.com/stories/elvis-presleys-estate-is-suing-anthropic-over-copyright-infringement/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/elvis-presleys-estate-is-suing-anthropic-over-copyright-infringement/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>The latest AI copyright infringement suit centers around a single music artist from decades past: Elvis.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -276,7 +320,7 @@
       <title>iFixit&#x27;s teardown of the iPhone Duo shows potential causes for cracked screens</title>
       <link>https://techseconds.com/stories/ifixits-teardown-of-the-iphone-duo-shows-potential-causes-for-cracked/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/ifixits-teardown-of-the-iphone-duo-shows-potential-causes-for-cracked/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>iFixit&#x27;s teardown of the iPhone Duo has arrived and it&#x27;s especially interesting because of the device&#x27;s complex folding display.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -287,7 +331,7 @@
       <title>Which Android phone is the closest equivalent to the iPhone Duo?</title>
       <link>https://techseconds.com/stories/which-android-phone-is-the-closest-equivalent-to-the-iphone-duo/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/which-android-phone-is-the-closest-equivalent-to-the-iphone-duo/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Can we find the iPhone Duo&#x27;s perfect Android match?</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -298,7 +342,7 @@
       <title>Most Windows users are seriously underusing this powerful desktop feature</title>
       <link>https://techseconds.com/stories/most-windows-users-are-seriously-underusing-this-powerful-desktop-feat/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/most-windows-users-are-seriously-underusing-this-powerful-desktop-feat/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Windows has an option to give you more working desktop space, but you might have overlooked it.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -309,7 +353,7 @@
       <title>Does TSA actually allow AirTags in your luggage? Here&#x27;s what the rules say</title>
       <link>https://techseconds.com/stories/does-tsa-actually-allow-airtags-in-your-luggage-heres-what-the-rules-s/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/does-tsa-actually-allow-airtags-in-your-luggage-heres-what-the-rules-s/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Airlines don&#x27;t want you to put batteries in your checked luggage, but how does this affect tiny batteries like those in AirTags?</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -320,7 +364,7 @@
       <title>AI delivers &#x27;zero financial payoff&#x27; to most companies, Apollo economist says</title>
       <link>https://techseconds.com/stories/ai-delivers-zero-financial-payoff-to-most-companies-apollo-economist-s/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/ai-delivers-zero-financial-payoff-to-most-companies-apollo-economist-s/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>&quot;Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.&quot;</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -331,7 +375,7 @@
       <title>TechCrunch Mobility: Blue-green is the color of autonomy</title>
       <link>https://techseconds.com/stories/techcrunch-mobility-blue-green-is-the-color-of-autonomy/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/techcrunch-mobility-blue-green-is-the-color-of-autonomy/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -342,7 +386,7 @@
       <title>After testing all major mobile browsers, this one finally earned my default spot</title>
       <link>https://techseconds.com/stories/after-testing-all-major-mobile-browsers-this-one-finally-earned-my-def/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/after-testing-all-major-mobile-browsers-this-one-finally-earned-my-def/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Looking beyond Chrome paid off with the best browser experience</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -353,7 +397,7 @@
       <title>I trained for a marathon with the Pixel Watch 5; Google&#x27;s Health Coach guided me all the way through</title>
       <link>https://techseconds.com/stories/i-trained-for-a-marathon-with-the-pixel-watch-5-googles-health-coach-g/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-trained-for-a-marathon-with-the-pixel-watch-5-googles-health-coach-g/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Conversational planning fits a busy life by rescheduling runs, suggesting short strength work, and tracking sleep signals</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -397,7 +441,7 @@
       <title>Grok releases the first seven minutes of its AI-generated &#x27;Odyssey&#x27;</title>
       <link>https://techseconds.com/stories/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>The footage looks okay, as long as you&#x27;re not seeking artistry, inspiration, or human interest.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -408,7 +452,7 @@
       <title>Even Benchmark thinks AI is eroding the venture pact against backing rivals</title>
       <link>https://techseconds.com/stories/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-r/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-r/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Benchmark says the Valley&#x27;s rule against backing rivals is getting harder to keep.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -419,7 +463,7 @@
       <title>Tesla reveals SpaceX-powered Roadster that flies and falls with style</title>
       <link>https://techseconds.com/stories/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>The new car used thrusters to leap over a Cybercab, Cybertruck, Tesla Semi, Model Y, and Model 3 at a demo in Texas.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -430,7 +474,7 @@
       <title>I stopped cleaning up my Gmail inbox; here&#x27;s the email system that worked</title>
       <link>https://techseconds.com/stories/i-stopped-cleaning-up-my-gmail-inbox-heres-the-email-system-that-worke/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-stopped-cleaning-up-my-gmail-inbox-heres-the-email-system-that-worke/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>It automatically cleans up my Gmail inbox, but I never lose my emails</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -441,7 +485,7 @@
       <title>Your Galaxy phone comes with built-in Samsung One UI apps you shouldn&#x27;t ignore</title>
       <link>https://techseconds.com/stories/your-galaxy-phone-comes-with-built-in-samsung-one-ui-apps-you-shouldnt/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/your-galaxy-phone-comes-with-built-in-samsung-one-ui-apps-you-shouldnt/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>The One UI apps nobody talks about but everyone should use</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -485,7 +529,7 @@
       <title>When it came to Cal AI&#x27;s viral success, a small army of influencers paid off</title>
       <link>https://techseconds.com/stories/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -529,7 +573,7 @@
       <title>Amazon devices chief Panos Panay on the importance of failure and bouncing back from it</title>
       <link>https://techseconds.com/stories/amazon-devices-chief-panos-panay-on-the-importance-of-failure-and-boun/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/amazon-devices-chief-panos-panay-on-the-importance-of-failure-and-boun/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Panay said that it&#x27;s possible to recover and learn from all sorts of failures, even catastrophic ones, when building products.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -573,7 +617,7 @@
       <title>Volvo makes a bigger bet on Nvidia</title>
       <link>https://techseconds.com/stories/volvo-makes-a-bigger-bet-on-nvidia/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/volvo-makes-a-bigger-bet-on-nvidia/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Volvo is leveling up its automated driving system through an expansion of its nearly decade-long partnership with Nvidia that will extend beyond its battery electric vehicles.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -617,56 +661,12 @@
       <title>Amazon&#x27;s Bee launches two new personal AI devices, starting at $75</title>
       <link>https://techseconds.com/stories/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 15:27:20 GMT</pubDate>
       <description>Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping,...</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
       <enclosure url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85" length="120000" type="image/jpeg" />
       <media:content url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Your secrets aren&#x27;t safe with this cute robot toy - they&#x27;re on Chinese servers ready to be hacked</title>
-      <link>https://techseconds.com/stories/your-secrets-arent-safe-with-this-cute-robot-toy-theyre-on-chinese-ser/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/your-secrets-arent-safe-with-this-cute-robot-toy-theyre-on-chinese-ser/</guid>
-      <pubDate>Thu, 15 Oct 2026 07:00:00 GMT</pubDate>
-      <description>There&#x27;s a new digital pet in town - a cute little marshmallow of a robot that can change its cartoony expressions to match your mood. But if you or your kids talk to &quot;Eiliko&quot; over Wi-Fi, it&#x27;ll phone home to China. Its AI companion can store literally everything you tell it on ...</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Big Walk skipped Xbox to boycott Microsoft&#x27;s involvement with Israel</title>
-      <link>https://techseconds.com/stories/big-walk-skipped-xbox-to-boycott-microsofts-involvement-with-israel/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/big-walk-skipped-xbox-to-boycott-microsofts-involvement-with-israel/</guid>
-      <pubDate>Thu, 15 Oct 2026 06:05:07 GMT</pubDate>
-      <description>Big Walk&#x27;s co-op multiplayer walking adventure has proved popular since launching in August, but Xbox players have been excluded from the fun - and now the game&#x27;s creators have explained why. Developer House House said in a blog post that it decided not to release Big Walk on ...</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>I can&#x27;t wait for Apple to show Google how to make a better smart speaker</title>
-      <link>https://techseconds.com/stories/i-cant-wait-for-apple-to-show-google-how-to-make-a-better-smart-speake/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/i-cant-wait-for-apple-to-show-google-how-to-make-a-better-smart-speake/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
-      <description>Apple&#x27;s new home hub could be the wake-up call Google needs to fix its frustrating smart home ecosystem</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Apple I &#x27;Hatfield&#x27; computer signed by Woz fetches a record $1.15 million at auction</title>
-      <link>https://techseconds.com/stories/apple-i-hatfield-computer-signed-by-woz-fetches-a-record-115-million-a/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/apple-i-hatfield-computer-signed-by-woz-fetches-a-record-115-million-a/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:49:16 GMT</pubDate>
-      <description>The famous Apple I &quot;Hatfield&quot; computer signed by Steve Wozniak just sold to an unknown buyer for a record $1,148,200.</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&amp;q=85" medium="image" />
     </item>
   </channel>
 </rss>
