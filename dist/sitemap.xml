@@ -234,6 +234,46 @@
     </image:image>
   </url>
   <url>
+    <loc>https://techseconds.com/articles/reddit-is-getting-a-for-you-feed/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>Reddit is getting a For You feed</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/sony-has-new-transparent-ps5-controllers-launching-next-year/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&amp;q=85</image:loc>
+      <image:title>Sony has new transparent PS5 controllers launching next year</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/8bitdos-new-xbox-elite-style-controller-sets-a-high-bar-for-customizat/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=1280&amp;q=85</image:loc>
+      <image:title>8BitDo&apos;s new Xbox Elite-style controller sets a high bar for customization</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85</image:loc>
+      <image:title>AI execs may be too out of touch to build for the general public</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://techseconds.com/articles/everything-announced-at-amazons-october-2026-hardware-launch/</loc>
     <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -2671,6 +2711,46 @@
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&amp;q=85</image:loc>
       <image:title>Xbox Next-Gen Hybrid Console: Bridging Native Windows PC Games &amp; Living Room 4K</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/reddit-is-getting-a-for-you-feed/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>Reddit is getting a For You feed</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/sony-has-new-transparent-ps5-controllers-launching-next-year/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&amp;q=85</image:loc>
+      <image:title>Sony has new transparent PS5 controllers launching next year</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/8bitdos-new-xbox-elite-style-controller-sets-a-high-bar-for-customizat/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?w=1280&amp;q=85</image:loc>
+      <image:title>8BitDo&apos;s new Xbox Elite-style controller sets a high bar for customization</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85</image:loc>
+      <image:title>AI execs may be too out of touch to build for the general public</image:title>
     </image:image>
   </url>
   <url>
