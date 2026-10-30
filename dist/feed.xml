@@ -7,7 +7,51 @@
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <description>TechSeconds is a premier technology publication and hardware intelligence lab delivering in-depth architectural breakdowns, expert hardware benchmarks, comprehensive buying guides, and high-speed visual web stories across artificial intelligence, silicon lithography, flagship smartphones, and future computing.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2026 16:02:39 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 18:53:58 GMT</lastBuildDate>
+    <item>
+      <title>Google&#x27;s satellite AI server transmits its first response to Earth</title>
+      <link>https://techseconds.com/stories/googles-satellite-ai-server-transmits-its-first-response-to-earth/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/googles-satellite-ai-server-transmits-its-first-response-to-earth/</guid>
+      <pubDate>Fri, 30 Oct 2026 14:21:38 GMT</pubDate>
+      <description>Google&#x27;s AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite&#x27;s Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku ...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Starbucks wants to use AI to show you a &#x27;personalized digital menu&#x27; at the drive-thru</title>
+      <link>https://techseconds.com/stories/starbucks-wants-to-use-ai-to-show-you-a-personalized-digital-menu-at-t/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/starbucks-wants-to-use-ai-to-show-you-a-personalized-digital-menu-at-t/</guid>
+      <pubDate>Fri, 30 Oct 2026 13:38:04 GMT</pubDate>
+      <description>Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore &quot;experiences that recognize participating customers as they arrive, present ...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>The delightfully messy state of Apple gadgets</title>
+      <link>https://techseconds.com/stories/the-delightfully-messy-state-of-apple-gadgets/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/the-delightfully-messy-state-of-apple-gadgets/</guid>
+      <pubDate>Fri, 30 Oct 2026 13:25:20 GMT</pubDate>
+      <description>The iPhone has more screens! The MacBook has a touchscreen! The HomeView does CarPlay apps! For the first time in a long time, Apple is in a period of unabashed gadget experimentation, and while the final results aren&#x27;t always perfect, it&#x27;s fun to watch the most successful pro...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Satlyt takes another step toward turning satellites into space data centers</title>
+      <link>https://techseconds.com/stories/satlyt-takes-another-step-toward-turning-satellites-into-space-data-ce/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/satlyt-takes-another-step-toward-turning-satellites-into-space-data-ce/</guid>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
+      <description>Satlyt ran a successful test this month bringing it closer to turning spacecraft, starting with satellites, into virtual data centers.</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1280&amp;q=85" medium="image" />
+    </item>
     <item>
       <title>Pope Leo calls for the disarmament of AI: &#x27;Machines are tools, not persons&#x27;</title>
       <link>https://techseconds.com/stories/pope-leo-calls-for-the-disarmament-of-ai-machines-are-tools-not-person/</link>
@@ -45,7 +89,7 @@
       <title>North Korean hackers blamed for stealing record $6.3B in Binance breach</title>
       <link>https://techseconds.com/stories/north-korean-hackers-blamed-for-stealing-record-63b-in-binance-breach/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/north-korean-hackers-blamed-for-stealing-record-63b-in-binance-breach/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>Hackers working for North Korea are suspected of hacking a Binance employee&#x27;s laptop, which allowed the theft of billions in crypto.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -67,7 +111,7 @@
       <title>I finally fixed my Galaxy Watch 8&#x27;s broken sleep data by digging into Samsung&#x27;s deepest menus</title>
       <link>https://techseconds.com/stories/i-finally-fixed-my-galaxy-watch-8s-broken-sleep-data-by-digging-into-s/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-finally-fixed-my-galaxy-watch-8s-broken-sleep-data-by-digging-into-s/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>My Galaxy Watch 8 was useless at night until I changed this</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -78,7 +122,7 @@
       <title>Lenovo Googlebook 15 review: Your Android phone&#x27;s new best friend</title>
       <link>https://techseconds.com/stories/lenovo-googlebook-15-review-your-android-phones-new-best-friend/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/lenovo-googlebook-15-review-your-android-phones-new-best-friend/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>Despite Lenovo providing excellent hardware for Google&#x27;s new laptop platform, Googlebook OS will only impress Android die-hards.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -89,7 +133,7 @@
       <title>Waymo and Toyota will soon start testing their robotaxis in Japan</title>
       <link>https://techseconds.com/stories/waymo-and-toyota-will-soon-start-testing-their-robotaxis-in-japan/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/waymo-and-toyota-will-soon-start-testing-their-robotaxis-in-japan/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>Waymo and Toyota will start testing autonomous bZ4X vehicles in Japan next year. (edited)</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -100,7 +144,7 @@
       <title>Waymo taps Toyota to supply robotaxis for Japan and the U.K.</title>
       <link>https://techseconds.com/stories/waymo-taps-toyota-to-supply-robotaxis-for-japan-and-the-uk/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/waymo-taps-toyota-to-supply-robotaxis-for-japan-and-the-uk/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>Waymo will begin testing self-driving versions of Toyota&#x27;s electric bZ4X vehicles in Japan next year as part of a broader partnership with the automaker.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -111,7 +155,7 @@
       <title>Binance hacked for an estimated $6.3 billion in record crypto theft</title>
       <link>https://techseconds.com/stories/binance-hacked-for-an-estimated-63-billion-in-record-crypto-theft/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/binance-hacked-for-an-estimated-63-billion-in-record-crypto-theft/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>Cryptocurrency exchange Binance has been hit with a record $6.3 billion hack.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -122,7 +166,7 @@
       <title>Sony is working on a film adaptation of viral indie horror game Mouthwashing</title>
       <link>https://techseconds.com/stories/sony-is-working-on-a-film-adaptation-of-viral-indie-horror-game-mouthw/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/sony-is-working-on-a-film-adaptation-of-viral-indie-horror-game-mouthw/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>The adaptation will be directed by Karyn Kusama, and scripted by the writers of The Invitation.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -133,7 +177,7 @@
       <title>VRChat says it&#x27;s not adding AI labels despite user survey showing people want that</title>
       <link>https://techseconds.com/stories/vrchat-says-its-not-adding-ai-labels-despite-user-survey-showing-peopl/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/vrchat-says-its-not-adding-ai-labels-despite-user-survey-showing-peopl/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>Trying to make everyone happy could make no one happy.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -166,7 +210,7 @@
       <title>You don&#x27;t need to believe in a god to get a religious exemption from using AI at work</title>
       <link>https://techseconds.com/stories/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-us/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-us/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -177,7 +221,7 @@
       <title>Andy Jassy says Prime Video is on track to earn &#x27;tens of billions of dollars&#x27;</title>
       <link>https://techseconds.com/stories/andy-jassy-says-prime-video-is-on-track-to-earn-tens-of-billions-of-do/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/andy-jassy-says-prime-video-is-on-track-to-earn-tens-of-billions-of-do/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>The success of blockbuster hits like Project Hail Mary and Verity is only part of the story, Amazon&#x27;s CEO says.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -221,7 +265,7 @@
       <title>Binance pauses withdrawals as hackers suspected of stealing billions in crypto</title>
       <link>https://techseconds.com/stories/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-i/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-i/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>Some estimates say hackers stole billions in crypto from Binance, the world&#x27;s largest cryptocurrency exchange, during a cyberattack on Thursday.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -265,7 +309,7 @@
       <title>Meta quietly launches an AI fashion app called Style Sketch</title>
       <link>https://techseconds.com/stories/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>The app connects to Instagram to build a virtual closet from photos you&#x27;ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -309,7 +353,7 @@
       <title>Agent identity startup Mintive lands Cowboy Ventures, Coatue, angels Jeff Dean, Andrej Karpathy</title>
       <link>https://techseconds.com/stories/agent-identity-startup-mintive-lands-cowboy-ventures-coatue-angels-jef/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/agent-identity-startup-mintive-lands-cowboy-ventures-coatue-angels-jef/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>Mintive was founded by two engineers who have been working on AI for decades through Google Brain and Coursera. It&#x27;s platform promises to help IT easily control enterprise agents.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -342,7 +386,7 @@
       <title>I installed One UI 9 on my Galaxy S24; it feels like I got a Galaxy S26 upgrade for free</title>
       <link>https://techseconds.com/stories/i-installed-one-ui-9-on-my-galaxy-s24-it-feels-like-i-got-a-galaxy-s26/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-installed-one-ui-9-on-my-galaxy-s24-it-feels-like-i-got-a-galaxy-s26/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>Most of the S26&#x27;s AI tools now run on a two-year-old S24 Ultra</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -353,7 +397,7 @@
       <title>Forget the iPhone Duo: this AT&amp;T deal could land you $1,200 off the Galaxy Z Fold 8 right now</title>
       <link>https://techseconds.com/stories/forget-the-iphone-duo-this-att-deal-could-land-you-1200-off-the-galaxy/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/forget-the-iphone-duo-this-att-deal-could-land-you-1200-off-the-galaxy/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>That&#x27;s a major discount on one of the year&#x27;s most innovative devices.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -375,7 +419,7 @@
       <title>FCC chair wants to let prisons jam illegal cellphones</title>
       <link>https://techseconds.com/stories/fcc-chair-wants-to-let-prisons-jam-illegal-cellphones/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/fcc-chair-wants-to-let-prisons-jam-illegal-cellphones/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>The agency will vote next month on relaxing its long-standing opposition to jammers.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -386,7 +430,7 @@
       <title>Apple&#x27;s PROLED XDR Display has a cringy name but incredible specs</title>
       <link>https://techseconds.com/stories/apples-proled-xdr-display-has-a-cringy-name-but-incredible-specs/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/apples-proled-xdr-display-has-a-cringy-name-but-incredible-specs/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>With all the fuss about Apple finally releasing a touchscreen MacBook Pro, you may have forgotten about the OLED part.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -397,7 +441,7 @@
       <title>The PlayStation 5 just might be Sony&#x27;s final Blu-Ray player</title>
       <link>https://techseconds.com/stories/the-playstation-5-just-might-be-sonys-final-blu-ray-player/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/the-playstation-5-just-might-be-sonys-final-blu-ray-player/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>Between Sony&#x27;s plan to end PlayStation disc production and discontinuing its Blu-ray players, the future looks grim for physical media.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -419,7 +463,7 @@
       <title>Upwind raises $400M after walking away from Datadog acquisition offer</title>
       <link>https://techseconds.com/stories/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -430,7 +474,7 @@
       <title>Apple&#x27;s touchscreen MacBook Pro pushes laptop pricing to a new extreme</title>
       <link>https://techseconds.com/stories/apples-touchscreen-macbook-pro-pushes-laptop-pricing-to-a-new-extreme/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/apples-touchscreen-macbook-pro-pushes-laptop-pricing-to-a-new-extreme/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>Prepare to cough up around $14,549 if you want the new touchscreen MacBook Pro to have every upgrade.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -441,7 +485,7 @@
       <title>Chrono beats Pixel&#x27;s clock app with open source features that help me wake up on time</title>
       <link>https://techseconds.com/stories/chrono-beats-pixels-clock-app-with-open-source-features-that-help-me-w/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/chrono-beats-pixels-clock-app-with-open-source-features-that-help-me-w/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>Chrono is a better clock app than the default Pixel clock</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -485,7 +529,7 @@
       <title>Google expands AI Search ads globally as core ad growth slows</title>
       <link>https://techseconds.com/stories/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>The announcement came alongside parent company Alphabet&#x27;s third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -529,7 +573,7 @@
       <title>Chrome&#x27;s AI-powered Autofill can now dig through your Gmail to fill out forms</title>
       <link>https://techseconds.com/stories/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -573,7 +617,7 @@
       <title>AI execs may be too out of touch to build for the general public</title>
       <link>https://techseconds.com/stories/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -617,56 +661,12 @@
       <title>T-Mobile&#x27;s free Galaxy Watch 9 deal may be nearing an end - how to claim yours this week</title>
       <link>https://techseconds.com/stories/t-mobiles-free-galaxy-watch-9-deal-may-be-nearing-an-end-how-to-claim/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/t-mobiles-free-galaxy-watch-9-deal-may-be-nearing-an-end-how-to-claim/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2026 18:53:58 GMT</pubDate>
       <description>The required service plan only costs $15 per month, no trade-in necessary.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
       <enclosure url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85" length="120000" type="image/jpeg" />
       <media:content url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Jio shares surge 21% in market debut after blockbuster India IPO</title>
-      <link>https://techseconds.com/stories/jio-shares-surge-21-in-market-debut-after-blockbuster-india-ipo/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/jio-shares-surge-21-in-market-debut-after-blockbuster-india-ipo/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
-      <description>Jio has debuted as India&#x27;s second-most valuable listed company, behind its parent, Reliance Industries.</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Meta&#x27;s Waddle World is a Tamagotchi-like AI pet app</title>
-      <link>https://techseconds.com/stories/metas-waddle-world-is-a-tamagotchi-like-ai-pet-app/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/metas-waddle-world-is-a-tamagotchi-like-ai-pet-app/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
-      <description>Meta describes Waddle World as a &#x27;daily journal disguised as a pet.&#x27;</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>iOS 27.2 brings two new features to Apple&#x27;s CarPlay</title>
-      <link>https://techseconds.com/stories/ios-272-brings-two-new-features-to-apples-carplay/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/ios-272-brings-two-new-features-to-apples-carplay/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
-      <description>iOS 27.2 comes with some changes for Apple CarPlay, too.</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>This one missing feature from the Slate truck might be a dealbreaker for truck enthusiasts</title>
-      <link>https://techseconds.com/stories/this-one-missing-feature-from-the-slate-truck-might-be-a-dealbreaker-f/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/this-one-missing-feature-from-the-slate-truck-might-be-a-dealbreaker-f/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:02:39 GMT</pubDate>
-      <description>The Slate Truck is known for offering hundreds of customization options, but one common truck option isn&#x27;t available (yet.)</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85" medium="image" />
     </item>
   </channel>
 </rss>
