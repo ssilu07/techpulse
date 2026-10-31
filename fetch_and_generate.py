@@ -43,7 +43,7 @@ def copy_static_assets(src_dir: Path, dist_dir: Path):
     target_static = dist_dir / "static"
     if target_static.exists():
         shutil.rmtree(target_static)
-    shutil.copytree(src_dir, target_static)
+    shutil.copytree(src_dir, target_static, ignore=shutil.ignore_patterns("pins"))
     print(f"[+] Static assets deployed to: {target_static}")
 
     root_ads_txt = src_dir.parent / "ads.txt"
