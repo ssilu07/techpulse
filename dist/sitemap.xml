@@ -234,6 +234,56 @@
     </image:image>
   </url>
   <url>
+    <loc>https://techseconds.com/articles/google-joins-openai-and-anthropic-in-promising-new-scraping-controls/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
+      <image:title>Google joins OpenAI and Anthropic in promising new scraping controls</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/i-replaced-google-photos-with-an-offline-ai-gallery-finding-old-photos/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85</image:loc>
+      <image:title>I replaced Google Photos with an offline AI gallery; finding old photos is finally easy</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/new-tvos-272-features-to-try-for-an-upgraded-apple-tv-experience/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&amp;q=85</image:loc>
+      <image:title>New tvOS 27.2 features to try for an upgraded Apple TV experience</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/the-wikimedia-foundation-weighs-in-on-the-nyts-case-against-openai/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85</image:loc>
+      <image:title>The Wikimedia Foundation weighs in on the NYT&apos;s case against OpenAI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/the-death-stranding-animes-first-teaser-trailer-arrives-ahead-of-its-d/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>The Death Stranding anime&apos;s first teaser trailer arrives ahead of its Disney+ debut</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://techseconds.com/articles/apple-intelligence-is-finally-coming-to-china-with-ios-273/</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -3311,6 +3361,56 @@
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&amp;q=85</image:loc>
       <image:title>Xbox Next-Gen Hybrid Console: Bridging Native Windows PC Games &amp; Living Room 4K</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/google-joins-openai-and-anthropic-in-promising-new-scraping-controls/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&amp;q=85</image:loc>
+      <image:title>Google joins OpenAI and Anthropic in promising new scraping controls</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/i-replaced-google-photos-with-an-offline-ai-gallery-finding-old-photos/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85</image:loc>
+      <image:title>I replaced Google Photos with an offline AI gallery; finding old photos is finally easy</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/new-tvos-272-features-to-try-for-an-upgraded-apple-tv-experience/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&amp;q=85</image:loc>
+      <image:title>New tvOS 27.2 features to try for an upgraded Apple TV experience</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/the-wikimedia-foundation-weighs-in-on-the-nyts-case-against-openai/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85</image:loc>
+      <image:title>The Wikimedia Foundation weighs in on the NYT&apos;s case against OpenAI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/the-death-stranding-animes-first-teaser-trailer-arrives-ahead-of-its-d/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>The Death Stranding anime&apos;s first teaser trailer arrives ahead of its Disney+ debut</image:title>
     </image:image>
   </url>
   <url>
