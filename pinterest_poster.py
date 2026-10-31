@@ -70,32 +70,32 @@ CATEGORY_THEMES = {
     "ai-tools": {
         "accent": (6, 182, 212),       # Neon Cyan
         "label": "AI TOOLS & BENCHMARKS",
-        "cta": "Read Review ↗",
+        "cta": "EXPLORE AI PROMPTS & BENCHMARKS ->",
     },
     "smartphones": {
         "accent": (245, 158, 11),      # Amber / Gold
         "label": "SMARTPHONES & SILICON",
-        "cta": "Read Review ↗",
+        "cta": "SEE CAMERA & BATTERY TEST ->",
     },
     "laptops-pc": {
         "accent": (16, 185, 129),      # Emerald Green
         "label": "LAPTOPS & SILICON TECH",
-        "cta": "Read Review ↗",
+        "cta": "READ FULL BENCHMARK REPORT ->",
     },
     "gadgets": {
         "accent": (249, 115, 22),      # Coral Orange
         "label": "GADGETS & WEARABLES",
-        "cta": "Explore Specs ↗",
+        "cta": "EXPLORE SPECS & LAB VERDICT ->",
     },
     "gaming-gear": {
         "accent": (239, 68, 68),       # Neon Crimson
         "label": "GAMING HARDWARE",
-        "cta": "Benchmark Report ↗",
+        "cta": "SEE FULL GAMING BENCHMARKS ->",
     },
     "future-tech": {
         "accent": (132, 204, 22),      # Neon Lime
         "label": "FUTURE TECH & INNOVATION",
-        "cta": "Read Breakdown ↗",
+        "cta": "READ COMPLETE LAB REPORT ->",
     },
 }
 
@@ -245,10 +245,22 @@ def generate_editorial_pin_image(
         draw.text((70, y_cursor), s_line, fill=(148, 163, 184), font=f_sub)
         y_cursor += 40
 
-    # 6. Minimalist Studio Divider & Footer (No button boxes)
-    draw.line([(70, 1390), (930, 1390)], fill=(30, 41, 59), width=1)
-    draw.text((70, 1420), "techseconds.com/articles", fill=(100, 116, 139), font=f_footer)
-    draw.text((730, 1420), cta_label, fill=c_accent, font=f_footer)
+    # 6. High-Converting Tactile Click-Magnet Action Button (Drives Outbound Visits)
+    f_btn = get_font_safe("Outfit-Variable.ttf", 26, "Bold")
+    btn_y = 1310
+    btn_w = 860
+    btn_h = 72
+    btn_x = 70
+
+    # Draw vibrant solid pill in category accent color with dark high-contrast readable text
+    draw.rounded_rectangle([btn_x, btn_y, btn_x + btn_w, btn_y + btn_h], radius=36, fill=c_accent)
+    btn_text = cta_label
+    btn_text_w = draw.textlength(btn_text, font=f_btn)
+    draw.text((btn_x + (btn_w - btn_text_w) // 2, btn_y + 19), btn_text, fill=(7, 10, 15), font=f_btn)
+
+    # Minimalist sub-footer below button
+    draw.text((70, 1425), "techseconds.com/articles", fill=(100, 116, 139), font=f_footer)
+    draw.text((680, 1425), "INDEPENDENT BENCHMARKS // 2026", fill=(71, 85, 105), font=f_footer)
 
     # Save high-res JPEG
     pin_rgb = pin.convert("RGB")
@@ -298,7 +310,7 @@ def generate_pinterest_feed_xml(
             subtitle = art.get("subtitle", "")
             cat_id = art.get("category_id", "future-tech")
             hashtags = PINTEREST_HASHTAGS.get(cat_id, "#Tech #Innovation #News")
-            desc_text = f"{subtitle} Read the full technical breakdown on {SITE_NAME}. {hashtags}"
+            desc_text = f"READ FULL REPORT -> Tap the link to view complete real-world benchmark data, specs, battery test and price analysis on {SITE_NAME}! {subtitle} {hashtags}"
             desc = html_lib.escape(desc_text[:490])
             category = html_lib.escape(get_pinterest_board_for_category(cat_id))
 
@@ -332,7 +344,7 @@ def generate_pinterest_feed_xml(
         summary = s.get("summary", "")
         cat_id = s.get("category_id", "future-tech")
         hashtags = PINTEREST_HASHTAGS.get(cat_id, "#Tech #FutureTech #News")
-        desc_text = f"{summary} Tap to view the full interactive story on {SITE_NAME}. {hashtags}"
+        desc_text = f"EXPLORE STORY -> Tap the link to view the complete interactive breakdown, specs and editorial insights on {SITE_NAME}! {summary} {hashtags}"
         desc = html_lib.escape(desc_text[:490])
         category = html_lib.escape(get_pinterest_board_for_category(cat_id))
 
@@ -400,7 +412,7 @@ def generate_pinterest_bulk_csv(
             cat_id = art.get("category_id", "future-tech")
             board = get_pinterest_board_for_category(cat_id)
             hashtags = PINTEREST_HASHTAGS.get(cat_id, "#Tech #Innovation")
-            desc = f"{subtitle} Explore the full architectural benchmarks and specs on {SITE_NAME}. {hashtags}"[:495]
+            desc = f"READ FULL REPORT -> Tap the link to view complete real-world benchmark data, specs, battery test and price analysis on {SITE_NAME}! {subtitle} {hashtags}"[:495]
             raw_img = art.get("image", f"{SITE_URL}/static/images/og-banner.png")
             media_url = get_pin_media_url(slug, raw_img)
             rows.append([title, media_url, board, "", desc, link, ""])
@@ -414,7 +426,7 @@ def generate_pinterest_bulk_csv(
         cat_id = s.get("category_id", "future-tech")
         board = get_pinterest_board_for_category(cat_id)
         hashtags = PINTEREST_HASHTAGS.get(cat_id, "#Tech #News")
-        desc = f"{summary} Read this interactive visual web story on {SITE_NAME}. {hashtags}"[:495]
+        desc = f"EXPLORE STORY -> Tap the link to view the complete interactive breakdown, specs and editorial insights on {SITE_NAME}! {summary} {hashtags}"[:495]
         raw_img = s.get("image", f"{SITE_URL}/static/images/og-banner.png")
         media_url = get_pin_media_url(slug, raw_img)
         rows.append([title, media_url, board, "", desc, link, ""])
