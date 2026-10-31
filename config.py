@@ -223,15 +223,15 @@ CATEGORY_FALLBACK_IMAGES = {
 # 100% Tested & Verified Vertical High-Resolution Tech Imagery Catalog (Unsplash CDN, 200 OK)
 VERIFIED_CATEGORY_IMAGES = {
     "ai-tools": [
-        "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&q=85", # Cyber neon abstract
-        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85", # Matrix code
+        "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=1280&q=85", # AI Datacenter server racks
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85", # Matrix terminal code
         "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85", # Cyber server glow
         "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85", # Code on monitor
         "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85", # Python code screen
         "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&q=85", # Coding syntax
         "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&q=85", # Developer coding
-        "https://images.unsplash.com/photo-1618042164219-62c820f10723?w=1280&q=85", # 3D neural shapes
-        "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1280&q=85", # Glowing geometry
+        "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1280&q=85", # Humanoid AI robotics hardware
+        "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?w=1280&q=85", # High-performance AI GPU heatsink
     ],
     "smartphones": [
         "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&q=85", # iPhone flagship back
@@ -267,15 +267,15 @@ VERIFIED_CATEGORY_IMAGES = {
         "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1280&q=85", # Smart mobile gadget
     ],
     "future-tech": [
-        "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1280&q=85", # Microchip circuit
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=1280&q=85", # Socketed CPU processor chip
+        "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=1280&q=85", # Silicon wafer microchip die
+        "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=1280&q=85", # Motherboard PCIe chip slots
+        "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1280&q=85", # Microchip circuit board
         "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1280&q=85", # Robotics AI arm
-        "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1280&q=85", # Quantum computing lights
-        "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1280&q=85", # Science lab
-        "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1280&q=85", # Tech research
-        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1280&q=85", # Robotics engineer
-        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1280&q=85", # Tech team
-        "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1280&q=85", # Wireframe design
-        "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1280&q=85", # Cyber patterns
+        "https://images.unsplash.com/photo-1563770660941-20978e870e26?w=1280&q=85", # Hardware engineer soldering circuit
+        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1280&q=85", # Cleanroom semiconductor engineer
+        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1280&q=85", # Robotics hardware lab
+        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1280&q=85", # Tech engineering team
     ],
     "gaming-gear": [
         "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&q=85", # Cyberpunk gaming rig

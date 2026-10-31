@@ -262,14 +262,20 @@ def generate_editorial_pin_image(
     draw.text((70, 1425), "techseconds.com/articles", fill=(100, 116, 139), font=f_footer)
     draw.text((680, 1425), "INDEPENDENT BENCHMARKS // 2026", fill=(71, 85, 105), font=f_footer)
 
-    # Save high-res JPEG
+    # Save high-res JPEG (Using BytesIO buffer to avoid Windows w+b Errno 22 lock)
     pin_rgb = pin.convert("RGB")
-    pin_rgb.save(out_file, quality=94, optimize=True)
+    buf = io.BytesIO()
+    pin_rgb.save(buf, format="JPEG", quality=94, optimize=True)
+    jpeg_bytes = buf.getvalue()
+
+    with open(out_file, "wb") as f:
+        f.write(jpeg_bytes)
 
     # Mirror to static
     static_file = PINS_STATIC_DIR / f"{slug}.jpg"
     static_file.parent.mkdir(parents=True, exist_ok=True)
-    pin_rgb.save(static_file, quality=94, optimize=True)
+    with open(static_file, "wb") as f:
+        f.write(jpeg_bytes)
 
     return out_file
 
@@ -458,7 +464,7 @@ def render_all_editorial_pins(
                 a.get("image", ""),
                 a.get("subtitle", ""),
             ))
-    for s in stories[:30]:
+    for s in stories[:max_pins]:
         items.append((
             s.get("title", ""),
             s.get("slug", ""),
@@ -494,7 +500,7 @@ def sync_pinterest_assets(
     - dist/pinterest-bulk-pins.csv
     """
     # 1. Render custom Pin graphics
-    render_all_editorial_pins(stories, articles=articles, max_pins=40)
+    render_all_editorial_pins(stories, articles=articles, max_pins=60)
 
     # 2. Generate & write Pinterest RSS feed with custom pin artwork
     feed_xml = generate_pinterest_feed_xml(stories, articles=articles)
