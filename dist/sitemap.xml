@@ -234,6 +234,46 @@
     </image:image>
   </url>
   <url>
+    <loc>https://techseconds.com/articles/nasa-hopes-the-commercial-space-industry-can-help-save-hubble/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1280&amp;q=85</image:loc>
+      <image:title>NASA hopes the commercial space industry can help save Hubble</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/flock-keeps-ignoring-requests-to-cancel-its-contracts/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1280&amp;q=85</image:loc>
+      <image:title>Flock keeps ignoring requests to cancel its contracts</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=1280&amp;q=85</image:loc>
+      <image:title>OpenAI might rebrand its data centers as &apos;AI compute campuses&apos;</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
+      <image:title>AI can make tech CEOs&apos; lives easier. What about everyone else?</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://techseconds.com/articles/apples-homeview-could-add-security-camera-features/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -3621,6 +3661,46 @@
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&amp;q=85</image:loc>
       <image:title>Xbox Next-Gen Hybrid Console: Bridging Native Windows PC Games &amp; Living Room 4K</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/nasa-hopes-the-commercial-space-industry-can-help-save-hubble/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1280&amp;q=85</image:loc>
+      <image:title>NASA hopes the commercial space industry can help save Hubble</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/flock-keeps-ignoring-requests-to-cancel-its-contracts/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1280&amp;q=85</image:loc>
+      <image:title>Flock keeps ignoring requests to cancel its contracts</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=1280&amp;q=85</image:loc>
+      <image:title>OpenAI might rebrand its data centers as &apos;AI compute campuses&apos;</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85</image:loc>
+      <image:title>AI can make tech CEOs&apos; lives easier. What about everyone else?</image:title>
     </image:image>
   </url>
   <url>
