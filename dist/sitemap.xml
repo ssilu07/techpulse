@@ -234,6 +234,26 @@
     </image:image>
   </url>
   <url>
+    <loc>https://techseconds.com/articles/spending-10-minutes-on-these-google-home-automations-made-my-daily-rou/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>Spending 10 minutes on these Google Home automations made my daily routine seamless</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/i-gave-gemini-my-cluttered-mac-downloads-folder-it-sorted-files-the-wa/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1280&amp;q=85</image:loc>
+      <image:title>I gave Gemini my cluttered Mac Downloads folder; it sorted files the way I actually search</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://techseconds.com/articles/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -3521,6 +3541,26 @@
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&amp;q=85</image:loc>
       <image:title>Xbox Next-Gen Hybrid Console: Bridging Native Windows PC Games &amp; Living Room 4K</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/spending-10-minutes-on-these-google-home-automations-made-my-daily-rou/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85</image:loc>
+      <image:title>Spending 10 minutes on these Google Home automations made my daily routine seamless</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/i-gave-gemini-my-cluttered-mac-downloads-folder-it-sorted-files-the-wa/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1280&amp;q=85</image:loc>
+      <image:title>I gave Gemini my cluttered Mac Downloads folder; it sorted files the way I actually search</image:title>
     </image:image>
   </url>
   <url>
