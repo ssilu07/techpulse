@@ -1,5 +1,121 @@
 [
   {
+    "title": "Borrowed reading: stories from our extended colleagues",
+    "slug": "borrowed-reading-stories-from-our-extended-colleagues",
+    "category_id": "laptops-pc",
+    "card_hook": "💻 SILICON MONSTER",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/01/borrowed-reading-stories-from-our-extended-colleagues/",
+    "published": "Mon, 02 Nov 2026 04:23:48 +0000",
+    "read_time": "45s",
+    "summary": "Five stories worth your time from our extended colleagues at CIO, Computerworld, Macworld, and PCWorld.",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1280&q=85",
+    "seo_title": "Borrowed reading: stories from our extended colleagues",
+    "slides": [
+      {
+        "hook": "COMPUTING BREAKTHROUGH",
+        "title": "Borrowed reading: stories from our extended colleagues",
+        "badge": "💻 SYSTEM ARCHITECTURE",
+        "bullet1": "Five stories worth your time from our extended colleagues at CIO, Computerworld, Macworld, and PCWorld",
+        "bullet2": "A major development for early adopters and tech professionals.",
+        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1280&q=85"
+      },
+      {
+        "hook": "PROCESSING EFFICIENCY",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ EXTENDED BATTERY",
+        "bullet1": "Technical deep-dive reveals how Borrowed reading: stories from our exten operates.",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1280&q=85"
+      },
+      {
+        "hook": "HARDWARE BENCHMARKS",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🚀 NEXT-GEN MEMORY",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1280&q=85"
+      },
+      {
+        "hook": "WORKSTATION METRICS",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 SUSTAINED SPEED",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Laptops & Personal Computing worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/android-auto-could-upset-your-work-life-balance-with-its-next-update/",
+    "next_story_title": "Android Auto could upset your work-life balance"
+  },
+  {
+    "title": "Android Auto could upset your work-life balance with its next update",
+    "slug": "android-auto-could-upset-your-work-life-balance-with-its-next-update",
+    "category_id": "gadgets",
+    "card_hook": "🎧 HARDWARE SHOCK",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2300324/android-auto-next-update-could-upset-work-life-balance/",
+    "published": "Mon, 02 Nov 2026 00:30:00 +0000",
+    "read_time": "45s",
+    "summary": "A hidden toggle buried in the Android Auto app's code isn't functional yet. Here's what it could do, what it might not, and what Google hasn't said so far.",
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1280&q=85",
+    "seo_title": "Android Auto could upset your work-life balance",
+    "slides": [
+      {
+        "hook": "HARDWARE REVOLUTION",
+        "title": "Android Auto could upset your work-life balance with its next upd...",
+        "badge": "🎧 SMART WEARABLE",
+        "bullet1": "A hidden toggle buried in the Android Auto app's code isn't functional yet",
+        "bullet2": "Here's what it could do, what it might not, and what Google hasn't said so far",
+        "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1280&q=85"
+      },
+      {
+        "hook": "ACOUSTICS & SENSORS",
+        "title": "Core Technical Breakthrough",
+        "badge": "🔇 ACTIVE PROCESSING",
+        "bullet1": "Here's what it could do, what it might not, and what Google hasn't said so far",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1280&q=85"
+      },
+      {
+        "hook": "BATTERY INNOVATION",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🔋 ULTRA-LOW POWER",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=1280&q=85"
+      },
+      {
+        "hook": "ERGONOMIC DESIGN",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "💎 TITANIUM BUILD",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Gadgets & Wearable Tech worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/samsung-is-leaving-my-galaxy-s22-behind-im-taking-the-hint/",
+    "next_story_title": "Samsung is leaving my Galaxy S22+ behind; I'm taking"
+  },
+  {
     "title": "Samsung is leaving my Galaxy S22+ behind; I'm taking the hint",
     "slug": "samsung-is-leaving-my-galaxy-s22-behind-im-taking-the-hint",
     "category_id": "smartphones",
@@ -21194,7 +21310,7 @@
       }
     ],
     "seo_title": "Xbox Next-Gen Hybrid Console",
-    "next_story_url": "/stories/samsung-is-leaving-my-galaxy-s22-behind-im-taking-the-hint/",
-    "next_story_title": "Samsung is leaving my Galaxy S22+ behind; I'm taking"
+    "next_story_url": "/stories/borrowed-reading-stories-from-our-extended-colleagues/",
+    "next_story_title": "Borrowed reading: stories from our extended colleagues"
   }
 ]
