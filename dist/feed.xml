@@ -7,7 +7,51 @@
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <description>TechSeconds is a premier technology publication and hardware intelligence lab delivering in-depth architectural breakdowns, expert hardware benchmarks, comprehensive buying guides, and high-speed visual web stories across artificial intelligence, silicon lithography, flagship smartphones, and future computing.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Nov 2026 17:11:19 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 20:20:18 GMT</lastBuildDate>
+    <item>
+      <title>iPhone 18 rumors suggest a bigger battery, higher price next year</title>
+      <link>https://techseconds.com/stories/iphone-18-rumors-suggest-a-bigger-battery-higher-price-next-year/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/iphone-18-rumors-suggest-a-bigger-battery-higher-price-next-year/</guid>
+      <pubDate>Tue, 03 Nov 2026 15:16:54 GMT</pubDate>
+      <description>After Apple raised iPhone prices earlier this year, a new rumor claims it plans to launch the base iPhone 18 with a higher price, too. A Weibo post from leaker Digital Chat Station, spotted by 9to5Mac, says the base iPhone 18 is getting a couple upgrades with the price hike, i...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>You can&#x27;t hit a wrong note when playing along with songs on Casio&#x27;s new keyboard</title>
+      <link>https://techseconds.com/stories/you-cant-hit-a-wrong-note-when-playing-along-with-songs-on-casios-new/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/you-cant-hit-a-wrong-note-when-playing-along-with-songs-on-casios-new/</guid>
+      <pubDate>Tue, 03 Nov 2026 14:48:41 GMT</pubDate>
+      <description>Casio announced a new addition to its Casiotone line of portable electronic keyboards with a feature that could help aspiring musicians master skills like rhythm and timing without the frustrations or discouragement of hitting the wrong note. The Casiotone CT-FS1 is available ...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>AI inference startup Fal doubles its valuation to $16B as demand surges</title>
+      <link>https://techseconds.com/stories/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/</guid>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
+      <description>The five-year-old startup raised a $1.3 billion round led by Bessemer.</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Reddit tests ads in search results as traffic declines and growth concerns mount</title>
+      <link>https://techseconds.com/stories/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-conc/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-conc/</guid>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
+      <description>The new ad placements could help Reddit squeeze more revenue from existing users as Google&#x27;s AI search changes how people discover its content.</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1280&amp;q=85" medium="image" />
+    </item>
     <item>
       <title>Google is entirely disabling Search in schools that don&#x27;t want AI</title>
       <link>https://techseconds.com/stories/google-is-entirely-disabling-search-in-schools-that-dont-want-ai/</link>
@@ -45,7 +89,7 @@
       <title>Anthropic is still grappling with the economics of compute</title>
       <link>https://techseconds.com/stories/anthropic-is-still-grappling-with-the-economics-of-compute/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/anthropic-is-still-grappling-with-the-economics-of-compute/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>At a moment when Anthropic&#x27;s compute margins should be getting better, they&#x27;re getting worse.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -67,7 +111,7 @@
       <title>The &#x27;fun and powerful&#x27; Motorola Razr Ultra (2025) is now $600 off at Best Buy</title>
       <link>https://techseconds.com/stories/the-fun-and-powerful-motorola-razr-ultra-2025-is-now-600-off-at-best-b/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/the-fun-and-powerful-motorola-razr-ultra-2025-is-now-600-off-at-best-b/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Best Buy isn&#x27;t waiting for Black Friday, so why should you?</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -78,7 +122,7 @@
       <title>The reason why some USB ports are black</title>
       <link>https://techseconds.com/stories/the-reason-why-some-usb-ports-are-black/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/the-reason-why-some-usb-ports-are-black/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>USB ports come in multiple colors, from eye-catching ones like orange and purple to plain old black ports. Here&#x27;s what the latter signifies.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -89,7 +133,7 @@
       <title>You can easily update your AirPods firmware in just a few simple steps</title>
       <link>https://techseconds.com/stories/you-can-easily-update-your-airpods-firmware-in-just-a-few-simple-steps/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/you-can-easily-update-your-airpods-firmware-in-just-a-few-simple-steps/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>AirPods get updates silently, unlike your iPhone, but you can prep them for a smoother update experience.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -100,7 +144,7 @@
       <title>Yvonne Bajela is bringing $17M in fresh capital to Europe&#x27;s startup scene</title>
       <link>https://techseconds.com/stories/yvonne-bajela-is-bringing-17m-in-fresh-capital-to-europes-startup-scen/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/yvonne-bajela-is-bringing-17m-in-fresh-capital-to-europes-startup-scen/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Evertrue Capital announces $17M debut fund to back early stage AI and fintech.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -111,7 +155,7 @@
       <title>Apple Watch&#x27;s AI features for rewinding and recapping conversations begin beta testing</title>
       <link>https://techseconds.com/stories/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-beg/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-beg/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Now in beta: Apple&#x27;s new Audio Intelligence features can help you remember what someone said or take notes on conversations.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -122,7 +166,7 @@
       <title>One UI 9 is finally on the Galaxy S24 Ultra, but Samsung held back the best features</title>
       <link>https://techseconds.com/stories/one-ui-9-is-finally-on-the-galaxy-s24-ultra-but-samsung-held-back-the/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/one-ui-9-is-finally-on-the-galaxy-s24-ultra-but-samsung-held-back-the/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>7 years of updates, but you only get a select few features</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -133,7 +177,7 @@
       <title>Apple&#x27;s latest watchOS 27 beta enables Siri Recap and Live Rewind audio features</title>
       <link>https://techseconds.com/stories/apples-latest-watchos-27-beta-enables-siri-recap-and-live-rewind-audio/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/apples-latest-watchos-27-beta-enables-siri-recap-and-live-rewind-audio/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>First revealed at the company&#x27;s event in September, Apple&#x27;s AI-powered Apple Watch features are finally landing in beta.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -144,7 +188,7 @@
       <title>Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses</title>
       <link>https://techseconds.com/stories/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Google&#x27;s Dreambeans, its latest AI experiment, now supports 13 Indian languages.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -155,7 +199,7 @@
       <title>Apple may try to increase revenue by doing...something with third-party AI apps</title>
       <link>https://techseconds.com/stories/apple-may-try-to-increase-revenue-by-doingsomething-with-third-party-a/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/apple-may-try-to-increase-revenue-by-doingsomething-with-third-party-a/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Apple hinted at ways that it could spur revenue through third-party &quot;opportunities&quot; during its Monday night earnings call.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -166,7 +210,7 @@
       <title>Ukraine&#x27;s new pocket-sized gadget turns Russian drones&#x27; cameras against them</title>
       <link>https://techseconds.com/stories/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>A Kyiv startup&#x27;s pocket-sized, 10-ounce receiver lets Ukrainian troops watch the video feeds of Russian drones, though Russian moves toward digital video and AI-guided drones that emit no signals could make the victory short-lived.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -177,7 +221,7 @@
       <title>Android 17 QPR2 is required before you can install verified third-party app stores</title>
       <link>https://techseconds.com/stories/android-17-qpr2-is-required-before-you-can-install-verified-third-part/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/android-17-qpr2-is-required-before-you-can-install-verified-third-part/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Automatic background app and game updates are supported</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -199,7 +243,7 @@
       <title>Y Combinator&#x27;s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens</title>
       <link>https://techseconds.com/stories/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Y Combinator Garry Tan has, in the past, jokingly admitted that he&#x27;s suffered from &quot;cyber psychosis&quot; and barely sleeps sometimes because he&#x27;s so excited to be working with his AI agents. On a new episode of Walter Isaacson&#x27;s podcast, The Builders, set to publish on Tuesday, Ta...</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -210,7 +254,7 @@
       <title>Apple says it&#x27;s &#x27;hard to predict&#x27; when iPhone Duo constraints will improve</title>
       <link>https://techseconds.com/stories/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improv/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improv/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Apple says iPhone Duo production is ramping up, but it still can&#x27;t say when supply will catch up with demand as shipping delays stretch into next year.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -221,7 +265,7 @@
       <title>Trajectory raises $45M to make AI model training accessible to nontechnical experts</title>
       <link>https://techseconds.com/stories/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechn/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechn/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>The one-year-old startup is now valued at $300 million.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -265,7 +309,7 @@
       <title>Anthropic warns that it&#x27;s very close to RSI capability, aka self-building AI</title>
       <link>https://techseconds.com/stories/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-buildin/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-buildin/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -309,7 +353,7 @@
       <title>Web host Squarespace lays off 19% of its employees</title>
       <link>https://techseconds.com/stories/web-host-squarespace-lays-off-19-of-its-employees/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/web-host-squarespace-lays-off-19-of-its-employees/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>The website builder said that the job losses are part of a broader restructuring of its organization.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -353,7 +397,7 @@
       <title>Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition</title>
       <link>https://techseconds.com/stories/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Two startups tackling the data center water problem are joining forces in a $16 million deal.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -364,7 +408,7 @@
       <title>Borrowed reading: stories from our extended colleagues</title>
       <link>https://techseconds.com/stories/borrowed-reading-stories-from-our-extended-colleagues/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/borrowed-reading-stories-from-our-extended-colleagues/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Five stories worth your time from our extended colleagues at CIO, Computerworld, Macworld, and PCWorld.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -375,7 +419,7 @@
       <title>Android Auto could upset your work-life balance with its next update</title>
       <link>https://techseconds.com/stories/android-auto-could-upset-your-work-life-balance-with-its-next-update/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/android-auto-could-upset-your-work-life-balance-with-its-next-update/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>A hidden toggle buried in the Android Auto app&#x27;s code isn&#x27;t functional yet. Here&#x27;s what it could do, what it might not, and what Google hasn&#x27;t said so far.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -386,7 +430,7 @@
       <title>Samsung is leaving my Galaxy S22+ behind; I&#x27;m taking the hint</title>
       <link>https://techseconds.com/stories/samsung-is-leaving-my-galaxy-s22-behind-im-taking-the-hint/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/samsung-is-leaving-my-galaxy-s22-behind-im-taking-the-hint/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Security holes don&#x27;t care how much I love my phone</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -397,7 +441,7 @@
       <title>I compared Googlebook and Samsung DeX; Galaxy users have little reason to switch</title>
       <link>https://techseconds.com/stories/i-compared-googlebook-and-samsung-dex-galaxy-users-have-little-reason/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-compared-googlebook-and-samsung-dex-galaxy-users-have-little-reason/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Early reviews say Googlebook OS feels like a Pixel on a bigger screen.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -408,7 +452,7 @@
       <title>How long is a new Apple TV actually supposed to last?</title>
       <link>https://techseconds.com/stories/how-long-is-a-new-apple-tv-actually-supposed-to-last/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/how-long-is-a-new-apple-tv-actually-supposed-to-last/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Past Apple TV models have seen excellent support from Apple compared to some other product lines, but it&#x27;s not a guarantee.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -419,7 +463,7 @@
       <title>How to add and rearrange apps on your Samsung smart TV</title>
       <link>https://techseconds.com/stories/how-to-add-and-rearrange-apps-on-your-samsung-smart-tv/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/how-to-add-and-rearrange-apps-on-your-samsung-smart-tv/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Though your Samsung smart TV comes pre-loaded with the most popular streaming apps, you may want to add others and do some reorganizing while you&#x27;re at it.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -452,7 +496,7 @@
       <title>OpenAI might rebrand its data centers as &#x27;AI compute campuses&#x27;</title>
       <link>https://techseconds.com/stories/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Data centers are deeply unpopular. But what if we called them something else?</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -463,7 +507,7 @@
       <title>AI can make tech CEOs&#x27; lives easier. What about everyone else?</title>
       <link>https://techseconds.com/stories/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>On Equity, we discuss why tech CEO statements can seem so tone deaf.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -496,7 +540,7 @@
       <title>TechCrunch Mobility: A new, bigger AV boom is here</title>
       <link>https://techseconds.com/stories/techcrunch-mobility-a-new-bigger-av-boom-is-here/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/techcrunch-mobility-a-new-bigger-av-boom-is-here/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -507,7 +551,7 @@
       <title>Binance resumes withdrawals following $6.3 billion breach</title>
       <link>https://techseconds.com/stories/binance-resumes-withdrawals-following-63-billion-breach/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/binance-resumes-withdrawals-following-63-billion-breach/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>The cryptocurrency exchange said it&#x27;s now covered 95% of the stolen assets.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -551,7 +595,7 @@
       <title>Pixel 11 Pro Fold: Sturdy rectangle in a wide wide world</title>
       <link>https://techseconds.com/stories/pixel-11-pro-fold-sturdy-rectangle-in-a-wide-wide-world/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/pixel-11-pro-fold-sturdy-rectangle-in-a-wide-wide-world/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Google made a sturdy phone, but there is increasing competition in the foldable world.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -562,7 +606,7 @@
       <title>Spending 10 minutes on these Google Home automations made my daily routine seamless</title>
       <link>https://techseconds.com/stories/spending-10-minutes-on-these-google-home-automations-made-my-daily-rou/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/spending-10-minutes-on-these-google-home-automations-made-my-daily-rou/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Google Home is more powerful than you might realize</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -573,7 +617,7 @@
       <title>I gave Gemini my cluttered Mac Downloads folder; it sorted files the way I actually search</title>
       <link>https://techseconds.com/stories/i-gave-gemini-my-cluttered-mac-downloads-folder-it-sorted-files-the-wa/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-gave-gemini-my-cluttered-mac-downloads-folder-it-sorted-files-the-wa/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Spark handled the task much better than I expected</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -584,7 +628,7 @@
       <title>Apple CEO says the company doesn&#x27;t &#x27;want to ship AI for AI&#x27;s sake&#x27;</title>
       <link>https://techseconds.com/stories/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Apple&#x27;s new CEO defended the company&#x27;s current position in the AI landscape.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -595,7 +639,7 @@
       <title>5 expensive hobbies where owning a 3D printer actually saves you money</title>
       <link>https://techseconds.com/stories/5-expensive-hobbies-where-owning-a-3d-printer-actually-saves-you-money/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/5-expensive-hobbies-where-owning-a-3d-printer-actually-saves-you-money/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>While a personal 3D printer is certainly an investment, if you regularly engage with an expensive hobby, it might actually save you some cash.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -606,7 +650,7 @@
       <title>Amazon made the AUX input on older Alexa devices less useful</title>
       <link>https://techseconds.com/stories/amazon-made-the-aux-input-on-older-alexa-devices-less-useful/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/amazon-made-the-aux-input-on-older-alexa-devices-less-useful/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>Amazon has made a quiet change to older Echo speakers that will leave owners rethinking how they use their devices and manage their home audio setups.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -617,56 +661,12 @@
       <title>How big and powerful is SpaceX&#x27;s Starship rocket?</title>
       <link>https://techseconds.com/stories/how-big-and-powerful-is-spacexs-starship-rocket/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/how-big-and-powerful-is-spacexs-starship-rocket/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
+      <pubDate>Tue, 03 Nov 2026 20:20:18 GMT</pubDate>
       <description>SpaceX&#x27;s Starship has a big role to play in NASA&#x27;s plans to land astronauts on the Moon. Here&#x27;s how big this rocket is and how its two stages work together.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
       <enclosure url="https://images.unsplash.com/photo-1563770660941-20978e870e26?w=1280&amp;q=85" length="120000" type="image/jpeg" />
       <media:content url="https://images.unsplash.com/photo-1563770660941-20978e870e26?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Keyboards of The Verge</title>
-      <link>https://techseconds.com/stories/keyboards-of-the-verge/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/keyboards-of-the-verge/</guid>
-      <pubDate>Sat, 31 Oct 2026 15:30:00 GMT</pubDate>
-      <description>What is a keyboard if not the original brain-computer interface? You can tap on a touchscreen or talk to the computer, but if your work involves getting information out of your head and into the computer, you&#x27;re probably spending a lot of time using a keyboard. We&#x27;ve written a...</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Binance CEO says 90 percent of stolen assets have been &#x27;replenished&#x27;</title>
-      <link>https://techseconds.com/stories/binance-ceo-says-90-percent-of-stolen-assets-have-been-replenished/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/binance-ceo-says-90-percent-of-stolen-assets-have-been-replenished/</guid>
-      <pubDate>Sat, 31 Oct 2026 14:40:32 GMT</pubDate>
-      <description>After hackers stole a shocking $6.3 billion from Binance customers in a record-breaking crypto heist, the company&#x27;s CEO says that 90 percent of the funds have been replaced, and the company plans to cover the remaining 10 percent as well. Binance is covering the stolen funds d...</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Why your Apple AirPods won&#x27;t connect to your iPhone and how can you fix it</title>
-      <link>https://techseconds.com/stories/why-your-apple-airpods-wont-connect-to-your-iphone-and-how-can-you-fix/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/why-your-apple-airpods-wont-connect-to-your-iphone-and-how-can-you-fix/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
-      <description>When your AirPods refuse to show up on your iPhone, the cause is usually simpler than you&#x27;d think. Here&#x27;s where to look first and what to try next.</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Xbox manager says AI is already being used in game development</title>
-      <link>https://techseconds.com/stories/xbox-manager-says-ai-is-already-being-used-in-game-development/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/xbox-manager-says-ai-is-already-being-used-in-game-development/</guid>
-      <pubDate>Tue, 03 Nov 2026 17:11:19 GMT</pubDate>
-      <description>Brandon Stirrup deleted his comments from X a day after saying that AI usage is widespread in the gaming industry.</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&amp;q=85" medium="image" />
     </item>
   </channel>
 </rss>
