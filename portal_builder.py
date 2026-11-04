@@ -47,9 +47,8 @@ def build_portal_html(
     Prioritizes top-performing & trending stories for maximal PageRank & internal linking equity.
     """
     active_articles = articles if articles is not None else FLAGSHIP_ARTICLES
-    trending_stories = [s for s in stories if s.get("slug") in HIGH_CTR_TITLE_OVERRIDES]
-    regular_stories = [s for s in stories if s.get("slug") not in HIGH_CTR_TITLE_OVERRIDES]
-    sorted_stories = trending_stories + regular_stories
+    # Keep chronological order so newly published stories appear immediately at the top
+    sorted_stories = list(stories)
 
     display_stories = sorted_stories[:max_cards] if max_cards and len(sorted_stories) > max_cards else sorted_stories
     story_count = len(display_stories)
