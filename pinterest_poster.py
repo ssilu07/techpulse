@@ -307,43 +307,8 @@ def generate_pinterest_feed_xml(
     now_rfc822 = now_dt.strftime("%a, %d %b %Y %H:%M:%S GMT")
     items_xml = []
 
-    # 1. Add In-Depth Flagship Articles first (high Pinterest CTR)
-    if articles:
-        for idx, art in enumerate(articles[:25]):
-            title = html_lib.escape(art.get("title", f"{SITE_NAME} Article"))
-            slug = art.get("slug", "")
-            link = f"{SITE_URL}/articles/{slug}/"
-            subtitle = art.get("subtitle", "")
-            cat_id = art.get("category_id", "future-tech")
-            hashtags = PINTEREST_HASHTAGS.get(cat_id, "#Tech #Innovation #News")
-            desc_text = f"READ FULL REPORT -> Tap the link to view complete real-world benchmark data, specs, battery test and price analysis on {SITE_NAME}! {subtitle} {hashtags}"
-            desc = html_lib.escape(desc_text[:490])
-            category = html_lib.escape(get_pinterest_board_for_category(cat_id))
-
-            # Stagger timestamps across the last 12 hours so Pinterest recognizes every item as fresh today
-            item_dt = now_dt - timedelta(minutes=(idx * 20) + 5)
-            pub_rfc822 = item_dt.strftime("%a, %d %b %Y %H:%M:%S GMT")
-
-            raw_img = art.get("image", f"{SITE_URL}/static/images/og-banner.png")
-            pin_img = get_pin_media_url(slug, raw_img)
-            pin_img_esc = html_lib.escape(pin_img)
-
-            item = f"""    <item>
-      <title>{title}</title>
-      <link>{link}</link>
-      <guid isPermaLink="true">{link}</guid>
-      <pubDate>{pub_rfc822}</pubDate>
-      <description>{desc}</description>
-      <category>{category}</category>
-      <dc:creator>{html_lib.escape(SITE_NAME)}</dc:creator>
-      <enclosure url="{pin_img_esc}" length="220000" type="image/jpeg" />
-      <media:content url="{pin_img_esc}" medium="image" type="image/jpeg" width="1000" height="1500" />
-    </item>"""
-            items_xml.append(item)
-
-    # 2. Add Visual Stories
-    offset_base = len(articles) if articles else 0
-    for idx, s in enumerate(stories[:35]):
+    # 1. Add Fresh Breaking Visual Stories FIRST so Pinterest crawler immediately detects new Pins
+    for idx, s in enumerate(stories[:40]):
         title = html_lib.escape(s.get("title", f"{SITE_NAME} Story"))
         slug = s.get("slug", "")
         link = f"{SITE_URL}/stories/{slug}/"
@@ -354,8 +319,8 @@ def generate_pinterest_feed_xml(
         desc = html_lib.escape(desc_text[:490])
         category = html_lib.escape(get_pinterest_board_for_category(cat_id))
 
-        # Stagger story timestamps following articles
-        item_dt = now_dt - timedelta(minutes=((offset_base + idx) * 15) + 15)
+        # Stagger newest stories starting from right now (within last few hours)
+        item_dt = now_dt - timedelta(minutes=(idx * 15) + 5)
         pub_rfc822 = item_dt.strftime("%a, %d %b %Y %H:%M:%S GMT")
 
         raw_img = s.get("image", f"{SITE_URL}/static/images/og-banner.png")
@@ -374,6 +339,40 @@ def generate_pinterest_feed_xml(
       <media:content url="{pin_img_esc}" medium="image" type="image/jpeg" width="1000" height="1500" />
     </item>"""
         items_xml.append(item)
+
+    # 2. Add In-Depth Flagship Articles as evergreen items after fresh stories
+    if articles:
+        offset_base = min(len(stories), 40)
+        for idx, art in enumerate(articles[:20]):
+            title = html_lib.escape(art.get("title", f"{SITE_NAME} Article"))
+            slug = art.get("slug", "")
+            link = f"{SITE_URL}/articles/{slug}/"
+            subtitle = art.get("subtitle", "")
+            cat_id = art.get("category_id", "future-tech")
+            hashtags = PINTEREST_HASHTAGS.get(cat_id, "#Tech #Innovation #News")
+            desc_text = f"READ FULL REPORT -> Tap the link to view complete real-world benchmark data, specs, battery test and price analysis on {SITE_NAME}! {subtitle} {hashtags}"
+            desc = html_lib.escape(desc_text[:490])
+            category = html_lib.escape(get_pinterest_board_for_category(cat_id))
+
+            item_dt = now_dt - timedelta(minutes=((offset_base + idx) * 20) + 15)
+            pub_rfc822 = item_dt.strftime("%a, %d %b %Y %H:%M:%S GMT")
+
+            raw_img = art.get("image", f"{SITE_URL}/static/images/og-banner.png")
+            pin_img = get_pin_media_url(slug, raw_img)
+            pin_img_esc = html_lib.escape(pin_img)
+
+            item = f"""    <item>
+      <title>{title}</title>
+      <link>{link}</link>
+      <guid isPermaLink="true">{link}</guid>
+      <pubDate>{pub_rfc822}</pubDate>
+      <description>{desc}</description>
+      <category>{category}</category>
+      <dc:creator>{html_lib.escape(SITE_NAME)}</dc:creator>
+      <enclosure url="{pin_img_esc}" length="220000" type="image/jpeg" />
+      <media:content url="{pin_img_esc}" medium="image" type="image/jpeg" width="1000" height="1500" />
+    </item>"""
+            items_xml.append(item)
 
     items_block = "\n".join(items_xml)
     return f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -408,7 +407,21 @@ def generate_pinterest_bulk_csv(
     header = ["Title", "Media URL", "Pinterest board", "Thumbnail", "Description", "Link", "Publish date"]
     rows.append(header)
 
-    # 1. Add Articles
+    # 1. Add Visual Stories FIRST (newest first)
+    for s in stories:
+        title = s.get("title", "")
+        slug = s.get("slug", "")
+        link = f"{SITE_URL}/stories/{slug}/"
+        summary = s.get("summary", "")
+        cat_id = s.get("category_id", "future-tech")
+        board = get_pinterest_board_for_category(cat_id)
+        hashtags = PINTEREST_HASHTAGS.get(cat_id, "#Tech #News")
+        desc = f"EXPLORE STORY -> Tap the link to view the complete interactive breakdown, specs and editorial insights on {SITE_NAME}! {summary} {hashtags}"[:495]
+        raw_img = s.get("image", f"{SITE_URL}/static/images/og-banner.png")
+        media_url = get_pin_media_url(slug, raw_img)
+        rows.append([title, media_url, board, "", desc, link, ""])
+
+    # 2. Add Flagship Articles
     if articles:
         for art in articles:
             title = art.get("title", "")
@@ -422,20 +435,6 @@ def generate_pinterest_bulk_csv(
             raw_img = art.get("image", f"{SITE_URL}/static/images/og-banner.png")
             media_url = get_pin_media_url(slug, raw_img)
             rows.append([title, media_url, board, "", desc, link, ""])
-
-    # 2. Add Visual Stories
-    for s in stories:
-        title = s.get("title", "")
-        slug = s.get("slug", "")
-        link = f"{SITE_URL}/stories/{slug}/"
-        summary = s.get("summary", "")
-        cat_id = s.get("category_id", "future-tech")
-        board = get_pinterest_board_for_category(cat_id)
-        hashtags = PINTEREST_HASHTAGS.get(cat_id, "#Tech #News")
-        desc = f"EXPLORE STORY -> Tap the link to view the complete interactive breakdown, specs and editorial insights on {SITE_NAME}! {summary} {hashtags}"[:495]
-        raw_img = s.get("image", f"{SITE_URL}/static/images/og-banner.png")
-        media_url = get_pin_media_url(slug, raw_img)
-        rows.append([title, media_url, board, "", desc, link, ""])
 
     with open(output_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
@@ -455,6 +454,15 @@ def render_all_editorial_pins(
     """
     rendered = 0
     items = []
+    # Render fresh stories first so breaking news immediately gets pin artwork
+    for s in stories[:max_pins]:
+        items.append((
+            s.get("title", ""),
+            s.get("slug", ""),
+            s.get("category_id", "future-tech"),
+            s.get("image", ""),
+            s.get("summary", ""),
+        ))
     if articles:
         for a in articles:
             items.append((
@@ -464,14 +472,6 @@ def render_all_editorial_pins(
                 a.get("image", ""),
                 a.get("subtitle", ""),
             ))
-    for s in stories[:max_pins]:
-        items.append((
-            s.get("title", ""),
-            s.get("slug", ""),
-            s.get("category_id", "future-tech"),
-            s.get("image", ""),
-            s.get("summary", ""),
-        ))
 
     print(f"[*] Rendering {len(items)} clean editorial graphic pins (force={force})...")
     for title, slug, cat_id, img_url, sub in items:
