@@ -51,6 +51,13 @@ def copy_static_assets(src_dir: Path, dist_dir: Path):
         shutil.copy2(root_ads_txt, dist_dir / "ads.txt")
         print(f"[+] Deployed Google AdSense ads.txt to: {dist_dir / 'ads.txt'}")
 
+    poll_src = src_dir / "api" / "poll" / "index.json"
+    if poll_src.exists():
+        target_poll = dist_dir / "api" / "poll"
+        target_poll.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(poll_src, target_poll / "index.json")
+        print(f"[+] Deployed interactive poll endpoint to: {target_poll / 'index.json'}")
+
 
 def load_persistent_catalog(dist_dir: Path) -> List[Dict[str, Any]]:
     """

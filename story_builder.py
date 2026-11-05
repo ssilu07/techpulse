@@ -185,6 +185,97 @@ def optimize_seo_title(raw_title: str, slug: str = "") -> str:
     return result if len(result) >= 15 else clean[:55].rstrip(":, -")
 
 
+def get_story_poll(story: Dict[str, Any]) -> Dict[str, str]:
+    """Generates an engaging, topic-relevant interactive poll for the story."""
+    if story.get("poll_prompt") and story.get("poll_option_1") and story.get("poll_option_2"):
+        return {
+            "prompt": story["poll_prompt"],
+            "opt1": story["poll_option_1"],
+            "opt2": story["poll_option_2"],
+        }
+    
+    title = (story.get("title") or "").lower()
+    category = story.get("category_id", "future-tech")
+
+    # Keyword-specific high-engagement polls
+    if any(k in title for k in ["apple", "iphone", "macbook", "ipad", "ios", "vision"]):
+        return {
+            "prompt": "Will you buy or upgrade to this Apple device?",
+            "opt1": "🔥 Yes, Day-One Upgrade",
+            "opt2": "❌ Pass / Sticking with Current",
+        }
+    if any(k in title for k in ["openai", "chatgpt", "gpt-4", "gpt-5", "claude", "gemini", "anthropic", "ai "]):
+        return {
+            "prompt": "Will this AI breakthrough replace human workflows?",
+            "opt1": "🤖 Definitely Yes",
+            "opt2": "🛡️ Needs Human Oversight",
+        }
+    if any(k in title for k in ["nvidia", "gpu", "rtx", "intel", "amd", "snapdragon", "chip"]):
+        return {
+            "prompt": "Is this silicon performance leap worth the cost?",
+            "opt1": "⚡ Massive Upgrade",
+            "opt2": "🛑 Diminishing Returns",
+        }
+    if any(k in title for k in ["samsung", "galaxy", "pixel", "android", "xiaomi", "oneplus"]):
+        return {
+            "prompt": "Does this beat current flagship competition?",
+            "opt1": "📱 Clear Winner",
+            "opt2": "🤔 Overpriced / Minor Boost",
+        }
+    if any(k in title for k in ["tesla", "robotaxi", "ev", "robot", "humanoid", "waymo"]):
+        return {
+            "prompt": "Are you ready to trust autonomous tech daily?",
+            "opt1": "🚗 Ready Right Now",
+            "opt2": "🛑 Still Too Risky",
+        }
+    if any(k in title for k in ["ps5", "xbox", "nintendo", "switch", "gta", "steam", "game"]):
+        return {
+            "prompt": "Will you play this on launch day?",
+            "opt1": "🎮 Day-One Must Play",
+            "opt2": "🕹️ Wait for Sale / Reviews",
+        }
+    if any(k in title for k in ["hack", "breach", "security", "leak", "spy", "ban"]):
+        return {
+            "prompt": "Are you concerned about your digital privacy here?",
+            "opt1": "⚠️ Very Concerned",
+            "opt2": "🛡️ Already Secured",
+        }
+
+    # Category defaults
+    cat_defaults = {
+        "smartphones": {
+            "prompt": "Would you buy this flagship device?",
+            "opt1": "🔥 Worth The Price",
+            "opt2": "❌ Pass / Skip It",
+        },
+        "ai-tools": {
+            "prompt": "Will this tool change your daily productivity?",
+            "opt1": "🚀 Major Productivity Boost",
+            "opt2": "🤔 Overhyped Feature",
+        },
+        "laptops-pc": {
+            "prompt": "Is this laptop hardware a game-changer?",
+            "opt1": "💻 Instant Buy",
+            "opt2": "🛑 Too Expensive",
+        },
+        "gaming": {
+            "prompt": "Are you excited for this hardware/game release?",
+            "opt1": "🎮 Super Hyped",
+            "opt2": "😐 Not Interested",
+        },
+        "cybersecurity": {
+            "prompt": "Does this privacy issue worry you?",
+            "opt1": "⚠️ High Concern",
+            "opt2": "🛡️ Low Risk",
+        },
+    }
+    return cat_defaults.get(category, {
+        "prompt": "Will this tech breakthrough become mainstream?",
+        "opt1": "🚀 Next Big Thing",
+        "opt2": "🤔 Fleeting Hype",
+    })
+
+
 def build_story_html(story: Dict[str, Any]) -> str:
     """
     Renders an AMP Web Story HTML document according to AMP Story 1.0 specification.
@@ -253,15 +344,52 @@ def build_story_html(story: Dict[str, Any]) -> str:
         slide_img_url = slide_variants["slide_image"]
 
         outlink_html = ""
-        # On final slide, link directly to the comprehensive in-depth article
+        poll_layer_html = ""
+        final_actions_html = ""
+
+        # On Slide 4, embed interactive community poll to maximize dwell time & engagements
+        if idx == 3:
+            poll_info = get_story_poll(story)
+            safe_poll_id = re.sub(r"[^a-zA-Z0-9_-]", "-", slug)[:24].strip("-") or "poll"
+            escaped_prompt = html.escape(poll_info["prompt"], quote=True)
+            escaped_opt1 = html.escape(poll_info["opt1"], quote=True)
+            escaped_opt2 = html.escape(poll_info["opt2"], quote=True)
+            poll_layer_html = f"""
+        <amp-story-grid-layer template="vertical" class="poll-grid-layer">
+          <amp-story-interactive-poll
+            id="poll-{safe_poll_id}"
+            theme="dark"
+            endpoint="{SITE_URL}/api/poll"
+            prompt-text="{escaped_prompt}"
+            option-1-text="{escaped_opt1}"
+            option-2-text="{escaped_opt2}">
+          </amp-story-interactive-poll>
+        </amp-story-grid-layer>"""
+
+        # On Slide 5 (final slide), wire the continuous next-story binge loop & in-depth article panel
         if idx == len(slides) - 1:
+            next_url = story.get("next_story_url") or f"{SITE_URL}/"
+            next_title = story.get("next_story_title") or "Next Tech Breakthrough"
+            short_next_title = next_title[:45] + ("..." if len(next_title) > 45 else "")
+            escaped_next_title = html.escape(short_next_title, quote=True)
             article_url = f"{SITE_URL}/articles/{slug}/"
-            cta_label = f"📖 Read Full In-Depth Analysis (750+ Words)"
-            escaped_cta = html.escape(cta_label, quote=True)
+
             outlink_html = f"""
         <amp-story-page-outlink layout="nodisplay">
-          <a href="{article_url}">{escaped_cta}</a>
+          <a href="{next_url}">⚡ Next Story: {escaped_next_title}</a>
         </amp-story-page-outlink>"""
+
+            final_actions_html = f"""
+            <div class="final-actions-panel">
+              <a href="{article_url}" class="final-action-btn deepdive-action-btn">
+                <span>📖 Read Full Analysis (800+ Words)</span>
+                <span class="action-arr">→</span>
+              </a>
+              <a href="{next_url}" class="final-action-btn next-story-action-btn">
+                <span>⚡ Next Story: {escaped_next_title}</span>
+                <span class="action-arr">→</span>
+              </a>
+            </div>"""
 
         slide_markup = f"""
       <amp-story-page id="{page_id}">
@@ -292,9 +420,9 @@ def build_story_html(story: Dict[str, Any]) -> str:
             <div class="bullet-card">
               <p class="bullet-p">● {bullet1}</p>
               <p class="bullet-p">● {bullet2}</p>
-            </div>
+            </div>{final_actions_html}
           </div>
-        </amp-story-grid-layer>{outlink_html}
+        </amp-story-grid-layer>{poll_layer_html}{outlink_html}
       </amp-story-page>"""
         slides_html.append(slide_markup)
 
@@ -342,6 +470,7 @@ def build_story_html(story: Dict[str, Any]) -> str:
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script async custom-element="amp-story-interactive" src="https://cdn.ampproject.org/v0/amp-story-interactive-0.1.js"></script>
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -462,6 +591,66 @@ def build_story_html(story: Dict[str, Any]) -> str:
 
       .bullet-p:last-child {{
         margin-bottom: 0;
+      }}
+
+      /* Interactive Community Poll Component */
+      amp-story-interactive-poll {{
+        --interactive-accent-color: #06b6d4;
+        --interactive-prompt-background: rgba(8, 9, 13, 0.94);
+        --interactive-prompt-text-color: #ffffff;
+        --interactive-option-background: rgba(255, 255, 255, 0.08);
+        --interactive-option-text-color: #e2e8f0;
+        font-family: 'Space Grotesk', -apple-system, sans-serif;
+        justify-self: center;
+        align-self: end;
+        margin-bottom: 24px;
+        width: calc(100% - 40px);
+        max-width: 420px;
+      }}
+
+      .poll-grid-layer {{
+        pointer-events: none;
+      }}
+
+      .poll-grid-layer amp-story-interactive-poll {{
+        pointer-events: auto;
+      }}
+
+      /* Final Slide Dual-Action Binge Panel */
+      .final-actions-panel {{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 12px;
+      }}
+
+      .final-action-btn {{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 14px;
+        border-radius: 10px;
+        font-family: 'Outfit', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        text-decoration: none;
+      }}
+
+      .deepdive-action-btn {{
+        background: linear-gradient(135deg, rgba(6, 182, 212, 0.25) 0%, rgba(16, 185, 129, 0.2) 100%);
+        border: 1px solid rgba(6, 182, 212, 0.5);
+        color: #22d3ee;
+      }}
+
+      .next-story-action-btn {{
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        color: #ffffff;
+      }}
+
+      .action-arr {{
+        font-size: 15px;
+        margin-left: 6px;
       }}
     </style>
   </head>

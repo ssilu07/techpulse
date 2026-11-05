@@ -32,6 +32,7 @@
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script async custom-element="amp-story-interactive" src="https://cdn.ampproject.org/v0/amp-story-interactive-0.1.js"></script>
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -152,6 +153,66 @@
 
       .bullet-p:last-child {
         margin-bottom: 0;
+      }
+
+      /* Interactive Community Poll Component */
+      amp-story-interactive-poll {
+        --interactive-accent-color: #06b6d4;
+        --interactive-prompt-background: rgba(8, 9, 13, 0.94);
+        --interactive-prompt-text-color: #ffffff;
+        --interactive-option-background: rgba(255, 255, 255, 0.08);
+        --interactive-option-text-color: #e2e8f0;
+        font-family: 'Space Grotesk', -apple-system, sans-serif;
+        justify-self: center;
+        align-self: end;
+        margin-bottom: 24px;
+        width: calc(100% - 40px);
+        max-width: 420px;
+      }
+
+      .poll-grid-layer {
+        pointer-events: none;
+      }
+
+      .poll-grid-layer amp-story-interactive-poll {
+        pointer-events: auto;
+      }
+
+      /* Final Slide Dual-Action Binge Panel */
+      .final-actions-panel {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 12px;
+      }
+
+      .final-action-btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 14px;
+        border-radius: 10px;
+        font-family: 'Outfit', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      .deepdive-action-btn {
+        background: linear-gradient(135deg, rgba(6, 182, 212, 0.25) 0%, rgba(16, 185, 129, 0.2) 100%);
+        border: 1px solid rgba(6, 182, 212, 0.5);
+        color: #22d3ee;
+      }
+
+      .next-story-action-btn {
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        color: #ffffff;
+      }
+
+      .action-arr {
+        font-size: 15px;
+        margin-left: 6px;
       }
     </style>
   </head>
@@ -307,6 +368,16 @@
             </div>
           </div>
         </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="poll-grid-layer">
+          <amp-story-interactive-poll
+            id="poll-will-warner-bros-kill-sk"
+            theme="dark"
+            endpoint="https://techseconds.com/api/poll"
+            prompt-text="Will this tech breakthrough become mainstream?"
+            option-1-text="🚀 Next Big Thing"
+            option-2-text="🤔 Fleeting Hype">
+          </amp-story-interactive-poll>
+        </amp-story-grid-layer>
       </amp-story-page>
 
       <amp-story-page id="page-5">
@@ -338,10 +409,20 @@
               <p class="bullet-p">● An essential advancement in Gadgets & Wearable Tech worth watching closely.</p>
               <p class="bullet-p">● Tap the link below to dive deeper into official documentation and coverage.</p>
             </div>
+            <div class="final-actions-panel">
+              <a href="https://techseconds.com/articles/will-warner-bros-kill-skydance-or-will-david-ellison-kill-warner-bros/" class="final-action-btn deepdive-action-btn">
+                <span>📖 Read Full Analysis (800+ Words)</span>
+                <span class="action-arr">→</span>
+              </a>
+              <a href="/stories/lgs-rgb-led-tv-is-good-for-certain-situations-but-an-oled-is-better/" class="final-action-btn next-story-action-btn">
+                <span>⚡ Next Story: LG&#x27;s RGB LED TV is good for certain situation...</span>
+                <span class="action-arr">→</span>
+              </a>
+            </div>
           </div>
         </amp-story-grid-layer>
         <amp-story-page-outlink layout="nodisplay">
-          <a href="https://techseconds.com/articles/will-warner-bros-kill-skydance-or-will-david-ellison-kill-warner-bros/">📖 Read Full In-Depth Analysis (750+ Words)</a>
+          <a href="/stories/lgs-rgb-led-tv-is-good-for-certain-situations-but-an-oled-is-better/">⚡ Next Story: LG&#x27;s RGB LED TV is good for certain situation...</a>
         </amp-story-page-outlink>
       </amp-story-page>
     </amp-story>

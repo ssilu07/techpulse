@@ -59,6 +59,15 @@
       "dest": "/stories/$1"
     },
     {
+      "src": "/api/poll(.*)",
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=60"
+      },
+      "dest": "/api/poll/index.json"
+    },
+    {
       "src": "/(.*)",
       "dest": "/$1"
     }
