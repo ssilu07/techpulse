@@ -7,7 +7,51 @@
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <description>TechSeconds is a premier technology publication and hardware intelligence lab delivering in-depth architectural breakdowns, expert hardware benchmarks, comprehensive buying guides, and high-speed visual web stories across artificial intelligence, silicon lithography, flagship smartphones, and future computing.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Nov 2026 17:29:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 20:50:11 GMT</lastBuildDate>
+    <item>
+      <title>Blue Origin&#x27;s next launch now won&#x27;t happen until 2027</title>
+      <link>https://techseconds.com/stories/blue-origins-next-launch-now-wont-happen-until-2027/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/blue-origins-next-launch-now-wont-happen-until-2027/</guid>
+      <pubDate>Thu, 05 Nov 2026 15:47:14 GMT</pubDate>
+      <description>Blue Origin plans to do its next New Glenn rocket launch in January 2027, according to CNBC and the Financial Times, which cite a memo from CEO Dave Limp sent to staff. The new timeline follows a May launchpad explosion that damaged Blue Origin&#x27;s New Glenn launchpad ahead of a...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Muse has a voice mode now</title>
+      <link>https://techseconds.com/stories/muse-has-a-voice-mode-now/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/muse-has-a-voice-mode-now/</guid>
+      <pubDate>Thu, 05 Nov 2026 14:03:04 GMT</pubDate>
+      <description>Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top ...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>EA is bringing 25 classic PC games to Steam</title>
+      <link>https://techseconds.com/stories/ea-is-bringing-25-classic-pc-games-to-steam/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/ea-is-bringing-25-classic-pc-games-to-steam/</guid>
+      <pubDate>Thu, 05 Nov 2026 13:30:00 GMT</pubDate>
+      <description>Electronic Arts is launching 25 classic games on Steam, including &quot;Anniversary Editions&quot; of the motorcycle racer Road Rash and six Wing Commander titles. These Anniversary Editions preserve &quot;the original look, feel and creative intent of the game&quot; but also have quality-of-life...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Meta says US users can now video chat with their Muse AI avatar</title>
+      <link>https://techseconds.com/stories/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/</guid>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
+      <description>Meta&#x27;s AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85" medium="image" />
+    </item>
     <item>
       <title>The FAA is finally ditching floppy disks</title>
       <link>https://techseconds.com/stories/the-faa-is-finally-ditching-floppy-disks/</link>
@@ -45,7 +89,7 @@
       <title>Axiom Math wants to keep AI slop out of mathematics</title>
       <link>https://techseconds.com/stories/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup&#x27;s AI agents just formally verified the Stacks Project, one of the field&#x27;s biggest libraries.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -78,7 +122,7 @@
       <title>Box taps Nvidia&#x27;s Nemotron for new agent-first content retrieval system</title>
       <link>https://techseconds.com/stories/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>The system can supposedly answer queries four times faster, with 20% fewer errors and 90% fewer tokens used.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -89,7 +133,7 @@
       <title>A YC startup is putting $1M behind five unsolved materials science problems for AI</title>
       <link>https://techseconds.com/stories/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-prob/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-prob/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>Discovered Materials, a months-old YC startup that uses AI to find chip materials, is offering $200,000 for each solution to five open materials science problems.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -100,7 +144,7 @@
       <title>Snapchat surpasses 30M paid subscribers</title>
       <link>https://techseconds.com/stories/snapchat-surpasses-30m-paid-subscribers/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/snapchat-surpasses-30m-paid-subscribers/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>The milestone comes a year after Snapchat announced a controversial limit on free storage for its Memories feature and informed users it would start requiring users to pay $1.99 per month for additional storage or subscribe to Snapchat+ to retain their Memories.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -111,7 +155,7 @@
       <title>Samsung may bring a massive 6000mAh battery to its popular mid-range Galaxy phone</title>
       <link>https://techseconds.com/stories/samsung-may-bring-a-massive-6000mah-battery-to-its-popular-mid-range-g/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/samsung-may-bring-a-massive-6000mah-battery-to-its-popular-mid-range-g/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>Is Samsung finally embracing larger batteries for 2027?</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -122,7 +166,7 @@
       <title>Samsung Galaxy Buds 4 Pro and 3 Pro get approved as over-the-counter hearing aids</title>
       <link>https://techseconds.com/stories/samsung-galaxy-buds-4-pro-and-3-pro-get-approved-as-over-the-counter-h/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/samsung-galaxy-buds-4-pro-and-3-pro-get-approved-as-over-the-counter-h/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>Galaxy Buds can screen for hearing loss and amplify sounds</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -133,7 +177,7 @@
       <title>Pangram expands its AI detection tools to video and images</title>
       <link>https://techseconds.com/stories/pangram-expands-its-ai-detection-tools-to-video-and-images/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/pangram-expands-its-ai-detection-tools-to-video-and-images/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>The company behind the widely used tool for AI text is moving into more kinds of AI slop.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -265,7 +309,7 @@
       <title>Apple is reportedly cutting budgets for its internal AI usage</title>
       <link>https://techseconds.com/stories/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>The company is said to be significantly dropping the amount it&#x27;s spending on AI for its engineering teams.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -276,7 +320,7 @@
       <title>Almost no one uses AI agents to book their Uber, company says</title>
       <link>https://techseconds.com/stories/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -287,7 +331,7 @@
       <title>Samsung&#x27;s 2027 promises have me worried for the Galaxy S27 series</title>
       <link>https://techseconds.com/stories/samsungs-2027-promises-have-me-worried-for-the-galaxy-s27-series/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/samsungs-2027-promises-have-me-worried-for-the-galaxy-s27-series/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>How much longer will people take AI as a selling point?</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -331,7 +375,7 @@
       <title>Nothing CEO says company&#x27;s mysterious AI-first device is dropping next month</title>
       <link>https://techseconds.com/stories/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>While it&#x27;s not yet clear what kind of product the smartphone startup is cooking up, Nothing&#x27;s CEO said the product is designed to leverage AI for productivity gains.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -375,7 +419,7 @@
       <title>Open source AI is booming. Hugging Face explains who profits.</title>
       <link>https://techseconds.com/stories/open-source-ai-is-booming-hugging-face-explains-who-profits/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/open-source-ai-is-booming-hugging-face-explains-who-profits/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chin...</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -408,7 +452,7 @@
       <title>I tried Apple&#x27;s Siri Recaps. They&#x27;re surprisingly useful - and a little unsettling</title>
       <link>https://techseconds.com/stories/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-uns/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-uns/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>Apple&#x27;s AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there&#x27;s still room for improvement.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -419,7 +463,7 @@
       <title>Google faces backlash for plan that would turn off Search for schools that restrict AI</title>
       <link>https://techseconds.com/stories/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -441,7 +485,7 @@
       <title>I ditched 9 Google apps for Fossify alternatives; the privacy win came with trade-offs</title>
       <link>https://techseconds.com/stories/i-ditched-9-google-apps-for-fossify-alternatives-the-privacy-win-came/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-ditched-9-google-apps-for-fossify-alternatives-the-privacy-win-came/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>Switching to Google&#x27;s main alternative was a blast</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -452,7 +496,7 @@
       <title>Apple Music&#x27;s upcoming feature will let you record yourself doing karaoke</title>
       <link>https://techseconds.com/stories/apple-musics-upcoming-feature-will-let-you-record-yourself-doing-karao/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/apple-musics-upcoming-feature-will-let-you-record-yourself-doing-karao/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>Apple Music will launch &#x27;Selfie Sing&#x27; with iOS 27.3.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -463,7 +507,7 @@
       <title>India&#x27;s EloElo nabs $80M from NBCUniversal to bet on the country&#x27;s rising microdrama market</title>
       <link>https://techseconds.com/stories/indias-eloelo-nabs-80m-from-nbcuniversal-to-bet-on-the-countrys-rising/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/indias-eloelo-nabs-80m-from-nbcuniversal-to-bet-on-the-countrys-rising/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>StoryTV has more than 33 million monthly active users according to Sensor Tower figures</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -474,7 +518,7 @@
       <title>Samsung&#x27;s Galaxy S27 Ultra may fix the privacy screen brightness flaw</title>
       <link>https://techseconds.com/stories/samsungs-galaxy-s27-ultra-may-fix-the-privacy-screen-brightness-flaw/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/samsungs-galaxy-s27-ultra-may-fix-the-privacy-screen-brightness-flaw/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>Privacy Display could arrive to a non-Ultra model for the first time</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -485,7 +529,7 @@
       <title>iPad mini OLED vs. iPad mini: What&#x27;s new?</title>
       <link>https://techseconds.com/stories/ipad-mini-oled-vs-ipad-mini-whats-new/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/ipad-mini-oled-vs-ipad-mini-whats-new/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>Apple&#x27;s newest iPad mini is a significant upgrade over its predecessor, with hardware updates that extend far beyond the fancy new OLED display.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -496,7 +540,7 @@
       <title>Your phone&#x27;s apps could have more permissions than they need - here&#x27;s how to check</title>
       <link>https://techseconds.com/stories/your-phones-apps-could-have-more-permissions-than-they-need-heres-how/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/your-phones-apps-could-have-more-permissions-than-they-need-heres-how/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>Most smartphone apps need permissions to function properly, but some may have more access than they should. Thankfully, it&#x27;s pretty easy to check.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -507,7 +551,7 @@
       <title>Ted Schlein&#x27;s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom</title>
       <link>https://techseconds.com/stories/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-drive/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-drive/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -518,7 +562,7 @@
       <title>The underrated Google Sheets feature that fixed my messy address book problems in minutes</title>
       <link>https://techseconds.com/stories/the-underrated-google-sheets-feature-that-fixed-my-messy-address-book/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/the-underrated-google-sheets-feature-that-fixed-my-messy-address-book/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>I Marie Kondo&#x27;d my messy 1,500+ contacts using Gemini</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -529,7 +573,7 @@
       <title>I replaced Google Keep with Gemini; it&#x27;s been a game changer for my notes</title>
       <link>https://techseconds.com/stories/i-replaced-google-keep-with-gemini-its-been-a-game-changer-for-my-note/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-replaced-google-keep-with-gemini-its-been-a-game-changer-for-my-note/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>Google Keep is no longer the primary app where I take notes</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -540,7 +584,7 @@
       <title>I saved money by replacing 6 paid subscription Android apps with open source alternatives</title>
       <link>https://techseconds.com/stories/i-saved-money-by-replacing-6-paid-subscription-android-apps-with-open/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-saved-money-by-replacing-6-paid-subscription-android-apps-with-open/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>Create a subscription-free Android setup with these free open source gems</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -584,7 +628,7 @@
       <title>Data centers are turning to old jet engines as the wait for power grows</title>
       <link>https://techseconds.com/stories/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grow/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grow/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
+      <pubDate>Thu, 05 Nov 2026 20:50:11 GMT</pubDate>
       <description>The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -623,50 +667,6 @@
       <dc:creator>TechSeconds</dc:creator>
       <enclosure url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85" length="120000" type="image/jpeg" />
       <media:content url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Anthropic is working on a system to prove AI models&#x27; identity</title>
-      <link>https://techseconds.com/stories/anthropic-is-working-on-a-system-to-prove-ai-models-identity/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/anthropic-is-working-on-a-system-to-prove-ai-models-identity/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
-      <description>Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>iPhone 18 rumors suggest a bigger battery, higher price next year</title>
-      <link>https://techseconds.com/stories/iphone-18-rumors-suggest-a-bigger-battery-higher-price-next-year/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/iphone-18-rumors-suggest-a-bigger-battery-higher-price-next-year/</guid>
-      <pubDate>Tue, 03 Nov 2026 15:16:54 GMT</pubDate>
-      <description>After Apple raised iPhone prices earlier this year, a new rumor claims it plans to launch the base iPhone 18 with a higher price, too. A Weibo post from leaker Digital Chat Station, spotted by 9to5Mac, says the base iPhone 18 is getting a couple upgrades with the price hike, i...</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>You can&#x27;t hit a wrong note when playing along with songs on Casio&#x27;s new keyboard</title>
-      <link>https://techseconds.com/stories/you-cant-hit-a-wrong-note-when-playing-along-with-songs-on-casios-new/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/you-cant-hit-a-wrong-note-when-playing-along-with-songs-on-casios-new/</guid>
-      <pubDate>Tue, 03 Nov 2026 14:48:41 GMT</pubDate>
-      <description>Casio announced a new addition to its Casiotone line of portable electronic keyboards with a feature that could help aspiring musicians master skills like rhythm and timing without the frustrations or discouragement of hitting the wrong note. The Casiotone CT-FS1 is available ...</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>AI inference startup Fal doubles its valuation to $16B as demand surges</title>
-      <link>https://techseconds.com/stories/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/</guid>
-      <pubDate>Thu, 05 Nov 2026 17:29:44 GMT</pubDate>
-      <description>The five-year-old startup raised a $1.3 billion round led by Bessemer.</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&amp;q=85" medium="image" />
     </item>
   </channel>
 </rss>
