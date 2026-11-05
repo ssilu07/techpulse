@@ -20,6 +20,7 @@ from config import (
     AMP_PUBLISHER_LOGO_URL,
     GOOGLE_SITE_VERIFICATION,
     GA_MEASUREMENT_ID,
+    ADSENSE_CLIENT_ID,
     get_category_fallback_image,
 )
 
@@ -428,6 +429,21 @@ def build_story_html(story: Dict[str, Any]) -> str:
 
     all_slides_markup = "\n".join(slides_html)
 
+    auto_ads_html = ""
+    if ADSENSE_CLIENT_ID:
+        auto_ads_html = f"""
+      <!-- Google AdSense AMP Story Auto Ads -->
+      <amp-story-auto-ads>
+        <script type="application/json">
+        {{{{
+          "ad-attributes": {{{{
+            "type": "adsense",
+            "data-ad-client": "{ADSENSE_CLIENT_ID}"
+          }}}}
+        }}}}
+        </script>
+      </amp-story-auto-ads>"""
+
     escaped_story_title = html.escape(title, quote=True)
     escaped_seo_title = html.escape(seo_title, quote=True)
     escaped_summary = html.escape(summary, quote=True)
@@ -471,6 +487,7 @@ def build_story_html(story: Dict[str, Any]) -> str:
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <script async custom-element="amp-story-interactive" src="https://cdn.ampproject.org/v0/amp-story-interactive-0.1.js"></script>
+    <script async custom-element="amp-story-auto-ads" src="https://cdn.ampproject.org/v0/amp-story-auto-ads-0.1.js"></script>
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -674,7 +691,7 @@ def build_story_html(story: Dict[str, Any]) -> str:
           }}
         }}
         </script>
-      </amp-analytics>
+      </amp-analytics>{auto_ads_html}
 {all_slides_markup}
     </amp-story>
   </body>

@@ -33,6 +33,7 @@
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <script async custom-element="amp-story-interactive" src="https://cdn.ampproject.org/v0/amp-story-interactive-0.1.js"></script>
+    <script async custom-element="amp-story-auto-ads" src="https://cdn.ampproject.org/v0/amp-story-auto-ads-0.1.js"></script>
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -237,6 +238,17 @@
         }
         </script>
       </amp-analytics>
+      <!-- Google AdSense AMP Story Auto Ads -->
+      <amp-story-auto-ads>
+        <script type="application/json">
+        {{
+          "ad-attributes": {{
+            "type": "adsense",
+            "data-ad-client": "ca-pub-1811294933992844"
+          }}
+        }}
+        </script>
+      </amp-story-auto-ads>
 
       <amp-story-page id="page-1">
         <amp-story-grid-layer template="fill">
@@ -414,15 +426,15 @@
                 <span>📖 Read Full Analysis (800+ Words)</span>
                 <span class="action-arr">→</span>
               </a>
-              <a href="/stories/x-says-its-updated-web-app-is-way-faster/" class="final-action-btn next-story-action-btn">
-                <span>⚡ Next Story: X says its updated web app is way faster</span>
+              <a href="/stories/turn-off-these-3-phone-settings-double-battery-life/" class="final-action-btn next-story-action-btn">
+                <span>⚡ Next Story: Turn Off These 3 Hidden Android &amp; iPhone Sett...</span>
                 <span class="action-arr">→</span>
               </a>
             </div>
           </div>
         </amp-story-grid-layer>
         <amp-story-page-outlink layout="nodisplay">
-          <a href="/stories/x-says-its-updated-web-app-is-way-faster/">⚡ Next Story: X says its updated web app is way faster</a>
+          <a href="/stories/turn-off-these-3-phone-settings-double-battery-life/">⚡ Next Story: Turn Off These 3 Hidden Android &amp; iPhone Sett...</a>
         </amp-story-page-outlink>
       </amp-story-page>
     </amp-story>

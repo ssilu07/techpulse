@@ -160,11 +160,18 @@ def run_pipeline(
                 # Rate-limit safety pause
                 time.sleep(1.2)
 
-        # 4. Merge fresh stories at the top of the catalog
+        # 4. Merge fresh stories and any new curated viral cornerstones at the top of the catalog
         # Deduplicate by slug preserving order (newest first)
         seen_slugs: Set[str] = set()
         merged_catalog: List[Dict[str, Any]] = []
-        for s in new_synthesized_stories + catalog:
+        catalog_slugs = {st.get("slug") for st in catalog}
+        missing_curated = [s for s in CURATED_VIRAL_STORIES if s.get("slug") not in catalog_slugs]
+        if missing_curated:
+            print(f"[+] Discovered {len(missing_curated)} new viral cornerstone stories. Promoting to top of catalog.")
+            for c in missing_curated:
+                c_path = write_story_file(c, DIST_DIR)
+                new_story_paths.append(c_path)
+        for s in new_synthesized_stories + missing_curated + catalog:
             s_slug = s.get("slug")
             if s_slug and s_slug not in seen_slugs:
                 seen_slugs.add(s_slug)
