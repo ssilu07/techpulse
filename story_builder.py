@@ -431,16 +431,18 @@ def build_story_html(story: Dict[str, Any]) -> str:
 
     auto_ads_html = ""
     if ADSENSE_CLIENT_ID:
+        ads_config_json = json.dumps({
+            "ad-attributes": {
+                "type": "adsense",
+                "data-ad-client": ADSENSE_CLIENT_ID
+            }
+        }, indent=2)
+        indented_ads_json = "\n".join("        " + line for line in ads_config_json.splitlines())
         auto_ads_html = f"""
       <!-- Google AdSense AMP Story Auto Ads -->
       <amp-story-auto-ads>
         <script type="application/json">
-        {{{{
-          "ad-attributes": {{{{
-            "type": "adsense",
-            "data-ad-client": "{ADSENSE_CLIENT_ID}"
-          }}}}
-        }}}}
+{indented_ads_json}
         </script>
       </amp-story-auto-ads>"""
 

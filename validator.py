@@ -87,9 +87,10 @@ def run_structural_rule_checks(file_path: Path) -> Tuple[bool, List[str]]:
         errors.append("Missing <amp-story-page> tags")
 
     # Verify Google Search Console & AMP structured data specifications
+    import json
+    import re
+
     if '<script type="application/ld+json">' in content:
-        import json
-        import re
         m = re.search(r'<script type="application/ld\+json">(.*?)</script>', content, re.DOTALL)
         if m:
             try:
@@ -107,6 +108,14 @@ def run_structural_rule_checks(file_path: Path) -> Tuple[bool, List[str]]:
                             errors.append(f"Schema image width < 1200px: {img_url}")
             except Exception as e:
                 errors.append(f"Invalid JSON-LD markup: {e}")
+
+    # Verify all JSON script tags (amp-story-auto-ads, amp-analytics, etc.) contain valid parseable JSON
+    json_scripts = re.findall(r'<script\s+type=["\'](application/(?:ld\+)?json)["\']>(.*?)</script>', content, re.DOTALL)
+    for mime_type, script_body in json_scripts:
+        try:
+            json.loads(script_body.strip())
+        except Exception as e:
+            errors.append(f"The script tag ({mime_type}) contains invalid JSON that cannot be parsed: {e}")
 
     return len(errors) == 0, errors
 
