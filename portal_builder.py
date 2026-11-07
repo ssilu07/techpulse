@@ -227,6 +227,14 @@ def build_portal_html(
   <title>{SITE_NAME} — {SITE_TAGLINE}</title>
   <meta name="description" content="{SITE_DESCRIPTION}">
   <link rel="canonical" href="{SITE_URL}/">
+  <!-- PWA & Mobile Web App Meta -->
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#06b6d4">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="TechSeconds">
+  <link rel="apple-touch-icon" href="/static/images/publisher-logo.png">
+
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
   <!-- Google Search Console Verification -->
@@ -626,6 +634,9 @@ def build_legal_page_html(
     </div>
   </footer>
 
+
+  <!-- PWA Service Worker Registration -->
+  <script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');</script>
 </body>
 </html>"""
     return html

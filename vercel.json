@@ -68,6 +68,22 @@
       "dest": "/api/poll/index.json"
     },
     {
+      "src": "/manifest.webmanifest",
+      "headers": {
+        "content-type": "application/manifest+json; charset=utf-8",
+        "cache-control": "public, max-age=3600"
+      },
+      "dest": "/manifest.webmanifest"
+    },
+    {
+      "src": "/sw.js",
+      "headers": {
+        "content-type": "application/javascript; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate"
+      },
+      "dest": "/sw.js"
+    },
+    {
       "src": "/(.*)",
       "dest": "/$1"
     }

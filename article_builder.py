@@ -1980,6 +1980,14 @@ def build_article_html(article: Dict[str, Any], related_articles: Optional[List[
   <title>{html_lib.escape(title)} | {SITE_NAME}</title>
   <meta name="description" content="{html_lib.escape(subtitle)}">
   <link rel="canonical" href="{canonical_url}">
+  <!-- PWA & Mobile Web App Meta -->
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#06b6d4">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="TechSeconds">
+  <link rel="apple-touch-icon" href="/static/images/publisher-logo.png">
+
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
   <!-- Verification & Analytics -->
@@ -2284,6 +2292,14 @@ def build_articles_index_html(articles: List[Dict[str, Any]]) -> str:
   <title>In-Depth Technology Articles & Engineering Deep Dives | {SITE_NAME}</title>
   <meta name="description" content="Explore {len(articles)} in-depth technical analysis articles covering AI tools, silicon processors, mobile hardware, quantum computing, and robotics.">
   <link rel="canonical" href="{canonical_url}">
+  <!-- PWA & Mobile Web App Meta -->
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#06b6d4">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="TechSeconds">
+  <link rel="apple-touch-icon" href="/static/images/publisher-logo.png">
+
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
   <!-- Verification & Analytics -->
@@ -2413,6 +2429,9 @@ def build_articles_index_html(articles: List[Dict[str, Any]]) -> str:
     </div>
   </footer>
 
+
+  <!-- PWA Service Worker Registration -->
+  <script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');</script>
 </body>
 </html>"""
     return html

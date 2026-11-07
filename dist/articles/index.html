@@ -6,6 +6,14 @@
   <title>In-Depth Technology Articles & Engineering Deep Dives | TechSeconds</title>
   <meta name="description" content="Explore 500 in-depth technical analysis articles covering AI tools, silicon processors, mobile hardware, quantum computing, and robotics.">
   <link rel="canonical" href="https://techseconds.com/articles/">
+  <!-- PWA & Mobile Web App Meta -->
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#06b6d4">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="TechSeconds">
+  <link rel="apple-touch-icon" href="/static/images/publisher-logo.png">
+
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
   <!-- Verification & Analytics -->
@@ -11134,5 +11142,8 @@
     </div>
   </footer>
 
+
+  <!-- PWA Service Worker Registration -->
+  <script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');</script>
 </body>
 </html>

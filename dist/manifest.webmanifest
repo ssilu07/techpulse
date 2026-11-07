@@ -1,0 +1,24 @@
+{
+  "name": "TechSeconds \u2014 Premier Tech Journalism & Web Stories",
+  "short_name": "TechSeconds",
+  "description": "Daily viral tech breakthroughs, battery optimization hacks, and in-depth AI guides.",
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "background_color": "#08090d",
+  "theme_color": "#06b6d4",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": [
+    "news",
+    "technology",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/static/images/publisher-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
