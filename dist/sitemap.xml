@@ -264,6 +264,46 @@
     </image:image>
   </url>
   <url>
+    <loc>https://techseconds.com/articles/techcrunch-mobility-the-cybertruck-experiment-is-over/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1280&amp;q=85</image:loc>
+      <image:title>TechCrunch Mobility: The Cybertruck experiment is over</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/motorola-is-quietly-building-apps-and-features-that-make-pixel-and-sam/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&amp;q=85</image:loc>
+      <image:title>Motorola is quietly building apps and features that make Pixel and Samsung phones feel behind the times</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/apples-new-macbook-pro-tops-out-at-15k-heres-what-that-gets-you/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&amp;q=85</image:loc>
+      <image:title>Apple&apos;s new MacBook Pro tops out at $15K - here&apos;s what that gets you</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/articles/uk-has-no-plans-to-slow-down-ai-data-center-construction/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>UK has no plans to slow down AI data center construction</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://techseconds.com/articles/3-reasons-why-ill-never-fully-switch-to-brave-and-still-have-chrome-on/</loc>
     <lastmod>2026-11-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -5251,6 +5291,46 @@
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=1280&amp;q=85</image:loc>
       <image:title>Xbox Next-Gen Hybrid Console: Bridging Native Windows PC Games &amp; Living Room 4K</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/techcrunch-mobility-the-cybertruck-experiment-is-over/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1280&amp;q=85</image:loc>
+      <image:title>TechCrunch Mobility: The Cybertruck experiment is over</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/motorola-is-quietly-building-apps-and-features-that-make-pixel-and-sam/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1280&amp;q=85</image:loc>
+      <image:title>Motorola is quietly building apps and features that make Pixel and Samsung phones feel behind the times</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/apples-new-macbook-pro-tops-out-at-15k-heres-what-that-gets-you/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1280&amp;q=85</image:loc>
+      <image:title>Apple&apos;s new MacBook Pro tops out at $15K - here&apos;s what that gets you</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://techseconds.com/stories/uk-has-no-plans-to-slow-down-ai-data-center-construction/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85</image:loc>
+      <image:title>UK has no plans to slow down AI data center construction</image:title>
     </image:image>
   </url>
   <url>
