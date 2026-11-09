@@ -1,5 +1,237 @@
 [
   {
+    "title": "Apple's $50 Intelligence Usage Packs extend access to some AI features",
+    "slug": "apples-50-intelligence-usage-packs-extend-access-to-some-ai-features",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+    "published": "2026-11-09T14:09:58-05:00",
+    "read_time": "45s",
+    "summary": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistan...",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85",
+    "seo_title": "Apple's $50 Intelligence Usage Packs extend access",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "Apple's $50 Intelligence Usage Packs extend access to some AI fea...",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49",
+        "bullet2": "99, as spotted by 9to5Mac",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "99, as spotted by 9to5Mac",
+        "bullet2": "It has a built-in AI assistan",
+        "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=1280&q=85"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "It has a built-in AI assistan",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/anthropic-launches-new-claude-fable-and-mythos-52-models/",
+    "next_story_title": "Anthropic launches new Claude Fable and Mythos 5.2"
+  },
+  {
+    "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+    "slug": "anthropic-launches-new-claude-fable-and-mythos-52-models",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+    "published": "2026-11-09T14:00:00-05:00",
+    "read_time": "45s",
+    "summary": "Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster th...",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85",
+    "seo_title": "Anthropic launches new Claude Fable and Mythos 5.2",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "Anthropic is announcing two new models today: Claude Fable 5",
+        "bullet2": "2 and Claude Mythos 5",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "2 and Claude Mythos 5",
+        "bullet2": "2, which it says are designed to take on \"daunting\" technical challenges",
+        "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=1280&q=85"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "2, which it says are designed to take on \"daunting\" technical challenges",
+        "bullet2": "The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster th",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster th",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/instagrams-effect-builder-makes-new-filters-from-ai-prompts/",
+    "next_story_title": "Instagram's Effect Builder makes new filters from AI"
+  },
+  {
+    "title": "Instagram's Effect Builder makes new filters from AI prompts",
+    "slug": "instagrams-effect-builder-makes-new-filters-from-ai-prompts",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+    "published": "2026-11-09T13:07:23-05:00",
+    "read_time": "45s",
+    "summary": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the cha...",
+    "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85",
+    "seo_title": "Instagram's Effect Builder makes new filters from AI",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "Instagram's Effect Builder makes new filters from AI prompts",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI",
+        "bullet2": "Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the cha",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the cha",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=1280&q=85"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+    "next_story_title": "Anthropic releases new Mythos and Fable models amid"
+  },
+  {
+    "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+    "slug": "anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+    "published": "Mon, 09 Nov 2026 19:24:51 +0000",
+    "read_time": "45s",
+    "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85",
+    "seo_title": "Anthropic releases new Mythos and Fable models amid",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users",
+        "bullet2": "A major development for early adopters and tech professionals.",
+        "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "Technical deep-dive reveals how Anthropic releases new Mythos and Fable  operates.",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=1280&q=85"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/hold-up-i-had-a-great-time-talking-to-the-riaa-guy/",
+    "next_story_title": "Hold up - I had a great time talking to the RIAA guy"
+  },
+  {
     "title": "Hold up - I had a great time talking to the RIAA guy",
     "slug": "hold-up-i-had-a-great-time-talking-to-the-riaa-guy",
     "category_id": "ai-tools",
@@ -31364,7 +31596,7 @@
       }
     ],
     "seo_title": "Xbox Next-Gen Hybrid Console",
-    "next_story_url": "/stories/hold-up-i-had-a-great-time-talking-to-the-riaa-guy/",
-    "next_story_title": "Hold up - I had a great time talking to the RIAA guy"
+    "next_story_url": "/stories/apples-50-intelligence-usage-packs-extend-access-to-some-ai-features/",
+    "next_story_title": "Apple's $50 Intelligence Usage Packs extend access"
   }
 ]
