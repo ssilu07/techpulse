@@ -30,6 +30,7 @@ from config import (
     PINTEREST_USERNAME,
     PINTEREST_DOMAIN_VERIFY,
     get_pinterest_verify_tag,
+    DIST_DIR,
 )
 from story_builder import optimize_seo_title
 
@@ -2300,8 +2301,18 @@ def build_article_html(article: Dict[str, Any], related_articles: Optional[List[
     image = article.get("image") or get_category_fallback_image(category_id)
     image_caption = article.get("image_caption", f"Coverage of {title}")
     canonical_url = f"{SITE_URL}/articles/{slug}/"
-    story_url = f"{SITE_URL}/stories/{slug}/"
     current_year = datetime.now(timezone.utc).year
+
+    # Check if a dedicated visual story exists on disk for this slug
+    has_story = (DIST_DIR / "stories" / slug / "index.html").exists() if DIST_DIR else False
+    if has_story:
+        story_url = f"{SITE_URL}/stories/{slug}/"
+        story_btn_text = "Open Visual Web Story ⚡"
+        story_desc = "Experience this exact breakthrough distilled into a 45-second interactive Google AMP Web Story with responsive graphics."
+    else:
+        story_url = f"{SITE_URL}/"
+        story_btn_text = "Explore Visual Stories ⚡"
+        story_desc = "Experience our breaking tech stories distilled into 45-second interactive Google AMP Web Stories with responsive graphics."
 
     # Category details
     cat_name = "Technology"
@@ -2723,10 +2734,10 @@ def build_article_html(article: Dict[str, Any], related_articles: Optional[List[
       <aside class="article-story-cta">
         <div class="article-story-cta-text">
           <h4>⚡ Prefer High-Speed Visuals?</h4>
-          <p>Experience this exact breakthrough distilled into a 45-second interactive Google AMP Web Story with responsive graphics.</p>
+          <p>{story_desc}</p>
         </div>
         <a href="{story_url}" class="article-story-cta-btn" target="_blank" rel="noopener">
-          Open Visual Web Story ⚡
+          {story_btn_text}
         </a>
       </aside>
 
@@ -2843,6 +2854,9 @@ def build_articles_index_html(articles: List[Dict[str, Any]]) -> str:
         thumb = art.get("image") or get_category_fallback_image(category_id)
         read_time = art.get("read_time", "6 min read")
         published = art.get("published", "")[:10]
+        has_story = (DIST_DIR / "stories" / slug / "index.html").exists() if DIST_DIR else False
+        card_story_url = f"/stories/{slug}/" if has_story else "/"
+        card_story_text = "⚡ Web Story" if has_story else "⚡ Visual Stories"
 
         cards_html.append(f"""
         <article class="deepdive-card">
@@ -2862,7 +2876,7 @@ def build_articles_index_html(articles: List[Dict[str, Any]]) -> str:
             <p class="deepdive-excerpt">{subtitle}</p>
             <div class="deepdive-footer">
               <a href="/articles/{slug}/" class="deepdive-read-btn">Read Deep Dive →</a>
-              <a href="/stories/{slug}/" class="deepdive-story-link" target="_blank">⚡ Web Story</a>
+              <a href="{card_story_url}" class="deepdive-story-link" target="_blank">{card_story_text}</a>
             </div>
           </div>
         </article>""")

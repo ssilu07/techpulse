@@ -51,12 +51,12 @@ def copy_static_assets(src_dir: Path, dist_dir: Path):
         shutil.copy2(root_ads_txt, dist_dir / "ads.txt")
         print(f"[+] Deployed Google AdSense ads.txt to: {dist_dir / 'ads.txt'}")
 
-    # Deploy PWA assets to root
-    for pwa_file in ["manifest.webmanifest", "sw.js"]:
-        src_pwa = src_dir / pwa_file
-        if src_pwa.exists():
-            shutil.copy2(src_pwa, dist_dir / pwa_file)
-            print(f"[+] Deployed PWA asset to: {dist_dir / pwa_file}")
+    # Deploy PWA & Favicon assets to root
+    for root_file in ["manifest.webmanifest", "sw.js", "favicon.ico"]:
+        src_root = src_dir / root_file
+        if src_root.exists():
+            shutil.copy2(src_root, dist_dir / root_file)
+            print(f"[+] Deployed {root_file} to: {dist_dir / root_file}")
 
     poll_src = src_dir / "api" / "poll" / "index.json"
     if poll_src.exists():

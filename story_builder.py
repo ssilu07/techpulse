@@ -373,7 +373,19 @@ def build_story_html(story: Dict[str, Any]) -> str:
             next_title = story.get("next_story_title") or "Next Tech Breakthrough"
             short_next_title = next_title[:45] + ("..." if len(next_title) > 45 else "")
             escaped_next_title = html.escape(short_next_title, quote=True)
-            article_url = f"{SITE_URL}/articles/{slug}/"
+
+            try:
+                from article_builder import FLAGSHIP_SLUGS
+                has_flagship = slug in FLAGSHIP_SLUGS
+            except ImportError:
+                has_flagship = False
+
+            if has_flagship:
+                article_url = f"{SITE_URL}/articles/{slug}/"
+                article_btn_text = "📖 Read Full Analysis (800+ Words)"
+            else:
+                article_url = f"{SITE_URL}/articles/"
+                article_btn_text = "📖 Explore In-Depth Tech Reviews"
 
             outlink_html = f"""
         <amp-story-page-outlink layout="nodisplay">
@@ -383,7 +395,7 @@ def build_story_html(story: Dict[str, Any]) -> str:
             final_actions_html = f"""
             <div class="final-actions-panel">
               <a href="{article_url}" class="final-action-btn deepdive-action-btn">
-                <span>📖 Read Full Analysis (800+ Words)</span>
+                <span>{article_btn_text}</span>
                 <span class="action-arr">→</span>
               </a>
               <a href="{next_url}" class="final-action-btn next-story-action-btn">

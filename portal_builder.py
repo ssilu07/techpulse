@@ -1213,6 +1213,518 @@ Sitemap: {SITE_URL}/sitemap.xml
 """
 
 
+def build_404_html() -> str:
+    """
+    Renders a custom 404 error page matching TechSeconds' cyber-dark aesthetic.
+    Features navigation to home (/), in-depth articles (/articles/), editorial lab (/editorial-team/),
+    and popular reviews to gracefully redirect lost visitors and search crawlers.
+    """
+    current_year = datetime.now(timezone.utc).year
+    canonical_url = f"{SITE_URL}/404.html"
+
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 - Page Relocated or Not Found | {SITE_NAME}</title>
+  <meta name="description" content="The requested tech report or story has been relocated or archived into our In-Depth Articles Library. Explore our authentic hardware benchmarks and Google AMP Web Stories.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="{canonical_url}">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#06b6d4">
+
+  <!-- Verification & Analytics -->
+  <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
+{get_pinterest_verify_tag()}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={GA_MEASUREMENT_ID}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+    gtag('config', '{GA_MEASUREMENT_ID}');
+  </script>
+{get_adsense_script_tag()}
+
+  <!-- Google Fonts Whitelist -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {{
+      --bg-dark: #08090d;
+      --bg-card: rgba(13, 17, 23, 0.75);
+      --border-glass: rgba(255, 255, 255, 0.08);
+      --neon-cyan: #06b6d4;
+      --tech-emerald: #10b981;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --text-dim: #6b7280;
+      --font-heading: 'Outfit', -apple-system, sans-serif;
+      --font-body: 'Space Grotesk', -apple-system, sans-serif;
+      --radius-md: 16px;
+      --radius-sm: 8px;
+      --radius-full: 9999px;
+    }}
+
+    * {{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }}
+
+    body {{
+      background: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.6;
+      background-image: 
+        radial-gradient(circle at 50% 0%, rgba(6, 182, 212, 0.12) 0%, transparent 60%),
+        radial-gradient(circle at 100% 100%, rgba(16, 185, 129, 0.08) 0%, transparent 50%);
+    }}
+
+    /* Global Header */
+    .site-header {{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 2rem;
+      border-bottom: 1px solid var(--border-glass);
+      background: rgba(8, 9, 13, 0.85);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }}
+
+    .site-logo {{
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      color: #fff;
+      font-family: var(--font-heading);
+      font-weight: 900;
+      font-size: 1.4rem;
+      letter-spacing: -0.5px;
+    }}
+
+    .site-logo-icon {{
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, var(--neon-cyan), var(--tech-emerald));
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+    }}
+
+    .site-nav {{
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+    }}
+
+    .nav-link {{
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }}
+
+    .nav-link:hover, .nav-link.active {{
+      color: var(--neon-cyan);
+    }}
+
+    .nav-cta-btn {{
+      background: linear-gradient(135deg, var(--neon-cyan), var(--tech-emerald));
+      color: #08090d;
+      padding: 0.5rem 1.25rem;
+      border-radius: var(--radius-full);
+      font-weight: 800;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }}
+
+    .nav-cta-btn:hover {{
+      transform: translateY(-2px);
+      box-shadow: 0 0 15px rgba(6, 182, 212, 0.4);
+    }}
+
+    /* 404 Hero Container */
+    .error-container {{
+      max-width: 900px;
+      margin: 4rem auto;
+      padding: 0 1.5rem;
+      text-align: center;
+      flex: 1;
+    }}
+
+    .error-badge {{
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.4rem 1.2rem;
+      background: rgba(6, 182, 212, 0.1);
+      border: 1px solid rgba(6, 182, 212, 0.3);
+      border-radius: var(--radius-full);
+      color: var(--neon-cyan);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }}
+
+    .error-code {{
+      font-family: var(--font-heading);
+      font-size: clamp(5rem, 15vw, 8.5rem);
+      font-weight: 900;
+      line-height: 1;
+      background: linear-gradient(135deg, #ffffff 30%, var(--neon-cyan) 70%, var(--tech-emerald) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+      letter-spacing: -2px;
+    }}
+
+    .error-title {{
+      font-family: var(--font-heading);
+      font-size: clamp(1.5rem, 4vw, 2.2rem);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 1.2rem;
+    }}
+
+    .error-desc {{
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      max-width: 650px;
+      margin: 0 auto 2.5rem;
+      line-height: 1.7;
+    }}
+
+    /* Fast Action Nav Grid */
+    .action-grid {{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 3.5rem;
+      text-align: left;
+    }}
+
+    .action-card {{
+      background: var(--bg-card);
+      border: 1px solid var(--border-glass);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }}
+
+    .action-card:hover {{
+      transform: translateY(-4px);
+      border-color: var(--neon-cyan);
+      box-shadow: 0 10px 30px rgba(6, 182, 212, 0.15);
+    }}
+
+    .action-icon {{
+      font-size: 1.8rem;
+      margin-bottom: 0.75rem;
+    }}
+
+    .action-card-title {{
+      font-family: var(--font-heading);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.4rem;
+    }}
+
+    .action-card-desc {{
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }}
+
+    .action-arrow {{
+      color: var(--neon-cyan);
+      font-weight: 700;
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }}
+
+    /* Curated Flagships Section */
+    .curated-section {{
+      background: rgba(13, 17, 23, 0.5);
+      border: 1px solid var(--border-glass);
+      border-radius: var(--radius-md);
+      padding: 2rem;
+      text-align: left;
+    }}
+
+    .curated-heading {{
+      font-family: var(--font-heading);
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }}
+
+    .curated-list {{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+      list-style: none;
+    }}
+
+    .curated-item a {{
+      color: var(--text-main);
+      text-decoration: none;
+      font-size: 0.95rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 0.8rem;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: var(--radius-sm);
+      border: 1px solid transparent;
+      transition: all 0.2s ease;
+    }}
+
+    .curated-item a:hover {{
+      border-color: var(--neon-cyan);
+      background: rgba(6, 182, 212, 0.08);
+      color: var(--neon-cyan);
+    }}
+
+    /* Footer */
+    .site-footer {{
+      border-top: 1px solid var(--border-glass);
+      padding: 3rem 2rem 2rem;
+      background: rgba(8, 9, 13, 0.95);
+      margin-top: auto;
+    }}
+
+    .footer-inner {{
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }}
+
+    @media (max-width: 768px) {{
+      .site-header {{
+        padding: 1rem;
+      }}
+      .site-nav {{
+        gap: 0.75rem;
+      }}
+      .footer-inner {{
+        grid-template-columns: 1fr;
+      }}
+    }}
+
+    .footer-col-title {{
+      font-family: var(--font-heading);
+      font-size: 1rem;
+      color: #fff;
+      margin-bottom: 1rem;
+    }}
+
+    .footer-links {{
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }}
+
+    .footer-links a {{
+      color: var(--text-dim);
+      text-decoration: none;
+      font-size: 0.88rem;
+      transition: color 0.2s;
+    }}
+
+    .footer-links a:hover {{
+      color: var(--neon-cyan);
+    }}
+
+    .footer-bottom {{
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      padding-top: 1.5rem;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--text-dim);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }}
+  </style>
+</head>
+<body>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header">
+    <a href="/" class="site-logo">
+      <div class="site-logo-icon">⚡</div>
+      <span>TECH<span style="color: var(--neon-cyan);">SECONDS</span></span>
+    </a>
+    <nav class="site-nav">
+      <a href="/" class="nav-link">Visual Stories</a>
+      <a href="/articles/" class="nav-link">In-Depth Reviews</a>
+      <a href="/editorial-team/" class="nav-link">Editorial Lab</a>
+      <a href="/about/" class="nav-link">About</a>
+      <a href="/articles/" class="nav-cta-btn">Explore Reviews →</a>
+    </nav>
+  </header>
+
+  <!-- 404 Hero Section -->
+  <main class="error-container">
+    <div class="error-badge">
+      <span>●</span> Signal Relocated // Error 404
+    </div>
+    <div class="error-code">404</div>
+    <h1 class="error-title">Page Relocated or Archived</h1>
+    <p class="error-desc">
+      The technical analysis, article, or story URL you were attempting to reach does not exist or has been restructured into our In-Depth Magazine Library. Browse our verified hardware benchmarks and Google AMP Web Stories below.
+    </p>
+
+    <!-- Fast Action Hubs -->
+    <div class="action-grid">
+      <a href="/" class="action-card">
+        <div>
+          <div class="action-icon">⚡</div>
+          <h3 class="action-card-title">Visual Web Stories</h3>
+          <p class="action-card-desc">Bite-sized, 45-second swipeable Google AMP visual stories covering breaking mobile, AI, and hardware disclosures.</p>
+        </div>
+        <div class="action-arrow">Launch Portal →</div>
+      </a>
+
+      <a href="/articles/" class="action-card">
+        <div>
+          <div class="action-icon">📖</div>
+          <h3 class="action-card-title">In-Depth Magazine Reviews</h3>
+          <p class="action-card-desc">800 to 1,500+ word comprehensive technical teardowns, silicon architecture benchmarks, and buyer scorecards.</p>
+        </div>
+        <div class="action-arrow">Browse 30+ Reviews →</div>
+      </a>
+
+      <a href="/editorial-team/" class="action-card">
+        <div>
+          <div class="action-icon">🔬</div>
+          <h3 class="action-card-title">Editorial Testing Lab</h3>
+          <p class="action-card-desc">Meet our verified hardware analysts, Ph.D. semiconductor specialists, and review our 5-stage testing methodology.</p>
+        </div>
+        <div class="action-arrow">Inspect Lab Standards →</div>
+      </a>
+    </div>
+
+    <!-- Curated In-Depth Reviews -->
+    <div class="curated-section">
+      <div class="curated-heading">
+        <span>★</span> Popular Flagship Editorial Analyses
+      </div>
+      <ul class="curated-list">
+        <li class="curated-item">
+          <a href="/articles/razer-blade-18-rtx-5090-blackwell-4k-oled/">
+            <span>💻</span> Razer Blade 18 RTX 5090 Blackwell Lab Review
+          </a>
+        </li>
+        <li class="curated-item">
+          <a href="/articles/best-local-llm-hardware-guide-mac-pc/">
+            <span>🧠</span> Local LLM Hardware Buying Guide (Mac vs PC)
+          </a>
+        </li>
+        <li class="curated-item">
+          <a href="/articles/sora-2-gen-3-alpha-4k-cinema-sound-models/">
+            <span>🎬</span> Sora 2 vs Gen-3 Alpha 4K Cinema Benchmark
+          </a>
+        </li>
+        <li class="curated-item">
+          <a href="/articles/snapdragon-x-elite-2-laptops-28-hour-battery-desktop-arm/">
+            <span>🔋</span> Snapdragon X Elite 2 vs Apple M4 Battery Analysis
+          </a>
+        </li>
+        <li class="curated-item">
+          <a href="/articles/galaxy-s26-ultra-vs-iphone-18-pro-max-camera-war/">
+            <span>📸</span> Galaxy S26 Ultra vs iPhone 18 Pro Max Camera Shootout
+          </a>
+        </li>
+        <li class="curated-item">
+          <a href="/articles/5-free-ai-tools-better-than-chatgpt-plus/">
+            <span>⚡</span> 5 Free AI Tools Better Than ChatGPT Plus
+          </a>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="site-logo" style="margin-bottom: 0.8rem;">
+          <div class="site-logo-icon">⚡</div>
+          <span>TECH<span style="color: var(--neon-cyan);">SECONDS</span></span>
+        </div>
+        <p style="color: var(--text-dim); font-size: 0.88rem; max-width: 400px; line-height: 1.6;">
+          Independent technology intelligence desk delivering verified microprocessor benchmarks, mobile hardware teardowns, and Google AMP Web Stories.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="footer-col-title">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="/">⚡ Visual Stories Portal</a></li>
+          <li><a href="/articles/">📖 In-Depth Articles</a></li>
+          <li><a href="/editorial-team/">🔬 Editorial Team & Testing</a></li>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/contact/">Contact Editorial Desk</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-col-title">Policies & Trust</h4>
+        <ul class="footer-links">
+          <li><a href="/privacy/">Privacy Policy (AdSense & GDPR)</a></li>
+          <li><a href="/terms/">Terms of Service & Fair Use</a></li>
+          <li><a href="/about/#ai-disclosure">Editorial Standards</a></li>
+          <li><a href="/sitemap.xml">XML Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>© {current_year} {SITE_NAME}. All rights reserved. Google AMP & AdSense Compliant.</div>
+      <div>TechSeconds Editorial Lab & Independent Hardware Benchmarks.</div>
+    </div>
+  </footer>
+
+</body>
+</html>"""
+
+
 def build_all_portal_pages(stories: List[Dict[str, Any]], dist_dir: Path):
     """
     Renders and writes in-depth articles, portal homepage, legal pages, sitemap, robots, and stories.json.
@@ -1240,6 +1752,11 @@ def build_all_portal_pages(stories: List[Dict[str, Any]], dist_dir: Path):
         page_markup = build_legal_page_html(page_id, page_title, page_desc, content_html)
         (page_dir / "index.html").write_text(page_markup, encoding="utf-8")
         print(f"[+] Generated legal page: dist/{page_id}/index.html")
+
+    # 2b. Branded 404 Error Page
+    not_found_html = build_404_html()
+    (dist_dir / "404.html").write_text(not_found_html, encoding="utf-8")
+    print(f"[+] Generated 404 error page: dist/404.html")
 
     # 3. Dynamic Sitemap.xml (Includes stories and in-depth articles)
     sitemap_xml = generate_sitemap_xml(stories, articles=articles)
