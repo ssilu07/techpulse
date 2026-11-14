@@ -12,7 +12,7 @@
     <!-- OpenGraph & Twitter Meta -->
     <meta property="og:title" content="The AI graveyard: a running list of projects">
     <meta property="og:description" content="From Apple&#x27;s repeatedly delayed Siri AI to OpenAI&#x27;s messy &quot;super app&quot; launch, here&#x27;s a look at the AI projects that shut down or missed expectations.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&h=720&fit=crop&q=85">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&h=720&fit=crop&q=85">
     <meta property="og:image:width" content="1280">
     <meta property="og:image:height" content="720">
     <meta property="og:url" content="https://techseconds.com/stories/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-ma/">
@@ -21,7 +21,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="The AI graveyard: a running list of projects">
     <meta name="twitter:description" content="From Apple&#x27;s repeatedly delayed Siri AI to OpenAI&#x27;s messy &quot;super app&quot; launch, here&#x27;s a look at the AI projects that shut down or missed expectations.">
-    <meta name="twitter:image" content="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&h=720&fit=crop&q=85">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&h=720&fit=crop&q=85">
 
     <!-- Fonts (Google Fonts whitelist in AMP) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,10 +32,12 @@
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script async custom-element="amp-story-interactive" src="https://cdn.ampproject.org/v0/amp-story-interactive-0.1.js"></script>
+    <script async custom-element="amp-story-auto-ads" src="https://cdn.ampproject.org/v0/amp-story-auto-ads-0.1.js"></script>
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
-    {"@context": "https://schema.org", "@type": "NewsArticle", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://techseconds.com/stories/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-ma/"}, "headline": "The AI graveyard: a running list of projects", "alternativeHeadline": "The AI graveyard: a running list of projects and startups that didn't make it", "image": ["https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&h=720&fit=crop&q=85", "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&h=900&fit=crop&q=85", "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&h=1200&fit=crop&q=85"], "datePublished": "2026-10-24T19:00:00+00:00", "dateModified": "2026-10-24T19:00:00+00:00", "author": {"@type": "Organization", "name": "TechSeconds", "url": "https://techseconds.com"}, "publisher": {"@type": "Organization", "name": "TechSeconds", "url": "https://techseconds.com", "logo": {"@type": "ImageObject", "url": "https://techseconds.com/static/images/amp-publisher-logo.png", "width": 600, "height": 60}}, "description": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations."}
+    {"@context": "https://schema.org", "@type": "NewsArticle", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://techseconds.com/stories/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-ma/"}, "headline": "The AI graveyard: a running list of projects", "alternativeHeadline": "The AI graveyard: a running list of projects and startups that didn't make it", "image": ["https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&h=720&fit=crop&q=85", "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1200&h=900&fit=crop&q=85", "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1200&h=1200&fit=crop&q=85"], "datePublished": "2026-11-14T17:30:00+00:00", "dateModified": "2026-11-14T17:30:00+00:00", "author": {"@type": "Organization", "name": "TechSeconds", "url": "https://techseconds.com"}, "publisher": {"@type": "Organization", "name": "TechSeconds", "url": "https://techseconds.com", "logo": {"@type": "ImageObject", "url": "https://techseconds.com/static/images/amp-publisher-logo.png", "width": 600, "height": 60}}, "description": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations."}
     </script>
 
     <!-- AMP Boilerplate -->
@@ -153,6 +155,66 @@
       .bullet-p:last-child {
         margin-bottom: 0;
       }
+
+      /* Interactive Community Poll Component */
+      amp-story-interactive-poll {
+        --interactive-accent-color: #06b6d4;
+        --interactive-prompt-background: rgba(8, 9, 13, 0.94);
+        --interactive-prompt-text-color: #ffffff;
+        --interactive-option-background: rgba(255, 255, 255, 0.08);
+        --interactive-option-text-color: #e2e8f0;
+        font-family: 'Space Grotesk', -apple-system, sans-serif;
+        justify-self: center;
+        align-self: end;
+        margin-bottom: 24px;
+        width: calc(100% - 40px);
+        max-width: 420px;
+      }
+
+      .poll-grid-layer {
+        pointer-events: none;
+      }
+
+      .poll-grid-layer amp-story-interactive-poll {
+        pointer-events: auto;
+      }
+
+      /* Final Slide Dual-Action Binge Panel */
+      .final-actions-panel {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 12px;
+      }
+
+      .final-action-btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 14px;
+        border-radius: 10px;
+        font-family: 'Outfit', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      .deepdive-action-btn {
+        background: linear-gradient(135deg, rgba(6, 182, 212, 0.25) 0%, rgba(16, 185, 129, 0.2) 100%);
+        border: 1px solid rgba(6, 182, 212, 0.5);
+        color: #22d3ee;
+      }
+
+      .next-story-action-btn {
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        color: #ffffff;
+      }
+
+      .action-arr {
+        font-size: 15px;
+        margin-left: 6px;
+      }
     </style>
   </head>
   <body>
@@ -160,9 +222,9 @@
       title="The AI graveyard: a running list of projects"
       publisher="TechSeconds"
       publisher-logo-src="https://techseconds.com/static/images/publisher-logo.png"
-      poster-portrait-src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&h=1600&fit=crop&q=85"
-      poster-square-src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&h=1200&fit=crop&q=85"
-      poster-landscape-src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&h=900&fit=crop&q=85">
+      poster-portrait-src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1200&h=1600&fit=crop&q=85"
+      poster-square-src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1200&h=1200&fit=crop&q=85"
+      poster-landscape-src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1200&h=900&fit=crop&q=85">
       <!-- Google Analytics 4 (GA4) -->
       <amp-analytics type="gtag">
         <script type="application/json">
@@ -176,10 +238,21 @@
         }
         </script>
       </amp-analytics>
+      <!-- Google AdSense AMP Story Auto Ads -->
+      <amp-story-auto-ads>
+        <script type="application/json">
+        {
+          "ad-attributes": {
+            "type": "adsense",
+            "data-ad-client": "ca-pub-1811294933992844"
+          }
+        }
+        </script>
+      </amp-story-auto-ads>
 
       <amp-story-page id="page-1">
         <amp-story-grid-layer template="fill">
-          <amp-img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1080&h=1920&fit=crop&q=85"
+          <amp-img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1080&h=1920&fit=crop&q=85"
             width="720" height="1280"
             layout="responsive"
             alt="The AI graveyard: a running list of projects and startups that di...">
@@ -212,7 +285,7 @@
 
       <amp-story-page id="page-2">
         <amp-story-grid-layer template="fill">
-          <amp-img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1080&h=1920&fit=crop&q=85"
+          <amp-img src="https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=1080&h=1920&fit=crop&q=85"
             width="720" height="1280"
             layout="responsive"
             alt="Core Technical Breakthrough">
@@ -307,6 +380,16 @@
             </div>
           </div>
         </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="poll-grid-layer">
+          <amp-story-interactive-poll
+            id="poll-the-ai-graveyard-a-runni"
+            theme="dark"
+            endpoint="https://techseconds.com/api/poll"
+            prompt-text="Will this AI breakthrough replace human workflows?"
+            option-1-text="🤖 Definitely Yes"
+            option-2-text="🛡️ Needs Human Oversight">
+          </amp-story-interactive-poll>
+        </amp-story-grid-layer>
       </amp-story-page>
 
       <amp-story-page id="page-5">
@@ -338,10 +421,20 @@
               <p class="bullet-p">● An essential advancement in Artificial Intelligence & Software worth watching closely.</p>
               <p class="bullet-p">● Tap the link below to dive deeper into official documentation and coverage.</p>
             </div>
+            <div class="final-actions-panel">
+              <a href="https://techseconds.com/articles/" class="final-action-btn deepdive-action-btn">
+                <span>📖 Explore In-Depth Tech Reviews</span>
+                <span class="action-arr">→</span>
+              </a>
+              <a href="/stories/the-openai-board-member-who-fired-sam-altman-says-we-still-cant-trust/" class="final-action-btn next-story-action-btn">
+                <span>⚡ Next Story: The OpenAI board member who fired Sam Altman ...</span>
+                <span class="action-arr">→</span>
+              </a>
+            </div>
           </div>
         </amp-story-grid-layer>
         <amp-story-page-outlink layout="nodisplay">
-          <a href="https://techseconds.com/articles/">📖 Explore In-Depth Tech Reviews</a>
+          <a href="/stories/the-openai-board-member-who-fired-sam-altman-says-we-still-cant-trust/">⚡ Next Story: The OpenAI board member who fired Sam Altman ...</a>
         </amp-story-page-outlink>
       </amp-story-page>
     </amp-story>
