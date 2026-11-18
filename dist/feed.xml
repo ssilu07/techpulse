@@ -7,7 +7,51 @@
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <description>TechSeconds is a premier technology publication and hardware intelligence lab delivering in-depth architectural breakdowns, expert hardware benchmarks, comprehensive buying guides, and high-speed visual web stories across artificial intelligence, silicon lithography, flagship smartphones, and future computing.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Nov 2026 21:55:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:58:55 GMT</lastBuildDate>
+    <item>
+      <title>Satya Nadella says he&#x27;s AGI-pilled now</title>
+      <link>https://techseconds.com/stories/satya-nadella-says-hes-agi-pilled-now/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/satya-nadella-says-hes-agi-pilled-now/</guid>
+      <pubDate>Tue, 17 Nov 2026 18:41:18 GMT</pubDate>
+      <description>Microsoft CEO Satya Nadella says he&#x27;s AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. &quot;I am AGI pilled in the sense that at an economy level, what is the political economy&#x27;s ...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Jeff Bezos says he was &#x27;heavily involved&#x27; in picking the new James Bond</title>
+      <link>https://techseconds.com/stories/jeff-bezos-says-he-was-heavily-involved-in-picking-the-new-james-bond/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/jeff-bezos-says-he-was-heavily-involved-in-picking-the-new-james-bond/</guid>
+      <pubDate>Tue, 17 Nov 2026 17:38:41 GMT</pubDate>
+      <description>Robert Pattinson&#x27;s casting as James Bond made enough sense given his recent work with director Denis Villeneuve, who&#x27;s making the franchise&#x27;s next film over at Amazon. But it turns out that Amazon founder Jeff Bezos played a significant role in making the final decision, too. ...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>iFixit&#x27;s Apple HomeView teardown reveals a device that will be difficult to repair</title>
+      <link>https://techseconds.com/stories/ifixits-apple-homeview-teardown-reveals-a-device-that-will-be-difficul/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/ifixits-apple-homeview-teardown-reveals-a-device-that-will-be-difficul/</guid>
+      <pubDate>Tue, 17 Nov 2026 17:25:41 GMT</pubDate>
+      <description>After finding recent versions of Apple&#x27;s iPads and HomePods much easier to disassemble for battery replacements or other repairs, iFixit assumed it would be the same story for Apple&#x27;s new HomeView hub that looks like a seven-inch tablet stuck to a smart speaker. The reality wa...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Nvidia promises that revenue will keep soaring - for now</title>
+      <link>https://techseconds.com/stories/nvidia-promises-that-revenue-will-keep-soaring-for-now/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/nvidia-promises-that-revenue-will-keep-soaring-for-now/</guid>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
+      <description>Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn&#x27;t about to stop.</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1280&amp;q=85" medium="image" />
+    </item>
     <item>
       <title>Nvidia&#x27;s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing</title>
       <link>https://techseconds.com/stories/nvidias-q3-earnings-hit-the-mark-without-mentioning-the-whole-jensen-h/</link>
@@ -45,7 +89,7 @@
       <title>SEC reportedly investigating Nvidia amid Huang exit</title>
       <link>https://techseconds.com/stories/sec-reportedly-investigating-nvidia-amid-huang-exit/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/sec-reportedly-investigating-nvidia-amid-huang-exit/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -67,7 +111,7 @@
       <title>As decision model use skyrockets, is customization the next frontier?</title>
       <link>https://techseconds.com/stories/as-decision-model-use-skyrockets-is-customization-the-next-frontier/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/as-decision-model-use-skyrockets-is-customization-the-next-frontier/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -78,7 +122,7 @@
       <title>Proton&#x27;s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop</title>
       <link>https://techseconds.com/stories/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arriv/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arriv/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Proton&#x27;s new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -89,7 +133,7 @@
       <title>AI models can be tricked into identifying civilians as military targets by telling them it&#x27;s a game</title>
       <link>https://techseconds.com/stories/ai-models-can-be-tricked-into-identifying-civilians-as-military-target/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/ai-models-can-be-tricked-into-identifying-civilians-as-military-target/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -122,7 +166,7 @@
       <title>Uber and Zipline&#x27;s drone delivery service takes off in Texas, with dozens of cities to follow</title>
       <link>https://techseconds.com/stories/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozen/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozen/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>The two companies want to make one million deliveries per day using Zipline drones by the end of 2029.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -133,7 +177,7 @@
       <title>Instagram&#x27;s new tool for creators targets unauthorized reposts and AI-modified videos</title>
       <link>https://techseconds.com/stories/instagrams-new-tool-for-creators-targets-unauthorized-reposts-and-ai-m/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/instagrams-new-tool-for-creators-targets-unauthorized-reposts-and-ai-m/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>The announcement likely comes in response to creators&#x27; concerns over how easily original content can be copied and redistributed across social media platforms, especially considering how generative AI has made it easier to manipulate existing videos.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -144,7 +188,7 @@
       <title>Android 17&#x27;s November update is leaving Pixel cameras completely unusable</title>
       <link>https://techseconds.com/stories/android-17s-november-update-is-leaving-pixel-cameras-completely-unusab/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/android-17s-november-update-is-leaving-pixel-cameras-completely-unusab/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Google adds new Pixel features and some surprisingly nasty bugs</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -155,7 +199,7 @@
       <title>Adam Mosseri thinks it will be &#x27;pretty challenging&#x27; to design Instagram for the iPhone Duo</title>
       <link>https://techseconds.com/stories/adam-mosseri-thinks-it-will-be-pretty-challenging-to-design-instagram/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/adam-mosseri-thinks-it-will-be-pretty-challenging-to-design-instagram/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Instagram head Adam Mosseri briefly talks about the challenges of redesigning the app for the iPhone Duo.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -166,7 +210,7 @@
       <title>Apple adds new disk controls to prevent AI agents from running amok</title>
       <link>https://techseconds.com/stories/apple-adds-new-disk-controls-to-prevent-ai-agents-from-running-amok/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/apple-adds-new-disk-controls-to-prevent-ai-agents-from-running-amok/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>After sounding an alarm about the issue, Apple is taking steps to limit Mac disk access to AI agents.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -177,7 +221,7 @@
       <title>How to put your iPad in recovery mode (with and without a home button)</title>
       <link>https://techseconds.com/stories/how-to-put-your-ipad-in-recovery-mode-with-and-without-a-home-button/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/how-to-put-your-ipad-in-recovery-mode-with-and-without-a-home-button/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>A failed update or too many wrong passcodes can leave your iPad unusable. Find out how recovery mode works and when it&#x27;s worth trying as a last resort.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -199,7 +243,7 @@
       <title>Apple reveals new Mac security controls as AI agents raise privacy risks</title>
       <link>https://techseconds.com/stories/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-ris/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-ris/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Following an October announcement, Apple has detailed new permission controls, warnings, and transparency features coming to macOS 27.3 to address risks posed by AI agents and other apps.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -210,7 +254,7 @@
       <title>Meta is testing Direct, a standalone messaging app for Instagram</title>
       <link>https://techseconds.com/stories/meta-is-testing-direct-a-standalone-messaging-app-for-instagram/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/meta-is-testing-direct-a-standalone-messaging-app-for-instagram/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Meta&#x27;s new DM app for Instagram is only available in Turkey and Thailand, for now.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -221,7 +265,7 @@
       <title>The important Gmail security settings you should be using</title>
       <link>https://techseconds.com/stories/the-important-gmail-security-settings-you-should-be-using/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/the-important-gmail-security-settings-you-should-be-using/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>If you haven&#x27;t taken steps to secure your Gmail account recently, it&#x27;s time to log in and make sure these settings are squared away.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -254,7 +298,7 @@
       <title>Cyber giant Infoblox confirms security incident after hackers access &#x27;company information&#x27;</title>
       <link>https://techseconds.com/stories/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-c/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-c/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>The cybersecurity and automation giant said it&#x27;s working with outside investigators to understand the scale of the breach.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -265,7 +309,7 @@
       <title>All the questions Nvidia should answer on Tuesday - but probably won&#x27;t</title>
       <link>https://techseconds.com/stories/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Nvidia interim CEO and long-time CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -309,7 +353,7 @@
       <title>Island is a new screen-time app that turns staying off your phone into a game</title>
       <link>https://techseconds.com/stories/island-is-a-new-screen-time-app-that-turns-staying-off-your-phone-into/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/island-is-a-new-screen-time-app-that-turns-staying-off-your-phone-into/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>YC-backed Island turns screen time goals into a farming game, rewarding users with new crops, animals, and more when they stick to their limits.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -353,7 +397,7 @@
       <title>US tightens AI chip export controls to deter Chinese companies from accessing compute remotely</title>
       <link>https://techseconds.com/stories/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-ac/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-ac/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Under the interim rule, US will require firms to get licenses to export AI chips if they may provide compute to China or other restricted countries.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -375,7 +419,7 @@
       <title>Apple launches new app to study how people use AI for health</title>
       <link>https://techseconds.com/stories/apple-launches-new-app-to-study-how-people-use-ai-for-health/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/apple-launches-new-app-to-study-how-people-use-ai-for-health/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Apple&#x27;s new app for a study will answer everyday medical questions</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -386,7 +430,7 @@
       <title>The oldest gadget in your house could be your home network&#x27;s biggest security hole</title>
       <link>https://techseconds.com/stories/the-oldest-gadget-in-your-house-could-be-your-home-networks-biggest-se/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/the-oldest-gadget-in-your-house-could-be-your-home-networks-biggest-se/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>It may be more economical to hold onto gadgets for as long as possible, but you&#x27;re putting your entire home network at risk with outdate hardware.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -397,7 +441,7 @@
       <title>The pros and cons of using cloud storage over local storage</title>
       <link>https://techseconds.com/stories/the-pros-and-cons-of-using-cloud-storage-over-local-storage/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/the-pros-and-cons-of-using-cloud-storage-over-local-storage/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Before AI ran rampant through the technology market, cloud storage was the new, big thing, as it seems like every major company has its own cloud service.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -430,7 +474,7 @@
       <title>Is bad news for Jensen Huang also bad news for the AI industry?</title>
       <link>https://techseconds.com/stories/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>&quot;Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.&quot;</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -441,7 +485,7 @@
       <title>Samsung is discontinuing these useful mobile apps in December</title>
       <link>https://techseconds.com/stories/samsung-is-discontinuing-these-useful-mobile-apps-in-december/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/samsung-is-discontinuing-these-useful-mobile-apps-in-december/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>You don&#x27;t have long to grab the augmented reality tools for your Galaxy devices.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -452,7 +496,7 @@
       <title>Flaming Hydra&#x27;s new Kickstarter campaign rethinks e-book ownership and digital lending</title>
       <link>https://techseconds.com/stories/flaming-hydras-new-kickstarter-campaign-rethinks-e-book-ownership-and/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/flaming-hydras-new-kickstarter-campaign-rethinks-e-book-ownership-and/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>A new Kickstarter campaign aims to usher in the &quot;return of the human internet.&quot;</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -463,7 +507,7 @@
       <title>5 Google Messages tricks that cut down my daily texting friction</title>
       <link>https://techseconds.com/stories/5-google-messages-tricks-that-cut-down-my-daily-texting-friction/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/5-google-messages-tricks-that-cut-down-my-daily-texting-friction/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Make texting a lot simpler by following these tips and tricks.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -474,7 +518,7 @@
       <title>You can now generate and edit GIFs with ChatGPT - here&#x27;s how</title>
       <link>https://techseconds.com/stories/you-can-now-generate-and-edit-gifs-with-chatgpt-heres-how/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/you-can-now-generate-and-edit-gifs-with-chatgpt-heres-how/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>If you feel like Homer Simpson backing into the hedges has been overdone, OpenAI offers a new option for creating the right GIF for the moment.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -485,7 +529,7 @@
       <title>Sleep vs. shutdown: When to use these modes on your mini PC</title>
       <link>https://techseconds.com/stories/sleep-vs-shutdown-when-to-use-these-modes-on-your-mini-pc/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/sleep-vs-shutdown-when-to-use-these-modes-on-your-mini-pc/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Here&#x27;s how to determine if you should choose the sleep or shutdown mode on your mini PC. We&#x27;ll also discuss the meaning of hibernation mode.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -507,7 +551,7 @@
       <title>I asked Gemini, ChatGPT, and Claude to spot Amazon scams</title>
       <link>https://techseconds.com/stories/i-asked-gemini-chatgpt-and-claude-to-spot-amazon-scams/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-asked-gemini-chatgpt-and-claude-to-spot-amazon-scams/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>I tested Gemini, ChatGPT, and Claude on 20 fake and real Amazon messages. All three caught the scams, but only one trusted the real emails.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -518,7 +562,7 @@
       <title>Some places have already banned AI glasses, and the list just keeps growing</title>
       <link>https://techseconds.com/stories/some-places-have-already-banned-ai-glasses-and-the-list-just-keeps-gro/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/some-places-have-already-banned-ai-glasses-and-the-list-just-keeps-gro/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Safety and privacy concerns have led to bans on AI glasses in a number of public places, including courtrooms, schools and theaters.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -529,7 +573,7 @@
       <title>iPhone Duo Vs Oppo Find N6: How these foldables compare</title>
       <link>https://techseconds.com/stories/iphone-duo-vs-oppo-find-n6-how-these-foldables-compare/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/iphone-duo-vs-oppo-find-n6-how-these-foldables-compare/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>The foldable smartphone scene is exploding as Apple has just announced it is finally entering the arena. Here&#x27;s how the iPhone Duo compares to the Oppo Find N6.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -551,7 +595,7 @@
       <title>Forget the WH-1000XM6: Sony&#x27;s 6-year-old XM4 is still the smarter buy in 2026</title>
       <link>https://techseconds.com/stories/forget-the-wh-1000xm6-sonys-6-year-old-xm4-is-still-the-smarter-buy-in/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/forget-the-wh-1000xm6-sonys-6-year-old-xm4-is-still-the-smarter-buy-in/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>I compared the WH-1000XM4 against Sony&#x27;s latest flagship. The XM4 delivers LDAC, solid ANC, and multipoint for a fraction of the price</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -562,7 +606,7 @@
       <title>The right way to transfer your Spotify playlists and songs to Apple Music</title>
       <link>https://techseconds.com/stories/the-right-way-to-transfer-your-spotify-playlists-and-songs-to-apple-mu/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/the-right-way-to-transfer-your-spotify-playlists-and-songs-to-apple-mu/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Learn how to transfer Spotify playlists to Apple Music on iPhone, iPad, Android or the web, and what you need before you move your songs over.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -573,7 +617,7 @@
       <title>Troubleshooting a black screen on your MacBook is easier than you think</title>
       <link>https://techseconds.com/stories/troubleshooting-a-black-screen-on-your-macbook-is-easier-than-you-thin/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/troubleshooting-a-black-screen-on-your-macbook-is-easier-than-you-thin/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>A black screen on your MacBook can feel like the end of the world, but don&#x27;t panic: there are several easy troubleshooting steps to try first.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -584,7 +628,7 @@
       <title>What are the limitations of eGPUs vs onboard graphics cards for laptops?</title>
       <link>https://techseconds.com/stories/what-are-the-limitations-of-egpus-vs-onboard-graphics-cards-for-laptop/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/what-are-the-limitations-of-egpus-vs-onboard-graphics-cards-for-laptop/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Is it worth it to use an eGPU with your laptop? That depends. Let&#x27;s take a closer look at the most important factors you should consider.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -595,7 +639,7 @@
       <title>Where was Nvidia&#x27;s security team?</title>
       <link>https://techseconds.com/stories/where-was-nvidias-security-team/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/where-was-nvidias-security-team/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>Nvidia&#x27;s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it&#x27;s the kind of leak that runs everyda...</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -606,7 +650,7 @@
       <title>I star flight details and door codes in Google Messages to skip frustrating search menus</title>
       <link>https://techseconds.com/stories/i-star-flight-details-and-door-codes-in-google-messages-to-skip-frustr/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-star-flight-details-and-door-codes-in-google-messages-to-skip-frustr/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>A simple star workflow turns scattered flight numbers and door codes into an instant one-tap travel snapshot you can trust</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -617,56 +661,12 @@
       <title>Which NVIDIA GPU is closest to the PS5? The answer isn&#x27;t so simple</title>
       <link>https://techseconds.com/stories/which-nvidia-gpu-is-closest-to-the-ps5-the-answer-isnt-so-simple/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/which-nvidia-gpu-is-closest-to-the-ps5-the-answer-isnt-so-simple/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
+      <pubDate>Wed, 18 Nov 2026 00:58:55 GMT</pubDate>
       <description>One of the biggest questions when it comes to purchasing a gaming rig is whether to go console or PC. This NVIDIA GPU gives the closest results to a PS5.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
       <enclosure url="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1280&amp;q=85" length="120000" type="image/jpeg" />
       <media:content url="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>This Sony patent would add a credit card reader to your PlayStation controller</title>
-      <link>https://techseconds.com/stories/this-sony-patent-would-add-a-credit-card-reader-to-your-playstation-co/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/this-sony-patent-would-add-a-credit-card-reader-to-your-playstation-co/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
-      <description>As Sony and PlayStation head into a digital-only era, new tech on its upcoming controllers could help make online purchases even more convenient for gaming.</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Watch SpaceX successfully execute the first &#x27;chopstick&#x27; catch of Starship</title>
-      <link>https://techseconds.com/stories/watch-spacex-successfully-execute-the-first-chopstick-catch-of-starshi/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/watch-spacex-successfully-execute-the-first-chopstick-catch-of-starshi/</guid>
-      <pubDate>Sat, 14 Nov 2026 16:44:44 GMT</pubDate>
-      <description>After aborting a planned catch of Starship Flight 15&#x27;s booster, SpaceX successfully captured Starship with its &quot;Mechazilla&quot; launch and catch tower for the first time. The company has performed &#x27;chopstick&#x27; catches of its boosters before, but this is the first time the maneuver ...</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang</title>
-      <link>https://techseconds.com/stories/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstat/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstat/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
-      <description>The petition had attracted more than 115,000 signatures as of Saturday afternoon.</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Tesla opens Cybercab pre-orders &#x27;for personal use,&#x27; with geo restrictions and a $299 monthly fee</title>
-      <link>https://techseconds.com/stories/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions/</guid>
-      <pubDate>Tue, 17 Nov 2026 21:55:25 GMT</pubDate>
-      <description>Even Elon Musk said the monthly fee is &quot;too high.&quot;</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=1280&amp;q=85" medium="image" />
     </item>
   </channel>
 </rss>
