@@ -1,5 +1,237 @@
 [
   {
+    "title": "ChatGPT can transcribe as you speak now with Live Dictation",
+    "slug": "chatgpt-can-transcribe-as-you-speak-now-with-live-dictation",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+    "published": "2026-11-19T10:16:45-05:00",
+    "read_time": "45s",
+    "summary": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. ...",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85",
+    "seo_title": "ChatGPT can transcribe as you speak now with Live",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "ChatGPT can transcribe as you speak now with Live Dictation",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording",
+        "bullet2": "It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps",
+        "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1280&q=85"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=1280&q=85"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/the-analogue-3d-can-now-update-itself-over-wi-fi/",
+    "next_story_title": "The Analogue 3D can now update itself over Wi-Fi"
+  },
+  {
+    "title": "The Analogue 3D can now update itself over Wi-Fi",
+    "slug": "the-analogue-3d-can-now-update-itself-over-wi-fi",
+    "category_id": "gaming-gear",
+    "card_hook": "🎮 120Hz BEAST",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/1037552/analogue-3d-nintendo-64-console-wi-fi-activated-automatic-updates",
+    "published": "2026-11-19T09:32:33-05:00",
+    "read_time": "45s",
+    "summary": "Analogue has long been good at expanding the features and functionality of its consoles through regular firmware updates, but installing those updates has always required moving files around with a memory card. That's no longer the case with the Analogue 3D, the company's mode...",
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&q=85",
+    "seo_title": "The Analogue 3D can now update itself over Wi-Fi",
+    "slides": [
+      {
+        "hook": "GAMING HARDWARE REVEAL",
+        "title": "The Analogue 3D can now update itself over Wi-Fi",
+        "badge": "🎮 HIGH-REFRESH GEAR",
+        "bullet1": "Analogue has long been good at expanding the features and functionality of its consoles through regular firmware updates, but installing those updates has always required moving files around with a memory card",
+        "bullet2": "That's no longer the case with the Analogue 3D, the company's mode",
+        "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1280&q=85"
+      },
+      {
+        "hook": "GRAPHICS ENGINE",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ HIGH-FRAMERATE AAA",
+        "bullet1": "That's no longer the case with the Analogue 3D, the company's mode",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1280&q=85"
+      },
+      {
+        "hook": "PRECISION CONTROLS",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🕹️ LOW-LATENCY INPUT",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1280&q=85"
+      },
+      {
+        "hook": "DISPLAY & ERGONOMICS",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "✨ PURE COLOR CLARITY",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Gaming Hardware & Peripherals worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/the-wait-begins-for-gta-vi-on-pc/",
+    "next_story_title": "The wait begins for GTA VI on PC"
+  },
+  {
+    "title": "The wait begins for GTA VI on PC",
+    "slug": "the-wait-begins-for-gta-vi-on-pc",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/games/1036550/grand-theft-auto-6-gta-vi-pc-version-fomo",
+    "published": "2026-11-19T09:00:00-05:00",
+    "read_time": "45s",
+    "summary": "Grand Theft Auto VI is finally here for millions of players who own a PlayStation 5 or Xbox Series X / S, and those who plan to buy a console, despite rising costs this year, just to play it. As you have likely already noticed, the launch is inescapable, and that's especially ...",
+    "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&q=85",
+    "seo_title": "The wait begins for GTA VI on PC",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "The wait begins for GTA VI on PC",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "Grand Theft Auto VI is finally here for millions of players who own a PlayStation 5 or Xbox Series X / S, and those who plan to buy a console, despite rising costs this year, just to play it",
+        "bullet2": "As you have likely already noticed, the launch is inescapable, and that's especially",
+        "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1280&q=85"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "As you have likely already noticed, the launch is inescapable, and that's especially",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=1280&q=85"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+    "next_story_title": "Anthropic's IPO puts AI's circular financing boom"
+  },
+  {
+    "title": "Anthropic's IPO puts AI's circular financing boom to the test",
+    "slug": "anthropics-ipo-puts-ais-circular-financing-boom-to-the-test",
+    "category_id": "ai-tools",
+    "card_hook": "🤖 BREAKTHROUGH AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+    "published": "Thu, 19 Nov 2026 14:54:39 +0000",
+    "read_time": "45s",
+    "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1280&q=85",
+    "seo_title": "Anthropic's IPO puts AI's circular financing boom",
+    "slides": [
+      {
+        "hook": "AI CAPABILITY REVEAL",
+        "title": "Anthropic's IPO puts AI's circular financing boom to the test",
+        "badge": "🤖 NEURAL MODEL",
+        "bullet1": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead",
+        "bullet2": "A major development for early adopters and tech professionals.",
+        "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1280&q=85"
+      },
+      {
+        "hook": "ARCHITECTURAL LEAP",
+        "title": "Core Technical Breakthrough",
+        "badge": "⚡ REAL-TIME LATENCY",
+        "bullet1": "Technical deep-dive reveals how Anthropic's IPO puts AI's circular finan operates.",
+        "bullet2": "Optimizations focus directly on latency reduction and user experience.",
+        "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=1280&q=85"
+      },
+      {
+        "hook": "KEY CAPABILITIES",
+        "title": "Key Specifications & Capabilities",
+        "badge": "🧠 CONTEXT ENGINE",
+        "bullet1": "Engineering milestones provide measurable advantages in daily workflows.",
+        "bullet2": "Architecture addresses prior limitations to deliver sustained performance.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1280&q=85"
+      },
+      {
+        "hook": "WORKFLOW IMPACT",
+        "title": "Ecosystem & Industry Impact",
+        "badge": "🔥 PRODUCTIVITY UPLIFT",
+        "bullet1": "Competitors and developers are monitoring the rapid developments closely.",
+        "bullet2": "Commercial availability and software updates are expanding globally.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&q=85"
+      },
+      {
+        "hook": "THE BOTTOM LINE",
+        "title": "TechSeconds Verdict: Key Takeaway",
+        "badge": "⚡ TechSeconds VERDICT",
+        "bullet1": "An essential advancement in Artificial Intelligence & Software worth watching closely.",
+        "bullet2": "Tap the link below to dive deeper into official documentation and coverage.",
+        "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1280&q=85"
+      }
+    ],
+    "synthesizer": "context-aware-nlp-engine",
+    "next_story_url": "/stories/google-ai-ultra-plan-brings-ad-free-youtube-to-the-whole-family/",
+    "next_story_title": "Google AI Ultra plan brings ad-free YouTube"
+  },
+  {
     "title": "Google AI Ultra plan brings ad-free YouTube to the whole family",
     "slug": "google-ai-ultra-plan-brings-ad-free-youtube-to-the-whole-family",
     "category_id": "ai-tools",
@@ -42500,7 +42732,7 @@
       }
     ],
     "seo_title": "Xbox Next-Gen Hybrid Console",
-    "next_story_url": "/stories/google-ai-ultra-plan-brings-ad-free-youtube-to-the-whole-family/",
-    "next_story_title": "Google AI Ultra plan brings ad-free YouTube"
+    "next_story_url": "/stories/chatgpt-can-transcribe-as-you-speak-now-with-live-dictation/",
+    "next_story_title": "ChatGPT can transcribe as you speak now with Live"
   }
 ]
