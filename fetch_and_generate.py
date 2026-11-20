@@ -111,21 +111,21 @@ def ensure_story_files_exist(stories: List[Dict[str, Any]], dist_dir: Path, forc
 
 
 def run_pipeline(
-    max_new: int = 4,
+    max_new: int = 0,
     skip_validation: bool = False,
     force_all: bool = False,
 ) -> int:
     """
-    Executes the autonomous static generation lifecycle.
-    
-    Safe by design:
-    - Never deletes existing stories from disk (eliminates 404s).
-    - Capped at max_new fresh stories per run (prevents Google Scaled Content Abuse).
-    - Merges new stories into cumulative catalog.
+    Executes the curated static generation lifecycle.
+
+    Strict Google AdSense & Search Essentials compliance:
+    - Zero third-party RSS scraping or boilerplate fallback synthesis.
+    - Publishes ONLY original handcrafted editorial articles and curated companion stories.
+    - Purges any legacy scraped/orphan story directories to eliminate thin/duplicate content.
     """
     start_time = time.time()
     print("=" * 70)
-    print(f" ⚡ {SITE_NAME} Autonomous Static Generation Pipeline (Google Compliant)")
+    print(f" ⚡ {SITE_NAME} Curated Static Build Pipeline (AdSense & Search Compliant)")
     print("=" * 70)
 
     # 1. Prepare dist directory and persistent story directory
@@ -133,60 +133,20 @@ def run_pipeline(
     stories_dir = DIST_DIR / "stories"
     stories_dir.mkdir(parents=True, exist_ok=True)
 
-    # 2. Load existing persistent catalog
-    catalog = load_persistent_catalog(DIST_DIR)
+    # 2. Strictly use handcrafted curated companion stories (zero scraped RSS items)
+    final_catalog: List[Dict[str, Any]] = [dict(s) for s in CURATED_VIRAL_STORIES]
+    valid_slugs = {s.get("slug") for s in final_catalog if s.get("slug")}
 
-    new_synthesized_stories: List[Dict[str, Any]] = []
-    new_story_paths: List[Path] = []
+    # 3. Purge any legacy scraped / orphan story directories
+    purged_count = 0
+    for item in list(stories_dir.iterdir()):
+        if item.is_dir() and item.name not in valid_slugs:
+            shutil.rmtree(item, ignore_errors=True)
+            purged_count += 1
+    if purged_count > 0:
+        print(f"[+] Purged {purged_count} scraped/orphan story directories from dist/stories/")
 
-    if force_all:
-        print(f"[*] --force-all flag detected: Re-fetching full {max_new} feed items from scratch...")
-        raw_articles = fetch_all_tech_stories(target_count=max_new)
-        for idx, article in enumerate(raw_articles):
-            synthesized = synthesize_story(article, index=idx)
-            path = write_story_file(synthesized, DIST_DIR)
-            new_synthesized_stories.append(synthesized)
-            new_story_paths.append(path)
-        final_catalog = new_synthesized_stories
-    else:
-        # 3. Novelty-checked, spam-free ingestion
-        print(f"[*] Scanning feeds for up to {max_new} genuinely novel tech stories...")
-        fresh_articles = fetch_fresh_tech_stories(catalog, max_new=max_new)
-
-        if not fresh_articles:
-            print("[+] Zero novel stories discovered. Feeds are up to date.")
-            print("[+] Spam Prevention Protocol: Skipping redundant generation.")
-        else:
-            print(f"\n[*] Synthesizing {len(fresh_articles)} fresh breaking stories via Gemini / NLP engine...")
-            for idx, article in enumerate(fresh_articles):
-                synthesized = synthesize_story(article, index=idx)
-                path = write_story_file(synthesized, DIST_DIR)
-                print(f"    -> Rendered: {path.relative_to(DIST_DIR.parent)}")
-                new_synthesized_stories.append(synthesized)
-                new_story_paths.append(path)
-                # Rate-limit safety pause
-                time.sleep(1.2)
-
-        # 4. Merge fresh stories and any new curated viral cornerstones at the top of the catalog
-        # Deduplicate by slug preserving order (newest first)
-        seen_slugs: Set[str] = set()
-        merged_catalog: List[Dict[str, Any]] = []
-        catalog_slugs = {st.get("slug") for st in catalog}
-        missing_curated = [s for s in CURATED_VIRAL_STORIES if s.get("slug") not in catalog_slugs]
-        if missing_curated:
-            print(f"[+] Discovered {len(missing_curated)} new viral cornerstone stories. Promoting to top of catalog.")
-            for c in missing_curated:
-                c_path = write_story_file(c, DIST_DIR)
-                new_story_paths.append(c_path)
-        for s in new_synthesized_stories + missing_curated + catalog:
-            s_slug = s.get("slug")
-            if s_slug and s_slug not in seen_slugs:
-                seen_slugs.add(s_slug)
-                merged_catalog.append(s)
-
-        final_catalog = merged_catalog
-
-    # 4b. Wire sequential next-story navigation so readers binge seamlessly
+    # 4. Wire sequential next-story navigation across curated companion stories
     if final_catalog:
         catalog_len = len(final_catalog)
         for i, st in enumerate(final_catalog):
@@ -194,26 +154,21 @@ def run_pipeline(
             st["next_story_url"] = f"/stories/{next_st.get('slug', '')}/"
             st["next_story_title"] = next_st.get("seo_title") or next_st.get("title", "")
 
-    # 5. Ensure every cataloged story has its HTML file rendered on disk
-    ensure_story_files_exist(final_catalog, DIST_DIR)
+    # 5. Render all curated companion story HTML files
+    ensure_story_files_exist(final_catalog, DIST_DIR, force_rerender=True)
 
-    # 6. Build Portal homepage, legal pages, dynamic sitemap, robots, manifest
-    print(f"\n[*] Building portal homepage, legal pages, and cumulative sitemap ({len(final_catalog)} stories)...")
+    # 6. Build Portal homepage, articles, legal pages, sitemap, robots, RSS, manifest
+    print(f"\n[*] Building portal homepage, 30 flagship articles, legal pages, and article-first sitemap...")
     build_all_portal_pages(final_catalog, DIST_DIR)
 
-    # 7. Copy static assets (CSS, JS, images, logos)
+    # 7. Copy static assets (CSS, JS, images, logos, ads.txt)
     copy_static_assets(STATIC_DIR, DIST_DIR)
 
     # 8. Run AMP validation test suite
     validation_code = 0
     if not skip_validation:
-        print(f"\n[*] Running AMP validation test suite...")
-        if new_story_paths:
-            # Validate newly generated stories
-            validation_code = validate_all_stories(DIST_DIR, specific_files=new_story_paths)
-        else:
-            # Validate existing stories
-            validation_code = validate_all_stories(DIST_DIR)
+        print(f"\n[*] Running AMP validation test suite on {len(final_catalog)} curated stories...")
+        validation_code = validate_all_stories(DIST_DIR)
     else:
         print(f"\n[*] Skipping AMP validation as requested.")
 
@@ -221,32 +176,10 @@ def run_pipeline(
     print("\n" + "=" * 70)
     if validation_code == 0:
         print(
-            f" 🚀 PIPELINE SUCCESS! Catalog contains {len(final_catalog)} stories "
-            f"({len(new_synthesized_stories)} added) in {elapsed}s"
+            f" 🚀 PIPELINE SUCCESS! {len(final_catalog)} curated companion stories & "
+            f"30 flagship articles rebuilt cleanly in {elapsed}s"
         )
-        print(f" Output ready for instant Vercel deployment: {DIST_DIR}")
-
-        # 9. Automatic IndexNow Search Notification (Bing, Yandex, Naver)
-        try:
-            from indexnow_submitter import submit_to_indexnow
-            submit_to_indexnow()
-        except Exception as e:
-            print(f"[!] IndexNow submission notice: {e}")
-
-        # 10. Automatic WebSub & RSS Syndication Ping (Google News & Aggregators)
-        try:
-            from rss_pinger import ping_rss_hubs
-            ping_rss_hubs()
-        except Exception as e:
-            print(f"[!] RSS hub ping notice: {e}")
-
-        # 11. Automatic Pinterest Syndication Assets (Auto-Feed & Bulk Pins CSV)
-        try:
-            from pinterest_poster import sync_pinterest_assets
-            from article_builder import FLAGSHIP_ARTICLES
-            sync_pinterest_assets(final_catalog, DIST_DIR, articles=FLAGSHIP_ARTICLES)
-        except Exception as e:
-            print(f"[!] Pinterest syndication notice: {e}")
+        print(f" Output ready for Vercel deployment: {DIST_DIR}")
     else:
         print(f" [!] PIPELINE COMPLETED WITH VALIDATION ISSUES ({elapsed}s)")
     print("=" * 70)

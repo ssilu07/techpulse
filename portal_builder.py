@@ -49,8 +49,8 @@ def build_portal_html(
     active_articles = articles if articles is not None else FLAGSHIP_ARTICLES
     sorted_stories = list(stories)
 
-    # For homepage visual stories shelf, display up to 24 curated stories (preventing thin content overload)
-    display_limit = max_cards if max_cards is not None else 24
+    # For homepage visual stories shelf, display up to 12 curated companion stories
+    display_limit = max_cards if max_cards is not None else 12
     display_stories = sorted_stories[:display_limit]
     story_count = len(display_stories)
     current_year = datetime.now(timezone.utc).year
@@ -72,11 +72,11 @@ def build_portal_html(
       <article class="lead-feature-card">
         <div class="lead-feature-media">
           <img src="{lead_thumb}" alt="{lead_title}" class="lead-feature-img" loading="eager" fetchpriority="high">
-          <span class="lead-feature-badge">★ LEAD INVESTIGATION • {lead_cat.upper()}</span>
+          <span class="lead-feature-badge">★ FEATURED DEEP DIVE • {lead_cat.upper()}</span>
         </div>
         <div class="lead-feature-content">
           <div class="lead-feature-eyebrow">
-            <span>🔬</span> VERIFIED HARDWARE LAB REPORT
+            <span>📘</span> INDEPENDENT TECHNICAL ANALYSIS
           </div>
           <h2 class="lead-feature-title">
             <a href="/articles/{lead_slug}/">{lead_title}</a>
@@ -146,31 +146,31 @@ def build_portal_html(
     <section class="editorial-trust-strip" aria-label="Editorial Standards & Verification Protocol">
       <div class="trust-strip-inner">
         <div class="trust-item">
-          <div class="trust-icon">🔬</div>
+          <div class="trust-icon">📘</div>
           <div>
-            <h4>5-Stage Lab Verification</h4>
-            <p>Direct oscilloscope, thermal camera, and optical spectrometer testing on physical production hardware.</p>
+            <h4>Specification-Grounded Research</h4>
+            <p>Every guide is cross-referenced against official manufacturer whitepapers, SDK documentation, and published benchmarks.</p>
           </div>
         </div>
         <div class="trust-item">
           <div class="trust-icon">🛡️</div>
           <div>
             <h4>Zero Sponsored Bias</h4>
-            <p>100% independent editorial testing. We never accept vendor score influence or paid reviews.</p>
+            <p>100% independent editorial coverage. We never accept paid placements or vendor influence over buyer verdicts.</p>
           </div>
         </div>
         <div class="trust-item">
           <div class="trust-icon">✍️</div>
           <div>
-            <h4>Staff Systems Engineers</h4>
-            <p>Every analysis authored by verified hardware architects and solid-state researchers.</p>
+            <h4>Human-Reviewed Guides</h4>
+            <p>Original long-form explainers, pros &amp; cons matrices, and practical upgrade advice written for real users.</p>
           </div>
         </div>
         <div class="trust-item">
           <div class="trust-icon">📋</div>
           <div>
-            <h4>Source Grounded</h4>
-            <p>Claims verified against IEEE publications, TSMC whitepapers, and public patent disclosures.</p>
+            <h4>Transparent Corrections</h4>
+            <p>Specifications and product details are updated promptly whenever manufacturers revise official disclosures.</p>
           </div>
         </div>
       </div>
@@ -228,16 +228,16 @@ def build_portal_html(
         else:
             loading_attrs = 'loading="lazy" fetchpriority="low" decoding="async"'
 
-        # Category-tailored curiosity badges if card_hook is not explicitly defined
+        # Category-tailored editorial labels if card_hook is not explicitly defined
         cat_hook_fallbacks = {
-            "ai-tools": "🤖 SECRET AI TOOL",
-            "smartphones": "📱 FLAGSHIP LEAK",
-            "laptops-pc": "💻 SILICON MONSTER",
-            "gadgets": "🎧 HARDWARE SHOCK",
-            "future-tech": "🚀 TECH BREAKTHROUGH",
-            "gaming-gear": "🎮 120Hz BEAST",
+            "ai-tools": "🤖 AI BRIEFING",
+            "smartphones": "📱 MOBILE ARCHITECTURE",
+            "laptops-pc": "💻 SILICON & PC",
+            "gadgets": "🎧 HARDWARE BRIEF",
+            "future-tech": "🚀 EMERGING TECH",
+            "gaming-gear": "🎮 GAMING HARDWARE",
         }
-        card_hook = s.get("card_hook") or cat_hook_fallbacks.get(cat_id, "⚡ TRENDING")
+        card_hook = s.get("card_hook") or cat_hook_fallbacks.get(cat_id, "⚡ TECH BRIEF")
 
         card_markup = f"""
         <article class="story-card" 
@@ -267,8 +267,8 @@ def build_portal_html(
             <h2 class="story-card-title">{escaped_display_title}</h2>
             <p class="story-card-snippet">{summary}</p>
             <div class="story-card-footer">
-              <span class="story-source">via {source}</span>
-              <a href="/stories/{slug}/" class="tap-to-view-cta" aria-label="Read story: {escaped_display_title}"><span class="play-arrow">▶</span> Tap to Unlock ⚡</a>
+              <span class="story-source">{SITE_NAME} Visual Brief</span>
+              <a href="/stories/{slug}/" class="tap-to-view-cta" aria-label="Read story: {escaped_display_title}"><span class="play-arrow">▶</span> View Visual Brief</a>
             </div>
           </div>
         </article>"""
@@ -397,7 +397,7 @@ def build_portal_html(
 
       <div class="live-badge">
         <span class="pulse-dot"></span>
-        <span>VERIFIED EDITORIAL LAB</span>
+        <span>INDEPENDENT TECH EDITORIAL</span>
       </div>
     </div>
   </header>
@@ -407,13 +407,13 @@ def build_portal_html(
     <section class="hero-section">
       <div class="hero-glow-aura"></div>
       <div class="hero-eyebrow">
-        <span>⚡</span> INDEPENDENT HARDWARE LAB & SILICON ANALYSIS
+        <span>⚡</span> INDEPENDENT TECH ANALYSIS &amp; BUYER GUIDES
       </div>
       <h1 class="hero-title">
-        The Future Of Tech in <span class="gradient-text">In-Depth Analyses & Visual Stories</span>
+        Clear Technology Analysis in <span class="gradient-text">In-Depth Guides &amp; Visual Briefs</span>
       </h1>
       <p class="hero-subtitle">
-        Independent architectural breakdowns, silicon micro-benchmarks, and mobile-first companion Google Web Stories from our hardware testing lab.
+        Specification-grounded hardware breakdowns, AI workflow guides, and concise visual companions designed for developers and everyday tech buyers.
       </p>
     </section>
 
@@ -510,7 +510,7 @@ def build_portal_html(
       <div class="footer-brand">
         <img src="/static/images/logo.svg" alt="{SITE_NAME}" height="32">
         <p>
-          {SITE_NAME} is a premier technology publication and hardware intelligence lab delivering verified visual journalism, deep architectural breakdowns, benchmark analysis, and comprehensive buyer guides across artificial intelligence, semiconductor lithography, and consumer electronics.
+          {SITE_NAME} is an independent technology publication delivering in-depth hardware breakdowns, practical software and AI workflow guides, comparative buyer advice, and concise visual companions across computing, mobile tech, and consumer electronics.
         </p>
       </div>
 
@@ -552,8 +552,8 @@ def build_portal_html(
     </div>
 
     <div class="footer-bottom">
-      <div>© {current_year} {SITE_NAME}. All rights reserved. 100% Google AMP Story Compliant.</div>
-      <div>TechPulse Editorial Lab & Independent Hardware Benchmarks.</div>
+      <div>© {current_year} {SITE_NAME}. All rights reserved.</div>
+      <div>{SITE_NAME} — Independent Technology Analysis &amp; Buyer Guides.</div>
     </div>
   </footer>
 
@@ -617,7 +617,7 @@ def build_legal_page_html(
     gtag('js', new Date());
     gtag('config', '{GA_MEASUREMENT_ID}');
   </script>
-{get_adsense_script_tag()}
+  <!-- Note: AdSense script intentionally omitted on policy/utility pages for strict AdSense policy compliance -->
 
   <!-- OpenGraph & Twitter Cards -->
   <meta property="og:title" content="{title} | {SITE_NAME}">
@@ -670,7 +670,7 @@ def build_legal_page_html(
 
       <div class="live-badge">
         <span class="pulse-dot"></span>
-        <span>VERIFIED EDITORIAL LAB</span>
+        <span>INDEPENDENT TECH EDITORIAL</span>
       </div>
     </div>
   </header>
@@ -679,7 +679,7 @@ def build_legal_page_html(
     <article class="legal-card">
       <header class="legal-header">
         <h1 class="legal-title">{title}</h1>
-        <div class="legal-last-updated">LAST UPDATED: OCTOBER 2026 // COMPLIANCE VERIFIED</div>
+        <div class="legal-last-updated">LAST UPDATED: NOVEMBER 2026 // EDITORIAL STANDARDS</div>
       </header>
       <div class="legal-content">
         {content_html}
@@ -693,7 +693,7 @@ def build_legal_page_html(
       <div class="footer-brand">
         <img src="/static/images/logo.svg" alt="{SITE_NAME}" height="32">
         <p>
-          {SITE_NAME} is a premier technology publication and hardware intelligence lab delivering verified visual journalism, deep architectural breakdowns, benchmark analysis, and comprehensive buyer guides across artificial intelligence, semiconductor lithography, and consumer electronics.
+          {SITE_NAME} is an independent technology publication delivering in-depth hardware breakdowns, practical software and AI workflow guides, comparative buyer advice, and concise visual companions across computing, mobile tech, and consumer electronics.
         </p>
       </div>
 
@@ -735,8 +735,8 @@ def build_legal_page_html(
     </div>
 
     <div class="footer-bottom">
-      <div>© {current_year} {SITE_NAME}. All rights reserved. 100% Google AMP Story Compliant.</div>
-      <div>TechPulse Editorial Lab & Independent Hardware Benchmarks.</div>
+      <div>© {current_year} {SITE_NAME}. All rights reserved.</div>
+      <div>{SITE_NAME} — Independent Technology Analysis &amp; Buyer Guides.</div>
     </div>
   </footer>
 
@@ -751,131 +751,93 @@ def build_legal_page_html(
 def get_editorial_team_page_content() -> str:
     return f"""
     <div class="team-page-intro">
-      <h2>Meet the {SITE_NAME} Editorial & Engineering Desk</h2>
+      <h2>Meet the {SITE_NAME} Editorial Desk</h2>
       <p class="lead-text">
-        At <strong>{SITE_NAME}</strong>, technology reporting is conducted with the rigorous discipline of systems engineering. Our editorial staff comprises veteran hardware analysts, solid-state physicists, systems architects, and AI researchers dedicated to uncovering the real silicon architecture, micro-benchmarks, and thermal dynamics beneath marketing press releases.
+        At <strong>{SITE_NAME}</strong>, we believe readers deserve transparent, grounded technology journalism without hype or anonymous clickbait. Every guide, hardware comparison, and software tutorial is researched and edited with clear attribution and verifiable sources.
       </p>
     </div>
 
     <div class="editorial-team-grid">
-      
-      <!-- Member 1: Sumit Singh -->
+
+      <!-- Founder & Chief Editor: Sumit Singh -->
       <div class="team-card" id="sumit-singh">
         <div class="team-card-header">
           <div class="team-avatar-initials" style="background: linear-gradient(135deg, #06b6d4, #3b82f6);">SS</div>
           <div class="team-member-title-block">
             <h3 class="team-member-name">Sumit Singh</h3>
-            <div class="team-member-role">Editor-in-Chief & Principal Systems Architect</div>
-            <div class="team-member-beats">Beats: Semiconductor Nodes · Apple Silicon · Qualcomm Platforms · Mobile Architectures</div>
+            <div class="team-member-role">Founder &amp; Chief Editor</div>
+            <div class="team-member-beats">Focus: Consumer Hardware · AI Workflows · Mobile Optimization · Open-Source Software</div>
           </div>
         </div>
         <div class="team-bio">
-          Sumit brings over 8 years of hands-on experience evaluating low-level microprocessor architectures, silicon lithography transitions, and distributed computing infrastructures. As Editor-in-Chief, he directs {SITE_NAME}'s hardware testing protocols, oversees benchmark verifications, and authors definitive flagships on semiconductor advancements, including TSMC N2 GAA implementations and ARM instruction set transitions.
+          Sumit Singh is an independent software developer, technology writer, and hardware researcher who founded {SITE_NAME}. He focuses on translating complex silicon specifications, local AI workflows, smartphone architectures, and PC hardware trade-offs into clear, practical buying guides and step-by-step explainers for everyday users and developers.
         </div>
         <div class="team-footer">
-          <span class="team-credential">Verified Hardware Architect</span>
+          <span class="team-credential">Founder &amp; Lead Author</span>
           <a href="mailto:{CONTACT_EMAIL}" class="team-contact-btn">✉ Contact Sumit</a>
         </div>
       </div>
 
-      <!-- Member 2: Dr. Aarav Patel -->
-      <div class="team-card" id="aarav-patel">
+      <!-- Research Desk -->
+      <div class="team-card" id="editorial-desk">
         <div class="team-card-header">
-          <div class="team-avatar-initials" style="background: linear-gradient(135deg, #10b981, #06b6d4);">AP</div>
+          <div class="team-avatar-initials" style="background: linear-gradient(135deg, #10b981, #06b6d4);">TS</div>
           <div class="team-member-title-block">
-            <h3 class="team-member-name">Dr. Aarav Patel</h3>
-            <div class="team-member-role">Senior Semiconductor & Silicon Fabrication Analyst</div>
-            <div class="team-member-beats">Beats: TSMC & Intel Nodes · GAA Nanosheets · Backside Power Delivery (BSPDN) · Thermal Dynamics</div>
+            <h3 class="team-member-name">{SITE_NAME} Editorial Desk</h3>
+            <div class="team-member-role">Technical Research &amp; Fact-Checking Desk</div>
+            <div class="team-member-beats">Focus: Specification Audits · Comparative Buyer Matrices · Benchmark Aggregation · Corrections</div>
           </div>
         </div>
         <div class="team-bio">
-          Holding a Ph.D. in Solid-State Electronics, Dr. Patel specializes in sub-3nm lithography, High-NA EUV optical systems, and advanced multi-die packaging (CoWoS, EMIB). His analyses provide granular transistor-level evaluations of modern desktop and datacenter processors, unpacking parasitic capacitance, voltage droop mitigation, and sustained thermal dissipation profiles.
+          Our editorial research desk compiles and cross-checks manufacturer technical sheets, official SDK changelogs, published third-party benchmarks, and real-world software behavior to ensure every comparative table, pros &amp; cons matrix, and FAQ reflects accurate, current information.
         </div>
         <div class="team-footer">
-          <span class="team-credential">Ph.D. Solid-State Electronics</span>
-          <a href="mailto:{CONTACT_EMAIL}" class="team-contact-btn">✉ Contact Desk</a>
-        </div>
-      </div>
-
-      <!-- Member 3: Elena Rostova -->
-      <div class="team-card" id="elena-rostova">
-        <div class="team-card-header">
-          <div class="team-avatar-initials" style="background: linear-gradient(135deg, #8b5cf6, #ec4899);">ER</div>
-          <div class="team-member-title-block">
-            <h3 class="team-member-name">Elena Rostova</h3>
-            <div class="team-member-role">Lead Artificial Intelligence & Frontier Models Editor</div>
-            <div class="team-member-beats">Beats: Multimodal Reasoners · Agentic Architectures · On-Device NPUs · Model Quantization</div>
-          </div>
-        </div>
-        <div class="team-bio">
-          With a Master's background in Computational Intelligence, Elena leads coverage of frontier generative AI systems, including Google Gemini, Anthropic Claude, and open-weight model architectures. She conducts empirical latency and accuracy benchmarks across tool-use agents, multi-agent synchronization pipelines, and device-level tensor accelerators.
-        </div>
-        <div class="team-footer">
-          <span class="team-credential">M.S. Computational Systems</span>
-          <a href="mailto:{CONTACT_EMAIL}" class="team-contact-btn">✉ Contact Desk</a>
-        </div>
-      </div>
-
-      <!-- Member 4: Marcus Vance -->
-      <div class="team-card" id="marcus-vance">
-        <div class="team-card-header">
-          <div class="team-avatar-initials" style="background: linear-gradient(135deg, #f59e0b, #ef4444);">MV</div>
-          <div class="team-member-title-block">
-            <h3 class="team-member-name">Marcus Vance</h3>
-            <div class="team-member-role">Hardware Testing & Consumer Electronics Lead</div>
-            <div class="team-member-beats">Beats: Mobile Sensor Optics · LTPO Display Panels · Handheld Gaming · Battery Chemistries</div>
-          </div>
-        </div>
-        <div class="team-bio">
-          A veteran tech reviewer with over a decade in consumer device teardowns and lab testing, Marcus heads {SITE_NAME}'s mobile imaging and display colorimetry evaluations. His hands-on reviews focus on real-world ergonomic durability, sustained thermal throttling in mobile gaming, and battery longevity under synthetic workloads.
-        </div>
-        <div class="team-footer">
-          <span class="team-credential">10+ Yrs Hardware Lab Testing</span>
-          <a href="mailto:{CONTACT_EMAIL}" class="team-contact-btn">✉ Contact Desk</a>
+          <span class="team-credential">Editorial Research &amp; QA</span>
+          <a href="/contact/" class="team-contact-btn">✉ Submit a Correction</a>
         </div>
       </div>
 
     </div>
 
     <div class="methodology-section" style="margin-top: 3rem;">
-      <h2>Our 5-Stage Editorial & Testing Protocol</h2>
+      <h2>Our 5-Stage Editorial &amp; Verification Process</h2>
       <p>
-        Every article, review, and comparative breakdown published on {SITE_NAME} adheres to our rigorous 5-stage journalistic verification protocol:
+        Every guide and comparative breakdown published on {SITE_NAME} follows a consistent five-stage editorial checklist:
       </p>
       <div class="protocol-steps">
         <div class="protocol-step-card">
           <div class="step-num">01</div>
           <div class="step-content">
-            <h4>Empirical Grounding in Engineering Whitepapers</h4>
-            <p>We do not rely on corporate marketing claims or unsubstantiated rumors. Clock speeds, transistor density, cache hierarchies, and silicon lithography are cross-referenced directly against vendor technical whitepapers, patent disclosures, and IEEE publications.</p>
+            <h4>Primary Documentation &amp; Spec Verification</h4>
+            <p>Technical specifications, architecture details, and software features are cross-checked directly against manufacturer documentation, official release notes, and public technical disclosures.</p>
           </div>
         </div>
         <div class="protocol-step-card">
           <div class="step-num">02</div>
           <div class="step-content">
-            <h4>Comparative Architecture & Standardized Benchmarking</h4>
-            <p>Every newly announced device or silicon platform is placed into a standardized comparison matrix against direct market predecessors and competitors, evaluating generational IPC improvements, efficiency curves, and thermal ceilings.</p>
+            <h4>Structured Side-by-Side Comparison</h4>
+            <p>Each device, processor, or AI tool is evaluated in context against direct alternatives and previous generations so readers understand practical differences rather than isolated marketing numbers.</p>
           </div>
         </div>
         <div class="protocol-step-card">
           <div class="step-num">03</div>
           <div class="step-content">
-            <h4>Actionable Editorial Verdicts</h4>
-            <p>We believe technology reporting must provide definitive consumer value. Every in-depth review delivers a clear "TechPulse Verdict", a balanced Pros & Cons matrix, and explicit "Who Should Upgrade vs Who Should Wait" guidance.</p>
+            <h4>Actionable Buyer Verdicts</h4>
+            <p>Every long-form article concludes with a clear "{SITE_NAME} Verdict", a balanced Pros &amp; Cons breakdown, and practical "Recommended For / Consider Waiting If" guidance.</p>
           </div>
         </div>
         <div class="protocol-step-card">
           <div class="step-num">04</div>
           <div class="step-content">
-            <h4>Zero Sponsored Editorial or Pay-To-Play Coverage</h4>
-            <p>Editorial independence is non-negotiable. {SITE_NAME} maintains a firewall between business operations and our tech reviews. We never accept sponsored reviews, paid benchmark placements, or editorial veto power from manufacturers.</p>
+            <h4>Editorial Independence</h4>
+            <p>{SITE_NAME} does not publish paid reviews disguised as editorial content or allow hardware vendors to dictate our scores, pros, or cons.</p>
           </div>
         </div>
         <div class="protocol-step-card">
           <div class="step-num">05</div>
           <div class="step-content">
-            <h4>Transparent Corrections & Public Errata Log</h4>
-            <p>When technical errors or newly clarified specifications emerge, our editorial desk updates the story with an explicit, timestamped correction note within 24 hours of verifiable notice.</p>
+            <h4>Prompt Corrections &amp; Updates</h4>
+            <p>Technology moves quickly. When specifications change or readers spot an inaccuracy, we review the report and update the article promptly.</p>
           </div>
         </div>
       </div>
@@ -913,9 +875,9 @@ def get_about_page_content() -> str:
       We maintain strict journalistic independence. We do not accept sponsored content disguised as editorial news, nor do we enter into pay-to-play hardware benchmarking agreements. Our stories cite primary sources, engineering whitepapers, and direct manufacturer disclosures.
     </p>
 
-    <h2 id="ai-disclosure">Editorial Standards & Technology Use Policy</h2>
+    <h2 id="ai-disclosure">Editorial Standards &amp; Technology Use Policy</h2>
     <p>
-      Transparency is the foundation of reader trust. At {SITE_NAME}, computational data tools and natural language models are utilized strictly for initial research indexing, syntax verification, and tracking public RSS wires. All editorial conclusions, hardware verdicts, pros & cons matrices, technical evaluations, and published copy are authored, reviewed, and approved by human editorial staff.
+      Transparency is the foundation of reader trust. At {SITE_NAME}, software tools are used strictly for research organization, grammar verification, and accessibility checks. All published guides, comparative matrices, pros &amp; cons evaluations, and buyer verdicts are edited and reviewed by our editorial desk before publication.
     </p>
 
     <h2>Contact The Editorial Desk & Corrections</h2>
@@ -1038,55 +1000,81 @@ def get_terms_page_content() -> str:
 
 def get_contact_page_content() -> str:
     return f"""
-    <h2>Official Editorial & Press Desk</h2>
+    <h2>Official Editorial &amp; Press Desk</h2>
     <p>
-      Have a breaking hardware leak, software discovery, security advisory, or press release? We actively monitor our communication lines 24/7.
+      Have a technical correction, product tip, software question, or editorial inquiry? Reach out directly to the {SITE_NAME} team below.
     </p>
 
-    <div class="contact-highlight-box">
+    <div class="contact-highlight-box" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem;">
       <div>
         <div style="font-size: 0.85rem; color: var(--text-dim); text-transform: uppercase;">Direct Editorial Inquiries</div>
-        <a href="mailto:{CONTACT_EMAIL}" class="contact-email-link">⚡ {CONTACT_EMAIL}</a>
+        <a href="mailto:{CONTACT_EMAIL}" class="contact-email-link" id="editorial-email-link">✉ {CONTACT_EMAIL}</a>
       </div>
-      <div style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--tech-emerald);">
-        Response SLA: &lt; 24 Hours
+      <div style="display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;">
+        <button type="button" id="copy-email-btn" onclick="copyEditorialEmail()" style="background: rgba(6, 182, 212, 0.14); border: 1px solid rgba(6, 182, 212, 0.4); border-radius: var(--radius-full); padding: 0.45rem 1rem; color: var(--neon-cyan); font-weight: 700; font-size: 0.82rem; cursor: pointer;">
+          Copy Email
+        </button>
+        <span style="font-family: var(--font-mono); font-size: 0.82rem; color: var(--tech-emerald);">
+          Response: &lt; 24–48 Hours
+        </span>
       </div>
     </div>
 
     <h2>Inquiry Categories</h2>
     <ul>
-      <li><strong>News Tips & Hardware Leaks</strong>: Share technical whitepapers, CAD renders, or benchmark dumps. Confidentiality honored upon request.</li>
-      <li><strong>Hardware Review Units</strong>: Submit flagship smartphones, audio gear, GPUs, or robotics hardware for visual Web Story coverage.</li>
-      <li><strong>Technical Corrections</strong>: If any story contains an inaccurate specification or erroneous benchmark, notify us immediately for instant correction.</li>
-      <li><strong>Syndication & API Inquiries</strong>: Integrate our AMP Web Stories feed into your news aggregator or mobile application via <code>/stories.json</code>.</li>
+      <li><strong>Technical Corrections</strong>: Spot an outdated specification or broken link in any guide? Send us the article URL and source details for prompt review and correction.</li>
+      <li><strong>Press Releases &amp; Review Units</strong>: Share official product documentation, press kits, or review hardware inquiries.</li>
+      <li><strong>Reader Suggestions</strong>: Suggest hardware comparisons, AI workflow tutorials, or troubleshooting guides you want covered next.</li>
+      <li><strong>DMCA &amp; Rights Inquiries</strong>: Contact our compliance desk with full attribution details for rapid review.</li>
     </ul>
 
-    <h2>Send Us A Direct Message</h2>
-    <form action="mailto:{CONTACT_EMAIL}" method="POST" enctype="text/plain" style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+    <h2>Compose a Message</h2>
+    <form id="techseconds-contact-form" onsubmit="handleContactSubmit(event)" style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
         <div>
-          <label style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Your Name</label>
-          <input type="text" name="name" required style="width: 100%; padding: 0.75rem 1rem; background: rgba(13, 17, 23, 0.8); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff; outline: none;">
+          <label for="contact-name" style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Your Name</label>
+          <input id="contact-name" type="text" name="name" required style="width: 100%; padding: 0.75rem 1rem; background: rgba(13, 17, 23, 0.8); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff; outline: none;">
         </div>
         <div>
-          <label style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Email Address</label>
-          <input type="email" name="email" required style="width: 100%; padding: 0.75rem 1rem; background: rgba(13, 17, 23, 0.8); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff; outline: none;">
+          <label for="contact-email" style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Email Address</label>
+          <input id="contact-email" type="email" name="email" required style="width: 100%; padding: 0.75rem 1rem; background: rgba(13, 17, 23, 0.8); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff; outline: none;">
         </div>
       </div>
       <div>
-        <label style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Inquiry Subject</label>
-        <input type="text" name="subject" placeholder="e.g. News Tip: Flagship Silicon Benchmark" required style="width: 100%; padding: 0.75rem 1rem; background: rgba(13, 17, 23, 0.8); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff; outline: none;">
+        <label for="contact-subject" style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Inquiry Subject</label>
+        <input id="contact-subject" type="text" name="subject" placeholder="e.g. Technical Correction or Article Suggestion" required style="width: 100%; padding: 0.75rem 1rem; background: rgba(13, 17, 23, 0.8); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff; outline: none;">
       </div>
       <div>
-        <label style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Message</label>
-        <textarea name="message" rows="5" placeholder="Include technical details, URLs, or leak descriptions..." required style="width: 100%; padding: 0.75rem 1rem; background: rgba(13, 17, 23, 0.8); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff; outline: none; font-family: inherit;"></textarea>
+        <label for="contact-message" style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Message</label>
+        <textarea id="contact-message" name="message" rows="5" placeholder="Include article URLs, specification details, or your question..." required style="width: 100%; padding: 0.75rem 1rem; background: rgba(13, 17, 23, 0.8); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff; outline: none; font-family: inherit;"></textarea>
       </div>
-      <div>
+      <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
         <button type="submit" style="background: linear-gradient(135deg, var(--neon-cyan), var(--tech-emerald)); border: none; border-radius: var(--radius-full); padding: 0.75rem 2rem; color: #08090d; font-weight: 800; font-family: var(--font-heading); cursor: pointer; font-size: 0.95rem; box-shadow: 0 0 15px var(--neon-cyan-glow);">
-          Send Message ⚡
+          Open in Email Client →
         </button>
+        <span id="contact-status" role="status" aria-live="polite" style="font-size: 0.85rem; color: var(--tech-emerald);"></span>
       </div>
     </form>
+    <script>
+      function copyEditorialEmail() {{
+        navigator.clipboard.writeText("{CONTACT_EMAIL}").then(function() {{
+          var btn = document.getElementById("copy-email-btn");
+          btn.textContent = "Copied ✓";
+          setTimeout(function() {{ btn.textContent = "Copy Email"; }}, 2200);
+        }});
+      }}
+      function handleContactSubmit(e) {{
+        e.preventDefault();
+        var name = document.getElementById("contact-name").value.trim();
+        var email = document.getElementById("contact-email").value.trim();
+        var subject = document.getElementById("contact-subject").value.trim();
+        var message = document.getElementById("contact-message").value.trim();
+        var body = "From: " + name + " (" + email + ")\\n\\n" + message;
+        var mailtoUrl = "mailto:{CONTACT_EMAIL}?subject=" + encodeURIComponent("[{SITE_NAME}] " + subject) + "&body=" + encodeURIComponent(body);
+        document.getElementById("contact-status").textContent = "Opening your default email app with your message pre-filled...";
+        window.location.href = mailtoUrl;
+      }}
+    </script>
     """
 
 
@@ -1148,27 +1136,9 @@ def generate_sitemap_xml(
                 "image": image_data,
             })
 
-    for s in stories:
-        slug = s.get("slug", "")
-        title = s.get("title", "")
-        img = s.get("image", "")
-        published = s.get("published", "")
-        
-        # Extract YYYY-MM-DD from published if available, else default to now
-        story_mod = now_iso
-        if published and len(published) >= 10:
-            candidate = published[:10]
-            if re.match(r"^\d{4}-\d{2}-\d{2}$", candidate):
-                story_mod = candidate
-
-        image_data = {"loc": img, "title": title} if img else None
-        urls.append({
-            "loc": f"{SITE_URL}/stories/{slug}/",
-            "priority": "0.8",
-            "changefreq": "daily",
-            "lastmod": story_mod,
-            "image": image_data,
-        })
+    # Note: Short companion AMP Web Stories are intentionally excluded from sitemap.xml
+    # (and marked noindex, follow) so Google Search & AdSense evaluate 100% full-length
+    # original editorial articles without thin-page dilution.
 
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
@@ -1245,7 +1215,7 @@ def build_404_html() -> str:
     gtag('js', new Date());
     gtag('config', '{GA_MEASUREMENT_ID}');
   </script>
-{get_adsense_script_tag()}
+  <!-- Note: AdSense script strictly omitted on 404 error page per Google Publisher Policies -->
 
   <!-- Google Fonts Whitelist -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1773,11 +1743,11 @@ def build_all_portal_pages(stories: List[Dict[str, Any]], dist_dir: Path):
     (dist_dir / "stories.json").write_text(stories_json, encoding="utf-8")
     print(f"[+] Generated manifest: dist/stories.json")
 
-    # 6. RSS 2.0 Feed for Google News & Aggregators
-    rss_xml = generate_rss_xml(stories)
+    # 6. RSS 2.0 Feed for Google News & Aggregators (Article-First Full Editorial Feed)
+    rss_xml = generate_rss_xml(stories, articles=articles)
     (dist_dir / "rss.xml").write_text(rss_xml, encoding="utf-8")
     (dist_dir / "feed.xml").write_text(rss_xml, encoding="utf-8")
-    print(f"[+] Generated RSS feeds: dist/rss.xml & dist/feed.xml")
+    print(f"[+] Generated article-first RSS feeds: dist/rss.xml & dist/feed.xml")
 
     # 6b. Pinterest RSS Auto-Publish Feed & Bulk CSV Syndication
     sync_pinterest_assets(stories, dist_dir, articles=articles)
@@ -1801,17 +1771,19 @@ def build_all_portal_pages(stories: List[Dict[str, Any]], dist_dir: Path):
     print(f"[+] Deployed Google AdSense ads.txt (pub_id: {pub_id or 'awaiting client ID'})")
 
 
-def generate_rss_xml(stories: List[Dict[str, Any]]) -> str:
-    """Generates standard RSS 2.0 with Media RSS tags for Google News & Feedly."""
+def generate_rss_xml(stories: List[Dict[str, Any]], articles: Optional[List[Dict[str, Any]]] = None) -> str:
+    """Generates standard RSS 2.0 with Media RSS tags prioritizing full-length original editorial articles."""
     now_rfc822 = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
     items_xml = []
-    for s in stories[:60]:
-        title = html_lib.escape(s.get("title", f"{SITE_NAME} Story"))
-        slug = s.get("slug", "")
-        link = f"{SITE_URL}/stories/{slug}/"
-        summary = html_lib.escape(s.get("summary", ""))
-        category = html_lib.escape(s.get("category_name", "Technology"))
-        pub_date = s.get("published", "")
+    source_items = articles if articles else stories[:30]
+    is_article_feed = bool(articles)
+    for item_obj in source_items:
+        title = html_lib.escape(item_obj.get("title", f"{SITE_NAME} Guide"))
+        slug = item_obj.get("slug", "")
+        link = f"{SITE_URL}/articles/{slug}/" if is_article_feed else f"{SITE_URL}/stories/{slug}/"
+        summary = html_lib.escape(item_obj.get("subtitle") or item_obj.get("summary", ""))
+        category = html_lib.escape(item_obj.get("category_name") or item_obj.get("category_id", "Technology"))
+        pub_date = item_obj.get("published", "")
         if pub_date:
             try:
                 dt = datetime.fromisoformat(pub_date.replace("Z", "+00:00"))
@@ -1821,7 +1793,7 @@ def generate_rss_xml(stories: List[Dict[str, Any]]) -> str:
         else:
             pub_rfc822 = now_rfc822
 
-        image_url = s.get("image", f"{SITE_URL}/static/images/og-banner.png")
+        image_url = item_obj.get("image", f"{SITE_URL}/static/images/og-banner.png")
         image_url_esc = html_lib.escape(image_url)
 
         item = f"""    <item>

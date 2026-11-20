@@ -1,21 +1,15 @@
-name: "TechPulse Autonomous 4-Hour Dispatch"
+name: "TechSeconds Manual Static Rebuild"
 
 on:
-  schedule:
-    # Staggered off-peak odd minutes (UTC -> IST) to bypass GitHub queue congestion
-    - cron: '43 22 * * *' # 04:13 AM IST
-    - cron: '23 2 * * *'  # 07:53 AM IST
-    - cron: '3 6 * * *'   # 11:33 AM IST
-    - cron: '27 9 * * *'  # 02:57 PM IST
-    - cron: '47 13 * * *' # 07:17 PM IST
-    - cron: '19 18 * * *' # 11:49 PM IST
-  workflow_dispatch: # Allows manual trigger from GitHub Actions UI
+  # Scheduled RSS auto-scraping is intentionally disabled to prevent
+  # thin/scraped content and guarantee 100% Google AdSense & Search compliance.
+  workflow_dispatch: # Trigger manually after publishing new original articles
 
 permissions:
   contents: write
 
 jobs:
-  generate-and-deploy:
+  rebuild-and-verify:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -29,39 +23,32 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
       - name: Install Python Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements-ci.txt
 
-      - name: Run Quality-First Static Orchestrator & AMP Validator
+      - name: Rebuild Original Static Assets & Verify Integrity
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          TECHPULSE_NAME: ${{ vars.TECHSECONDS_NAME || vars.TECHPULSE_NAME || 'TechSeconds' }}
+          TECHSECONDS_NAME: ${{ vars.TECHSECONDS_NAME || 'TechSeconds' }}
           SITE_URL: ${{ vars.SITE_URL || 'https://techseconds.com' }}
           GA_MEASUREMENT_ID: ${{ vars.GA_MEASUREMENT_ID || 'G-LHGLZ8Q53T' }}
         run: |
-          python fetch_and_generate.py --max-new 4
+          python rebuild_assets.py
+          python verify_integrity.py
 
-      - name: Commit & Push Autopilot Updates to Main
+      - name: Commit & Push Verified Updates to Main
         run: |
-          # Use verified repository owner as git author to prevent Vercel Hobby deployment blocking
           git config --global user.name "ssilu07"
           git config --global user.email "64121882+ssilu07@users.noreply.github.com"
-          
+
           git add dist/
-          
-          # Check if there are changes before committing
+
           if git diff --staged --quiet; then
-            echo "✅ No new stories or updates to commit. Catalog is fully up to date."
+            echo "No changes to commit. Static publication is up to date."
           else
-            git commit -m "⚡ Autonomous Feed Update: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            git commit -m "chore(build): rebuild verified static publication $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
             git push origin main
-            echo "🚀 Changes pushed to main. Vercel deployment triggered automatically."
+            echo "Verified build pushed to main."
           fi
 

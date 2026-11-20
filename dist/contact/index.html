@@ -23,7 +23,7 @@
     gtag('js', new Date());
     gtag('config', 'G-LHGLZ8Q53T');
   </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1811294933992844" crossorigin="anonymous"></script>
+  <!-- Note: AdSense script intentionally omitted on policy/utility pages for strict AdSense policy compliance -->
 
   <!-- OpenGraph & Twitter Cards -->
   <meta property="og:title" content="Contact Editorial Desk | TechSeconds | TechSeconds">
@@ -76,7 +76,7 @@
 
       <div class="live-badge">
         <span class="pulse-dot"></span>
-        <span>VERIFIED EDITORIAL LAB</span>
+        <span>INDEPENDENT TECH EDITORIAL</span>
       </div>
     </div>
   </header>
@@ -85,59 +85,85 @@
     <article class="legal-card">
       <header class="legal-header">
         <h1 class="legal-title">Contact Editorial Desk | TechSeconds</h1>
-        <div class="legal-last-updated">LAST UPDATED: OCTOBER 2026 // COMPLIANCE VERIFIED</div>
+        <div class="legal-last-updated">LAST UPDATED: NOVEMBER 2026 // EDITORIAL STANDARDS</div>
       </header>
       <div class="legal-content">
         
-    <h2>Official Editorial & Press Desk</h2>
+    <h2>Official Editorial &amp; Press Desk</h2>
     <p>
-      Have a breaking hardware leak, software discovery, security advisory, or press release? We actively monitor our communication lines 24/7.
+      Have a technical correction, product tip, software question, or editorial inquiry? Reach out directly to the TechSeconds team below.
     </p>
 
-    <div class="contact-highlight-box">
+    <div class="contact-highlight-box" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem;">
       <div>
         <div style="font-size: 0.85rem; color: var(--text-dim); text-transform: uppercase;">Direct Editorial Inquiries</div>
-        <a href="mailto:arilu007@gmail.com" class="contact-email-link">⚡ arilu007@gmail.com</a>
+        <a href="mailto:arilu007@gmail.com" class="contact-email-link" id="editorial-email-link">✉ arilu007@gmail.com</a>
       </div>
-      <div style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--tech-emerald);">
-        Response SLA: &lt; 24 Hours
+      <div style="display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;">
+        <button type="button" id="copy-email-btn" onclick="copyEditorialEmail()" style="background: rgba(6, 182, 212, 0.14); border: 1px solid rgba(6, 182, 212, 0.4); border-radius: var(--radius-full); padding: 0.45rem 1rem; color: var(--neon-cyan); font-weight: 700; font-size: 0.82rem; cursor: pointer;">
+          Copy Email
+        </button>
+        <span style="font-family: var(--font-mono); font-size: 0.82rem; color: var(--tech-emerald);">
+          Response: &lt; 24–48 Hours
+        </span>
       </div>
     </div>
 
     <h2>Inquiry Categories</h2>
     <ul>
-      <li><strong>News Tips & Hardware Leaks</strong>: Share technical whitepapers, CAD renders, or benchmark dumps. Confidentiality honored upon request.</li>
-      <li><strong>Hardware Review Units</strong>: Submit flagship smartphones, audio gear, GPUs, or robotics hardware for visual Web Story coverage.</li>
-      <li><strong>Technical Corrections</strong>: If any story contains an inaccurate specification or erroneous benchmark, notify us immediately for instant correction.</li>
-      <li><strong>Syndication & API Inquiries</strong>: Integrate our AMP Web Stories feed into your news aggregator or mobile application via <code>/stories.json</code>.</li>
+      <li><strong>Technical Corrections</strong>: Spot an outdated specification or broken link in any guide? Send us the article URL and source details for prompt review and correction.</li>
+      <li><strong>Press Releases &amp; Review Units</strong>: Share official product documentation, press kits, or review hardware inquiries.</li>
+      <li><strong>Reader Suggestions</strong>: Suggest hardware comparisons, AI workflow tutorials, or troubleshooting guides you want covered next.</li>
+      <li><strong>DMCA &amp; Rights Inquiries</strong>: Contact our compliance desk with full attribution details for rapid review.</li>
     </ul>
 
-    <h2>Send Us A Direct Message</h2>
-    <form action="mailto:arilu007@gmail.com" method="POST" enctype="text/plain" style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+    <h2>Compose a Message</h2>
+    <form id="techseconds-contact-form" onsubmit="handleContactSubmit(event)" style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
         <div>
-          <label style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Your Name</label>
-          <input type="text" name="name" required style="width: 100%; padding: 0.75rem 1rem; background: rgba(13, 17, 23, 0.8); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff; outline: none;">
+          <label for="contact-name" style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Your Name</label>
+          <input id="contact-name" type="text" name="name" required style="width: 100%; padding: 0.75rem 1rem; background: rgba(13, 17, 23, 0.8); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff; outline: none;">
         </div>
         <div>
-          <label style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Email Address</label>
-          <input type="email" name="email" required style="width: 100%; padding: 0.75rem 1rem; background: rgba(13, 17, 23, 0.8); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff; outline: none;">
+          <label for="contact-email" style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Email Address</label>
+          <input id="contact-email" type="email" name="email" required style="width: 100%; padding: 0.75rem 1rem; background: rgba(13, 17, 23, 0.8); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff; outline: none;">
         </div>
       </div>
       <div>
-        <label style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Inquiry Subject</label>
-        <input type="text" name="subject" placeholder="e.g. News Tip: Flagship Silicon Benchmark" required style="width: 100%; padding: 0.75rem 1rem; background: rgba(13, 17, 23, 0.8); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff; outline: none;">
+        <label for="contact-subject" style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Inquiry Subject</label>
+        <input id="contact-subject" type="text" name="subject" placeholder="e.g. Technical Correction or Article Suggestion" required style="width: 100%; padding: 0.75rem 1rem; background: rgba(13, 17, 23, 0.8); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff; outline: none;">
       </div>
       <div>
-        <label style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Message</label>
-        <textarea name="message" rows="5" placeholder="Include technical details, URLs, or leak descriptions..." required style="width: 100%; padding: 0.75rem 1rem; background: rgba(13, 17, 23, 0.8); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff; outline: none; font-family: inherit;"></textarea>
+        <label for="contact-message" style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">Message</label>
+        <textarea id="contact-message" name="message" rows="5" placeholder="Include article URLs, specification details, or your question..." required style="width: 100%; padding: 0.75rem 1rem; background: rgba(13, 17, 23, 0.8); border: 1px solid var(--border-glass); border-radius: var(--radius-sm); color: #fff; outline: none; font-family: inherit;"></textarea>
       </div>
-      <div>
+      <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
         <button type="submit" style="background: linear-gradient(135deg, var(--neon-cyan), var(--tech-emerald)); border: none; border-radius: var(--radius-full); padding: 0.75rem 2rem; color: #08090d; font-weight: 800; font-family: var(--font-heading); cursor: pointer; font-size: 0.95rem; box-shadow: 0 0 15px var(--neon-cyan-glow);">
-          Send Message ⚡
+          Open in Email Client →
         </button>
+        <span id="contact-status" role="status" aria-live="polite" style="font-size: 0.85rem; color: var(--tech-emerald);"></span>
       </div>
     </form>
+    <script>
+      function copyEditorialEmail() {
+        navigator.clipboard.writeText("arilu007@gmail.com").then(function() {
+          var btn = document.getElementById("copy-email-btn");
+          btn.textContent = "Copied ✓";
+          setTimeout(function() { btn.textContent = "Copy Email"; }, 2200);
+        });
+      }
+      function handleContactSubmit(e) {
+        e.preventDefault();
+        var name = document.getElementById("contact-name").value.trim();
+        var email = document.getElementById("contact-email").value.trim();
+        var subject = document.getElementById("contact-subject").value.trim();
+        var message = document.getElementById("contact-message").value.trim();
+        var body = "From: " + name + " (" + email + ")\n\n" + message;
+        var mailtoUrl = "mailto:arilu007@gmail.com?subject=" + encodeURIComponent("[TechSeconds] " + subject) + "&body=" + encodeURIComponent(body);
+        document.getElementById("contact-status").textContent = "Opening your default email app with your message pre-filled...";
+        window.location.href = mailtoUrl;
+      }
+    </script>
     
       </div>
     </article>
@@ -149,7 +175,7 @@
       <div class="footer-brand">
         <img src="/static/images/logo.svg" alt="TechSeconds" height="32">
         <p>
-          TechSeconds is a premier technology publication and hardware intelligence lab delivering verified visual journalism, deep architectural breakdowns, benchmark analysis, and comprehensive buyer guides across artificial intelligence, semiconductor lithography, and consumer electronics.
+          TechSeconds is an independent technology publication delivering in-depth hardware breakdowns, practical software and AI workflow guides, comparative buyer advice, and concise visual companions across computing, mobile tech, and consumer electronics.
         </p>
       </div>
 
@@ -191,8 +217,8 @@
     </div>
 
     <div class="footer-bottom">
-      <div>© 2026 TechSeconds. All rights reserved. 100% Google AMP Story Compliant.</div>
-      <div>TechPulse Editorial Lab & Independent Hardware Benchmarks.</div>
+      <div>© 2026 TechSeconds. All rights reserved.</div>
+      <div>TechSeconds — Independent Technology Analysis &amp; Buyer Guides.</div>
     </div>
   </footer>
 
