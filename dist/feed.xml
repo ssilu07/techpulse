@@ -7,7 +7,51 @@
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <description>TechSeconds is a premier technology publication and hardware intelligence lab delivering in-depth architectural breakdowns, expert hardware benchmarks, comprehensive buying guides, and high-speed visual web stories across artificial intelligence, silicon lithography, flagship smartphones, and future computing.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 21:50:46 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 00:38:53 GMT</lastBuildDate>
+    <item>
+      <title>Apple is hiring engineers to build its own AI agent</title>
+      <link>https://techseconds.com/stories/apple-is-hiring-engineers-to-build-its-own-ai-agent/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/apple-is-hiring-engineers-to-build-its-own-ai-agent/</guid>
+      <pubDate>Thu, 19 Nov 2026 17:31:41 GMT</pubDate>
+      <description>Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That&#x27;s according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the ...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>A brief history of Nvidia&#x27;s recent stock fluctuations</title>
+      <link>https://techseconds.com/stories/a-brief-history-of-nvidias-recent-stock-fluctuations/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/a-brief-history-of-nvidias-recent-stock-fluctuations/</guid>
+      <pubDate>Thu, 19 Nov 2026 16:59:35 GMT</pubDate>
+      <description>&quot;We&#x27;ve got this,&quot; Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company&#x27;s third quarter earnings call. By Thursday, the company&#x27;s stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high ...</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Anthropic rival says companies can (mostly) skip the pricey models</title>
+      <link>https://techseconds.com/stories/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/</guid>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
+      <description>On the day Anthropic went public, Fireworks AI&#x27;s co-founder made the case for open-source models as a cheaper alternative, and addressed the breaches that have cost the company some customers&#x27; trust.</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=1280&amp;q=85" medium="image" />
+    </item>
+    <item>
+      <title>Elon Musk says SpaceX has a plan to eliminate cell phone dead zones</title>
+      <link>https://techseconds.com/stories/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/</link>
+      <guid isPermaLink="true">https://techseconds.com/stories/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/</guid>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
+      <description>SpaceX CEO Elon Musk said the company has completed the design of a miniature rooftop cell tower that could provide better coverage to mobile phones and eliminate dead zones.</description>
+      <category>Technology</category>
+      <dc:creator>TechSeconds</dc:creator>
+      <enclosure url="https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=1280&amp;q=85" length="120000" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=1280&amp;q=85" medium="image" />
+    </item>
     <item>
       <title>Meta&#x27;s Muse Charm might cost $300</title>
       <link>https://techseconds.com/stories/metas-muse-charm-might-cost-300/</link>
@@ -34,7 +78,7 @@
       <title>These tech outages are giving Y2K, AI agent style</title>
       <link>https://techseconds.com/stories/these-tech-outages-are-giving-y2k-ai-agent-style/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/these-tech-outages-are-giving-y2k-ai-agent-style/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There&#x27;s actually likely something deeper going on, cybersecurity experts say.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -45,7 +89,7 @@
       <title>Anthropic&#x27;s IPO could deliver $156 billion to charity</title>
       <link>https://techseconds.com/stories/anthropics-ipo-could-deliver-156-billion-to-charity/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/anthropics-ipo-could-deliver-156-billion-to-charity/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>At a stock price of $95, the frontier lab&#x27;s Public Benefit Foundation, its employee donations, and the company&#x27;s match tot up to $156 billion.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -89,7 +133,7 @@
       <title>Meta&#x27;s AI agent Muse is mixing up conversations and exposing private data, report says</title>
       <link>https://techseconds.com/stories/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-da/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-da/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn&#x27;t belong to them.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -133,7 +177,7 @@
       <title>Anthropic&#x27;s IPO puts AI&#x27;s circular financing boom to the test</title>
       <link>https://techseconds.com/stories/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -144,7 +188,7 @@
       <title>Google AI Ultra plan brings ad-free YouTube to the whole family</title>
       <link>https://techseconds.com/stories/google-ai-ultra-plan-brings-ad-free-youtube-to-the-whole-family/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/google-ai-ultra-plan-brings-ad-free-youtube-to-the-whole-family/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>YouTube Premium Individual goes Family on the Ultra tier</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -155,7 +199,7 @@
       <title>Elon Musk accuses Ukraine of being &#x27;untruthful&#x27; about Starshield disruptions</title>
       <link>https://techseconds.com/stories/elon-musk-accuses-ukraine-of-being-untruthful-about-starshield-disrupt/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/elon-musk-accuses-ukraine-of-being-untruthful-about-starshield-disrupt/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>Elon Musk has accused Ukraine president Volodymyr Zelenskyy of being &#x27;untruthful&#x27; about Starshield disruptions.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -166,7 +210,7 @@
       <title>Waymo pauses service in San Francisco after robotaxis get stuck on flooded streets</title>
       <link>https://techseconds.com/stories/waymo-pauses-service-in-san-francisco-after-robotaxis-get-stuck-on-flo/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/waymo-pauses-service-in-san-francisco-after-robotaxis-get-stuck-on-flo/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>Waymo temporarily paused service in San Francisco after several robotaxis caused traffic jams as they were unable to navigate flooded streets during a storm.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -177,7 +221,7 @@
       <title>Rockstar just settled a major question about GTA 6&#x27;s controversial FPS decision</title>
       <link>https://techseconds.com/stories/rockstar-just-settled-a-major-question-about-gta-6s-controversial-fps/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/rockstar-just-settled-a-major-question-about-gta-6s-controversial-fps/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>You can forget about a 60 fps mode on current-gen consoles, even in future patches.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -188,7 +232,7 @@
       <title>Microsoft CEO Satya Nadella explains why he asked 60K employees to quit</title>
       <link>https://techseconds.com/stories/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-qui/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-qui/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -199,7 +243,7 @@
       <title>Elon Musk says: &#x27;I&#x27;m not MAGA&#x27;</title>
       <link>https://techseconds.com/stories/elon-musk-says-im-not-maga/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/elon-musk-says-im-not-maga/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>During his appearance Wednesday at The New York Times&#x27; DealBook Summit, Elon Musk said that he wasn&#x27;t sure what the term &quot;MAGA&quot; meant and also commented that he felt &quot;pretty foolish&quot; for having spent so much money during the U.S. midterms.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -210,7 +254,7 @@
       <title>Foldable phones are finally getting the app support they deserve</title>
       <link>https://techseconds.com/stories/foldable-phones-are-finally-getting-the-app-support-they-deserve/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/foldable-phones-are-finally-getting-the-app-support-they-deserve/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>There&#x27;s a new April 2027 deadline for foldable-ready apps</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -221,7 +265,7 @@
       <title>I pay for ChatGPT, but this change has convinced me to revive my Gemini subscription</title>
       <link>https://techseconds.com/stories/i-pay-for-chatgpt-but-this-change-has-convinced-me-to-revive-my-gemini/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-pay-for-chatgpt-but-this-change-has-convinced-me-to-revive-my-gemini/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>ChatGPT now feels like a digital billboard, even though I pay for it</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -243,7 +287,7 @@
       <title>Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is &#x27;unpatchable&#x27;</title>
       <link>https://techseconds.com/stories/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-in/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-in/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -254,7 +298,7 @@
       <title>Elon Musk says ousting Jensen Huang is like &#x27;kicking Michael Jordan off your team&#x27;</title>
       <link>https://techseconds.com/stories/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>&quot;I don&#x27;t think [Huang is] disloyal to the United States,&quot; Musk said.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -265,7 +309,7 @@
       <title>Microsoft CEO Satya Nadella remains confident in Nvidia after Huang&#x27;s exit</title>
       <link>https://techseconds.com/stories/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-e/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-e/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>Microsoft CEO Satya Nadella expressed confidence in Jensen Huang&#x27;s successor Colette Kress, who is serving as Nvidia&#x27;s interim CEO.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -309,7 +353,7 @@
       <title>Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: &#x27;It&#x27;s time to start running&#x27;</title>
       <link>https://techseconds.com/stories/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>The Anduril co-founder says outdated technology is leaving systems vulnerable to a new wave of AI-enabled attacks.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -353,7 +397,7 @@
       <title>Google&#x27;s AI feature in Search gets its own incognito mode</title>
       <link>https://techseconds.com/stories/googles-ai-feature-in-search-gets-its-own-incognito-mode/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/googles-ai-feature-in-search-gets-its-own-incognito-mode/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>Google&#x27;s new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -397,7 +441,7 @@
       <title>British hackers face prison for GTA 6 data breach and crypto thefts</title>
       <link>https://techseconds.com/stories/british-hackers-face-prison-for-gta-6-data-breach-and-crypto-thefts/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/british-hackers-face-prison-for-gta-6-data-breach-and-crypto-thefts/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>Two British hackers face lengthy prison sentences for hacks that broke into the Grand Theft Auto gamemaker and for stealing millions in crypto.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -408,7 +452,7 @@
       <title>One UI 9.5 could finally fix one of Samsung&#x27;s most inconsistent features</title>
       <link>https://techseconds.com/stories/one-ui-95-could-finally-fix-one-of-samsungs-most-inconsistent-features/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/one-ui-95-could-finally-fix-one-of-samsungs-most-inconsistent-features/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>Samsung devices could gain Gemini-like agentic capabilities</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -419,7 +463,7 @@
       <title>Android watches are finally getting Fitbit&#x27;s smartest battery-saving feature</title>
       <link>https://techseconds.com/stories/android-watches-are-finally-getting-fitbits-smartest-battery-saving-fe/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/android-watches-are-finally-getting-fitbits-smartest-battery-saving-fe/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>Your Wear OS smartwatch is borrowing this Fitbit Edge trick</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -430,7 +474,7 @@
       <title>YouTube will start boosting public view counts when you watch on a TV</title>
       <link>https://techseconds.com/stories/youtube-will-start-boosting-public-view-counts-when-you-watch-on-a-tv/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/youtube-will-start-boosting-public-view-counts-when-you-watch-on-a-tv/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>YouTube view counts are about to go up (again) thanks to a new metric.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -441,7 +485,7 @@
       <title>Nvidia&#x27;s startup stakes ballooned to $65B, but Huang&#x27;s exit puts future deals in doubt</title>
       <link>https://techseconds.com/stories/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-de/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-de/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>The value of Nvidia&#x27;s private investments has nearly tripled over the past nine months, fueled by Jensen Huang&#x27;s aggressive dealmaking and rising valuations of its existing portfolio companies.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -452,7 +496,7 @@
       <title>Nvidia is abandoning China after Jensen Huang&#x27;s ouster</title>
       <link>https://techseconds.com/stories/nvidia-is-abandoning-china-after-jensen-huangs-ouster/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/nvidia-is-abandoning-china-after-jensen-huangs-ouster/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>Nvidia&#x27;s interim CEO says the company is done selling chips to China. How much will that cost?</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -463,7 +507,7 @@
       <title>I turned my phone into a hands-free productivity machine with 4 Gemini voice commands</title>
       <link>https://techseconds.com/stories/i-turned-my-phone-into-a-hands-free-productivity-machine-with-4-gemini/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/i-turned-my-phone-into-a-hands-free-productivity-machine-with-4-gemini/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>I started to reach for the phone less often than usual</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -474,7 +518,7 @@
       <title>Here&#x27;s what you can do if your PC won&#x27;t read an external hard drive</title>
       <link>https://techseconds.com/stories/heres-what-you-can-do-if-your-pc-wont-read-an-external-hard-drive/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/heres-what-you-can-do-if-your-pc-wont-read-an-external-hard-drive/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>Don&#x27;t panic if your PC or Mac won&#x27;t read an external hard drive. We break down the simple hardware tests and software fixes you can use to recover your data.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -518,7 +562,7 @@
       <title>Nvidia promises that revenue will keep soaring - for now</title>
       <link>https://techseconds.com/stories/nvidia-promises-that-revenue-will-keep-soaring-for-now/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/nvidia-promises-that-revenue-will-keep-soaring-for-now/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn&#x27;t about to stop.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -562,7 +606,7 @@
       <title>SEC reportedly investigating Nvidia amid Huang exit</title>
       <link>https://techseconds.com/stories/sec-reportedly-investigating-nvidia-amid-huang-exit/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/sec-reportedly-investigating-nvidia-amid-huang-exit/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -584,7 +628,7 @@
       <title>As decision model use skyrockets, is customization the next frontier?</title>
       <link>https://techseconds.com/stories/as-decision-model-use-skyrockets-is-customization-the-next-frontier/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/as-decision-model-use-skyrockets-is-customization-the-next-frontier/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -595,7 +639,7 @@
       <title>Proton&#x27;s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop</title>
       <link>https://techseconds.com/stories/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arriv/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arriv/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>Proton&#x27;s new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -606,7 +650,7 @@
       <title>AI models can be tricked into identifying civilians as military targets by telling them it&#x27;s a game</title>
       <link>https://techseconds.com/stories/ai-models-can-be-tricked-into-identifying-civilians-as-military-target/</link>
       <guid isPermaLink="true">https://techseconds.com/stories/ai-models-can-be-tricked-into-identifying-civilians-as-military-target/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
+      <pubDate>Fri, 20 Nov 2026 00:38:53 GMT</pubDate>
       <description>Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.</description>
       <category>Technology</category>
       <dc:creator>TechSeconds</dc:creator>
@@ -623,50 +667,6 @@
       <dc:creator>TechSeconds</dc:creator>
       <enclosure url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85" length="120000" type="image/jpeg" />
       <media:content url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>This E Ink photo frame can double as your family&#x27;s digital dashboard</title>
-      <link>https://techseconds.com/stories/this-e-ink-photo-frame-can-double-as-your-familys-digital-dashboard/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/this-e-ink-photo-frame-can-double-as-your-familys-digital-dashboard/</guid>
-      <pubDate>Tue, 17 Nov 2026 09:49:21 GMT</pubDate>
-      <description>Trmnl, a company best known for its highly customizable E Ink dashboards that can function as anything from a desktop calendar to a stock tracker, has introduced a new display that&#x27;s also well suited for showing artwork and photos. It&#x27;s not the company&#x27;s first color E Ink devi...</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Uber and Zipline&#x27;s drone delivery service takes off in Texas, with dozens of cities to follow</title>
-      <link>https://techseconds.com/stories/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozen/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozen/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
-      <description>The two companies want to make one million deliveries per day using Zipline drones by the end of 2029.</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Instagram&#x27;s new tool for creators targets unauthorized reposts and AI-modified videos</title>
-      <link>https://techseconds.com/stories/instagrams-new-tool-for-creators-targets-unauthorized-reposts-and-ai-m/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/instagrams-new-tool-for-creators-targets-unauthorized-reposts-and-ai-m/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
-      <description>The announcement likely comes in response to creators&#x27; concerns over how easily original content can be copied and redistributed across social media platforms, especially considering how generative AI has made it easier to manipulate existing videos.</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1280&amp;q=85" medium="image" />
-    </item>
-    <item>
-      <title>Android 17&#x27;s November update is leaving Pixel cameras completely unusable</title>
-      <link>https://techseconds.com/stories/android-17s-november-update-is-leaving-pixel-cameras-completely-unusab/</link>
-      <guid isPermaLink="true">https://techseconds.com/stories/android-17s-november-update-is-leaving-pixel-cameras-completely-unusab/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:50:46 GMT</pubDate>
-      <description>Google adds new Pixel features and some surprisingly nasty bugs</description>
-      <category>Technology</category>
-      <dc:creator>TechSeconds</dc:creator>
-      <enclosure url="https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&amp;q=85" length="120000" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1280&amp;q=85" medium="image" />
     </item>
   </channel>
 </rss>
